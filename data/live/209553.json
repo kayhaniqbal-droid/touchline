@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209553,
+ "minute": 85,
+ "status": "2nd_half",
+ "goals": {
+  "home": 1,
+  "away": 0
+ },
+ "lineupsConfirmed": true,
+ "teams": {
+  "home": {
+   "code": "SUN",
+   "name": "Sunderland",
+   "nick": "Sunderland",
+   "providerId": 7,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-342",
+     "providerId": 342,
+     "name": "Roefs",
+     "num": 22,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-343",
+     "providerId": 343,
+     "name": "Mukiele",
+     "num": 20,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-344",
+     "providerId": 344,
+     "name": "Ballard",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-1446",
+     "providerId": 1446,
+     "name": "Meunier",
+     "num": 12,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-346",
+     "providerId": 346,
+     "name": "Mandava",
+     "num": 17,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-347",
+     "providerId": 347,
+     "name": "Hume",
+     "num": 32,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-349",
+     "providerId": 349,
+     "name": "Sadiki",
+     "num": 27,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-348",
+     "providerId": 348,
+     "name": "Xhaka",
+     "num": 34,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-351",
+     "providerId": 351,
+     "name": "Le Fée",
+     "num": 28,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-2369",
+     "providerId": 2369,
+     "name": "Rigg",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-353",
+     "providerId": 353,
+     "name": "Isidor",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "FUL",
+   "name": "Fulham",
+   "nick": "Fulham",
+   "providerId": 6,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-823",
+     "providerId": 823,
+     "name": "Leno",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-827",
+     "providerId": 827,
+     "name": "Sessegnon",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-826",
+     "providerId": 826,
+     "name": "Bassey",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-825",
+     "providerId": 825,
+     "name": "Andersen",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-4559",
+     "providerId": 4559,
+     "name": "Robinson",
+     "num": 33,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-832",
+     "providerId": 832,
+     "name": "Iwobi",
+     "num": 17,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-838",
+     "providerId": 838,
+     "name": "Kevin",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-6969",
+     "providerId": 6969,
+     "name": "Charles",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-837",
+     "providerId": 837,
+     "name": "King",
+     "num": 24,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-831",
+     "providerId": 831,
+     "name": "Smith Rowe",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-600",
+     "providerId": 600,
+     "name": "García",
+     "num": 7,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-08-30T13:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-08-30T14:42:48.283Z"
+}

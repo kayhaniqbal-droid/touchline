@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209547,
+ "minute": 82,
+ "status": "2nd_half",
+ "goals": {
+  "home": 4,
+  "away": 2
+ },
+ "lineupsConfirmed": true,
+ "teams": {
+  "home": {
+   "code": "CHE",
+   "name": "Chelsea",
+   "nick": "Chelsea",
+   "providerId": 13,
+   "coach": null,
+   "formation": "3-4-3",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-1629",
+     "providerId": 1629,
+     "name": "Martínez",
+     "num": 23,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-399",
+     "providerId": 399,
+     "name": "Acheampong",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-424",
+     "providerId": 424,
+     "name": "Lacroix",
+     "num": 23,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-907",
+     "providerId": 907,
+     "name": "Chavarría",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-393",
+     "providerId": 393,
+     "name": "Gusto",
+     "num": 27,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 27,
+     "y": 90
+    },
+    {
+     "id": "home-401",
+     "providerId": 401,
+     "name": "Hato",
+     "num": 21,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-400",
+     "providerId": 400,
+     "name": "James",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-511",
+     "providerId": 511,
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 27,
+     "y": 10
+    },
+    {
+     "id": "home-395",
+     "providerId": 395,
+     "name": "Palmer",
+     "num": 10,
+     "pos": "RW",
+     "role": "FWD",
+     "x": 41,
+     "y": 84
+    },
+    {
+     "id": "home-3896",
+     "providerId": 3896,
+     "name": "Barco",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    },
+    {
+     "id": "home-390",
+     "providerId": 390,
+     "name": "Pedro",
+     "num": 20,
+     "pos": "LW",
+     "role": "FWD",
+     "x": 41,
+     "y": 16
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "BHA",
+   "name": "Brighton & Hove Albion",
+   "nick": "Brighton",
+   "providerId": 5,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-482",
+     "providerId": 482,
+     "name": "Verbruggen",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-3490",
+     "providerId": 3490,
+     "name": "Costinha",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-1591",
+     "providerId": 1591,
+     "name": "Vušković",
+     "num": 44,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-485",
+     "providerId": 485,
+     "name": "Dunk",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-498",
+     "providerId": 498,
+     "name": "Boscagli",
+     "num": 21,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-486",
+     "providerId": 486,
+     "name": "Kadıoğlu",
+     "num": 24,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-491",
+     "providerId": 491,
+     "name": "De Cuyper",
+     "num": 29,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-2173",
+     "providerId": 2173,
+     "name": "Groß",
+     "num": 13,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-2102",
+     "providerId": 2102,
+     "name": "Osman",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-488",
+     "providerId": 488,
+     "name": "Gómez",
+     "num": 25,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-3754",
+     "providerId": 3754,
+     "name": "David",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-08-30T13:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-08-30T14:42:48.904Z"
+}

@@ -1,0 +1,778 @@
+{
+ "fixtureId": 209548,
+ "title": "Coventry City 0–1 Hull City",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-away-46-halftime-double",
+   "minute": 46,
+   "side": "away",
+   "name": "46' Hull change it at the break",
+   "note": "Coyle and Morita off, Drameh and Gourna-Douath on at the break. That is a reset, not a tweak.",
+   "ruleId": "halftime-double",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "away-3476",
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6199",
+     "name": "Drameh",
+     "num": null,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 12
+    },
+    {
+     "id": "away-6706",
+     "name": "Ajayi",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 30
+    },
+    {
+     "id": "away-6184",
+     "name": "Egan",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 87,
+     "y": 50
+    },
+    {
+     "id": "away-906",
+     "name": "Mendy",
+     "num": 32,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 70
+    },
+    {
+     "id": "away-6186",
+     "name": "Giles",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 88
+    },
+    {
+     "id": "away-6187",
+     "name": "Belloumi",
+     "num": 10,
+     "pos": "RM",
+     "role": "MID",
+     "x": 71,
+     "y": 14
+    },
+    {
+     "id": "away-6188",
+     "name": "Slater",
+     "num": 27,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 73,
+     "y": 40
+    },
+    {
+     "id": "away-4189",
+     "name": "Gourna-Douath",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 73,
+     "y": 60
+    },
+    {
+     "id": "away-16077",
+     "name": "Stroud",
+     "num": 21,
+     "pos": "LM",
+     "role": "MID",
+     "x": 71,
+     "y": 86
+    },
+    {
+     "id": "away-6191",
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 59,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-58-like-for-like",
+   "minute": 58,
+   "side": "home",
+   "name": "58' Coventry freshen it up",
+   "note": "Thomas-Asante on for Ephron on 58', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-6420",
+     "name": "Rushworth",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6421",
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-6687",
+     "name": "Thomas",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-1362",
+     "name": "Amenda",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-6424",
+     "name": "DaSilva",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-16696",
+     "name": "Yirenkyi",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-6426",
+     "name": "Grimes",
+     "num": 6,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-407",
+     "name": "Tchaouna",
+     "num": 18,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6427",
+     "name": "Rudoni",
+     "num": 5,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-6887",
+     "name": "Thomas-Asante",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-4026",
+     "name": "Awoniyi",
+     "num": 14,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-59-double-change",
+   "minute": 59,
+   "side": "away",
+   "name": "59' Hull make a double change",
+   "note": "Herrington and Millar on together for Mendy and Stroud on 59'.",
+   "ruleId": "double-change",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "away-3476",
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6199",
+     "name": "Drameh",
+     "num": null,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 12
+    },
+    {
+     "id": "away-6706",
+     "name": "Ajayi",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 30
+    },
+    {
+     "id": "away-6184",
+     "name": "Egan",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 87,
+     "y": 50
+    },
+    {
+     "id": "away-12179",
+     "name": "Herrington",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 70
+    },
+    {
+     "id": "away-6186",
+     "name": "Giles",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 88
+    },
+    {
+     "id": "away-6187",
+     "name": "Belloumi",
+     "num": 10,
+     "pos": "RM",
+     "role": "MID",
+     "x": 71,
+     "y": 14
+    },
+    {
+     "id": "away-6188",
+     "name": "Slater",
+     "num": 27,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 73,
+     "y": 40
+    },
+    {
+     "id": "away-4189",
+     "name": "Gourna-Douath",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 73,
+     "y": 60
+    },
+    {
+     "id": "away-6190",
+     "name": "Millar",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 71,
+     "y": 86
+    },
+    {
+     "id": "away-6191",
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 59,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-59-like-for-like",
+   "minute": 59,
+   "side": "home",
+   "name": "59' Coventry freshen it up",
+   "note": "Sakamoto on for Tchaouna on 59', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-6420",
+     "name": "Rushworth",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6421",
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-6687",
+     "name": "Thomas",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-1362",
+     "name": "Amenda",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-6424",
+     "name": "DaSilva",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-16696",
+     "name": "Yirenkyi",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-6426",
+     "name": "Grimes",
+     "num": 6,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6689",
+     "name": "Sakamoto",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6427",
+     "name": "Rudoni",
+     "num": 5,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-6887",
+     "name": "Thomas-Asante",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-4026",
+     "name": "Awoniyi",
+     "num": 14,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-71-double-change",
+   "minute": 71,
+   "side": "home",
+   "name": "71' Coventry make a double change",
+   "note": "Torp and Hamer on together for Yirenkyi and Rudoni on 71'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-6420",
+     "name": "Rushworth",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6421",
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-6687",
+     "name": "Thomas",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-1362",
+     "name": "Amenda",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-6424",
+     "name": "DaSilva",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-6425",
+     "name": "Torp",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-6426",
+     "name": "Grimes",
+     "num": 6,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6689",
+     "name": "Sakamoto",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6075",
+     "name": "Hamer",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-6887",
+     "name": "Thomas-Asante",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-4026",
+     "name": "Awoniyi",
+     "num": 14,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-78-like-for-like",
+   "minute": 78,
+   "side": "home",
+   "name": "78' Coventry freshen it up",
+   "note": "Pinnock on for Thomas on 78', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-6420",
+     "name": "Rushworth",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6421",
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-465",
+     "name": "Pinnock",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-1362",
+     "name": "Amenda",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-6424",
+     "name": "DaSilva",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-6425",
+     "name": "Torp",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-6426",
+     "name": "Grimes",
+     "num": 6,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6689",
+     "name": "Sakamoto",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6075",
+     "name": "Hamer",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-6887",
+     "name": "Thomas-Asante",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-4026",
+     "name": "Awoniyi",
+     "num": 14,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-83-like-for-like",
+   "minute": 83,
+   "side": "away",
+   "name": "83' Hull freshen it up",
+   "note": "Cho on for Belloumi on 83', same job.",
+   "ruleId": "like-for-like",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "away-3476",
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6199",
+     "name": "Drameh",
+     "num": null,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 12
+    },
+    {
+     "id": "away-6706",
+     "name": "Ajayi",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 30
+    },
+    {
+     "id": "away-6184",
+     "name": "Egan",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 87,
+     "y": 50
+    },
+    {
+     "id": "away-12179",
+     "name": "Herrington",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 70
+    },
+    {
+     "id": "away-6186",
+     "name": "Giles",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 88
+    },
+    {
+     "id": "away-1494",
+     "name": "Cho",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 71,
+     "y": 14
+    },
+    {
+     "id": "away-6188",
+     "name": "Slater",
+     "num": 27,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 73,
+     "y": 40
+    },
+    {
+     "id": "away-4189",
+     "name": "Gourna-Douath",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 73,
+     "y": 60
+    },
+    {
+     "id": "away-6190",
+     "name": "Millar",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 71,
+     "y": 86
+    },
+    {
+     "id": "away-6191",
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 59,
+     "y": 50
+    }
+   ]
+  }
+ ],
+ "shifts": []
+}

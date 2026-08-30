@@ -1,0 +1,558 @@
+{
+ "fixtureId": 209547,
+ "title": "Chelsea 4–2 Brighton & Hove Albion",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-home-68-double-change",
+   "minute": 68,
+   "side": "home",
+   "name": "68' Chelsea make a double change",
+   "note": "Acheampong, James and Caicedo on together for Fofana, Lavia and Neto on 68'.",
+   "ruleId": "double-change",
+   "formation": "3-4-3",
+   "players": [
+    {
+     "id": "home-1629",
+     "name": "Martínez",
+     "num": 23,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-399",
+     "name": "Acheampong",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-424",
+     "name": "Lacroix",
+     "num": 23,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-22880",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-393",
+     "name": "Gusto",
+     "num": 27,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 27,
+     "y": 90
+    },
+    {
+     "id": "home-401",
+     "name": "Hato",
+     "num": 21,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-400",
+     "name": "James",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 27,
+     "y": 10
+    },
+    {
+     "id": "home-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "RW",
+     "role": "FWD",
+     "x": 41,
+     "y": 84
+    },
+    {
+     "id": "home-1345",
+     "name": "Caicedo",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    },
+    {
+     "id": "home-390",
+     "name": "Pedro",
+     "num": 20,
+     "pos": "LW",
+     "role": "FWD",
+     "x": 41,
+     "y": 16
+    }
+   ]
+  },
+  {
+   "id": "shift-home-72-like-for-like",
+   "minute": 72,
+   "side": "home",
+   "name": "72' Chelsea freshen it up",
+   "note": "Chavarría on for Colwill on 72', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-3",
+   "players": [
+    {
+     "id": "home-1629",
+     "name": "Martínez",
+     "num": 23,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-399",
+     "name": "Acheampong",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-424",
+     "name": "Lacroix",
+     "num": 23,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-907",
+     "name": "Chavarría",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-393",
+     "name": "Gusto",
+     "num": 27,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 27,
+     "y": 90
+    },
+    {
+     "id": "home-401",
+     "name": "Hato",
+     "num": 21,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-400",
+     "name": "James",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 27,
+     "y": 10
+    },
+    {
+     "id": "home-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "RW",
+     "role": "FWD",
+     "x": 41,
+     "y": 84
+    },
+    {
+     "id": "home-1345",
+     "name": "Caicedo",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    },
+    {
+     "id": "home-390",
+     "name": "Pedro",
+     "num": 20,
+     "pos": "LW",
+     "role": "FWD",
+     "x": 41,
+     "y": 16
+    }
+   ]
+  },
+  {
+   "id": "shift-away-74-like-for-like",
+   "minute": 74,
+   "side": "away",
+   "name": "74' Brighton freshen it up",
+   "note": "Osman on for Yalcouyé on 74', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-482",
+     "name": "Verbruggen",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-483",
+     "name": "Wieffer",
+     "num": 27,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-1591",
+     "name": "Vušković",
+     "num": 44,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-485",
+     "name": "Dunk",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-498",
+     "name": "Boscagli",
+     "num": 21,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-486",
+     "name": "Kadıoğlu",
+     "num": 24,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-491",
+     "name": "De Cuyper",
+     "num": 29,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-2173",
+     "name": "Groß",
+     "num": 13,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-2102",
+     "name": "Osman",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-488",
+     "name": "Gómez",
+     "num": 25,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-495",
+     "name": "Kostoulas",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-80-double-change",
+   "minute": 80,
+   "side": "away",
+   "name": "80' Brighton make a double change",
+   "note": "Costinha and David on together for Wieffer and Kostoulas on 80'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-482",
+     "name": "Verbruggen",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-3490",
+     "name": "Costinha",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-1591",
+     "name": "Vušković",
+     "num": 44,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-485",
+     "name": "Dunk",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-498",
+     "name": "Boscagli",
+     "num": 21,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-486",
+     "name": "Kadıoğlu",
+     "num": 24,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-491",
+     "name": "De Cuyper",
+     "num": 29,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-2173",
+     "name": "Groß",
+     "num": 13,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-2102",
+     "name": "Osman",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-488",
+     "name": "Gómez",
+     "num": 25,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-3754",
+     "name": "David",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-82-like-for-like",
+   "minute": 82,
+   "side": "home",
+   "name": "82' Chelsea freshen it up",
+   "note": "Barco on for Caicedo on 82', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-3",
+   "players": [
+    {
+     "id": "home-1629",
+     "name": "Martínez",
+     "num": 23,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-399",
+     "name": "Acheampong",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-424",
+     "name": "Lacroix",
+     "num": 23,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-907",
+     "name": "Chavarría",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-393",
+     "name": "Gusto",
+     "num": 27,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 27,
+     "y": 90
+    },
+    {
+     "id": "home-401",
+     "name": "Hato",
+     "num": 21,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-400",
+     "name": "James",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 27,
+     "y": 10
+    },
+    {
+     "id": "home-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "RW",
+     "role": "FWD",
+     "x": 41,
+     "y": 84
+    },
+    {
+     "id": "home-3896",
+     "name": "Barco",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    },
+    {
+     "id": "home-390",
+     "name": "Pedro",
+     "num": 20,
+     "pos": "LW",
+     "role": "FWD",
+     "x": 41,
+     "y": 16
+    }
+   ]
+  }
+ ],
+ "shifts": []
+}

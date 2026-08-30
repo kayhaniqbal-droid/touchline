@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209554,
+ "minute": 94,
+ "status": "FT",
+ "goals": {
+  "home": 0,
+  "away": 2
+ },
+ "lineupsConfirmed": true,
+ "teams": {
+  "home": {
+   "code": "TOT",
+   "name": "Tottenham Hotspur",
+   "nick": "Spurs",
+   "providerId": 9,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-734",
+     "providerId": 734,
+     "name": "Kinský",
+     "num": 31,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-4154",
+     "providerId": 4154,
+     "name": "Moore",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-484",
+     "providerId": 484,
+     "name": "van Hecke",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-736",
+     "providerId": 736,
+     "name": "van de Ven",
+     "num": 37,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-722",
+     "providerId": 722,
+     "name": "Udogie",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-723",
+     "providerId": 723,
+     "name": "Bentancur",
+     "num": 30,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-4923",
+     "providerId": 4923,
+     "name": "Solanke",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-719",
+     "providerId": 719,
+     "name": "Porro",
+     "num": 23,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-1643",
+     "providerId": 1643,
+     "name": "Fernandes",
+     "num": 18,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-725",
+     "providerId": 725,
+     "name": "Kudus",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-862",
+     "providerId": 862,
+     "name": "Marmoush",
+     "num": 22,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "NEW",
+   "name": "Newcastle United",
+   "nick": "Newcastle",
+   "providerId": 4,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-883",
+     "providerId": 883,
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-2052",
+     "providerId": 2052,
+     "name": "Dedić",
+     "num": 37,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-700",
+     "providerId": 700,
+     "name": "Thiaw",
+     "num": 12,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-3696",
+     "providerId": 3696,
+     "name": "Botman",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-702",
+     "providerId": 702,
+     "name": "Hall",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-5178",
+     "providerId": 5178,
+     "name": "Steur",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-703",
+     "providerId": 703,
+     "name": "Miley",
+     "num": 67,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-706",
+     "providerId": 706,
+     "name": "Murphy",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-707",
+     "providerId": 707,
+     "name": "Woltemade",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-2385",
+     "providerId": 2385,
+     "name": "Touré",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-716",
+     "providerId": 716,
+     "name": "Ramsey",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-08-29T16:30:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-08-30T14:42:49.344Z"
+}
