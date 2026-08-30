@@ -1,0 +1,416 @@
+{
+ "fixtureId": 1035037,
+ "minute": 90,
+ "status": "FT",
+ "goals": {
+  "home": 0,
+  "away": 3
+ },
+ "lineupsConfirmed": true,
+ "teams": {
+  "home": {
+   "code": null,
+   "name": "Burnley",
+   "nick": "Burnley",
+   "providerId": 44,
+   "coach": "V. Kompany",
+   "formation": "5-4-1",
+   "derivedShape": false,
+   "players": [
+    {
+     "id": "home-162489",
+     "providerId": 162489,
+     "name": "Trafford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50,
+     "line": 0,
+     "channel": 2
+    },
+    {
+     "id": "home-19331",
+     "providerId": 19331,
+     "name": "Roberts",
+     "num": 14,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 88,
+     "line": 1,
+     "channel": 0
+    },
+    {
+     "id": "home-323449",
+     "providerId": 323449,
+     "name": "Al Dakhil",
+     "num": 28,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 70,
+     "line": 1,
+     "channel": 1
+    },
+    {
+     "id": "home-17597",
+     "providerId": 17597,
+     "name": "O'Shea",
+     "num": 2,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 13,
+     "y": 50,
+     "line": 1,
+     "channel": 2
+    },
+    {
+     "id": "home-8589",
+     "providerId": 8589,
+     "name": "Manuel",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 30,
+     "line": 1,
+     "channel": 3
+    },
+    {
+     "id": "home-8661",
+     "providerId": 8661,
+     "name": "Vitinho",
+     "num": 22,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 12,
+     "line": 1,
+     "channel": 4
+    },
+    {
+     "id": "home-22",
+     "providerId": 22,
+     "name": "Bruun Larsen",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 29,
+     "y": 86,
+     "line": 3,
+     "channel": 0
+    },
+    {
+     "id": "home-19268",
+     "providerId": 19268,
+     "name": "Brownhill",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 60,
+     "line": 3,
+     "channel": 1
+    },
+    {
+     "id": "home-19827",
+     "providerId": 19827,
+     "name": "Cullen",
+     "num": 24,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 40,
+     "line": 3,
+     "channel": 3
+    },
+    {
+     "id": "home-18948",
+     "providerId": 18948,
+     "name": "Redmond",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 29,
+     "y": 14,
+     "line": 3,
+     "channel": 4
+    }
+   ],
+   "bench": [
+    {
+     "id": "home-22",
+     "providerId": 22,
+     "name": "Bruun Larsen",
+     "num": 34,
+     "pos": "F"
+    },
+    {
+     "id": "home-129169",
+     "providerId": 129169,
+     "name": "Zaroury",
+     "num": 19,
+     "pos": "F"
+    },
+    {
+     "id": "home-8589",
+     "providerId": 8589,
+     "name": "Manuel",
+     "num": 10,
+     "pos": "F"
+    },
+    {
+     "id": "home-18948",
+     "providerId": 18948,
+     "name": "Redmond",
+     "num": 15,
+     "pos": "M"
+    },
+    {
+     "id": "home-19268",
+     "providerId": 19268,
+     "name": "Brownhill",
+     "num": 8,
+     "pos": "M"
+    },
+    {
+     "id": "home-47903",
+     "providerId": 47903,
+     "name": "Ekdal",
+     "num": 18,
+     "pos": "D"
+    },
+    {
+     "id": "home-2790",
+     "providerId": 2790,
+     "name": "Guðmunds­son",
+     "num": 7,
+     "pos": "M"
+    },
+    {
+     "id": "home-18922",
+     "providerId": 18922,
+     "name": "Cork",
+     "num": 4,
+     "pos": "M"
+    },
+    {
+     "id": "home-616",
+     "providerId": 616,
+     "name": "Murić",
+     "num": 49,
+     "pos": "G"
+    }
+   ]
+  },
+  "away": {
+   "code": null,
+   "name": "Manchester City",
+   "nick": "Manchester City",
+   "providerId": 50,
+   "coach": "Pep Guardiola",
+   "formation": "4-2-3-1",
+   "derivedShape": false,
+   "players": [
+    {
+     "id": "away-2291",
+     "providerId": 2291,
+     "name": "Kovačić",
+     "num": null,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50,
+     "line": 2,
+     "channel": 0
+    },
+    {
+     "id": "away-158697",
+     "providerId": 158697,
+     "name": "McAtee",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15,
+     "line": 1,
+     "channel": 0
+    },
+    {
+     "id": "away-617",
+     "providerId": 617,
+     "name": "Ederson",
+     "num": 31,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37,
+     "line": 0,
+     "channel": 2
+    },
+    {
+     "id": "away-622",
+     "providerId": 622,
+     "name": "Aymeric Laporte",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63,
+     "line": 1,
+     "channel": 3
+    },
+    {
+     "id": "away-129033",
+     "providerId": 129033,
+     "name": "Gvardiol",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85,
+     "line": 1,
+     "channel": 4
+    },
+    {
+     "id": "away-5",
+     "providerId": 5,
+     "name": "Akanji",
+     "num": 25,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38,
+     "line": 1,
+     "channel": 1
+    },
+    {
+     "id": "away-44",
+     "providerId": 44,
+     "name": "Rodri",
+     "num": 16,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62,
+     "line": 2,
+     "channel": 4
+    },
+    {
+     "id": "away-636",
+     "providerId": 636,
+     "name": "Bernardo Silva",
+     "num": 20,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16,
+     "line": 3,
+     "channel": 0
+    },
+    {
+     "id": "away-6009",
+     "providerId": 6009,
+     "name": "Álvarez",
+     "num": 19,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50,
+     "line": 3,
+     "channel": 2
+    },
+    {
+     "id": "away-631",
+     "providerId": 631,
+     "name": "Foden",
+     "num": 47,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84,
+     "line": 3,
+     "channel": 4
+    },
+    {
+     "id": "away-152982",
+     "providerId": 152982,
+     "name": "Palmer",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50,
+     "line": 4,
+     "channel": 2
+    }
+   ],
+   "bench": [
+    {
+     "id": "away-2291",
+     "providerId": 2291,
+     "name": "Kovačić",
+     "num": 8,
+     "pos": "M"
+    },
+    {
+     "id": "away-622",
+     "providerId": 622,
+     "name": "Aymeric Laporte",
+     "num": 14,
+     "pos": "D"
+    },
+    {
+     "id": "away-129033",
+     "providerId": 129033,
+     "name": "Gvardiol",
+     "num": 24,
+     "pos": "D"
+    },
+    {
+     "id": "away-152982",
+     "providerId": 152982,
+     "name": "Palmer",
+     "num": 80,
+     "pos": "M"
+    },
+    {
+     "id": "away-158697",
+     "providerId": 158697,
+     "name": "McAtee",
+     "num": 87,
+     "pos": "M"
+    },
+    {
+     "id": "away-19187",
+     "providerId": 19187,
+     "name": "Grealish",
+     "num": 10,
+     "pos": "M"
+    },
+    {
+     "id": "away-25004",
+     "providerId": 25004,
+     "name": "Ortega",
+     "num": 18,
+     "pos": "G"
+    },
+    {
+     "id": "away-23",
+     "providerId": 23,
+     "name": "Sergio Gómez",
+     "num": 21,
+     "pos": "M"
+    },
+    {
+     "id": "away-19130",
+     "providerId": 19130,
+     "name": "Phillips",
+     "num": 4,
+     "pos": "M"
+    }
+   ]
+  }
+ }
+}

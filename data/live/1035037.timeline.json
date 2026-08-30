@@ -1,0 +1,879 @@
+{
+ "fixtureId": 1035037,
+ "title": "Burnley 0–3 Manchester City",
+ "phases": [
+  {
+   "id": "shift-away-23-like-for-like",
+   "minute": 23,
+   "side": "away",
+   "name": "23' Manchester City freshen it up",
+   "note": "Kovačić on for De Bruyne on 23', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-2291",
+     "name": "Kovačić",
+     "num": null,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-627",
+     "name": "Walker",
+     "num": 2,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-617",
+     "name": "Ederson",
+     "num": 31,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-18861",
+     "name": "Aké",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-284230",
+     "name": "Lewis",
+     "num": 82,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-5",
+     "name": "Akanji",
+     "num": 25,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-44",
+     "name": "Rodri",
+     "num": 16,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-636",
+     "name": "Bernardo Silva",
+     "num": 20,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-6009",
+     "name": "Álvarez",
+     "num": 19,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-631",
+     "name": "Foden",
+     "num": 47,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-1100",
+     "name": "Haaland",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-61-double-change",
+   "minute": 61,
+   "side": "home",
+   "name": "61' Burnley make a double change",
+   "note": "Bruun Larsen and Zaroury on together for Koleosho and Amdouni on 61'.",
+   "ruleId": "double-change",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "home-162489",
+     "name": "Trafford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-19331",
+     "name": "Roberts",
+     "num": 14,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 88
+    },
+    {
+     "id": "home-323449",
+     "name": "Al Dakhil",
+     "num": 28,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 70
+    },
+    {
+     "id": "home-17597",
+     "name": "O'Shea",
+     "num": 2,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 13,
+     "y": 50
+    },
+    {
+     "id": "home-25628",
+     "name": "Beyer",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 30
+    },
+    {
+     "id": "home-8661",
+     "name": "Vitinho",
+     "num": 22,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 12
+    },
+    {
+     "id": "home-22",
+     "name": "Bruun Larsen",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 29,
+     "y": 86
+    },
+    {
+     "id": "home-1934",
+     "name": "Berge",
+     "num": 16,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 60
+    },
+    {
+     "id": "home-19827",
+     "name": "Cullen",
+     "num": 24,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 40
+    },
+    {
+     "id": "home-98936",
+     "name": "Foster",
+     "num": 17,
+     "pos": "LM",
+     "role": "MID",
+     "x": 29,
+     "y": 14
+    },
+    {
+     "id": "home-129169",
+     "name": "Zaroury",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 41,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-74-like-for-like",
+   "minute": 74,
+   "side": "home",
+   "name": "74' Burnley freshen it up",
+   "note": "Manuel on for Beyer on 74', same job.",
+   "ruleId": "like-for-like",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "home-162489",
+     "name": "Trafford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-19331",
+     "name": "Roberts",
+     "num": 14,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 88
+    },
+    {
+     "id": "home-323449",
+     "name": "Al Dakhil",
+     "num": 28,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 70
+    },
+    {
+     "id": "home-17597",
+     "name": "O'Shea",
+     "num": 2,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 13,
+     "y": 50
+    },
+    {
+     "id": "home-8589",
+     "name": "Manuel",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 30
+    },
+    {
+     "id": "home-8661",
+     "name": "Vitinho",
+     "num": 22,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 12
+    },
+    {
+     "id": "home-22",
+     "name": "Bruun Larsen",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 29,
+     "y": 86
+    },
+    {
+     "id": "home-1934",
+     "name": "Berge",
+     "num": 16,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 60
+    },
+    {
+     "id": "home-19827",
+     "name": "Cullen",
+     "num": 24,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 40
+    },
+    {
+     "id": "home-98936",
+     "name": "Foster",
+     "num": 17,
+     "pos": "LM",
+     "role": "MID",
+     "x": 29,
+     "y": 14
+    },
+    {
+     "id": "home-129169",
+     "name": "Zaroury",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 41,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-79-double-change",
+   "minute": 79,
+   "side": "away",
+   "name": "79' Manchester City make a double change",
+   "note": "Aymeric Laporte and Gvardiol on together for Aké and Lewis on 79'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-2291",
+     "name": "Kovačić",
+     "num": null,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-627",
+     "name": "Walker",
+     "num": 2,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-617",
+     "name": "Ederson",
+     "num": 31,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-622",
+     "name": "Aymeric Laporte",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-129033",
+     "name": "Gvardiol",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-5",
+     "name": "Akanji",
+     "num": 25,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-44",
+     "name": "Rodri",
+     "num": 16,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-636",
+     "name": "Bernardo Silva",
+     "num": 20,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-6009",
+     "name": "Álvarez",
+     "num": 19,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-631",
+     "name": "Foden",
+     "num": 47,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-1100",
+     "name": "Haaland",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-80-like-for-like",
+   "minute": 80,
+   "side": "away",
+   "name": "80' Manchester City freshen it up",
+   "note": "Palmer on for Haaland on 80', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-2291",
+     "name": "Kovačić",
+     "num": null,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-627",
+     "name": "Walker",
+     "num": 2,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-617",
+     "name": "Ederson",
+     "num": 31,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-622",
+     "name": "Aymeric Laporte",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-129033",
+     "name": "Gvardiol",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-5",
+     "name": "Akanji",
+     "num": 25,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-44",
+     "name": "Rodri",
+     "num": 16,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-636",
+     "name": "Bernardo Silva",
+     "num": 20,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-6009",
+     "name": "Álvarez",
+     "num": 19,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-631",
+     "name": "Foden",
+     "num": 47,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-152982",
+     "name": "Palmer",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-91-double-change",
+   "minute": 91,
+   "side": "home",
+   "name": "91' Burnley make a double change",
+   "note": "Brownhill and Redmond on together for Berge and Foster on 91'.",
+   "ruleId": "double-change",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "home-162489",
+     "name": "Trafford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-19331",
+     "name": "Roberts",
+     "num": 14,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 88
+    },
+    {
+     "id": "home-323449",
+     "name": "Al Dakhil",
+     "num": 28,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 70
+    },
+    {
+     "id": "home-17597",
+     "name": "O'Shea",
+     "num": 2,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 13,
+     "y": 50
+    },
+    {
+     "id": "home-8589",
+     "name": "Manuel",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 30
+    },
+    {
+     "id": "home-8661",
+     "name": "Vitinho",
+     "num": 22,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 12
+    },
+    {
+     "id": "home-22",
+     "name": "Bruun Larsen",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 29,
+     "y": 86
+    },
+    {
+     "id": "home-19268",
+     "name": "Brownhill",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 60
+    },
+    {
+     "id": "home-19827",
+     "name": "Cullen",
+     "num": 24,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 40
+    },
+    {
+     "id": "home-18948",
+     "name": "Redmond",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 29,
+     "y": 14
+    },
+    {
+     "id": "home-129169",
+     "name": "Zaroury",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 41,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-94-red-card-reshape",
+   "minute": 94,
+   "side": "home",
+   "name": "94' Burnley down to ten",
+   "note": "Zaroury sent off on 94'. The shape re-forms as 5-4-1.",
+   "ruleId": "red-card-reshape",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "home-162489",
+     "name": "Trafford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-19331",
+     "name": "Roberts",
+     "num": 14,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 88
+    },
+    {
+     "id": "home-323449",
+     "name": "Al Dakhil",
+     "num": 28,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 70
+    },
+    {
+     "id": "home-17597",
+     "name": "O'Shea",
+     "num": 2,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 13,
+     "y": 50
+    },
+    {
+     "id": "home-8589",
+     "name": "Manuel",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 30
+    },
+    {
+     "id": "home-8661",
+     "name": "Vitinho",
+     "num": 22,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 12
+    },
+    {
+     "id": "home-22",
+     "name": "Bruun Larsen",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 29,
+     "y": 86
+    },
+    {
+     "id": "home-19268",
+     "name": "Brownhill",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 60
+    },
+    {
+     "id": "home-19827",
+     "name": "Cullen",
+     "num": 24,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 40
+    },
+    {
+     "id": "home-18948",
+     "name": "Redmond",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 29,
+     "y": 14
+    },
+    null
+   ]
+  },
+  {
+   "id": "shift-away-95-like-for-like",
+   "minute": 95,
+   "side": "away",
+   "name": "95' Manchester City freshen it up",
+   "note": "McAtee on for Walker on 95', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-2291",
+     "name": "Kovačić",
+     "num": null,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-158697",
+     "name": "McAtee",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-617",
+     "name": "Ederson",
+     "num": 31,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-622",
+     "name": "Aymeric Laporte",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-129033",
+     "name": "Gvardiol",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-5",
+     "name": "Akanji",
+     "num": 25,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-44",
+     "name": "Rodri",
+     "num": 16,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-636",
+     "name": "Bernardo Silva",
+     "num": 20,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-6009",
+     "name": "Álvarez",
+     "num": 19,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-631",
+     "name": "Foden",
+     "num": 47,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-152982",
+     "name": "Palmer",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  }
+ ],
+ "shifts": []
+}
