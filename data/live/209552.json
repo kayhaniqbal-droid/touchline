@@ -1,10 +1,10 @@
 {
  "fixtureId": 209552,
- "minute": 0,
- "status": "notstarted",
+ "minute": 82,
+ "status": "2nd_half",
  "goals": {
-  "home": 0,
-  "away": 0
+  "home": 5,
+  "away": 1
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -28,10 +28,10 @@
      "y": 50
     },
     {
-     "id": "home-1795",
-     "providerId": 1795,
-     "name": "Dalot",
-     "num": 2,
+     "id": "home-1789",
+     "providerId": 1789,
+     "name": "Yoro",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
@@ -58,20 +58,20 @@
      "y": 37
     },
     {
-     "id": "home-1791",
-     "providerId": 1791,
-     "name": "Shaw",
-     "num": 23,
+     "id": "home-1799",
+     "providerId": 1799,
+     "name": "Mazraoui",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
      "y": 15
     },
     {
-     "id": "home-1802",
-     "providerId": 1802,
-     "name": "Mainoo",
-     "num": 37,
+     "id": "home-388",
+     "providerId": 388,
+     "name": "Santos",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -108,20 +108,20 @@
      "y": 50
     },
     {
-     "id": "home-750",
-     "providerId": 750,
-     "name": "Rashford",
-     "num": 14,
+     "id": "home-1801",
+     "providerId": 1801,
+     "name": "Dorgu",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
      "y": 16
     },
     {
-     "id": "home-4119",
-     "providerId": 4119,
-     "name": "Cunha",
-     "num": 10,
+     "id": "home-4120",
+     "providerId": 4120,
+     "name": "Šeško",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -190,20 +190,20 @@
      "y": 85
     },
     {
-     "id": "away-6151",
-     "providerId": 6151,
-     "name": "Núñez",
-     "num": 32,
+     "id": "away-4750",
+     "providerId": 4750,
+     "name": "Palacios",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-828",
-     "providerId": 828,
-     "name": "Lukić",
-     "num": 6,
+     "id": "away-4004",
+     "providerId": 4004,
+     "name": "Ouattara",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -230,20 +230,20 @@
      "y": 50
     },
     {
-     "id": "away-3393",
-     "providerId": 3393,
-     "name": "Maeda",
-     "num": 12,
+     "id": "away-6144",
+     "providerId": 6144,
+     "name": "Furlong",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-1952",
-     "providerId": 1952,
-     "name": "Emersonn",
-     "num": 13,
+     "id": "away-6161",
+     "providerId": 6161,
+     "name": "Akpom",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-08-30T15:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-08-30T15:24:29.643Z"
+ "fetchedAt": "2026-08-30T17:11:54.812Z"
 }
