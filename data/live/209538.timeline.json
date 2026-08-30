@@ -1,0 +1,668 @@
+{
+ "fixtureId": 209538,
+ "title": "Ipswich Town 2–1 Sunderland",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-away-59-like-for-like",
+   "minute": 59,
+   "side": "away",
+   "name": "59' Sunderland freshen it up",
+   "note": "Talbi on for Angulo on 59', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-342",
+     "name": "Roefs",
+     "num": 22,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-1446",
+     "name": "Meunier",
+     "num": 12,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-344",
+     "name": "Ballard",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-355",
+     "name": "O'Nien",
+     "num": 13,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-346",
+     "name": "Mandava",
+     "num": 17,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-349",
+     "name": "Sadiki",
+     "num": 27,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-348",
+     "name": "Xhaka",
+     "num": 34,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-347",
+     "name": "Hume",
+     "num": 32,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-351",
+     "name": "Le Fée",
+     "num": 28,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-350",
+     "name": "Talbi",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-352",
+     "name": "Brobbey",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-66-double-change",
+   "minute": 66,
+   "side": "home",
+   "name": "66' Ipswich make a double change",
+   "note": "McAteer and Akpom on together for Issahaku and Emersonn on 66'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-3744",
+     "name": "Scherpen",
+     "num": 37,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6145",
+     "name": "O'Shea",
+     "num": 26,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-4377",
+     "name": "Diop",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-6160",
+     "name": "Greaves",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-6147",
+     "name": "Davis",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-6151",
+     "name": "Núñez",
+     "num": 32,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-828",
+     "name": "Lukić",
+     "num": 23,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6154",
+     "name": "McAteer",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-1710",
+     "name": "Enciso",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-3393",
+     "name": "Maeda",
+     "num": 38,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-6161",
+     "name": "Akpom",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-67-double-change",
+   "minute": 67,
+   "side": "away",
+   "name": "67' Sunderland make a double change",
+   "note": "Alderete and Isidor on together for O'Nien and Brobbey on 67'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-342",
+     "name": "Roefs",
+     "num": 22,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-1446",
+     "name": "Meunier",
+     "num": 12,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-344",
+     "name": "Ballard",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-345",
+     "name": "Alderete",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-346",
+     "name": "Mandava",
+     "num": 17,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-349",
+     "name": "Sadiki",
+     "num": 27,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-348",
+     "name": "Xhaka",
+     "num": 34,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-347",
+     "name": "Hume",
+     "num": 32,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-351",
+     "name": "Le Fée",
+     "num": 28,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-350",
+     "name": "Talbi",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-353",
+     "name": "Isidor",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-71-like-for-like",
+   "minute": 71,
+   "side": "home",
+   "name": "71' Ipswich freshen it up",
+   "note": "Clarke on for Enciso on 71', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-3744",
+     "name": "Scherpen",
+     "num": 37,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6145",
+     "name": "O'Shea",
+     "num": 26,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-4377",
+     "name": "Diop",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-6160",
+     "name": "Greaves",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-6147",
+     "name": "Davis",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-6151",
+     "name": "Núñez",
+     "num": 32,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-828",
+     "name": "Lukić",
+     "num": 23,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6154",
+     "name": "McAteer",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6155",
+     "name": "Clarke",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-3393",
+     "name": "Maeda",
+     "num": 38,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-6161",
+     "name": "Akpom",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-80-double-change",
+   "minute": 80,
+   "side": "home",
+   "name": "80' Ipswich make a double change",
+   "note": "Egeli and Ouattara on together for Núñez and Maeda on 80'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-3744",
+     "name": "Scherpen",
+     "num": 37,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6145",
+     "name": "O'Shea",
+     "num": 26,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-4377",
+     "name": "Diop",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-6160",
+     "name": "Greaves",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-6147",
+     "name": "Davis",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-6150",
+     "name": "Egeli",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-828",
+     "name": "Lukić",
+     "num": 23,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6154",
+     "name": "McAteer",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6155",
+     "name": "Clarke",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-4004",
+     "name": "Ouattara",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-6161",
+     "name": "Akpom",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-80-double-change",
+   "minute": 80,
+   "side": "away",
+   "name": "80' Sunderland make a double change",
+   "note": "Rigg and Diarra on together for Hume and Le Fée on 80'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-342",
+     "name": "Roefs",
+     "num": 22,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-1446",
+     "name": "Meunier",
+     "num": 12,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-344",
+     "name": "Ballard",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-345",
+     "name": "Alderete",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-346",
+     "name": "Mandava",
+     "num": 17,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-349",
+     "name": "Sadiki",
+     "num": 27,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-348",
+     "name": "Xhaka",
+     "num": 34,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-2369",
+     "name": "Rigg",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-4743",
+     "name": "Diarra",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-350",
+     "name": "Talbi",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-353",
+     "name": "Isidor",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  }
+ ],
+ "shifts": []
+}

@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209537,
+ "minute": 97,
+ "status": "FT",
+ "goals": {
+  "home": 2,
+  "away": 0
+ },
+ "lineupsConfirmed": true,
+ "teams": {
+  "home": {
+   "code": "EVE",
+   "name": "Everton",
+   "nick": "Everton",
+   "providerId": 20,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-803",
+     "providerId": 803,
+     "name": "Pickford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-4094",
+     "providerId": 4094,
+     "name": "Röhl",
+     "num": 34,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-805",
+     "providerId": 805,
+     "name": "Tarkowski",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-8798",
+     "providerId": 8798,
+     "name": "Branthwaite",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-807",
+     "providerId": 807,
+     "name": "Mykolenko",
+     "num": 16,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-4825",
+     "providerId": 4825,
+     "name": "Armstrong",
+     "num": 45,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-804",
+     "providerId": 804,
+     "name": "Garner",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-810",
+     "providerId": 810,
+     "name": "Ndiaye",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-811",
+     "providerId": 811,
+     "name": "Alcaraz",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-727",
+     "providerId": 727,
+     "name": "Johnson",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-815",
+     "providerId": 815,
+     "name": "Beto",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "CRY",
+   "name": "Crystal Palace",
+   "nick": "Palace",
+   "providerId": 14,
+   "coach": null,
+   "formation": "3-4-2-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-422",
+     "providerId": 422,
+     "name": "Henderson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-436",
+     "providerId": 436,
+     "name": "Canvot",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-423",
+     "providerId": 423,
+     "name": "Richards",
+     "num": 26,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-8740",
+     "providerId": 8740,
+     "name": "Tomiyasu",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-3748",
+     "providerId": 3748,
+     "name": "Khalaili",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-427",
+     "providerId": 427,
+     "name": "Wharton",
+     "num": 20,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-430",
+     "providerId": 430,
+     "name": "Kamada",
+     "num": 18,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-429",
+     "providerId": 429,
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-509",
+     "providerId": 509,
+     "name": "Guessand",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-431",
+     "providerId": 431,
+     "name": "Pino",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-531",
+     "providerId": 531,
+     "name": "Larsen",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-08-22T14:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-08-30T01:43:30.614Z"
+}

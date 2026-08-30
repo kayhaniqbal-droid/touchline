@@ -1,0 +1,778 @@
+{
+ "fixtureId": 209544,
+ "title": "Fulham 2–3 Chelsea",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-away-65-double-change",
+   "minute": 65,
+   "side": "away",
+   "name": "65' Chelsea make a double change",
+   "note": "Fernández and Chavarría on together for Lavia and Hato on 65'.",
+   "ruleId": "double-change",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-382",
+     "name": "Sánchez",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-399",
+     "name": "Acheampong",
+     "num": 34,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-424",
+     "name": "Lacroix",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-22880",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-393",
+     "name": "Gusto",
+     "num": 27,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-400",
+     "name": "James",
+     "num": 24,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-387",
+     "name": "Fernández",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-907",
+     "name": "Chavarría",
+     "num": null,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-390",
+     "name": "Pedro",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-67-like-for-like",
+   "minute": 67,
+   "side": "home",
+   "name": "67' Fulham freshen it up",
+   "note": "Charles on for Bobb on 67', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-823",
+     "name": "Leno",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-834",
+     "name": "Castagne",
+     "num": 21,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-826",
+     "name": "Bassey",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-840",
+     "name": "Cuenca",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-4559",
+     "name": "Robinson",
+     "num": 33,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-829",
+     "name": "Berge",
+     "num": 16,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-832",
+     "name": "Iwobi",
+     "num": 17,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6969",
+     "name": "Charles",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-837",
+     "name": "King",
+     "num": 24,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-8608",
+     "name": "Palacios",
+     "num": 8,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-600",
+     "name": "García",
+     "num": 7,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-73-double-change",
+   "minute": 73,
+   "side": "home",
+   "name": "73' Fulham make a double change",
+   "note": "Sessegnon and Kevin on together for Berge and Palacios on 73'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-823",
+     "name": "Leno",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-834",
+     "name": "Castagne",
+     "num": 21,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-826",
+     "name": "Bassey",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-840",
+     "name": "Cuenca",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-4559",
+     "name": "Robinson",
+     "num": 33,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-827",
+     "name": "Sessegnon",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-832",
+     "name": "Iwobi",
+     "num": 17,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6969",
+     "name": "Charles",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-837",
+     "name": "King",
+     "num": 24,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-838",
+     "name": "Kevin",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-600",
+     "name": "García",
+     "num": 7,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-76-like-for-like",
+   "minute": 76,
+   "side": "away",
+   "name": "76' Chelsea freshen it up",
+   "note": "Neto on for Gusto on 76', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-382",
+     "name": "Sánchez",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-399",
+     "name": "Acheampong",
+     "num": 34,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-424",
+     "name": "Lacroix",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-22880",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-394",
+     "name": "Neto",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-400",
+     "name": "James",
+     "num": 24,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-387",
+     "name": "Fernández",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-907",
+     "name": "Chavarría",
+     "num": null,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-390",
+     "name": "Pedro",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-82-like-for-like",
+   "minute": 82,
+   "side": "home",
+   "name": "82' Fulham freshen it up",
+   "note": "Muniz on for Robinson on 82', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-823",
+     "name": "Leno",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-834",
+     "name": "Castagne",
+     "num": 21,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-826",
+     "name": "Bassey",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-840",
+     "name": "Cuenca",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-4095",
+     "name": "Muniz",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-827",
+     "name": "Sessegnon",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-832",
+     "name": "Iwobi",
+     "num": 17,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6969",
+     "name": "Charles",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-837",
+     "name": "King",
+     "num": 24,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-838",
+     "name": "Kevin",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-600",
+     "name": "García",
+     "num": 7,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-82-like-for-like",
+   "minute": 82,
+   "side": "away",
+   "name": "82' Chelsea freshen it up",
+   "note": "Quenda on for Rogers on 82', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-382",
+     "name": "Sánchez",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-399",
+     "name": "Acheampong",
+     "num": 34,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-424",
+     "name": "Lacroix",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-22880",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-394",
+     "name": "Neto",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-400",
+     "name": "James",
+     "num": 24,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-387",
+     "name": "Fernández",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-907",
+     "name": "Chavarría",
+     "num": null,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-1220",
+     "name": "Quenda",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-390",
+     "name": "Pedro",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-83-like-for-like",
+   "minute": 83,
+   "side": "away",
+   "name": "83' Chelsea freshen it up",
+   "note": "Estêvão on for Palmer on 83', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-382",
+     "name": "Sánchez",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-399",
+     "name": "Acheampong",
+     "num": 34,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-424",
+     "name": "Lacroix",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-22880",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-394",
+     "name": "Neto",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-400",
+     "name": "James",
+     "num": 24,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-387",
+     "name": "Fernández",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-907",
+     "name": "Chavarría",
+     "num": null,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-389",
+     "name": "Estêvão",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-1220",
+     "name": "Quenda",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-390",
+     "name": "Pedro",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  }
+ ],
+ "shifts": []
+}

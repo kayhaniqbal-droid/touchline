@@ -1,4 +1,4 @@
-name: Lineup sweep
+name: Sync lineups and read matches
 
 # Runs a few times through the day looking for confirmed team sheets.
 # Actions cron is coarse and often late — that is fine here, because
@@ -34,11 +34,10 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Fetch lineups
+      - name: Sync
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-          API_FOOTBALL_DAILY_CAP: ${{ vars.API_FOOTBALL_DAILY_CAP || '100' }}
-        run: node scripts/fetch-lineups.mjs ${{ github.event.inputs.date }}
+          BZZOIRO_KEY: ${{ secrets.BZZOIRO_KEY }}
+        run: node scripts/sync.mjs ${{ github.event.inputs.date }}
 
       - name: Commit whatever changed
         run: |

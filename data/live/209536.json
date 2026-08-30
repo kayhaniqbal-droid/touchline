@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209536,
+ "minute": 96,
+ "status": "FT",
+ "goals": {
+  "home": 2,
+  "away": 0
+ },
+ "lineupsConfirmed": true,
+ "teams": {
+  "home": {
+   "code": "HUL",
+   "name": "Hull City",
+   "nick": "Hull",
+   "providerId": 204,
+   "coach": null,
+   "formation": "5-4-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-3476",
+     "providerId": 3476,
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6199",
+     "providerId": 6199,
+     "name": "Drameh",
+     "num": null,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 88
+    },
+    {
+     "id": "home-8874",
+     "providerId": 8874,
+     "name": "McNair",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 70
+    },
+    {
+     "id": "home-6184",
+     "providerId": 6184,
+     "name": "Egan",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 13,
+     "y": 50
+    },
+    {
+     "id": "home-12179",
+     "providerId": 12179,
+     "name": "Herrington",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 30
+    },
+    {
+     "id": "home-6329",
+     "providerId": 6329,
+     "name": "Targett",
+     "num": null,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 12
+    },
+    {
+     "id": "home-6187",
+     "providerId": 6187,
+     "name": "Belloumi",
+     "num": 10,
+     "pos": "RM",
+     "role": "MID",
+     "x": 29,
+     "y": 86
+    },
+    {
+     "id": "home-6189",
+     "providerId": 6189,
+     "name": "Crooks",
+     "num": 25,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 60
+    },
+    {
+     "id": "home-6188",
+     "providerId": 6188,
+     "name": "Slater",
+     "num": 27,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 40
+    },
+    {
+     "id": "home-6190",
+     "providerId": 6190,
+     "name": "Millar",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 29,
+     "y": 14
+    },
+    {
+     "id": "home-6191",
+     "providerId": 6191,
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 41,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "MUN",
+   "name": "Manchester United",
+   "nick": "Man Utd",
+   "providerId": 17,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-1788",
+     "providerId": 1788,
+     "name": "Lammens",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-1795",
+     "providerId": 1795,
+     "name": "Dalot",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-4118",
+     "providerId": 4118,
+     "name": "Maguire",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-1804",
+     "providerId": 1804,
+     "name": "Heaven",
+     "num": 26,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-1791",
+     "providerId": 1791,
+     "name": "Shaw",
+     "num": 23,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-1802",
+     "providerId": 1802,
+     "name": "Mainoo",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-4120",
+     "providerId": 4120,
+     "name": "Šeško",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-1796",
+     "providerId": 1796,
+     "name": "Mbeumo",
+     "num": 19,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1794",
+     "providerId": 1794,
+     "name": "Fernandes",
+     "num": 8,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-750",
+     "providerId": 750,
+     "name": "Rashford",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-1807",
+     "providerId": 1807,
+     "name": "Lacey",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-08-22T11:30:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-08-30T01:43:31.096Z"
+}

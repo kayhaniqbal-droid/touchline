@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209544,
+ "minute": 94,
+ "status": "FT",
+ "goals": {
+  "home": 2,
+  "away": 3
+ },
+ "lineupsConfirmed": true,
+ "teams": {
+  "home": {
+   "code": "FUL",
+   "name": "Fulham",
+   "nick": "Fulham",
+   "providerId": 6,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-823",
+     "providerId": 823,
+     "name": "Leno",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-834",
+     "providerId": 834,
+     "name": "Castagne",
+     "num": 21,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-826",
+     "providerId": 826,
+     "name": "Bassey",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-840",
+     "providerId": 840,
+     "name": "Cuenca",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-4095",
+     "providerId": 4095,
+     "name": "Muniz",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-827",
+     "providerId": 827,
+     "name": "Sessegnon",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-832",
+     "providerId": 832,
+     "name": "Iwobi",
+     "num": 17,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6969",
+     "providerId": 6969,
+     "name": "Charles",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-837",
+     "providerId": 837,
+     "name": "King",
+     "num": 24,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-838",
+     "providerId": 838,
+     "name": "Kevin",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-600",
+     "providerId": 600,
+     "name": "García",
+     "num": 7,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "CHE",
+   "name": "Chelsea",
+   "nick": "Chelsea",
+   "providerId": 13,
+   "coach": null,
+   "formation": "3-4-2-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-382",
+     "providerId": 382,
+     "name": "Sánchez",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-399",
+     "providerId": 399,
+     "name": "Acheampong",
+     "num": 34,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-424",
+     "providerId": 424,
+     "name": "Lacroix",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-22880",
+     "providerId": 22880,
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-394",
+     "providerId": 394,
+     "name": "Neto",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-400",
+     "providerId": 400,
+     "name": "James",
+     "num": 24,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-387",
+     "providerId": 387,
+     "name": "Fernández",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-907",
+     "providerId": 907,
+     "name": "Chavarría",
+     "num": null,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-389",
+     "providerId": 389,
+     "name": "Estêvão",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-1220",
+     "providerId": 1220,
+     "name": "Quenda",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-390",
+     "providerId": 390,
+     "name": "Pedro",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-08-24T19:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-08-30T01:43:26.613Z"
+}

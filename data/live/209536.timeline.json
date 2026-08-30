@@ -1,0 +1,778 @@
+{
+ "fixtureId": 209536,
+ "title": "Hull City 2–0 Manchester United",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-away-46-like-for-like",
+   "minute": 46,
+   "side": "away",
+   "name": "46' Man Utd freshen it up",
+   "note": "Rashford on for Dorgu on 46', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-1788",
+     "name": "Lammens",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-1799",
+     "name": "Mazraoui",
+     "num": 3,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-4118",
+     "name": "Maguire",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-1804",
+     "name": "Heaven",
+     "num": 26,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-1791",
+     "name": "Shaw",
+     "num": 23,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-514",
+     "name": "Tielemans",
+     "num": 18,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-388",
+     "name": "Santos",
+     "num": 17,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-1796",
+     "name": "Mbeumo",
+     "num": 19,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1794",
+     "name": "Fernandes",
+     "num": 8,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-750",
+     "name": "Rashford",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-4119",
+     "name": "Cunha",
+     "num": 10,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-64-double-change",
+   "minute": 64,
+   "side": "home",
+   "name": "64' Hull make a double change",
+   "note": "McNair and Herrington on together for Ajayi and Mendy on 64'.",
+   "ruleId": "double-change",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "home-3476",
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6183",
+     "name": "Coyle",
+     "num": 2,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 88
+    },
+    {
+     "id": "home-8874",
+     "name": "McNair",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 70
+    },
+    {
+     "id": "home-6184",
+     "name": "Egan",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 13,
+     "y": 50
+    },
+    {
+     "id": "home-12179",
+     "name": "Herrington",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 30
+    },
+    {
+     "id": "home-6186",
+     "name": "Giles",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 12
+    },
+    {
+     "id": "home-6187",
+     "name": "Belloumi",
+     "num": 10,
+     "pos": "RM",
+     "role": "MID",
+     "x": 29,
+     "y": 86
+    },
+    {
+     "id": "home-6189",
+     "name": "Crooks",
+     "num": 25,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 60
+    },
+    {
+     "id": "home-6188",
+     "name": "Slater",
+     "num": 27,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 40
+    },
+    {
+     "id": "home-16077",
+     "name": "Stroud",
+     "num": 21,
+     "pos": "LM",
+     "role": "MID",
+     "x": 29,
+     "y": 14
+    },
+    {
+     "id": "home-6191",
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 41,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-67-double-change",
+   "minute": 67,
+   "side": "away",
+   "name": "67' Man Utd make a double change",
+   "note": "Mainoo and Šeško on together for Tielemans and Santos on 67'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-1788",
+     "name": "Lammens",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-1799",
+     "name": "Mazraoui",
+     "num": 3,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-4118",
+     "name": "Maguire",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-1804",
+     "name": "Heaven",
+     "num": 26,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-1791",
+     "name": "Shaw",
+     "num": 23,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-1802",
+     "name": "Mainoo",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-4120",
+     "name": "Šeško",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-1796",
+     "name": "Mbeumo",
+     "num": 19,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1794",
+     "name": "Fernandes",
+     "num": 8,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-750",
+     "name": "Rashford",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-4119",
+     "name": "Cunha",
+     "num": 10,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-70-like-for-like",
+   "minute": 70,
+   "side": "home",
+   "name": "70' Hull freshen it up",
+   "note": "Drameh on for Coyle on 70', same job.",
+   "ruleId": "like-for-like",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "home-3476",
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6199",
+     "name": "Drameh",
+     "num": null,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 88
+    },
+    {
+     "id": "home-8874",
+     "name": "McNair",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 70
+    },
+    {
+     "id": "home-6184",
+     "name": "Egan",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 13,
+     "y": 50
+    },
+    {
+     "id": "home-12179",
+     "name": "Herrington",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 30
+    },
+    {
+     "id": "home-6186",
+     "name": "Giles",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 12
+    },
+    {
+     "id": "home-6187",
+     "name": "Belloumi",
+     "num": 10,
+     "pos": "RM",
+     "role": "MID",
+     "x": 29,
+     "y": 86
+    },
+    {
+     "id": "home-6189",
+     "name": "Crooks",
+     "num": 25,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 60
+    },
+    {
+     "id": "home-6188",
+     "name": "Slater",
+     "num": 27,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 40
+    },
+    {
+     "id": "home-16077",
+     "name": "Stroud",
+     "num": 21,
+     "pos": "LM",
+     "role": "MID",
+     "x": 29,
+     "y": 14
+    },
+    {
+     "id": "home-6191",
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 41,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-71-like-for-like",
+   "minute": 71,
+   "side": "home",
+   "name": "71' Hull freshen it up",
+   "note": "Millar on for Stroud on 71', same job.",
+   "ruleId": "like-for-like",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "home-3476",
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6199",
+     "name": "Drameh",
+     "num": null,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 88
+    },
+    {
+     "id": "home-8874",
+     "name": "McNair",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 70
+    },
+    {
+     "id": "home-6184",
+     "name": "Egan",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 13,
+     "y": 50
+    },
+    {
+     "id": "home-12179",
+     "name": "Herrington",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 30
+    },
+    {
+     "id": "home-6186",
+     "name": "Giles",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 12
+    },
+    {
+     "id": "home-6187",
+     "name": "Belloumi",
+     "num": 10,
+     "pos": "RM",
+     "role": "MID",
+     "x": 29,
+     "y": 86
+    },
+    {
+     "id": "home-6189",
+     "name": "Crooks",
+     "num": 25,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 60
+    },
+    {
+     "id": "home-6188",
+     "name": "Slater",
+     "num": 27,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 40
+    },
+    {
+     "id": "home-6190",
+     "name": "Millar",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 29,
+     "y": 14
+    },
+    {
+     "id": "home-6191",
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 41,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-80-double-change",
+   "minute": 80,
+   "side": "away",
+   "name": "80' Man Utd make a double change",
+   "note": "Dalot and Lacey on together for Mazraoui and Cunha on 80'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-1788",
+     "name": "Lammens",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-1795",
+     "name": "Dalot",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-4118",
+     "name": "Maguire",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-1804",
+     "name": "Heaven",
+     "num": 26,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-1791",
+     "name": "Shaw",
+     "num": 23,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-1802",
+     "name": "Mainoo",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-4120",
+     "name": "Šeško",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-1796",
+     "name": "Mbeumo",
+     "num": 19,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1794",
+     "name": "Fernandes",
+     "num": 8,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-750",
+     "name": "Rashford",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-1807",
+     "name": "Lacey",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-85-like-for-like",
+   "minute": 85,
+   "side": "home",
+   "name": "85' Hull freshen it up",
+   "note": "Targett on for Giles on 85', same job.",
+   "ruleId": "like-for-like",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "home-3476",
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6199",
+     "name": "Drameh",
+     "num": null,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 88
+    },
+    {
+     "id": "home-8874",
+     "name": "McNair",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 70
+    },
+    {
+     "id": "home-6184",
+     "name": "Egan",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 13,
+     "y": 50
+    },
+    {
+     "id": "home-12179",
+     "name": "Herrington",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 30
+    },
+    {
+     "id": "home-6329",
+     "name": "Targett",
+     "num": null,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 12
+    },
+    {
+     "id": "home-6187",
+     "name": "Belloumi",
+     "num": 10,
+     "pos": "RM",
+     "role": "MID",
+     "x": 29,
+     "y": 86
+    },
+    {
+     "id": "home-6189",
+     "name": "Crooks",
+     "num": 25,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 60
+    },
+    {
+     "id": "home-6188",
+     "name": "Slater",
+     "num": 27,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 40
+    },
+    {
+     "id": "home-6190",
+     "name": "Millar",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 29,
+     "y": 14
+    },
+    {
+     "id": "home-6191",
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 41,
+     "y": 50
+    }
+   ]
+  }
+ ],
+ "shifts": []
+}

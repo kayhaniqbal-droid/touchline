@@ -1,0 +1,668 @@
+{
+ "fixtureId": 209543,
+ "title": "Newcastle United 2–2 Liverpool FC",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-home-56-double-change",
+   "minute": 56,
+   "side": "home",
+   "name": "56' Newcastle make a double change",
+   "note": "Ramsey and Willock on together for Steur and Osula on 56'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-883",
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-2052",
+     "name": "Dedić",
+     "num": 37,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-700",
+     "name": "Thiaw",
+     "num": 12,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-3696",
+     "name": "Botman",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-702",
+     "name": "Hall",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-716",
+     "name": "Ramsey",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-703",
+     "name": "Miley",
+     "num": 67,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-710",
+     "name": "Elanga",
+     "num": 19,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-5140",
+     "name": "Wissa",
+     "num": 9,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-708",
+     "name": "Barnes",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-715",
+     "name": "Willock",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-63-double-change",
+   "minute": 63,
+   "side": "away",
+   "name": "63' Liverpool make a double change",
+   "note": "Muñoz and Mac Allister on together for Ngumoha and Wirtz on 63'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-322",
+     "name": "Alisson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-4429",
+     "name": "Frimpong",
+     "num": 30,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-2803",
+     "name": "Jacquet",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-325",
+     "name": "van Dijk",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-336",
+     "name": "Kerkez",
+     "num": 6,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-329",
+     "name": "Szoboszlai",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-327",
+     "name": "Gravenberch",
+     "num": 38,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-2668",
+     "name": "Muñoz",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-328",
+     "name": "Mac Allister",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-331",
+     "name": "Gakpo",
+     "num": 18,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-332",
+     "name": "Isak",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-70-like-for-like",
+   "minute": 70,
+   "side": "away",
+   "name": "70' Liverpool freshen it up",
+   "note": "Araújo on for Jacquet on 70', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-322",
+     "name": "Alisson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-4429",
+     "name": "Frimpong",
+     "num": 30,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-3661",
+     "name": "Araújo",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-325",
+     "name": "van Dijk",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-336",
+     "name": "Kerkez",
+     "num": 6,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-329",
+     "name": "Szoboszlai",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-327",
+     "name": "Gravenberch",
+     "num": 38,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-2668",
+     "name": "Muñoz",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-328",
+     "name": "Mac Allister",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-331",
+     "name": "Gakpo",
+     "num": 18,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-332",
+     "name": "Isak",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-76-double-change",
+   "minute": 76,
+   "side": "home",
+   "name": "76' Newcastle make a double change",
+   "note": "Bamba and Murphy on together for Miley and Elanga on 76'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-883",
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-2052",
+     "name": "Dedić",
+     "num": 37,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-700",
+     "name": "Thiaw",
+     "num": 12,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-3696",
+     "name": "Botman",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-702",
+     "name": "Hall",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-716",
+     "name": "Ramsey",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-3618",
+     "name": "Bamba",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-706",
+     "name": "Murphy",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-5140",
+     "name": "Wissa",
+     "num": 9,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-708",
+     "name": "Barnes",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-715",
+     "name": "Willock",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-78-like-for-like",
+   "minute": 78,
+   "side": "away",
+   "name": "78' Liverpool freshen it up",
+   "note": "Koumas on for Gravenberch on 78', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-322",
+     "name": "Alisson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-4429",
+     "name": "Frimpong",
+     "num": 30,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-3661",
+     "name": "Araújo",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-325",
+     "name": "van Dijk",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-336",
+     "name": "Kerkez",
+     "num": 6,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-329",
+     "name": "Szoboszlai",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-6098",
+     "name": "Koumas",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-2668",
+     "name": "Muñoz",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-328",
+     "name": "Mac Allister",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-331",
+     "name": "Gakpo",
+     "num": 18,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-332",
+     "name": "Isak",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-95-like-for-like",
+   "minute": 95,
+   "side": "home",
+   "name": "95' Newcastle freshen it up",
+   "note": "Schär on for Wissa on 95', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-883",
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-2052",
+     "name": "Dedić",
+     "num": 37,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-700",
+     "name": "Thiaw",
+     "num": 12,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-3696",
+     "name": "Botman",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-702",
+     "name": "Hall",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-716",
+     "name": "Ramsey",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-3618",
+     "name": "Bamba",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-706",
+     "name": "Murphy",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-712",
+     "name": "Schär",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-708",
+     "name": "Barnes",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-715",
+     "name": "Willock",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  }
+ ],
+ "shifts": []
+}

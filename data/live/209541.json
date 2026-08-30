@@ -1,0 +1,249 @@
+{
+ "fixtureId": 209541,
+ "minute": 95,
+ "status": "FT",
+ "goals": {
+  "home": 4,
+  "away": 0
+ },
+ "lineupsConfirmed": true,
+ "teams": {
+  "home": {
+   "code": "BHA",
+   "name": "Brighton & Hove Albion",
+   "nick": "Brighton",
+   "providerId": 5,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-482",
+     "providerId": 482,
+     "name": "Verbruggen",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-16017",
+     "providerId": 16017,
+     "name": "Yohanna",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-1591",
+     "providerId": 1591,
+     "name": "Vušković",
+     "num": 44,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-485",
+     "providerId": 485,
+     "name": "Dunk",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-498",
+     "providerId": 498,
+     "name": "Boscagli",
+     "num": 21,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-2173",
+     "providerId": 2173,
+     "name": "Groß",
+     "num": 13,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-3490",
+     "providerId": 3490,
+     "name": "Costinha",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6535",
+     "providerId": 6535,
+     "name": "Yalcouyé",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-495",
+     "providerId": 495,
+     "name": "Kostoulas",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-2102",
+     "providerId": 2102,
+     "name": "Osman",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-1633",
+     "providerId": 1633,
+     "name": "Rutter",
+     "num": 10,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "AVL",
+   "name": "Aston Villa",
+   "nick": "Villa",
+   "providerId": 3,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-502",
+     "providerId": 502,
+     "name": "Bizot",
+     "num": 40,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-503",
+     "providerId": 503,
+     "name": "Cash",
+     "num": 2,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-519",
+     "providerId": 519,
+     "name": "Lindelöf",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-4289",
+     "providerId": 4289,
+     "name": "Mings",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-780",
+     "providerId": 780,
+     "name": "Ruggeri",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-507",
+     "providerId": 507,
+     "name": "Kamara",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-614",
+     "providerId": 614,
+     "name": "Alysson",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-516",
+     "providerId": 516,
+     "name": "Bogarde",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-3860",
+     "providerId": 3860,
+     "name": "Hemmings",
+     "num": 53,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-396",
+     "providerId": 396,
+     "name": "Garnacho",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-08-23T13:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-08-30T01:43:28.536Z"
+}

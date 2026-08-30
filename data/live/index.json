@@ -1,15 +1,69 @@
 {
  "matches": {
-  "1035037": {
-   "kickoff": "2023-08-11T19:00:00+00:00",
+  "209536": {
+   "kickoff": "2026-08-22T11:30:00+00:00",
    "status": "FT",
-   "title": "Burnley 0–3 Manchester City",
-   "home": null,
-   "away": null,
-   "confirmed": true,
-   "historic": true
+   "home": "HUL",
+   "away": "MUN",
+   "confirmed": true
+  },
+  "209537": {
+   "kickoff": "2026-08-22T14:00:00+00:00",
+   "status": "FT",
+   "home": "EVE",
+   "away": "CRY",
+   "confirmed": true
+  },
+  "209538": {
+   "kickoff": "2026-08-22T14:00:00+00:00",
+   "status": "FT",
+   "home": "IPS",
+   "away": "SUN",
+   "confirmed": true
+  },
+  "209539": {
+   "kickoff": "2026-08-22T14:00:00+00:00",
+   "status": "FT",
+   "home": "NFO",
+   "away": "LEE",
+   "confirmed": true
+  },
+  "209540": {
+   "kickoff": "2026-08-22T16:30:00+00:00",
+   "status": "FT",
+   "home": "BRE",
+   "away": "TOT",
+   "confirmed": true
+  },
+  "209541": {
+   "kickoff": "2026-08-23T13:00:00+00:00",
+   "status": "FT",
+   "home": "BHA",
+   "away": "AVL",
+   "confirmed": true
+  },
+  "209542": {
+   "kickoff": "2026-08-23T13:00:00+00:00",
+   "status": "FT",
+   "home": "MCI",
+   "away": "BOU",
+   "confirmed": true
+  },
+  "209543": {
+   "kickoff": "2026-08-23T15:30:00+00:00",
+   "status": "FT",
+   "home": "NEW",
+   "away": "LIV",
+   "confirmed": true
+  },
+  "209544": {
+   "kickoff": "2026-08-24T19:00:00+00:00",
+   "status": "FT",
+   "home": "FUL",
+   "away": "CHE",
+   "confirmed": true
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-08-30T01:26:25.011Z"
+ "updatedAt": "2026-08-30T01:43:31.097Z"
 }

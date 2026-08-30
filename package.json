@@ -10,6 +10,7 @@
     "verify:columns": "node scripts/verify-columns.mjs",
     "test": "node test/run.mjs",
     "serve": "node scripts/serve.mjs",
-    "replay:real": "node scripts/replay-real.mjs"
+    "replay:real": "node scripts/replay-real.mjs",
+    "sync": "node scripts/sync.mjs"
   }
 }

@@ -1,0 +1,668 @@
+{
+ "fixtureId": 209537,
+ "title": "Everton 2–0 Crystal Palace",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-away-55-double-change",
+   "minute": 55,
+   "side": "away",
+   "name": "55' Palace make a double change",
+   "note": "Khalaili and Pino on together for Muñoz and Nketiah on 55'.",
+   "ruleId": "double-change",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-422",
+     "name": "Henderson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-436",
+     "name": "Canvot",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-423",
+     "name": "Richards",
+     "num": 26,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-8593",
+     "name": "Riad",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-3748",
+     "name": "Khalaili",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-427",
+     "name": "Wharton",
+     "num": 20,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-430",
+     "name": "Kamada",
+     "num": 18,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-429",
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-814",
+     "name": "McNeil",
+     "num": 11,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-431",
+     "name": "Pino",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-432",
+     "name": "Mateta",
+     "num": 14,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-63-double-change",
+   "minute": 63,
+   "side": "away",
+   "name": "63' Palace make a double change",
+   "note": "Guessand and Larsen on together for McNeil and Mateta on 63'.",
+   "ruleId": "double-change",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-422",
+     "name": "Henderson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-436",
+     "name": "Canvot",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-423",
+     "name": "Richards",
+     "num": 26,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-8593",
+     "name": "Riad",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-3748",
+     "name": "Khalaili",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-427",
+     "name": "Wharton",
+     "num": 20,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-430",
+     "name": "Kamada",
+     "num": 18,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-429",
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-509",
+     "name": "Guessand",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-431",
+     "name": "Pino",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-531",
+     "name": "Larsen",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-72-like-for-like",
+   "minute": 72,
+   "side": "away",
+   "name": "72' Palace freshen it up",
+   "note": "Tomiyasu on for Riad on 72', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-422",
+     "name": "Henderson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-436",
+     "name": "Canvot",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-423",
+     "name": "Richards",
+     "num": 26,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-8740",
+     "name": "Tomiyasu",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-3748",
+     "name": "Khalaili",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-427",
+     "name": "Wharton",
+     "num": 20,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-430",
+     "name": "Kamada",
+     "num": 18,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-429",
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-509",
+     "name": "Guessand",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-431",
+     "name": "Pino",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-531",
+     "name": "Larsen",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-79-double-change",
+   "minute": 79,
+   "side": "home",
+   "name": "79' Everton make a double change",
+   "note": "Garner and Beto on together for Hackney and Barry on 79'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-803",
+     "name": "Pickford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-4094",
+     "name": "Röhl",
+     "num": 34,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-805",
+     "name": "Tarkowski",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-8798",
+     "name": "Branthwaite",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-807",
+     "name": "Mykolenko",
+     "num": 16,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-4825",
+     "name": "Armstrong",
+     "num": 45,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-804",
+     "name": "Garner",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-810",
+     "name": "Ndiaye",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-809",
+     "name": "Dewsbury-Hall",
+     "num": 8,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-3659",
+     "name": "George",
+     "num": 19,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-815",
+     "name": "Beto",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-84-like-for-like",
+   "minute": 84,
+   "side": "home",
+   "name": "84' Everton freshen it up",
+   "note": "Johnson on for George on 84', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-803",
+     "name": "Pickford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-4094",
+     "name": "Röhl",
+     "num": 34,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-805",
+     "name": "Tarkowski",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-8798",
+     "name": "Branthwaite",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-807",
+     "name": "Mykolenko",
+     "num": 16,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-4825",
+     "name": "Armstrong",
+     "num": 45,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-804",
+     "name": "Garner",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-810",
+     "name": "Ndiaye",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-809",
+     "name": "Dewsbury-Hall",
+     "num": 8,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-727",
+     "name": "Johnson",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-815",
+     "name": "Beto",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-94-like-for-like",
+   "minute": 94,
+   "side": "home",
+   "name": "94' Everton freshen it up",
+   "note": "Alcaraz on for Dewsbury-Hall on 94', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-803",
+     "name": "Pickford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-4094",
+     "name": "Röhl",
+     "num": 34,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-805",
+     "name": "Tarkowski",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-8798",
+     "name": "Branthwaite",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-807",
+     "name": "Mykolenko",
+     "num": 16,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-4825",
+     "name": "Armstrong",
+     "num": 45,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-804",
+     "name": "Garner",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-810",
+     "name": "Ndiaye",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-811",
+     "name": "Alcaraz",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-727",
+     "name": "Johnson",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-815",
+     "name": "Beto",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  }
+ ],
+ "shifts": []
+}

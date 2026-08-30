@@ -1,0 +1,558 @@
+{
+ "fixtureId": 209539,
+ "title": "Nottingham Forest 0–1 Leeds United",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-home-62-like-for-like",
+   "minute": 62,
+   "side": "home",
+   "name": "62' Forest freshen it up",
+   "note": "Wood on for Ndoye on 62', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "home-542",
+     "name": "Sels",
+     "num": 26,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-557",
+     "name": "Jair",
+     "num": 23,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-544",
+     "name": "Milenković",
+     "num": 31,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-2913",
+     "name": "Murillo",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-4788",
+     "name": "Aina",
+     "num": 34,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 28,
+     "y": 90
+    },
+    {
+     "id": "home-560",
+     "name": "McAtee",
+     "num": 24,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-547",
+     "name": "Sangaré",
+     "num": 6,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-546",
+     "name": "Williams",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 28,
+     "y": 10
+    },
+    {
+     "id": "home-4472",
+     "name": "Wood",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 66
+    },
+    {
+     "id": "home-550",
+     "name": "Gibbs-White",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 34
+    },
+    {
+     "id": "home-552",
+     "name": "Jesus",
+     "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-66-like-for-like",
+   "minute": 66,
+   "side": "away",
+   "name": "66' Leeds freshen it up",
+   "note": "Okafor on for Wilson on 66', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-858",
+     "name": "Trafford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-363",
+     "name": "Rodon",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-364",
+     "name": "Bijol",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-2846",
+     "name": "Muharemović",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-366",
+     "name": "Bogle",
+     "num": 2,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-369",
+     "name": "Stach",
+     "num": 18,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-368",
+     "name": "Ampadu",
+     "num": 4,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-376",
+     "name": "Justin",
+     "num": 24,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-374",
+     "name": "Okafor",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-380",
+     "name": "Aaronson",
+     "num": 11,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-371",
+     "name": "Calvert-Lewin",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-74-double-change",
+   "minute": 74,
+   "side": "home",
+   "name": "74' Forest make a double change",
+   "note": "Netz and Schlager on together for Aina and McAtee on 74'.",
+   "ruleId": "double-change",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "home-542",
+     "name": "Sels",
+     "num": 26,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-557",
+     "name": "Jair",
+     "num": 23,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-544",
+     "name": "Milenković",
+     "num": 31,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-2913",
+     "name": "Murillo",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-2871",
+     "name": "Netz",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 28,
+     "y": 90
+    },
+    {
+     "id": "home-2892",
+     "name": "Schlager",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-547",
+     "name": "Sangaré",
+     "num": 6,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-546",
+     "name": "Williams",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 28,
+     "y": 10
+    },
+    {
+     "id": "home-4472",
+     "name": "Wood",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 66
+    },
+    {
+     "id": "home-550",
+     "name": "Gibbs-White",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 34
+    },
+    {
+     "id": "home-552",
+     "name": "Jesus",
+     "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-82-like-for-like",
+   "minute": 82,
+   "side": "away",
+   "name": "82' Leeds freshen it up",
+   "note": "Longstaff on for Aaronson on 82', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-858",
+     "name": "Trafford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-363",
+     "name": "Rodon",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-364",
+     "name": "Bijol",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-2846",
+     "name": "Muharemović",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-366",
+     "name": "Bogle",
+     "num": 2,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-369",
+     "name": "Stach",
+     "num": 18,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-368",
+     "name": "Ampadu",
+     "num": 4,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-376",
+     "name": "Justin",
+     "num": 24,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-374",
+     "name": "Okafor",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-3859",
+     "name": "Longstaff",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-371",
+     "name": "Calvert-Lewin",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-93-like-for-like",
+   "minute": 93,
+   "side": "home",
+   "name": "93' Forest freshen it up",
+   "note": "Kalimuendo on for Murillo on 93', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "home-542",
+     "name": "Sels",
+     "num": 26,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-557",
+     "name": "Jair",
+     "num": 23,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-544",
+     "name": "Milenković",
+     "num": 31,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-561",
+     "name": "Kalimuendo",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-2871",
+     "name": "Netz",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 28,
+     "y": 90
+    },
+    {
+     "id": "home-2892",
+     "name": "Schlager",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-547",
+     "name": "Sangaré",
+     "num": 6,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-546",
+     "name": "Williams",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 28,
+     "y": 10
+    },
+    {
+     "id": "home-4472",
+     "name": "Wood",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 66
+    },
+    {
+     "id": "home-550",
+     "name": "Gibbs-White",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 34
+    },
+    {
+     "id": "home-552",
+     "name": "Jesus",
+     "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  }
+ ],
+ "shifts": []
+}

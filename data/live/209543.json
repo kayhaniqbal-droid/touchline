@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209543,
+ "minute": 95,
+ "status": "FT",
+ "goals": {
+  "home": 2,
+  "away": 2
+ },
+ "lineupsConfirmed": true,
+ "teams": {
+  "home": {
+   "code": "NEW",
+   "name": "Newcastle United",
+   "nick": "Newcastle",
+   "providerId": 4,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-883",
+     "providerId": 883,
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-2052",
+     "providerId": 2052,
+     "name": "Dedić",
+     "num": 37,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-700",
+     "providerId": 700,
+     "name": "Thiaw",
+     "num": 12,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-3696",
+     "providerId": 3696,
+     "name": "Botman",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-702",
+     "providerId": 702,
+     "name": "Hall",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-716",
+     "providerId": 716,
+     "name": "Ramsey",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-3618",
+     "providerId": 3618,
+     "name": "Bamba",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-706",
+     "providerId": 706,
+     "name": "Murphy",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-712",
+     "providerId": 712,
+     "name": "Schär",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-708",
+     "providerId": 708,
+     "name": "Barnes",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-715",
+     "providerId": 715,
+     "name": "Willock",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "LIV",
+   "name": "Liverpool FC",
+   "nick": "Liverpool",
+   "providerId": 1,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-322",
+     "providerId": 322,
+     "name": "Alisson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-4429",
+     "providerId": 4429,
+     "name": "Frimpong",
+     "num": 30,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-3661",
+     "providerId": 3661,
+     "name": "Araújo",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-325",
+     "providerId": 325,
+     "name": "van Dijk",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-336",
+     "providerId": 336,
+     "name": "Kerkez",
+     "num": 6,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-329",
+     "providerId": 329,
+     "name": "Szoboszlai",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-6098",
+     "providerId": 6098,
+     "name": "Koumas",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-2668",
+     "providerId": 2668,
+     "name": "Muñoz",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-328",
+     "providerId": 328,
+     "name": "Mac Allister",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-331",
+     "providerId": 331,
+     "name": "Gakpo",
+     "num": 18,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-332",
+     "providerId": 332,
+     "name": "Isak",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-08-23T15:30:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-08-30T01:43:27.059Z"
+}

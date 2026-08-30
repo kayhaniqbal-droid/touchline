@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209542,
+ "minute": 93,
+ "status": "FT",
+ "goals": {
+  "home": 2,
+  "away": 1
+ },
+ "lineupsConfirmed": true,
+ "teams": {
+  "home": {
+   "code": "MCI",
+   "name": "Manchester City",
+   "nick": "Man City",
+   "providerId": 12,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-843",
+     "providerId": 843,
+     "name": "Donnarumma",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-844",
+     "providerId": 844,
+     "name": "Nunes",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-860",
+     "providerId": 860,
+     "name": "Khusanov",
+     "num": 45,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-845",
+     "providerId": 845,
+     "name": "Dias",
+     "num": 3,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-846",
+     "providerId": 846,
+     "name": "Gvardiol",
+     "num": 24,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-4350",
+     "providerId": 4350,
+     "name": "Kovačić",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-425",
+     "providerId": 425,
+     "name": "Guéhi",
+     "num": 6,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-812",
+     "providerId": 812,
+     "name": "Grealish",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-856",
+     "providerId": 856,
+     "name": "Cherki",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-792",
+     "providerId": 792,
+     "name": "Semenyo",
+     "num": 42,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-852",
+     "providerId": 852,
+     "name": "Haaland",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "BOU",
+   "name": "Bournemouth",
+   "nick": "Bournemouth",
+   "providerId": 2,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-783",
+     "providerId": 783,
+     "name": "Đ. Petrović",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-801",
+     "providerId": 801,
+     "name": "Smith",
+     "num": 15,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-799",
+     "providerId": 799,
+     "name": "Hill",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-2053",
+     "providerId": 2053,
+     "name": "Silva",
+     "num": 14,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-787",
+     "providerId": 787,
+     "name": "Truffert",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-788",
+     "providerId": 788,
+     "name": "Adams",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-789",
+     "providerId": 789,
+     "name": "Scott",
+     "num": 8,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-4027",
+     "providerId": 4027,
+     "name": "Doak",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-3438",
+     "providerId": 3438,
+     "name": "Tóth",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-794",
+     "providerId": 794,
+     "name": "Tavernier",
+     "num": 16,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-6736",
+     "providerId": 6736,
+     "name": "Jebbison",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-08-23T13:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-08-30T01:43:28.062Z"
+}
