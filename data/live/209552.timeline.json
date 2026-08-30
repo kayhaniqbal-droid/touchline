@@ -1,6 +1,6 @@
 {
  "fixtureId": 209552,
- "title": "Manchester United 5–1 Ipswich Town",
+ "title": "Manchester United 5–2 Ipswich Town",
  "lineupStatus": "confirmed",
  "phases": [
   {
@@ -15,7 +15,7 @@
     {
      "id": "away-3744",
      "name": "Scherpen",
-     "num": 22,
+     "num": 37,
      "pos": "GK",
      "role": "GK",
      "x": 96,
@@ -33,7 +33,7 @@
     {
      "id": "away-4377",
      "name": "Diop",
-     "num": 2,
+     "num": 6,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
@@ -58,18 +58,18 @@
      "y": 85
     },
     {
-     "id": "away-6151",
-     "name": "Núñez",
-     "num": 32,
+     "id": "away-828",
+     "name": "Lukić",
+     "num": 23,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-828",
-     "name": "Lukić",
-     "num": 6,
+     "id": "away-6151",
+     "name": "Núñez",
+     "num": 32,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -78,7 +78,7 @@
     {
      "id": "away-6131",
      "name": "Issahaku",
-     "num": 15,
+     "num": 7,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -96,7 +96,7 @@
     {
      "id": "away-3393",
      "name": "Maeda",
-     "num": 12,
+     "num": 38,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -125,7 +125,7 @@
     {
      "id": "away-3744",
      "name": "Scherpen",
-     "num": 22,
+     "num": 37,
      "pos": "GK",
      "role": "GK",
      "x": 96,
@@ -143,7 +143,7 @@
     {
      "id": "away-4377",
      "name": "Diop",
-     "num": 2,
+     "num": 6,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
@@ -168,18 +168,18 @@
      "y": 85
     },
     {
-     "id": "away-4750",
-     "name": "Palacios",
-     "num": null,
+     "id": "away-828",
+     "name": "Lukić",
+     "num": 23,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-828",
-     "name": "Lukić",
-     "num": 6,
+     "id": "away-4750",
+     "name": "Palacios",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -188,7 +188,7 @@
     {
      "id": "away-6131",
      "name": "Issahaku",
-     "num": 15,
+     "num": 7,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -206,7 +206,7 @@
     {
      "id": "away-3393",
      "name": "Maeda",
-     "num": 12,
+     "num": 38,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -235,7 +235,7 @@
     {
      "id": "away-3744",
      "name": "Scherpen",
-     "num": 22,
+     "num": 37,
      "pos": "GK",
      "role": "GK",
      "x": 96,
@@ -253,7 +253,7 @@
     {
      "id": "away-4377",
      "name": "Diop",
-     "num": 2,
+     "num": 6,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
@@ -278,8 +278,8 @@
      "y": 85
     },
     {
-     "id": "away-4750",
-     "name": "Palacios",
+     "id": "away-4004",
+     "name": "Ouattara",
      "num": null,
      "pos": "RDM",
      "role": "MID",
@@ -287,8 +287,8 @@
      "y": 38
     },
     {
-     "id": "away-4004",
-     "name": "Ouattara",
+     "id": "away-4750",
+     "name": "Palacios",
      "num": null,
      "pos": "LDM",
      "role": "MID",
@@ -298,7 +298,7 @@
     {
      "id": "away-6131",
      "name": "Issahaku",
-     "num": 15,
+     "num": 7,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -388,36 +388,36 @@
      "y": 15
     },
     {
-     "id": "home-1802",
-     "name": "Mainoo",
-     "num": 37,
+     "id": "home-514",
+     "name": "Tielemans",
+     "num": 18,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-514",
-     "name": "Tielemans",
-     "num": 18,
+     "id": "home-1802",
+     "name": "Mainoo",
+     "num": 37,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-1794",
-     "name": "Fernandes",
-     "num": 8,
+     "id": "home-1796",
+     "name": "Mbeumo",
+     "num": 19,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-1796",
-     "name": "Mbeumo",
-     "num": 19,
+     "id": "home-1794",
+     "name": "Fernandes",
+     "num": 8,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -426,7 +426,7 @@
     {
      "id": "home-750",
      "name": "Rashford",
-     "num": 14,
+     "num": 9,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -498,36 +498,36 @@
      "y": 15
     },
     {
-     "id": "home-1802",
-     "name": "Mainoo",
-     "num": 37,
+     "id": "home-514",
+     "name": "Tielemans",
+     "num": 18,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-514",
-     "name": "Tielemans",
-     "num": 18,
+     "id": "home-1802",
+     "name": "Mainoo",
+     "num": 37,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-1794",
-     "name": "Fernandes",
-     "num": 8,
+     "id": "home-1796",
+     "name": "Mbeumo",
+     "num": 19,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-1796",
-     "name": "Mbeumo",
-     "num": 19,
+     "id": "home-1794",
+     "name": "Fernandes",
+     "num": 8,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -536,7 +536,7 @@
     {
      "id": "home-750",
      "name": "Rashford",
-     "num": 14,
+     "num": 9,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -608,36 +608,36 @@
      "y": 15
     },
     {
-     "id": "home-388",
-     "name": "Santos",
-     "num": null,
+     "id": "home-514",
+     "name": "Tielemans",
+     "num": 18,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-514",
-     "name": "Tielemans",
-     "num": 18,
+     "id": "home-388",
+     "name": "Santos",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-1794",
-     "name": "Fernandes",
-     "num": 8,
+     "id": "home-1796",
+     "name": "Mbeumo",
+     "num": 19,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-1796",
-     "name": "Mbeumo",
-     "num": 19,
+     "id": "home-1794",
+     "name": "Fernandes",
+     "num": 8,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -659,6 +659,116 @@
      "pos": "ST",
      "role": "FWD",
      "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-83-like-for-like",
+   "minute": 83,
+   "side": "away",
+   "name": "83' Ipswich freshen it up",
+   "note": "McAteer on for Issahaku on 83', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-3744",
+     "name": "Scherpen",
+     "num": 37,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6145",
+     "name": "O'Shea",
+     "num": 26,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-4377",
+     "name": "Diop",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-6160",
+     "name": "Greaves",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-6147",
+     "name": "Davis",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-4004",
+     "name": "Ouattara",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-4750",
+     "name": "Palacios",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-6154",
+     "name": "McAteer",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1710",
+     "name": "Enciso",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-6144",
+     "name": "Furlong",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-6161",
+     "name": "Akpom",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
      "y": 50
     }
    ]

@@ -1,10 +1,10 @@
 {
  "fixtureId": 209552,
- "minute": 82,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 5,
-  "away": 1
+  "away": 2
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -68,40 +68,40 @@
      "y": 15
     },
     {
-     "id": "home-388",
-     "providerId": 388,
-     "name": "Santos",
-     "num": null,
+     "id": "home-514",
+     "providerId": 514,
+     "name": "Tielemans",
+     "num": 18,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-514",
-     "providerId": 514,
-     "name": "Tielemans",
-     "num": 18,
+     "id": "home-388",
+     "providerId": 388,
+     "name": "Santos",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-1794",
-     "providerId": 1794,
-     "name": "Fernandes",
-     "num": 8,
+     "id": "home-1796",
+     "providerId": 1796,
+     "name": "Mbeumo",
+     "num": 19,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-1796",
-     "providerId": 1796,
-     "name": "Mbeumo",
-     "num": 19,
+     "id": "home-1794",
+     "providerId": 1794,
+     "name": "Fernandes",
+     "num": 8,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -143,7 +143,7 @@
      "id": "away-3744",
      "providerId": 3744,
      "name": "Scherpen",
-     "num": 22,
+     "num": 37,
      "pos": "GK",
      "role": "GK",
      "x": 96,
@@ -163,7 +163,7 @@
      "id": "away-4377",
      "providerId": 4377,
      "name": "Diop",
-     "num": 2,
+     "num": 6,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
@@ -190,9 +190,9 @@
      "y": 85
     },
     {
-     "id": "away-4750",
-     "providerId": 4750,
-     "name": "Palacios",
+     "id": "away-4004",
+     "providerId": 4004,
+     "name": "Ouattara",
      "num": null,
      "pos": "RDM",
      "role": "MID",
@@ -200,9 +200,9 @@
      "y": 38
     },
     {
-     "id": "away-4004",
-     "providerId": 4004,
-     "name": "Ouattara",
+     "id": "away-4750",
+     "providerId": 4750,
+     "name": "Palacios",
      "num": null,
      "pos": "LDM",
      "role": "MID",
@@ -210,10 +210,10 @@
      "y": 62
     },
     {
-     "id": "away-6131",
-     "providerId": 6131,
-     "name": "Issahaku",
-     "num": 15,
+     "id": "away-6154",
+     "providerId": 6154,
+     "name": "McAteer",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-08-30T15:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-08-30T17:11:54.812Z"
+ "fetchedAt": "2026-08-30T18:11:22.918Z"
 }
