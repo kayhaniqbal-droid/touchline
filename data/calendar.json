@@ -76,27 +76,32 @@
     [
      "CRY",
      "MCI",
-     "Fri, Aug 28"
+     "Fri, Aug 28",
+     "1–4"
     ],
     [
      "LIV",
      "NFO",
-     "Sat, Aug 29"
+     "Sat, Aug 29",
+     "2–2"
     ],
     [
      "BOU",
      "EVE",
-     "Sat, Aug 29"
+     "Sat, Aug 29",
+     "1–1"
     ],
     [
      "COV",
      "HUL",
-     "Sat, Aug 29"
+     "Sat, Aug 29",
+     "0–1"
     ],
     [
      "TOT",
      "NEW",
-     "Sat, Aug 29"
+     "Sat, Aug 29",
+     "0–2"
     ],
     [
      "CHE",
@@ -2141,5 +2146,7 @@
     ]
    ]
   }
- ]
+ ],
+ "playedRounds": 1,
+ "resultsUpdatedAt": "2026-08-30T01:38:32.649Z"
 }
