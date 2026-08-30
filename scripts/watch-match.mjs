@@ -20,6 +20,7 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { Api, BudgetExhausted } from "./lib/api.mjs";
 import { normaliseLineup, normaliseBench } from "./lib/normalise.mjs";
+import { applyEvents } from "./lib/match-state.mjs";
 import { readMatch } from "./lib/rules.mjs";
 
 const run = promisify(execFile);
@@ -66,24 +67,50 @@ async function commit(message) {
   }
 }
 
-/** One poll: fixture state + lineups, folded into a snapshot. */
-async function snapshot(api, id, squads, prevTeams) {
+/**
+ * One poll.
+ *
+ * The lineups endpoint returns the STARTING eleven and never changes once a
+ * match begins — so polling it alone would never show a substitution. We
+ * fetch the starting elevens once, then poll the fixture and its events and
+ * replay those events onto the base to get the team as it stands now.
+ *
+ * Cost per poll: 2 requests (fixture + events), the same as before.
+ */
+async function snapshot(api, id, squads, base) {
   const [fx] = await api.fixture(id);
   if (!fx) throw new Error(`fixture ${id} not found`);
 
-  const record = {
-    fixtureId: id,
+  const events = await api.events(id);
+  const homeName = fx.teams.home.name;
+  const { teams, goals } = applyEvents(base, events, homeName);
+
+  return {
+    fixtureId: Number(id),
     kickoff: fx.fixture.date,
     status: fx.fixture.status?.short || "NS",
     minute: fx.fixture.status?.elapsed ?? null,
-    goals: { home: fx.goals?.home ?? 0, away: fx.goals?.away ?? 0 },
+    // Prefer the provider's own score; fall back to what we counted.
+    goals: {
+      home: fx.goals?.home ?? goals.home,
+      away: fx.goals?.away ?? goals.away,
+    },
     venue: fx.fixture.venue?.name || null,
     fetchedAt: new Date().toISOString(),
-    teams: prevTeams || {},
+    lineupsConfirmed: true,
+    teams,
   };
+}
 
+/** The starting elevens, fetched once. */
+async function fetchBase(api, id, squads) {
+  const [fx] = await api.fixture(id);
+  if (!fx) throw new Error(`fixture ${id} not found`);
   const lineups = await api.lineups(id);
+  if (lineups.length < 2) return null;
+
   const homeName = fx.teams.home.name;
+  const base = {};
   for (const l of lineups) {
     const side = l.team.name === homeName ? "home" : "away";
     const code = Object.keys(squads.clubs).find(
@@ -91,25 +118,20 @@ async function snapshot(api, id, squads, prevTeams) {
         squads.clubs[c].team.toLowerCase() === l.team.name.toLowerCase() ||
         squads.clubs[c].nick.toLowerCase() === l.team.name.toLowerCase()
     );
-    try {
-      const n = normaliseLineup(l, side);
-      record.teams[side] = {
-        code: code || null,
-        name: l.team.name,
-        nick: code ? squads.clubs[code].nick : l.team.name,
-        providerId: l.team.id,
-        coach: l.coach?.name || null,
-        formation: n.formation,
-        derivedShape: n.derived,
-        players: n.players,
-        bench: normaliseBench(l, side),
-      };
-    } catch (err) {
-      console.log(`   ${side} lineup unusable: ${err.message}`);
-    }
+    const n = normaliseLineup(l, side);
+    base[side] = {
+      code: code || null,
+      name: l.team.name,
+      nick: code ? squads.clubs[code].nick : l.team.name,
+      providerId: l.team.id,
+      coach: l.coach?.name || null,
+      formation: n.formation,
+      derivedShape: n.derived,
+      players: n.players,
+      bench: normaliseBench(l, side),
+    };
   }
-  record.lineupsConfirmed = Object.keys(record.teams).length === 2;
-  return record;
+  return Object.keys(base).length === 2 ? base : null;
 }
 
 async function main() {
@@ -149,6 +171,20 @@ async function main() {
     );
   }
 
+  console.log("  fetching the starting elevens…");
+  let base;
+  try {
+    base = await fetchBase(api, fixtureId, squads);
+  } catch (err) {
+    console.log(`  could not read the lineups: ${err.message}`);
+    return;
+  }
+  if (!base) {
+    console.log("  lineups not published yet. Try again nearer kickoff.");
+    return;
+  }
+  console.log(`  ${base.home.nick} (${base.home.formation}) v ${base.away.nick} (${base.away.formation})`);
+
   const path = `data/live/${fixtureId}.json`;
   let prev = await readJson(path, null);
   const timeline = (await readJson(`data/live/${fixtureId}.timeline.json`, null)) || {
@@ -162,7 +198,7 @@ async function main() {
   while (Date.now() < deadline) {
     let next;
     try {
-      next = await snapshot(api, fixtureId, squads, prev?.teams);
+      next = await snapshot(api, fixtureId, squads, base);
     } catch (err) {
       if (err instanceof BudgetExhausted) {
         console.log(`Stopping: ${err.message}`);

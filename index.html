@@ -290,6 +290,26 @@ body.nonames .tok .nameplate{display:none}
 .hint{font-size:12px;color:var(--ink-3);line-height:1.55}
 .hide{display:none !important}
 
+.livedot{
+  font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.12em;
+  padding:2px 6px;border-radius:99px;background:var(--press);color:#fff;
+  animation:pulse 2s ease-in-out infinite
+}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.45}}
+.tlist{display:flex;flex-direction:column;gap:4px}
+.titem{
+  display:grid;grid-template-columns:34px 1fr;gap:9px;padding:8px 9px;border-radius:11px;
+  cursor:pointer;border:1px solid transparent;text-align:left;background:transparent;
+  font:inherit;color:inherit;width:100%
+}
+.titem:hover{background:var(--glass-2);border-color:var(--glass-edge)}
+.titem.on{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 40%,transparent)}
+.titem .min{
+  font-family:"Saira Condensed",sans-serif;font-weight:700;font-size:14px;
+  font-variant-numeric:tabular-nums;color:var(--accent);text-align:right;padding-top:1px
+}
+.titem .th{font-size:12.5px;font-weight:600;line-height:1.3}
+.titem .td{font-size:11.5px;color:var(--ink-3);line-height:1.45;margin-top:2px}
 .mh{
   font-family:"Saira Condensed",sans-serif;font-weight:600;font-size:11.5px;letter-spacing:.17em;
   text-transform:uppercase;color:var(--ink-3);margin:20px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--hair)
@@ -514,6 +534,12 @@ body.portrait section.coll.open > .teamhead{margin-bottom:10px}
       <section class="glass panel">
         <h2>Overlays<span class="rule"></span></h2>
         <div id="overlayToggles"></div>
+      </section>
+
+      <section class="glass panel hide" id="timelinePanel">
+        <h2>Match timeline<span class="rule"></span><span class="livedot hide" id="liveDot">LIVE</span></h2>
+        <div class="tlist" id="tlist"></div>
+        <p class="hint" id="tlEmpty" style="margin-top:8px">Nothing detected yet.</p>
       </section>
 
       <section class="glass panel">
@@ -1638,6 +1664,8 @@ function syncHeader(){
 /* Everything outside the pitch that depends on which board is open. */
 function refreshChrome(){
   syncHeader(); renderRosters(); renderPhaseList(); renderStrip(); renderBoardPanel();
+  liveState.activeShift = null;
+  if(typeof refreshTimeline === "function") refreshTimeline();
 }
 
 function renderBoardPanel(){
@@ -2215,6 +2243,124 @@ document.addEventListener("keydown", function(e){
   }
 });
 
+/* ============ live match timeline ============
+   When the open board matches a fixture the ingest job has confirmed, we
+   pull that match's snapshot and whatever tactical shifts the brain read,
+   and offer each one as a phase the board can animate into. */
+
+let liveState = { fixtureId:null, timeline:null, snap:null, poll:null, activeShift:null };
+
+function findLiveFixture(){
+  const h = store.teams.home.short, a = store.teams.away.short;
+  const ms = (LIVE && LIVE.matches) || {};
+  for(const id of Object.keys(ms)){
+    const m = ms[id];
+    if(m.home === h && m.away === a) return { id, meta:m };
+  }
+  return null;
+}
+
+const IN_PLAY = ["1H","2H","HT","ET","BT","P","LIVE"];
+
+async function refreshTimeline(){
+  const panel = document.getElementById("timelinePanel");
+  const match = findLiveFixture();
+  if(!match){
+    panel.classList.add("hide");
+    stopLivePolling();
+    liveState.fixtureId = null;
+    return;
+  }
+  panel.classList.remove("hide");
+  liveState.fixtureId = match.id;
+
+  const loaded = await loadLiveMatch(match.id);
+  if(!loaded){ renderTimeline(); return; }
+  liveState.snap = loaded.snap;
+  liveState.timeline = loaded.timeline;
+  renderTimeline();
+
+  const live = IN_PLAY.indexOf(loaded.snap.status) >= 0;
+  document.getElementById("liveDot").classList.toggle("hide", !live);
+  if(live) startLivePolling(); else stopLivePolling();
+}
+
+function startLivePolling(){
+  if(liveState.poll) return;
+  liveState.poll = setInterval(function(){ refreshTimeline(); }, 30000);
+}
+function stopLivePolling(){
+  if(liveState.poll){ clearInterval(liveState.poll); liveState.poll = null; }
+}
+
+function renderTimeline(){
+  const box = document.getElementById("tlist");
+  const empty = document.getElementById("tlEmpty");
+  box.innerHTML = "";
+  const phases = (liveState.timeline && liveState.timeline.phases) || [];
+  const snap = liveState.snap;
+
+  if(snap){
+    const row = document.createElement("div");
+    row.className = "note";
+    row.style.marginTop = "0";
+    row.style.fontSize = "12.5px";
+    const hn = snap.teams.home ? snap.teams.home.nick : "Home";
+    const an = snap.teams.away ? snap.teams.away.nick : "Away";
+    row.textContent = hn + " " + snap.goals.home + "–" + snap.goals.away + " " + an +
+      (snap.minute ? "  ·  " + snap.minute + "'" : "") + "  ·  " + snap.status;
+    box.appendChild(row);
+  }
+
+  if(!phases.length){
+    empty.textContent = snap
+      ? "Line-ups confirmed. No tactical change detected yet."
+      : "Waiting for the ingest job to confirm this match.";
+    empty.classList.remove("hide");
+    return;
+  }
+  empty.classList.add("hide");
+
+  phases.forEach(function(ph, i){
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "titem" + (liveState.activeShift === i ? " on" : "");
+    b.innerHTML = '<span class="min"></span><span><span class="th"></span><span class="td"></span></span>';
+    b.querySelector(".min").textContent = ph.minute ? ph.minute + "'" : "–";
+    b.querySelector(".th").textContent = ph.name.replace(/^\d+'\s*/, "");
+    b.querySelector(".td").textContent = ph.note || "";
+    b.addEventListener("click", function(){ applyDetectedPhase(ph, i); });
+    box.appendChild(b);
+  });
+}
+
+/* A detected shift is just a phase — drop it onto the board and animate. */
+function applyDetectedPhase(ph, index){
+  const side = ph.side;
+  const team = store.teams[side];
+  const byName = new Map(team.players.map(function(p){ return [p.name, p]; }));
+
+  const prev = capturePos();
+  ph.players.forEach(function(src){
+    const target = byName.get(src.name);
+    if(target){
+      target.x = src.x; target.y = src.y;
+      target.pos = src.pos; target.role = src.role;
+    }
+  });
+  if(ph.formation && FORMATIONS[ph.formation]) team.formation = ph.formation;
+
+  liveState.activeShift = index;
+  const dur = parseInt(document.getElementById("speedSel").value, 10);
+  spawnGhosts(prev, dur);
+  moveTokens(dur);
+  renderOverlay();
+  commitToPhase();
+  syncHeader();
+  renderRosters();
+  renderTimeline();
+}
+
 /* ===================== boot ===================== */
 async function boot(){
   await loadData();
@@ -2225,6 +2371,7 @@ async function boot(){
   if(!store.library.length){ store.library=[liveBoard()]; store.li=0; }
   renderAll(); refreshChrome();
   markDataSource();
+  refreshTimeline();
 }
 
 /* The "any matchup" pickers are filled from SQUADS, so they are rebuilt

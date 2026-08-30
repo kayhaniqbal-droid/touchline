@@ -17,11 +17,17 @@ import {
  * Which touchline column 1 sits on.
  *
  * THIS IS THE ONE SETTING THAT WILL SILENTLY MIRROR EVERY BOARD.
- * Providers differ, and a wrong guess puts right-backs on the left without
- * throwing anything. `npm run verify:columns` checks it against a match
- * whose lineup we already know by hand. Flip it there, not by guessing.
+ *
+ * Settled against a real payload rather than guessed. In API-Football's
+ * response for Burnley v Manchester City (fixture 1035037), Kyle Walker —
+ * a right-back — is at grid column 4, and Rico Lewis — a left-back — is at
+ * column 1. Burnley agree: Connor Roberts at column 5 on the right,
+ * Vitinho at column 1 on the left.
+ *
+ * So for this provider, COLUMN 1 IS THE TEAM'S LEFT. The regression test
+ * in test/run.mjs pins it using that saved response.
  */
-export const COLUMN_ONE_IS = process.env.TOUCHLINE_COLUMN_ONE || "right";
+export const COLUMN_ONE_IS = process.env.TOUCHLINE_COLUMN_ONE || "left";
 
 /** Team-space x for each line, matching the ranges the formations use. */
 const LINE_X = [4, 15, 26, 37, 45];

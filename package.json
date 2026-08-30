@@ -9,6 +9,7 @@
     "replay": "node scripts/watch-match.mjs --replay test/fixtures/replay",
     "verify:columns": "node scripts/verify-columns.mjs",
     "test": "node test/run.mjs",
-    "serve": "node scripts/serve.mjs"
+    "serve": "node scripts/serve.mjs",
+    "replay:real": "node scripts/replay-real.mjs"
   }
 }

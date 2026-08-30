@@ -9,8 +9,11 @@ sitting in, and once an API key is attached the board updates itself: real
 team sheets an hour before kickoff, and a running commentary on substitutions
 and shape changes as they occur.
 
-**Total cost: nothing.** GitHub Pages hosts it, GitHub Actions updates it,
-the repo is the database, and the data sits inside a free API tier.
+**Infrastructure costs nothing.** GitHub Pages hosts it, GitHub Actions
+updates it, and the repo is the database. The one caveat is the data: the
+free API tier covers seasons 2022–2024, so following the *current* season
+live needs a $19/month plan. Everything else — the board, all 380 fixtures,
+and the brain reading real matches from 2022–24 — is free.
 
 ---
 
@@ -45,38 +48,51 @@ live data on top.
 
 ### 3. Add a free API key
 
-Sign up at **[api-football.com](https://www.api-football.com/)** — the free
-tier gives 100 requests a day, and unusually it includes lineups, benches and
-live events rather than holding them back for paid plans.
-
-Then **Settings → Secrets and variables → Actions → New repository secret**:
+Sign up at **[api-football.com](https://www.api-football.com/)**, then
+**Settings → Secrets and variables → Actions → New repository secret**:
 
 | Name | Value |
 | --- | --- |
 | `API_FOOTBALL_KEY` | your key |
 
-That is the whole configuration. The sweep starts finding team sheets on the
-next scheduled run.
+> **Read this before you rely on it.** The free tier includes lineups,
+> benches and live events — genuinely generous — but it only covers
+> **seasons 2022 to 2024**. Ask it for a 2026/27 fixture and it answers:
+> *"Free plans do not have access to this season, try from 2022 to 2024."*
+>
+> So on the free tier the current season stays on the projected line-ups
+> that ship with the repo, and the automatic updates do nothing. Following
+> this season live needs the **$19/month Pro plan**. Nothing else in the
+> project costs anything, and nothing else needs changing when you upgrade —
+> just raise `API_FOOTBALL_DAILY_CAP` and the sweep starts working.
+>
+> What the free tier *is* good for is the brain. See below.
 
 ---
 
-## Before your first matchday: check the column direction
+## The column direction — already settled
 
-This is the one setting that will silently mirror every board. Providers
-disagree about whether grid column 1 is a team's left or their right, and
-guessing wrong puts right-backs on the left without anything failing.
+This is the setting that silently mirrors every board, and it has been
+pinned against a real payload rather than guessed.
+
+In API-Football's response for Burnley v Manchester City (fixture 1035037),
+Kyle Walker — a right-back — sits at grid column **4**, and Rico Lewis — a
+left-back — at column **1**. Burnley agree: Connor Roberts at column 5 on
+the right, Vitinho at column 1 on the left.
+
+**So for this provider, column 1 is the team's LEFT.** That is the default,
+and `test/run.mjs` holds a regression test using that saved response, so it
+cannot quietly flip back.
+
+If you ever switch provider, re-check it:
 
 ```bash
-npm run verify:columns              # checks our own mapping, no key needed
-node scripts/verify-columns.mjs 1234567   # checks it against a real fixture
+npm run verify:columns                    # our own mapping, no key needed
+node scripts/verify-columns.mjs <fixture> # against a match you watched
 ```
 
-Run the second form once against a match you actually watched. It prints each
-team's back line from channel 0 upward, which should read **right to left**.
-If the first name is the left-back, add a repository *variable* called
-`TOUCHLINE_COLUMN_ONE` set to `left`.
-
-Do this before you rely on a matchday. Everything downstream depends on it.
+Set the repository variable `TOUCHLINE_COLUMN_ONE` to `right` if the new
+provider counts the other way.
 
 ---
 
@@ -128,6 +144,14 @@ shape moved, whether anyone was sent off, and what the score was at the time.
 It can be wrong about *meaning*, but it cannot invent a substitution that
 never happened.
 
+**Substitutions come from the events feed, not the lineups feed.** The
+lineups endpoint returns the *starting* eleven and never changes once a
+match kicks off, so a watcher that only re-read lineups would never see a
+change. `scripts/lib/match-state.mjs` replays events onto the starting
+eleven instead. One detail that reads backwards: in an API-Football `subst`
+event, `player` is the one going **off** and `assist` is the one coming
+**on**.
+
 **Narration only describes what detection found.** Templates by default, which
 cost nothing. If you later want a language model writing the sentences, give
 it the detected shift — never the raw feed, or it will eventually narrate a
@@ -147,7 +171,34 @@ The rules live as data, so you can add one while watching a game:
 }
 ```
 
-Try it without any API key at all:
+### Watching it read a real match — free
+
+The free tier covers 2022–2024 in full, so you can point the brain at any
+finished match from those seasons and watch it work on real data. Two
+requests per match.
+
+```bash
+export API_FOOTBALL_KEY=...
+node scripts/replay-real.mjs 1035037        # Burnley v Man City, Aug 2023
+node scripts/replay-real.mjs 1035037 --save # keep it as a board
+```
+
+```
+Burnley 0–3 Manchester City
+2023-08-11 · Premier League · Turf Moor
+5-4-1 v 4-2-3-1
+
+ 23'  Manchester City freshen it up
+      Kovačić on for De Bruyne on 23', same job.
+ 61'  Burnley make a double change
+      Bruun Larsen and Zaroury on together for Koleosho and Amdouni.
+ 79'  Manchester City make a double change
+      Laporte and Gvardiol on together for Aké and Lewis.
+ 94'  Burnley down to ten
+      Zaroury sent off on 94'. The shape re-forms as 5-4-1.
+```
+
+Or with no key and no network at all:
 
 ```bash
 npm run replay
@@ -190,6 +241,7 @@ Don't scrape a site that has them — live match feeds carry database right
 npm run serve      # http://localhost:8080, exactly as Pages serves it
 npm test           # 15 checks, no API key required
 npm run replay     # run the brain over saved snapshots
+npm run replay:real -- <fixtureId>   # over a real 2022-24 match
 npm run lineups    # sweep today's fixtures (needs a key)
 ```
 

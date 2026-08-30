@@ -17,10 +17,16 @@ import { detectShifts, classify, readMatch } from "../scripts/lib/rules.mjs";
 
 let passed = 0;
 const failures = [];
+const pending = [];
 function test(name, fn) {
   try {
-    fn();
-    passed++;
+    const r = fn();
+    if (r && typeof r.then === "function") {
+      pending.push(r.then(() => { passed++; },
+        (err) => { failures.push(`${name}\n    ${err.message}`); }));
+    } else {
+      passed++;
+    }
   } catch (err) {
     failures.push(`${name}\n    ${err.message}`);
   }
@@ -120,13 +126,13 @@ test("every generated phase keeps players on the pitch", () => {
 
 /* ---- the normaliser ---- */
 
-test("a provider grid maps right-to-left as channel 0 upward", () => {
+test("channel 0 is the team's right, whatever column the feed uses", () => {
   const startXI = [
     { id: 1, name: "K. Eeper", number: 1, grid: "1:1" },
-    { id: 2, name: "R. Back", number: 2, grid: "2:1" },
+    { id: 2, name: "R. Rightback", number: 2, grid: "2:4" },
     { id: 3, name: "R. Centre", number: 4, grid: "2:2" },
     { id: 4, name: "L. Centre", number: 5, grid: "2:3" },
-    { id: 5, name: "L. Back", number: 3, grid: "2:4" },
+    { id: 5, name: "L. Leftback", number: 3, grid: "2:1" },
     { id: 6, name: "R. Pivot", number: 6, grid: "3:1" },
     { id: 7, name: "L. Pivot", number: 8, grid: "3:2" },
     { id: 8, name: "R. Wing", number: 7, grid: "4:1" },
@@ -137,9 +143,47 @@ test("a provider grid maps right-to-left as channel 0 upward", () => {
   const placed = gridToPositions(startXI, "home");
   assert.equal(placed.length, 11);
   const back = placed.filter((p) => p.line === 1).sort((a, b) => a.channel - b.channel);
-  assert.equal(displayName(back[0].name), "Back");
+  assert.equal(displayName(back[0].name), "Rightback");
+  assert.equal(displayName(back[3].name), "Leftback");
   assert.equal(back[0].channel, 0);
   assert.equal(placed.find((p) => p.line === 0).channel, 2, "keeper should be central");
+});
+
+test("column direction is pinned by a real provider payload", async () => {
+  // Burnley v Manchester City, 11 Aug 2023. Walker is a right-back and sits
+  // at grid column 4; Rico Lewis is a left-back at column 1. If this ever
+  // fails, every board is mirrored and the brain is wrong about which flank
+  // everything happened on.
+  const raw = JSON.parse(
+    await readFile(new URL("./fixtures/lineups-1035037.json", import.meta.url))
+  );
+  const city = raw.response.find((t) => t.team.name === "Manchester City");
+  const placed = gridToPositions(city.startXI.map((e) => e.player), "home");
+  const back = placed.filter((p) => p.line === 1).sort((a, b) => a.channel - b.channel);
+  assert.equal(displayName(back[0].name), "Walker", "channel 0 must be the right-back");
+  assert.equal(displayName(back[back.length - 1].name), "Lewis", "last channel must be the left-back");
+
+  const burnley = raw.response.find((t) => t.team.name === "Burnley");
+  const bPlaced = gridToPositions(burnley.startXI.map((e) => e.player), "home");
+  const bBack = bPlaced.filter((p) => p.line === 1).sort((a, b) => a.channel - b.channel);
+  assert.equal(displayName(bBack[0].name), "Roberts", "Burnley's right-back should lead");
+  assert.equal(displayName(bBack[bBack.length - 1].name), "Vitinho");
+});
+
+test("a whole provider response normalises into board players", async () => {
+  const raw = JSON.parse(
+    await readFile(new URL("./fixtures/lineups-1035037.json", import.meta.url))
+  );
+  const city = raw.response.find((t) => t.team.name === "Manchester City");
+  const n = normaliseLineup(city, "home");
+  assert.equal(n.formation, "4-2-3-1");
+  assert.equal(n.players.length, 11);
+  const rb = n.players.find((p) => p.pos === "RB");
+  assert.equal(rb.name, "Walker", "the right-back slot should hold the right-back");
+  const lb = n.players.find((p) => p.pos === "LB");
+  assert.equal(lb.name, "Lewis");
+  const st = n.players.find((p) => p.pos === "ST");
+  assert.equal(st.name, "Haaland");
 });
 
 test("a provider lineup seats into our slots", () => {
@@ -286,6 +330,8 @@ test("no snapshot pair ever produces an empty or undefined sentence", () => {
 });
 
 /* ---- report ---- */
+
+await Promise.all(pending);
 
 console.log(`\n${passed} passed, ${failures.length} failed\n`);
 for (const f of failures) console.log("  FAIL " + f + "\n");
