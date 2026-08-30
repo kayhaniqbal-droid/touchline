@@ -1,7 +1,7 @@
 <title>Touchline</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500;600;700&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 
 <style>
 /* ============ tokens: light is the bare :root ============ */
@@ -12,11 +12,11 @@
   --ink-2:#3C4A40;
   --ink-3:#6B7A70;
   --hair:rgba(16,23,17,.14);
-  --glass:rgba(255,255,255,.62);
-  --glass-2:rgba(255,255,255,.42);
-  --glass-edge:rgba(255,255,255,.85);
-  --glass-shadow:rgba(10,26,16,.16);
-  --sheen:rgba(255,255,255,.55);
+  --glass:#F4F6F3;
+  --glass-2:#ECF0EB;
+  --glass-edge:rgba(16,23,17,.16);
+  --glass-shadow:transparent;
+  --sheen:transparent;
   --accent:#C97A12;          /* floodlight sodium */
   --accent-soft:rgba(201,122,18,.16);
   --press:#D2373C;
@@ -37,11 +37,11 @@
     --ink-2:#AFC0B5;
     --ink-3:#7C8E84;
     --hair:rgba(234,242,236,.14);
-    --glass:rgba(255,255,255,.075);
-    --glass-2:rgba(255,255,255,.045);
-    --glass-edge:rgba(255,255,255,.20);
-    --glass-shadow:rgba(0,0,0,.55);
-    --sheen:rgba(255,255,255,.16);
+    --glass:#121A16;
+    --glass-2:#0E1512;
+    --glass-edge:rgba(234,242,236,.14);
+    --glass-shadow:transparent;
+    --sheen:transparent;
     --accent:#F2A63B;
     --accent-soft:rgba(242,166,59,.18);
     --press:#F0575C;
@@ -83,12 +83,9 @@
 *{box-sizing:border-box}
 body{
   margin:0;
-  background:
-    radial-gradient(1200px 700px at 18% -10%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 62%),
-    radial-gradient(900px 620px at 92% 4%, color-mix(in srgb, var(--away-fill) 16%, transparent), transparent 60%),
-    var(--ground);
+  background:var(--ground);
   color:var(--ink);
-  font-family:"Instrument Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family:"IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   font-size:14px; line-height:1.45;
   -webkit-font-smoothing:antialiased;
   min-height:100dvh;
@@ -97,39 +94,27 @@ h1,h2,h3{text-wrap:balance;margin:0}
 button,select,input,textarea{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:8px}
 
-/* ============ liquid glass ============ */
+/* ============ panels ============ */
 .glass{
   position:relative;
   background:var(--glass);
-  backdrop-filter:blur(22px) saturate(175%);
-  -webkit-backdrop-filter:blur(22px) saturate(175%);
   border:1px solid var(--glass-edge);
-  border-radius:20px;
-  box-shadow:
-    0 1px 0 var(--sheen) inset,
-    0 -14px 26px -22px rgba(0,0,0,.7) inset,
-    0 18px 40px -24px var(--glass-shadow);
+  border-radius:8px;
   overflow:hidden;
 }
-.glass::after{
-  content:"";position:absolute;inset:0;pointer-events:none;
-  background:linear-gradient(158deg, var(--sheen) 0%, transparent 26%, transparent 74%, rgba(255,255,255,.06) 100%);
-  opacity:.75;
-}
-.glass > *{position:relative;z-index:1}
 
 /* ============ shell ============ */
 .app{max-width:1680px;margin:0 auto;padding:14px 16px 22px;display:flex;flex-direction:column;gap:14px;min-height:100dvh}
 
 /* match bar */
 .matchbar{display:flex;align-items:center;gap:18px;padding:12px 16px;flex-wrap:wrap}
-.crest{width:34px;height:34px;border-radius:11px;display:grid;place-items:center;font-family:"Saira Condensed",sans-serif;font-weight:700;font-size:14px;letter-spacing:.04em;flex:none}
+.crest{width:34px;height:34px;border-radius:8px;display:grid;place-items:center;font-family:"IBM Plex Sans",sans-serif;font-weight:700;font-size:14px;letter-spacing:.04em;flex:none}
 .crest.home{background:var(--home-fill);color:var(--home-ink);box-shadow:0 0 0 1px var(--home-ring) inset}
 .crest.away{background:var(--away-fill);color:var(--away-ink);box-shadow:0 0 0 1px var(--away-ring) inset}
 .mb-team{display:flex;align-items:center;gap:10px;min-width:0}
-.mb-name{font-family:"Saira Condensed",sans-serif;font-weight:700;font-size:22px;letter-spacing:.01em;line-height:1;white-space:nowrap}
+.mb-name{font-family:"IBM Plex Sans",sans-serif;font-weight:600;font-size:20px;letter-spacing:0;line-height:1.1;white-space:nowrap}
 .mb-shape{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-3);letter-spacing:.06em;margin-top:3px}
-.mb-v{font-family:"Saira Condensed",sans-serif;color:var(--ink-3);font-size:14px;letter-spacing:.22em;text-transform:uppercase}
+.mb-v{font-family:"IBM Plex Sans",sans-serif;color:var(--ink-3);font-size:13px;letter-spacing:.06em;font-weight:500}
 .mb-meta{margin-left:auto;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .chip{
   font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;
@@ -143,7 +128,7 @@ button,select,input,textarea{font:inherit;color:inherit}
 .rail > section{flex:0 0 auto}
 .panel{padding:14px}
 .panel h2{
-  font-family:"Saira Condensed",sans-serif;font-weight:600;font-size:12px;letter-spacing:.18em;
+  font-family:"IBM Plex Sans",sans-serif;font-weight:600;font-size:11px;letter-spacing:.08em;
   text-transform:uppercase;color:var(--ink-3);margin-bottom:10px;display:flex;align-items:center;gap:8px
 }
 .panel h2 .rule{flex:1;height:1px;background:var(--hair)}
@@ -151,12 +136,10 @@ button,select,input,textarea{font:inherit;color:inherit}
 /* controls */
 .btn{
   appearance:none;border:1px solid var(--glass-edge);background:var(--glass-2);
-  border-radius:12px;padding:8px 11px;cursor:pointer;color:var(--ink);
-  font-size:12.5px;font-weight:500;transition:background .16s ease, transform .16s ease, border-color .16s ease;
-  box-shadow:0 1px 0 var(--sheen) inset;
+  border-radius:8px;padding:8px 11px;cursor:pointer;color:var(--ink);
+  font-size:12.5px;font-weight:500;transition:background .16s ease, border-color .16s ease;
 }
-.btn:hover{background:var(--glass);transform:translateY(-1px)}
-.btn:active{transform:translateY(0)}
+.btn:hover{background:var(--glass)}
 .btn.on{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 50%,transparent);color:var(--ink)}
 .btn.wide{width:100%;text-align:center}
 .btn.icon{padding:6px 8px;font-size:12px;line-height:1}
@@ -165,14 +148,14 @@ button,select,input,textarea{font:inherit;color:inherit}
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
 select.sel{
   width:100%;appearance:none;border:1px solid var(--glass-edge);background:var(--glass-2);color:var(--ink);
-  border-radius:12px;padding:8px 30px 8px 11px;cursor:pointer;font-family:"IBM Plex Mono",monospace;font-size:12.5px;
+  border-radius:8px;padding:8px 30px 8px 11px;cursor:pointer;font-family:"IBM Plex Mono",monospace;font-size:12.5px;
   background-image:linear-gradient(45deg,transparent 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,transparent 50%);
   background-position:calc(100% - 16px) 52%, calc(100% - 11px) 52%;
   background-size:5px 5px,5px 5px;background-repeat:no-repeat;
 }
 label.lbl{display:block;font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);margin-bottom:5px}
 input.txt,textarea.txt{
-  width:100%;border:1px solid var(--glass-edge);background:var(--glass-2);border-radius:10px;padding:7px 9px;font-size:13px;
+  width:100%;border:1px solid var(--glass-edge);background:var(--glass-2);border-radius:8px;padding:7px 9px;font-size:13px;
 }
 textarea.txt{resize:vertical;font-family:"IBM Plex Mono",monospace;font-size:12px;line-height:1.6}
 .toggle{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:6px 2px;cursor:pointer;border-radius:8px}
@@ -186,23 +169,23 @@ textarea.txt{resize:vertical;font-family:"IBM Plex Mono",monospace;font-size:12p
 /* team card */
 .teamcard{padding:12px 14px 14px}
 .teamhead{display:flex;align-items:center;gap:9px;margin-bottom:10px}
-.teamhead .nm{font-family:"Saira Condensed",sans-serif;font-weight:700;font-size:17px;line-height:1}
+.teamhead .nm{font-family:"IBM Plex Sans",sans-serif;font-weight:600;font-size:16px;line-height:1.15}
 .coach{font-size:11px;color:var(--ink-3);line-height:1.45;margin-top:6px}
 .roster{display:flex;flex-direction:column;gap:2px;margin-top:9px}
 .rrow{display:grid;grid-template-columns:26px 1fr auto;gap:8px;align-items:center;padding:4px 6px;border-radius:9px;cursor:pointer;transition:background .14s}
 .rrow:hover{background:var(--glass-2)}
 .rrow.sel{background:var(--accent-soft);box-shadow:0 0 0 1px color-mix(in srgb,var(--accent) 40%,transparent) inset}
-.rnum{font-family:"Saira Condensed",sans-serif;font-weight:700;font-size:13px;text-align:center;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.rnum{font-family:"IBM Plex Sans",sans-serif;font-weight:700;font-size:13px;text-align:center;color:var(--ink-3);font-variant-numeric:tabular-nums}
 .rnm{font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .rpos{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.05em;color:var(--ink-3)}
 
 /* ============ pitch ============ */
 .pitchWrap{display:flex;flex-direction:column;gap:10px;min-width:0}
 .pitchOuter{
-  position:relative;width:100%;aspect-ratio:1140/770;border-radius:22px;overflow:hidden;
+  position:relative;width:100%;aspect-ratio:1140/770;border-radius:8px;overflow:hidden;
   background:
     repeating-linear-gradient(90deg, var(--turf-a) 0 6.25%, var(--turf-b) 6.25% 12.5%);
-  box-shadow:0 26px 60px -30px rgba(0,0,0,.7), 0 0 0 1px var(--glass-edge);
+  box-shadow:0 0 0 1px var(--glass-edge);
   touch-action:none;
 }
 .pitchOuter::before{
@@ -224,7 +207,7 @@ body.drawing .tok{pointer-events:none}
   position:absolute;transform:translate(-50%,-50%);
   width:clamp(26px,3.1vw,40px);height:clamp(26px,3.1vw,40px);
   border-radius:50%;display:grid;place-items:center;cursor:grab;
-  font-family:"Saira Condensed",sans-serif;font-weight:700;font-variant-numeric:tabular-nums;
+  font-family:"IBM Plex Sans",sans-serif;font-weight:700;font-variant-numeric:tabular-nums;
   font-size:clamp(11px,1.35vw,16px);
   user-select:none;-webkit-user-select:none;touch-action:none;
   transition:left var(--dur,760ms) cubic-bezier(.32,.78,.28,1), top var(--dur,760ms) cubic-bezier(.32,.78,.28,1), box-shadow .18s, filter .18s;
@@ -238,9 +221,9 @@ body.drawing .tok{pointer-events:none}
 }
 .tok .nameplate{
   position:absolute;top:calc(100% + 4px);left:50%;transform:translateX(-50%);
-  font-family:"Instrument Sans",sans-serif;font-weight:600;font-size:clamp(8.5px,.82vw,11px);
+  font-family:"IBM Plex Sans",sans-serif;font-weight:600;font-size:clamp(8.5px,.82vw,11px);
   letter-spacing:.01em;white-space:nowrap;padding:1.5px 6px;border-radius:999px;
-  background:rgba(6,14,9,.62);color:#F2F7F3;backdrop-filter:blur(6px);
+  background:rgba(6,14,9,.88);color:#F2F7F3;
   box-shadow:0 0 0 .5px rgba(255,255,255,.16);
 }
 .tok.home .nameplate{background:rgba(240,244,248,.86);color:#12161C;box-shadow:0 0 0 .5px rgba(0,0,0,.18)}
@@ -284,9 +267,9 @@ body.nonames .tok .nameplate{display:none}
 .lg i{width:16px;height:2.5px;border-radius:2px;display:block}
 
 /* modal */
-.scrim{position:fixed;inset:0;background:rgba(4,10,7,.55);backdrop-filter:blur(6px);z-index:60;display:grid;place-items:center;padding:20px}
+.scrim{position:fixed;inset:0;background:rgba(4,10,7,.55);z-index:60;display:grid;place-items:center;padding:20px}
 .modal{width:min(560px,100%);padding:18px;max-height:86dvh;overflow:auto}
-.modal h3{font-family:"Saira Condensed",sans-serif;font-weight:700;font-size:20px;margin-bottom:4px}
+.modal h3{font-family:"IBM Plex Sans",sans-serif;font-weight:700;font-size:20px;margin-bottom:4px}
 .hint{font-size:12px;color:var(--ink-3);line-height:1.55}
 .hide{display:none !important}
 
@@ -305,13 +288,13 @@ body.nonames .tok .nameplate{display:none}
 .titem:hover{background:var(--glass-2);border-color:var(--glass-edge)}
 .titem.on{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 40%,transparent)}
 .titem .min{
-  font-family:"Saira Condensed",sans-serif;font-weight:700;font-size:14px;
+  font-family:"IBM Plex Sans",sans-serif;font-weight:700;font-size:14px;
   font-variant-numeric:tabular-nums;color:var(--accent);text-align:right;padding-top:1px
 }
 .titem .th{font-size:12.5px;font-weight:600;line-height:1.3}
 .titem .td{font-size:11.5px;color:var(--ink-3);line-height:1.45;margin-top:2px}
 .mh{
-  font-family:"Saira Condensed",sans-serif;font-weight:600;font-size:11.5px;letter-spacing:.17em;
+  font-family:"IBM Plex Sans",sans-serif;font-weight:600;font-size:11.5px;letter-spacing:.17em;
   text-transform:uppercase;color:var(--ink-3);margin:20px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--hair)
 }
 .blist{display:flex;flex-direction:column;gap:4px}
@@ -339,7 +322,7 @@ body.nonames .tok .nameplate{display:none}
 .ftx{min-width:0;display:flex;flex-direction:column;gap:2px}
 .ftm{display:block;font-size:12.5px;line-height:1.25}
 .fsh{display:block;font-family:"IBM Plex Mono",monospace;font-size:9.5px;color:var(--ink-3);letter-spacing:.05em}
-.fsc{font-family:"Saira Condensed",sans-serif;font-weight:700;font-size:15px;font-variant-numeric:tabular-nums;color:var(--ink-2);flex:none}
+.fsc{font-family:"IBM Plex Sans",sans-serif;font-weight:700;font-size:15px;font-variant-numeric:tabular-nums;color:var(--ink-2);flex:none}
 
 .src{font-size:11px;color:var(--ink-3);line-height:1.6}
 .src a{color:var(--ink-2)}
@@ -468,11 +451,7 @@ body.portrait section.coll.open > .teamhead{margin-bottom:10px}
         <p class="hint" style="margin:9px 0 0">Click a player on the pitch to rename or renumber. Shift-drag moves a whole team at once. Arrow keys nudge the selected player.</p>
       </section>
 
-      <section class="glass panel">
-        <h2>Where this came from<span class="rule"></span></h2>
-        <p class="src" id="dataSource" style="margin-bottom:8px;color:var(--accent)"></p>
-        <p class="src">Matchweek 1's twenty elevens are the confirmed line-ups, cross-checked across Sky Sports, WhoScored, ESPN, FotMob and club team news. Every later fixture is <em>projected</em>: each club is put out in the personnel and shape it used on the opening weekend, so a Matchweek 30 board is a starting position, not a prediction of the teamsheet. The formation menu leads with the shapes each head coach actually uses. Ask Claude to refresh a club and every future board for that club follows.</p>
-      </section>
+      <p class="src" id="dataSource" hidden></p>
     </aside>
 
     <!-- PITCH -->
@@ -2186,11 +2165,11 @@ function renderPNG(scale){
       g.lineWidth=1.6*scale; g.strokeStyle = t==="home" ? "#1B2027" : "#9CC8FF";
       g.beginPath(); g.arc(x,y,R,0,Math.PI*2); g.stroke();
       g.fillStyle = t==="home" ? "#12161C" : "#FFFFFF";
-      g.font="700 "+(17*scale)+"px 'Saira Condensed', Arial Narrow, sans-serif";
+      g.font="700 "+(17*scale)+"px 'IBM Plex Sans', Arial Narrow, sans-serif";
       g.textAlign="center"; g.textBaseline="middle";
       g.fillText(String(p.num===null||p.num===undefined||p.num===""?p.pos:p.num), x, y+scale);
       if(store.overlays.names){
-        g.font="600 "+(11*scale)+"px 'Instrument Sans', Helvetica, sans-serif";
+        g.font="600 "+(11*scale)+"px 'IBM Plex Sans', Helvetica, sans-serif";
         const w=g.measureText(p.name).width+11*scale;
         g.fillStyle = t==="home" ? "rgba(240,244,248,.88)" : "rgba(6,14,9,.68)";
         const ry=y+R+4*scale;
@@ -2205,7 +2184,7 @@ function renderPNG(scale){
   });
   // caption
   g.fillStyle="rgba(255,255,255,.82)";
-  g.font="600 "+(17*scale)+"px 'Saira Condensed', Arial Narrow, sans-serif";
+  g.font="600 "+(17*scale)+"px 'IBM Plex Sans', Arial Narrow, sans-serif";
   g.textAlign="left"; g.textBaseline="middle";
   g.fillText(store.teams.home.name+" "+store.teams.home.formation+"  v  "+store.teams.away.name+" "+store.teams.away.formation, PX, PX/2);
   g.textAlign="right";
