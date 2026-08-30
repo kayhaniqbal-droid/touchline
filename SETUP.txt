@@ -1,0 +1,60 @@
+TOUCHLINE — three steps to live
+===============================
+
+You need two accounts. Both free, both about two minutes.
+
+--------------------------------------------------------------------
+1. GITHUB  →  https://github.com/new
+--------------------------------------------------------------------
+   Name it            touchline
+   Visibility         PUBLIC   ← matters: Actions minutes are free and
+                                 unlimited on public repos, metered on
+                                 private ones. This is the whole reason
+                                 the project costs nothing.
+   Do NOT tick        "Add a README" (the repo already has one)
+
+   Then, in this folder:
+
+     git remote add origin https://github.com/YOUR-NAME/touchline.git
+     git push -u origin main
+
+--------------------------------------------------------------------
+2. PAGES  →  your repo → Settings → Pages
+--------------------------------------------------------------------
+   Build and deployment → Source:  "Deploy from a branch"
+   Branch:                          main   /(root)
+   Save.
+
+   About a minute later:  https://YOUR-NAME.github.io/touchline/
+
+   That is the site live, working, with all 380 fixtures. Send it to
+   whoever you like. Everything below only adds automatic updates.
+
+--------------------------------------------------------------------
+3. THE FREE API KEY  →  https://www.api-football.com/
+--------------------------------------------------------------------
+   Sign up. Free tier = 100 requests/day, and unlike most cheap APIs
+   it includes lineups, benches and live events.
+
+   Copy your key, then in your repo:
+     Settings → Secrets and variables → Actions → New repository secret
+     Name:   API_FOOTBALL_KEY
+     Value:  <your key>
+
+   Done. The lineup sweep starts finding real team sheets on its next run.
+
+--------------------------------------------------------------------
+BEFORE YOUR FIRST MATCHDAY
+--------------------------------------------------------------------
+   node scripts/verify-columns.mjs <a fixture id you watched>
+
+   Providers disagree about whether grid column 1 is a team's left or
+   right. Wrong guess = every board mirrored, silently. This prints the
+   back line right-to-left so you can check it against a match you saw.
+
+--------------------------------------------------------------------
+TRY IT RIGHT NOW, NO ACCOUNTS NEEDED
+--------------------------------------------------------------------
+   npm run serve     → http://localhost:8080
+   npm run replay    → watch the brain read a match
+   npm test          → 15 checks
