@@ -1,0 +1,281 @@
+{
+ "fixtureId": 999001,
+ "kickoff": "2026-08-24T19:00:00+00:00",
+ "status": "2H",
+ "minute": 63,
+ "goals": {
+  "home": 0,
+  "away": 1
+ },
+ "venue": "Craven Cottage",
+ "lineupsConfirmed": true,
+ "fetchedAt": "2026-08-30T00:56:31.307Z",
+ "teams": {
+  "home": {
+   "code": "FUL",
+   "name": "Fulham",
+   "nick": "Fulham",
+   "providerId": "FUL",
+   "coach": "Álvaro Arbeloa",
+   "formation": "4-2-3-1",
+   "derivedShape": false,
+   "bench": [],
+   "players": [
+    {
+     "id": "home-0",
+     "name": "Leno",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50,
+     "providerId": 5000,
+     "channel": null
+    },
+    {
+     "id": "home-1",
+     "name": "Castagne",
+     "num": 21,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85,
+     "providerId": 5001,
+     "channel": null
+    },
+    {
+     "id": "home-2",
+     "name": "Cuenca",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63,
+     "providerId": 5002,
+     "channel": null
+    },
+    {
+     "id": "home-3",
+     "name": "Bassey",
+     "num": 3,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37,
+     "providerId": 5003,
+     "channel": null
+    },
+    {
+     "id": "home-4",
+     "name": "Robinson",
+     "num": 33,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15,
+     "providerId": 5004,
+     "channel": null
+    },
+    {
+     "id": "home-5",
+     "name": "Berge",
+     "num": 16,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62,
+     "providerId": 5005,
+     "channel": null
+    },
+    {
+     "id": "home-6",
+     "name": "King",
+     "num": 24,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38,
+     "providerId": 5006,
+     "channel": null
+    },
+    {
+     "id": "home-7",
+     "name": "Bobb",
+     "num": 14,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84,
+     "providerId": 5007,
+     "channel": null
+    },
+    {
+     "id": "home-8",
+     "name": "Smith Rowe",
+     "num": 32,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50,
+     "providerId": 5022,
+     "channel": null
+    },
+    {
+     "id": "home-9",
+     "name": "Muniz",
+     "num": 9,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16,
+     "providerId": 5023,
+     "channel": null
+    },
+    {
+     "id": "home-10",
+     "name": "García",
+     "num": 7,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50,
+     "providerId": 5010,
+     "channel": null
+    }
+   ]
+  },
+  "away": {
+   "code": "CHE",
+   "name": "Chelsea",
+   "nick": "Chelsea",
+   "providerId": "CHE",
+   "coach": "Xabi Alonso",
+   "formation": "5-4-1",
+   "derivedShape": false,
+   "bench": [],
+   "players": [
+    {
+     "id": "away-0",
+     "name": "Sánchez",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50,
+     "providerId": 5011,
+     "channel": null
+    },
+    {
+     "id": "away-1",
+     "name": "Gusto",
+     "num": 27,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 12,
+     "providerId": 5015,
+     "channel": null
+    },
+    {
+     "id": "away-2",
+     "name": "Acheampong",
+     "num": 34,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 30,
+     "providerId": 5012,
+     "channel": null
+    },
+    {
+     "id": "away-3",
+     "name": "Chalobah",
+     "num": 14,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 87,
+     "y": 50,
+     "providerId": 5024,
+     "channel": null
+    },
+    {
+     "id": "away-4",
+     "name": "Lacroix",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 70,
+     "providerId": 5013,
+     "channel": null
+    },
+    {
+     "id": "away-5",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 88,
+     "providerId": 5014,
+     "channel": null
+    },
+    {
+     "id": "away-6",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "RM",
+     "role": "MID",
+     "x": 71,
+     "y": 14,
+     "providerId": 5020,
+     "channel": null
+    },
+    {
+     "id": "away-7",
+     "name": "James",
+     "num": 24,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 73,
+     "y": 40,
+     "providerId": 5016,
+     "channel": null
+    },
+    {
+     "id": "away-8",
+     "name": "Lavia",
+     "num": 45,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 73,
+     "y": 60,
+     "providerId": 5017,
+     "channel": null
+    },
+    {
+     "id": "away-9",
+     "name": "Hato",
+     "num": 21,
+     "pos": "LM",
+     "role": "MID",
+     "x": 71,
+     "y": 86,
+     "providerId": 5018,
+     "channel": null
+    },
+    {
+     "id": "away-10",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 59,
+     "y": 50,
+     "providerId": 5019,
+     "channel": null
+    }
+   ]
+  }
+ }
+}

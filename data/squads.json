@@ -1,0 +1,1330 @@
+{
+ "source": "Matchweek 1 confirmed line-ups, 2026/27",
+ "asOf": "2026-08-24",
+ "clubs": {
+  "ARS": {
+   "team": "Arsenal",
+   "nick": "Arsenal",
+   "short": "ARS",
+   "venue": "Emirates Stadium",
+   "formation": "4-2-3-1",
+   "coach": "Mikel Arteta",
+   "shapes": [
+    [
+     "4-2-3-1",
+     "used in Matchweek 1"
+    ],
+    [
+     "4-3-3",
+     "his main system"
+    ],
+    [
+     "3-2-4-1",
+     "in-possession shape via an inverted full-back"
+    ]
+   ],
+   "xi": [
+    [
+     "Raya",
+     1
+    ],
+    [
+     "White",
+     4
+    ],
+    [
+     "Mosquera",
+     3
+    ],
+    [
+     "Gabriel",
+     6
+    ],
+    [
+     "Calafiori",
+     33
+    ],
+    [
+     "Rice",
+     41
+    ],
+    [
+     "Lewis-Skelly",
+     49
+    ],
+    [
+     "Saka",
+     7
+    ],
+    [
+     "Ødegaard",
+     8
+    ],
+    [
+     "Tzolis",
+     17
+    ],
+    [
+     "Havertz",
+     29
+    ]
+   ]
+  },
+  "AVL": {
+   "team": "Aston Villa",
+   "nick": "Villa",
+   "short": "AVL",
+   "venue": "Villa Park",
+   "formation": "4-2-3-1",
+   "coach": "Unai Emery",
+   "shapes": [
+    [
+     "4-2-3-1",
+     "his main system, used in Matchweek 1"
+    ],
+    [
+     "4-4-2",
+     "resolute mid-block out of possession"
+    ]
+   ],
+   "xi": [
+    [
+     "Bizot",
+     40
+    ],
+    [
+     "Cash",
+     2
+    ],
+    [
+     "Lindelöf",
+     3
+    ],
+    [
+     "Torres",
+     14
+    ],
+    [
+     "Maatsen",
+     22
+    ],
+    [
+     "Kamara",
+     8
+    ],
+    [
+     "Gomes",
+     35
+    ],
+    [
+     "Hemmings",
+     53
+    ],
+    [
+     "Barkley",
+     6
+    ],
+    [
+     "McGinn",
+     7
+    ],
+    [
+     "Buendía",
+     10
+    ]
+   ]
+  },
+  "BOU": {
+   "team": "Bournemouth",
+   "nick": "Bournemouth",
+   "short": "BOU",
+   "venue": "Vitality Stadium",
+   "formation": "4-2-3-1",
+   "coach": "Marco Rose",
+   "shapes": [
+    [
+     "4-2-3-1",
+     "his main system, used in Matchweek 1"
+    ]
+   ],
+   "xi": [
+    [
+     "Petrović",
+     1
+    ],
+    [
+     "Smith",
+     15
+    ],
+    [
+     "Hill",
+     5
+    ],
+    [
+     "Silva",
+     14
+    ],
+    [
+     "Truffert",
+     3
+    ],
+    [
+     "Cook",
+     4
+    ],
+    [
+     "Scott",
+     8
+    ],
+    [
+     "Rayan",
+     37
+    ],
+    [
+     "Kluivert",
+     19
+    ],
+    [
+     "Tavernier",
+     16
+    ],
+    [
+     "Evanilson",
+     9
+    ]
+   ]
+  },
+  "BRE": {
+   "team": "Brentford",
+   "nick": "Brentford",
+   "short": "BRE",
+   "venue": "Gtech Community Stadium",
+   "formation": "4-2-3-1",
+   "coach": "Keith Andrews",
+   "shapes": [
+    [
+     "4-2-3-1",
+     "used in Matchweek 1"
+    ],
+    [
+     "4-4-2",
+     "his main system"
+    ],
+    [
+     "5-3-2",
+     "against advanced wing-backs"
+    ],
+    [
+     "5-4-1",
+     "against sides building centrally"
+    ]
+   ],
+   "xi": [
+    [
+     "Kelleher",
+     1
+    ],
+    [
+     "Kayode",
+     33
+    ],
+    [
+     "Ajer",
+     20
+    ],
+    [
+     "Collins",
+     22
+    ],
+    [
+     "Lewis-Potter",
+     23
+    ],
+    [
+     "Janelt",
+     27
+    ],
+    [
+     "Sangaré",
+     18
+    ],
+    [
+     "Ouattara",
+     11
+    ],
+    [
+     "Jensen",
+     8
+    ],
+    [
+     "Schade",
+     7
+    ],
+    [
+     "Thiago",
+     9
+    ]
+   ]
+  },
+  "BHA": {
+   "team": "Brighton",
+   "nick": "Brighton",
+   "short": "BHA",
+   "venue": "Amex Stadium",
+   "formation": "4-3-3",
+   "coach": "Fabian Hürzeler",
+   "shapes": [
+    [
+     "4-3-3",
+     "used in Matchweek 1"
+    ],
+    [
+     "4-2-3-1",
+     "his main system"
+    ],
+    [
+     "4-4-2",
+     "deep block away at strong sides"
+    ]
+   ],
+   "xi": [
+    [
+     "Verbruggen",
+     1
+    ],
+    [
+     "Vuskovic",
+     44
+    ],
+    [
+     "Dunk",
+     5
+    ],
+    [
+     "Boscagli",
+     21
+    ],
+    [
+     "De Cuyper",
+     29
+    ],
+    [
+     "Ayari",
+     26
+    ],
+    [
+     "Wieffer",
+     27
+    ],
+    [
+     "Groß",
+     13
+    ],
+    [
+     "Gómez",
+     25
+    ],
+    [
+     "Rutter",
+     10
+    ],
+    [
+     "Hinshelwood",
+     8
+    ]
+   ]
+  },
+  "CHE": {
+   "team": "Chelsea",
+   "nick": "Chelsea",
+   "short": "CHE",
+   "venue": "Stamford Bridge",
+   "formation": "3-4-2-1",
+   "coach": "Xabi Alonso",
+   "shapes": [
+    [
+     "3-4-2-1",
+     "his main system, used in Matchweek 1"
+    ],
+    [
+     "4-3-3",
+     "his base system at Real Madrid"
+    ]
+   ],
+   "xi": [
+    [
+     "Sánchez",
+     1
+    ],
+    [
+     "Acheampong",
+     34
+    ],
+    [
+     "Lacroix",
+     5
+    ],
+    [
+     "Colwill",
+     6
+    ],
+    [
+     "Gusto",
+     27
+    ],
+    [
+     "James",
+     24
+    ],
+    [
+     "Lavia",
+     45
+    ],
+    [
+     "Hato",
+     21
+    ],
+    [
+     "Palmer",
+     10
+    ],
+    [
+     "Rogers",
+     17
+    ],
+    [
+     "João Pedro",
+     20
+    ]
+   ]
+  },
+  "COV": {
+   "team": "Coventry City",
+   "nick": "Coventry",
+   "short": "COV",
+   "venue": "Coventry Building Society Arena",
+   "formation": "4-3-3",
+   "coach": "Frank Lampard",
+   "shapes": [
+    [
+     "4-3-3",
+     "used in Matchweek 1"
+    ],
+    [
+     "4-2-3-1",
+     "his main system"
+    ],
+    [
+     "4-4-2",
+     "compact block when defending"
+    ]
+   ],
+   "xi": [
+    [
+     "Rushworth",
+     19
+    ],
+    [
+     "van Ewijk",
+     27
+    ],
+    [
+     "Thomas",
+     4
+    ],
+    [
+     "Amenda",
+     24
+    ],
+    [
+     "Dasilva",
+     3
+    ],
+    [
+     "Onyeka",
+     16
+    ],
+    [
+     "Grimes",
+     6
+    ],
+    [
+     "Yirenkyi",
+     8
+    ],
+    [
+     "Tchaouna",
+     18
+    ],
+    [
+     "Simms",
+     9
+    ],
+    [
+     "Thomas-Asante",
+     23
+    ]
+   ]
+  },
+  "CRY": {
+   "team": "Crystal Palace",
+   "nick": "Palace",
+   "short": "CRY",
+   "venue": "Selhurst Park",
+   "formation": "3-4-2-1",
+   "coach": "Pierre Sage",
+   "shapes": [
+    [
+     "3-4-2-1",
+     "his main system, used in Matchweek 1"
+    ],
+    [
+     "3-4-3",
+     "wide front three variant"
+    ]
+   ],
+   "xi": [
+    [
+     "Henderson",
+     1
+    ],
+    [
+     "Canvot",
+     6
+    ],
+    [
+     "Richards",
+     26
+    ],
+    [
+     "Riad",
+     4
+    ],
+    [
+     "Muñoz",
+     2
+    ],
+    [
+     "Kamada",
+     18
+    ],
+    [
+     "Wharton",
+     20
+    ],
+    [
+     "Mitchell",
+     3
+    ],
+    [
+     "Nketiah",
+     9
+    ],
+    [
+     "McNeil",
+     11
+    ],
+    [
+     "Mateta",
+     14
+    ]
+   ]
+  },
+  "EVE": {
+   "team": "Everton",
+   "nick": "Everton",
+   "short": "EVE",
+   "venue": "Hill Dickinson Stadium",
+   "formation": "4-2-3-1",
+   "coach": "David Moyes",
+   "shapes": [
+    [
+     "4-2-3-1",
+     "his main system, used in Matchweek 1"
+    ],
+    [
+     "3-4-2-1",
+     "in-game switch to chase a game"
+    ],
+    [
+     "4-3-3",
+     "fluid shape in build-up"
+    ]
+   ],
+   "xi": [
+    [
+     "Pickford",
+     1
+    ],
+    [
+     "Röhl",
+     6
+    ],
+    [
+     "Branthwaite",
+     4
+    ],
+    [
+     "Tarkowski",
+     5
+    ],
+    [
+     "Mykolenko",
+     16
+    ],
+    [
+     "Armstrong",
+     30
+    ],
+    [
+     "Hackney",
+     45
+    ],
+    [
+     "Ndiaye",
+     10
+    ],
+    [
+     "Dewsbury-Hall",
+     8
+    ],
+    [
+     "George",
+     19
+    ],
+    [
+     "Barry",
+     11
+    ]
+   ]
+  },
+  "FUL": {
+   "team": "Fulham",
+   "nick": "Fulham",
+   "short": "FUL",
+   "venue": "Craven Cottage",
+   "formation": "4-2-3-1",
+   "coach": "Álvaro Arbeloa",
+   "shapes": [
+    [
+     "4-2-3-1",
+     "his main system, used in Matchweek 1"
+    ],
+    [
+     "4-3-3",
+     "possession-based alternate"
+    ]
+   ],
+   "xi": [
+    [
+     "Leno",
+     1
+    ],
+    [
+     "Castagne",
+     21
+    ],
+    [
+     "Cuenca",
+     4
+    ],
+    [
+     "Bassey",
+     3
+    ],
+    [
+     "Robinson",
+     33
+    ],
+    [
+     "Berge",
+     16
+    ],
+    [
+     "King",
+     24
+    ],
+    [
+     "Bobb",
+     14
+    ],
+    [
+     "Iwobi",
+     17
+    ],
+    [
+     "Palacios",
+     null
+    ],
+    [
+     "García",
+     7
+    ]
+   ]
+  },
+  "HUL": {
+   "team": "Hull City",
+   "nick": "Hull",
+   "short": "HUL",
+   "venue": "MKM Stadium",
+   "formation": "3-4-2-1",
+   "coach": "Sergej Jakirović",
+   "shapes": [
+    [
+     "3-4-2-1",
+     "his main system, used in Matchweek 1"
+    ],
+    [
+     "4-3-3",
+     "his shape through the Championship season"
+    ]
+   ],
+   "xi": [
+    [
+     "Tzolakis",
+     19
+    ],
+    [
+     "Egan",
+     15
+    ],
+    [
+     "Ajayi",
+     6
+    ],
+    [
+     "Mendy",
+     32
+    ],
+    [
+     "Coyle",
+     2
+    ],
+    [
+     "Slater",
+     27
+    ],
+    [
+     "Crooks",
+     25
+    ],
+    [
+     "Giles",
+     3
+    ],
+    [
+     "Belloumi",
+     10
+    ],
+    [
+     "Stroud",
+     21
+    ],
+    [
+     "McBurnie",
+     9
+    ]
+   ]
+  },
+  "IPS": {
+   "team": "Ipswich Town",
+   "nick": "Ipswich",
+   "short": "IPS",
+   "venue": "Portman Road",
+   "formation": "4-2-3-1",
+   "coach": "Gary O'Neil",
+   "shapes": [
+    [
+     "4-2-3-1",
+     "his main system, used in Matchweek 1"
+    ],
+    [
+     "3-5-2",
+     "back three with wing-backs, as at Wolves"
+    ],
+    [
+     "4-1-4-1",
+     "after in-game substitutions"
+    ]
+   ],
+   "xi": [
+    [
+     "Scherpen",
+     37
+    ],
+    [
+     "O'Shea",
+     26
+    ],
+    [
+     "Diop",
+     6
+    ],
+    [
+     "Greaves",
+     24
+    ],
+    [
+     "Davis",
+     3
+    ],
+    [
+     "Lukic",
+     23
+    ],
+    [
+     "Núñez",
+     32
+    ],
+    [
+     "Fatawu",
+     7
+    ],
+    [
+     "Enciso",
+     10
+    ],
+    [
+     "Maeda",
+     38
+    ],
+    [
+     "Emersonn",
+     19
+    ]
+   ]
+  },
+  "LEE": {
+   "team": "Leeds United",
+   "nick": "Leeds",
+   "short": "LEE",
+   "venue": "Elland Road",
+   "formation": "3-4-2-1",
+   "coach": "Daniel Farke",
+   "shapes": [
+    [
+     "3-4-2-1",
+     "his main system, used in Matchweek 1"
+    ],
+    [
+     "3-5-2",
+     "twin-striker variant"
+    ]
+   ],
+   "xi": [
+    [
+     "Trafford",
+     1
+    ],
+    [
+     "Bijol",
+     15
+    ],
+    [
+     "Rodon",
+     6
+    ],
+    [
+     "Muharemović",
+     5
+    ],
+    [
+     "Bogle",
+     2
+    ],
+    [
+     "Ampadu",
+     4
+    ],
+    [
+     "Stach",
+     18
+    ],
+    [
+     "Justin",
+     24
+    ],
+    [
+     "Wilson",
+     10
+    ],
+    [
+     "Aaronson",
+     11
+    ],
+    [
+     "Calvert-Lewin",
+     9
+    ]
+   ]
+  },
+  "LIV": {
+   "team": "Liverpool",
+   "nick": "Liverpool",
+   "short": "LIV",
+   "venue": "Anfield",
+   "formation": "4-2-3-1",
+   "coach": "Andoni Iraola",
+   "shapes": [
+    [
+     "4-2-3-1",
+     "his main system, used in Matchweek 1"
+    ],
+    [
+     "4-3-3",
+     "alternate base shape from Bournemouth"
+    ],
+    [
+     "3-2-4-1",
+     "inverted full-back build-up"
+    ]
+   ],
+   "xi": [
+    [
+     "Alisson",
+     1
+    ],
+    [
+     "Frimpong",
+     30
+    ],
+    [
+     "Jacquet",
+     5
+    ],
+    [
+     "Van Dijk",
+     4
+    ],
+    [
+     "Kerkez",
+     6
+    ],
+    [
+     "Szoboszlai",
+     8
+    ],
+    [
+     "Gravenberch",
+     38
+    ],
+    [
+     "Ngumoha",
+     73
+    ],
+    [
+     "Wirtz",
+     7
+    ],
+    [
+     "Gakpo",
+     18
+    ],
+    [
+     "Isak",
+     9
+    ]
+   ]
+  },
+  "MCI": {
+   "team": "Manchester City",
+   "nick": "Man City",
+   "short": "MCI",
+   "venue": "Etihad Stadium",
+   "formation": "4-2-3-1",
+   "coach": "Enzo Maresca",
+   "shapes": [
+    [
+     "4-2-3-1",
+     "his main system, used in Matchweek 1"
+    ],
+    [
+     "4-3-3",
+     "midfield variant against certain opponents"
+    ],
+    [
+     "3-2-4-1",
+     "build-up shape with an inverted full-back"
+    ]
+   ],
+   "xi": [
+    [
+     "Donnarumma",
+     1
+    ],
+    [
+     "Khusanov",
+     45
+    ],
+    [
+     "Dias",
+     3
+    ],
+    [
+     "Guéhi",
+     6
+    ],
+    [
+     "Gvardiol",
+     24
+    ],
+    [
+     "Anderson",
+     5
+    ],
+    [
+     "O'Reilly",
+     33
+    ],
+    [
+     "Semenyo",
+     42
+    ],
+    [
+     "Foden",
+     47
+    ],
+    [
+     "Lewis",
+     82
+    ],
+    [
+     "Haaland",
+     9
+    ]
+   ]
+  },
+  "MUN": {
+   "team": "Manchester United",
+   "nick": "Man Utd",
+   "short": "MUN",
+   "venue": "Old Trafford",
+   "formation": "4-2-3-1",
+   "coach": "Michael Carrick",
+   "shapes": [
+    [
+     "4-2-3-1",
+     "his main system, used in Matchweek 1"
+    ],
+    [
+     "5-3-2",
+     "against stronger sides or protecting a lead"
+    ],
+    [
+     "4-1-4-1",
+     "against deep blocks"
+    ]
+   ],
+   "xi": [
+    [
+     "Lammens",
+     1
+    ],
+    [
+     "Mazraoui",
+     3
+    ],
+    [
+     "Maguire",
+     5
+    ],
+    [
+     "Heaven",
+     26
+    ],
+    [
+     "Shaw",
+     23
+    ],
+    [
+     "Tielemans",
+     18
+    ],
+    [
+     "Santos",
+     17
+    ],
+    [
+     "Mbeumo",
+     19
+    ],
+    [
+     "Fernandes",
+     8
+    ],
+    [
+     "Dorgu",
+     13
+    ],
+    [
+     "Cunha",
+     10
+    ]
+   ]
+  },
+  "NEW": {
+   "team": "Newcastle United",
+   "nick": "Newcastle",
+   "short": "NEW",
+   "venue": "St James' Park",
+   "formation": "4-2-3-1",
+   "coach": "Matthias Jaissle",
+   "shapes": [
+    [
+     "4-2-3-1",
+     "his main system, used in Matchweek 1"
+    ],
+    [
+     "4-4-2",
+     "narrow diamond, his Salzburg signature"
+    ]
+   ],
+   "xi": [
+    [
+     "Hornicek",
+     21
+    ],
+    [
+     "Dedic",
+     37
+    ],
+    [
+     "Thiaw",
+     12
+    ],
+    [
+     "Botman",
+     4
+    ],
+    [
+     "Hall",
+     3
+    ],
+    [
+     "Steur",
+     14
+    ],
+    [
+     "Miley",
+     67
+    ],
+    [
+     "Elanga",
+     19
+    ],
+    [
+     "Wissa",
+     9
+    ],
+    [
+     "Barnes",
+     11
+    ],
+    [
+     "Osula",
+     10
+    ]
+   ]
+  },
+  "NFO": {
+   "team": "Nottingham Forest",
+   "nick": "Forest",
+   "short": "NFO",
+   "venue": "City Ground",
+   "formation": "3-4-2-1",
+   "coach": "Oliver Glasner",
+   "shapes": [
+    [
+     "3-4-2-1",
+     "his main system, used in Matchweek 1"
+    ],
+    [
+     "3-4-3",
+     "attacking variant"
+    ],
+    [
+     "5-4-1",
+     "deep block, wing-backs drop in"
+    ]
+   ],
+   "xi": [
+    [
+     "Sels",
+     26
+    ],
+    [
+     "Cunha",
+     23
+    ],
+    [
+     "Milenković",
+     31
+    ],
+    [
+     "Murillo",
+     5
+    ],
+    [
+     "Aina",
+     34
+    ],
+    [
+     "Sangaré",
+     6
+    ],
+    [
+     "McAtee",
+     24
+    ],
+    [
+     "Williams",
+     3
+    ],
+    [
+     "Ndoye",
+     14
+    ],
+    [
+     "Gibbs-White",
+     10
+    ],
+    [
+     "Jesus",
+     11
+    ]
+   ]
+  },
+  "SUN": {
+   "team": "Sunderland",
+   "nick": "Sunderland",
+   "short": "SUN",
+   "venue": "Stadium of Light",
+   "formation": "4-2-3-1",
+   "coach": "Régis Le Bris",
+   "shapes": [
+    [
+     "4-2-3-1",
+     "his main system, used in Matchweek 1"
+    ],
+    [
+     "4-3-3",
+     "attacking back-four shape"
+    ],
+    [
+     "3-5-2",
+     "against stronger possession sides"
+    ]
+   ],
+   "xi": [
+    [
+     "Roefs",
+     22
+    ],
+    [
+     "Meunier",
+     12
+    ],
+    [
+     "Ballard",
+     5
+    ],
+    [
+     "O'Nien",
+     13
+    ],
+    [
+     "Reinildo",
+     17
+    ],
+    [
+     "Sadiki",
+     27
+    ],
+    [
+     "Xhaka",
+     34
+    ],
+    [
+     "Hume",
+     32
+    ],
+    [
+     "Le Fée",
+     28
+    ],
+    [
+     "Angulo",
+     10
+    ],
+    [
+     "Brobbey",
+     9
+    ]
+   ]
+  },
+  "TOT": {
+   "team": "Tottenham Hotspur",
+   "nick": "Spurs",
+   "short": "TOT",
+   "venue": "Tottenham Hotspur Stadium",
+   "formation": "4-2-3-1",
+   "coach": "Roberto De Zerbi",
+   "shapes": [
+    [
+     "4-2-3-1",
+     "his main system, used in Matchweek 1"
+    ],
+    [
+     "4-3-3",
+     "earlier in his Spurs tenure"
+    ]
+   ],
+   "xi": [
+    [
+     "Kinsky",
+     31
+    ],
+    [
+     "Gray",
+     14
+    ],
+    [
+     "Senesi",
+     5
+    ],
+    [
+     "Van Hecke",
+     6
+    ],
+    [
+     "Robertson",
+     3
+    ],
+    [
+     "Bergvall",
+     15
+    ],
+    [
+     "Tonali",
+     16
+    ],
+    [
+     "Moore",
+     47
+    ],
+    [
+     "Gallagher",
+     8
+    ],
+    [
+     "Tel",
+     11
+    ],
+    [
+     "Richarlison",
+     9
+    ]
+   ]
+  }
+ }
+}

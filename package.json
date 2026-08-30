@@ -1,0 +1,14 @@
+{
+  "name": "touchline",
+  "private": true,
+  "type": "module",
+  "description": "A football tactics board that fills in its own lineups and reads how a match is being reshaped.",
+  "scripts": {
+    "lineups": "node scripts/fetch-lineups.mjs",
+    "watch": "node scripts/watch-match.mjs",
+    "replay": "node scripts/watch-match.mjs --replay test/fixtures/replay",
+    "verify:columns": "node scripts/verify-columns.mjs",
+    "test": "node test/run.mjs",
+    "serve": "node scripts/serve.mjs"
+  }
+}

@@ -1,0 +1,2298 @@
+<title>Touchline</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500;600;700&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+/* ============ tokens: light is the bare :root ============ */
+:root{
+  --ground:#EDF1EC;
+  --ground-2:#E2E8E1;
+  --ink:#101711;
+  --ink-2:#3C4A40;
+  --ink-3:#6B7A70;
+  --hair:rgba(16,23,17,.14);
+  --glass:rgba(255,255,255,.62);
+  --glass-2:rgba(255,255,255,.42);
+  --glass-edge:rgba(255,255,255,.85);
+  --glass-shadow:rgba(10,26,16,.16);
+  --sheen:rgba(255,255,255,.55);
+  --accent:#C97A12;          /* floodlight sodium */
+  --accent-soft:rgba(201,122,18,.16);
+  --press:#D2373C;
+  --run:#0E9C93;
+  --pass:#C97A12;
+  --turf-a:#1C6B3F;
+  --turf-b:#1A6339;
+  --line:rgba(255,255,255,.62);
+  --home-fill:#F5F7FA; --home-ink:#12161C; --home-ring:#1B2027;
+  --away-fill:#0B4FA8; --away-ink:#FFFFFF; --away-ring:#8FBEFF;
+  --focus:#0E9C93;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#080D0A;
+    --ground-2:#0D1512;
+    --ink:#EAF2EC;
+    --ink-2:#AFC0B5;
+    --ink-3:#7C8E84;
+    --hair:rgba(234,242,236,.14);
+    --glass:rgba(255,255,255,.075);
+    --glass-2:rgba(255,255,255,.045);
+    --glass-edge:rgba(255,255,255,.20);
+    --glass-shadow:rgba(0,0,0,.55);
+    --sheen:rgba(255,255,255,.16);
+    --accent:#F2A63B;
+    --accent-soft:rgba(242,166,59,.18);
+    --press:#F0575C;
+    --run:#3FD6C9;
+    --pass:#F2A63B;
+    --turf-a:#12482B;
+    --turf-b:#104226;
+    --line:rgba(255,255,255,.50);
+    --home-fill:#F5F7FA; --home-ink:#12161C; --home-ring:#FFFFFF;
+    --away-fill:#1462CF; --away-ink:#FFFFFF; --away-ring:#9CC8FF;
+    --focus:#3FD6C9;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#080D0A;
+  --ground-2:#0D1512;
+  --ink:#EAF2EC;
+  --ink-2:#AFC0B5;
+  --ink-3:#7C8E84;
+  --hair:rgba(234,242,236,.14);
+  --glass:rgba(255,255,255,.075);
+  --glass-2:rgba(255,255,255,.045);
+  --glass-edge:rgba(255,255,255,.20);
+  --glass-shadow:rgba(0,0,0,.55);
+  --sheen:rgba(255,255,255,.16);
+  --accent:#F2A63B;
+  --accent-soft:rgba(242,166,59,.18);
+  --press:#F0575C;
+  --run:#3FD6C9;
+  --pass:#F2A63B;
+  --turf-a:#12482B;
+  --turf-b:#104226;
+  --line:rgba(255,255,255,.50);
+  --home-fill:#F5F7FA; --home-ink:#12161C; --home-ring:#FFFFFF;
+  --away-fill:#1462CF; --away-ink:#FFFFFF; --away-ring:#9CC8FF;
+  --focus:#3FD6C9;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:
+    radial-gradient(1200px 700px at 18% -10%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 62%),
+    radial-gradient(900px 620px at 92% 4%, color-mix(in srgb, var(--away-fill) 16%, transparent), transparent 60%),
+    var(--ground);
+  color:var(--ink);
+  font-family:"Instrument Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size:14px; line-height:1.45;
+  -webkit-font-smoothing:antialiased;
+  min-height:100dvh;
+}
+h1,h2,h3{text-wrap:balance;margin:0}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:8px}
+
+/* ============ liquid glass ============ */
+.glass{
+  position:relative;
+  background:var(--glass);
+  backdrop-filter:blur(22px) saturate(175%);
+  -webkit-backdrop-filter:blur(22px) saturate(175%);
+  border:1px solid var(--glass-edge);
+  border-radius:20px;
+  box-shadow:
+    0 1px 0 var(--sheen) inset,
+    0 -14px 26px -22px rgba(0,0,0,.7) inset,
+    0 18px 40px -24px var(--glass-shadow);
+  overflow:hidden;
+}
+.glass::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(158deg, var(--sheen) 0%, transparent 26%, transparent 74%, rgba(255,255,255,.06) 100%);
+  opacity:.75;
+}
+.glass > *{position:relative;z-index:1}
+
+/* ============ shell ============ */
+.app{max-width:1680px;margin:0 auto;padding:14px 16px 22px;display:flex;flex-direction:column;gap:14px;min-height:100dvh}
+
+/* match bar */
+.matchbar{display:flex;align-items:center;gap:18px;padding:12px 16px;flex-wrap:wrap}
+.crest{width:34px;height:34px;border-radius:11px;display:grid;place-items:center;font-family:"Saira Condensed",sans-serif;font-weight:700;font-size:14px;letter-spacing:.04em;flex:none}
+.crest.home{background:var(--home-fill);color:var(--home-ink);box-shadow:0 0 0 1px var(--home-ring) inset}
+.crest.away{background:var(--away-fill);color:var(--away-ink);box-shadow:0 0 0 1px var(--away-ring) inset}
+.mb-team{display:flex;align-items:center;gap:10px;min-width:0}
+.mb-name{font-family:"Saira Condensed",sans-serif;font-weight:700;font-size:22px;letter-spacing:.01em;line-height:1;white-space:nowrap}
+.mb-shape{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-3);letter-spacing:.06em;margin-top:3px}
+.mb-v{font-family:"Saira Condensed",sans-serif;color:var(--ink-3);font-size:14px;letter-spacing:.22em;text-transform:uppercase}
+.mb-meta{margin-left:auto;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.chip{
+  font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;
+  padding:5px 9px;border-radius:999px;border:1px solid var(--hair);color:var(--ink-2);background:var(--glass-2);white-space:nowrap;
+}
+.chip.live{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 45%,transparent);background:var(--accent-soft)}
+
+/* stage */
+.stage{display:grid;grid-template-columns:296px minmax(0,1fr) 316px;gap:14px;align-items:start;flex:1;min-height:0}
+.rail{display:flex;flex-direction:column;gap:12px;min-width:0;max-height:calc(100dvh - 120px);overflow:auto;padding-right:2px;scrollbar-width:thin}
+.rail > section{flex:0 0 auto}
+.panel{padding:14px}
+.panel h2{
+  font-family:"Saira Condensed",sans-serif;font-weight:600;font-size:12px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-3);margin-bottom:10px;display:flex;align-items:center;gap:8px
+}
+.panel h2 .rule{flex:1;height:1px;background:var(--hair)}
+
+/* controls */
+.btn{
+  appearance:none;border:1px solid var(--glass-edge);background:var(--glass-2);
+  border-radius:12px;padding:8px 11px;cursor:pointer;color:var(--ink);
+  font-size:12.5px;font-weight:500;transition:background .16s ease, transform .16s ease, border-color .16s ease;
+  box-shadow:0 1px 0 var(--sheen) inset;
+}
+.btn:hover{background:var(--glass);transform:translateY(-1px)}
+.btn:active{transform:translateY(0)}
+.btn.on{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 50%,transparent);color:var(--ink)}
+.btn.wide{width:100%;text-align:center}
+.btn.icon{padding:6px 8px;font-size:12px;line-height:1}
+.btnrow{display:flex;gap:6px;flex-wrap:wrap}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+select.sel{
+  width:100%;appearance:none;border:1px solid var(--glass-edge);background:var(--glass-2);color:var(--ink);
+  border-radius:12px;padding:8px 30px 8px 11px;cursor:pointer;font-family:"IBM Plex Mono",monospace;font-size:12.5px;
+  background-image:linear-gradient(45deg,transparent 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,transparent 50%);
+  background-position:calc(100% - 16px) 52%, calc(100% - 11px) 52%;
+  background-size:5px 5px,5px 5px;background-repeat:no-repeat;
+}
+label.lbl{display:block;font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);margin-bottom:5px}
+input.txt,textarea.txt{
+  width:100%;border:1px solid var(--glass-edge);background:var(--glass-2);border-radius:10px;padding:7px 9px;font-size:13px;
+}
+textarea.txt{resize:vertical;font-family:"IBM Plex Mono",monospace;font-size:12px;line-height:1.6}
+.toggle{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:6px 2px;cursor:pointer;border-radius:8px}
+.toggle:hover{background:var(--glass-2)}
+.toggle span{font-size:12.5px}
+.sw{width:34px;height:19px;border-radius:999px;background:var(--hair);position:relative;flex:none;transition:background .18s ease}
+.sw::after{content:"";position:absolute;top:2px;left:2px;width:15px;height:15px;border-radius:50%;background:var(--ink-2);transition:transform .18s cubic-bezier(.3,1.4,.5,1), background .18s}
+.toggle.on .sw{background:color-mix(in srgb,var(--accent) 60%,transparent)}
+.toggle.on .sw::after{transform:translateX(15px);background:#fff}
+
+/* team card */
+.teamcard{padding:12px 14px 14px}
+.teamhead{display:flex;align-items:center;gap:9px;margin-bottom:10px}
+.teamhead .nm{font-family:"Saira Condensed",sans-serif;font-weight:700;font-size:17px;line-height:1}
+.coach{font-size:11px;color:var(--ink-3);line-height:1.45;margin-top:6px}
+.roster{display:flex;flex-direction:column;gap:2px;margin-top:9px}
+.rrow{display:grid;grid-template-columns:26px 1fr auto;gap:8px;align-items:center;padding:4px 6px;border-radius:9px;cursor:pointer;transition:background .14s}
+.rrow:hover{background:var(--glass-2)}
+.rrow.sel{background:var(--accent-soft);box-shadow:0 0 0 1px color-mix(in srgb,var(--accent) 40%,transparent) inset}
+.rnum{font-family:"Saira Condensed",sans-serif;font-weight:700;font-size:13px;text-align:center;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.rnm{font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rpos{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.05em;color:var(--ink-3)}
+
+/* ============ pitch ============ */
+.pitchWrap{display:flex;flex-direction:column;gap:10px;min-width:0}
+.pitchOuter{
+  position:relative;width:100%;aspect-ratio:1140/770;border-radius:22px;overflow:hidden;
+  background:
+    repeating-linear-gradient(90deg, var(--turf-a) 0 6.25%, var(--turf-b) 6.25% 12.5%);
+  box-shadow:0 26px 60px -30px rgba(0,0,0,.7), 0 0 0 1px var(--glass-edge);
+  touch-action:none;
+}
+.pitchOuter::before{
+  content:"";position:absolute;inset:0;pointer-events:none;z-index:6;
+  background:
+    radial-gradient(120% 90% at 50% -18%, rgba(255,255,255,.16), transparent 55%),
+    radial-gradient(140% 120% at 50% 120%, rgba(0,0,0,.26), transparent 58%);
+}
+.pitchInner{position:absolute;left:3.947%;top:5.844%;width:92.105%;height:88.312%}
+.pitchInner svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+#markings{z-index:1}
+#overlay{z-index:2}
+#tokens{position:absolute;inset:0;z-index:4;pointer-events:none}
+#ghosts{position:absolute;inset:0;z-index:3;pointer-events:none}
+.tok{pointer-events:auto}
+body.drawing .tok{pointer-events:none}
+
+.tok{
+  position:absolute;transform:translate(-50%,-50%);
+  width:clamp(26px,3.1vw,40px);height:clamp(26px,3.1vw,40px);
+  border-radius:50%;display:grid;place-items:center;cursor:grab;
+  font-family:"Saira Condensed",sans-serif;font-weight:700;font-variant-numeric:tabular-nums;
+  font-size:clamp(11px,1.35vw,16px);
+  user-select:none;-webkit-user-select:none;touch-action:none;
+  transition:left var(--dur,760ms) cubic-bezier(.32,.78,.28,1), top var(--dur,760ms) cubic-bezier(.32,.78,.28,1), box-shadow .18s, filter .18s;
+  will-change:left,top;
+}
+.tok.home{background:var(--home-fill);color:var(--home-ink);box-shadow:0 0 0 1.5px var(--home-ring), 0 6px 14px -6px rgba(0,0,0,.8)}
+.tok.away{background:var(--away-fill);color:var(--away-ink);box-shadow:0 0 0 1.5px var(--away-ring), 0 6px 14px -6px rgba(0,0,0,.8)}
+.tok::before{
+  content:"";position:absolute;inset:1px;border-radius:50%;pointer-events:none;
+  background:linear-gradient(168deg, rgba(255,255,255,.55), rgba(255,255,255,0) 46%);
+}
+.tok .nameplate{
+  position:absolute;top:calc(100% + 4px);left:50%;transform:translateX(-50%);
+  font-family:"Instrument Sans",sans-serif;font-weight:600;font-size:clamp(8.5px,.82vw,11px);
+  letter-spacing:.01em;white-space:nowrap;padding:1.5px 6px;border-radius:999px;
+  background:rgba(6,14,9,.62);color:#F2F7F3;backdrop-filter:blur(6px);
+  box-shadow:0 0 0 .5px rgba(255,255,255,.16);
+}
+.tok.home .nameplate{background:rgba(240,244,248,.86);color:#12161C;box-shadow:0 0 0 .5px rgba(0,0,0,.18)}
+.tok.dragging{cursor:grabbing;transition:none;filter:saturate(1.15);z-index:20}
+.tok.dragging, .tok.sel{box-shadow:0 0 0 2.5px var(--accent), 0 0 22px -2px var(--accent), 0 8px 18px -6px rgba(0,0,0,.8)}
+.tok:hover{filter:brightness(1.06);z-index:15}
+.tok.sel{z-index:14}
+body.nonames .tok .nameplate{display:none}
+.ghost{position:absolute;transform:translate(-50%,-50%);width:clamp(26px,3.1vw,40px);height:clamp(26px,3.1vw,40px);border-radius:50%;opacity:.5;animation:ghostfade var(--dur,760ms) ease-out forwards}
+@keyframes ghostfade{to{opacity:0;transform:translate(-50%,-50%) scale(.7)}}
+
+/* transport */
+.transport{display:flex;align-items:center;gap:10px;padding:10px 12px;flex-wrap:wrap}
+.phasestrip{display:flex;gap:6px;overflow-x:auto;flex:1;min-width:0;padding-bottom:2px;scrollbar-width:thin}
+.pchip{
+  flex:none;border:1px solid var(--glass-edge);background:var(--glass-2);border-radius:11px;padding:6px 11px;cursor:pointer;
+  font-size:12px;white-space:nowrap;display:flex;align-items:center;gap:7px;transition:background .16s,border-color .16s;
+}
+.pchip:hover{background:var(--glass)}
+.pchip.on{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 55%,transparent)}
+.pchip .idx{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--ink-3)}
+.pchip.on .idx{color:var(--accent)}
+.play{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;flex:none;font-size:14px}
+
+/* phase list */
+.plist{display:flex;flex-direction:column;gap:5px}
+.pitem{display:grid;grid-template-columns:auto 1fr auto;gap:8px;align-items:center;padding:7px 8px;border-radius:11px;cursor:pointer;border:1px solid transparent}
+.pitem:hover{background:var(--glass-2)}
+.pitem.on{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 38%,transparent)}
+.pitem .n{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--ink-3)}
+.pitem .t{font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pitem .acts{display:flex;gap:3px;opacity:0;transition:opacity .14s}
+.pitem:hover .acts,.pitem.on .acts{opacity:1}
+.mini{border:none;background:transparent;cursor:pointer;color:var(--ink-3);font-size:11px;padding:2px 4px;border-radius:6px}
+.mini:hover{background:var(--hair);color:var(--ink)}
+.note{font-size:12px;line-height:1.5;color:var(--ink-2);margin-top:9px;padding-top:9px;border-top:1px solid var(--hair)}
+
+/* tools legend */
+.legend{display:flex;gap:12px;flex-wrap:wrap;margin-top:9px}
+.lg{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--ink-3)}
+.lg i{width:16px;height:2.5px;border-radius:2px;display:block}
+
+/* modal */
+.scrim{position:fixed;inset:0;background:rgba(4,10,7,.55);backdrop-filter:blur(6px);z-index:60;display:grid;place-items:center;padding:20px}
+.modal{width:min(560px,100%);padding:18px;max-height:86dvh;overflow:auto}
+.modal h3{font-family:"Saira Condensed",sans-serif;font-weight:700;font-size:20px;margin-bottom:4px}
+.hint{font-size:12px;color:var(--ink-3);line-height:1.55}
+.hide{display:none !important}
+
+.mh{
+  font-family:"Saira Condensed",sans-serif;font-weight:600;font-size:11.5px;letter-spacing:.17em;
+  text-transform:uppercase;color:var(--ink-3);margin:20px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--hair)
+}
+.blist{display:flex;flex-direction:column;gap:4px}
+.brow{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center;padding:8px 10px;border-radius:11px;cursor:pointer;border:1px solid transparent}
+.brow:hover{background:var(--glass-2)}
+.brow.on{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 40%,transparent)}
+.brow .bn{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brow .bs{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--ink-3);letter-spacing:.04em}
+.brow .acts{display:flex;gap:2px;opacity:0;transition:opacity .14s}
+.brow:hover .acts,.brow.on .acts{opacity:1}
+
+.roundbar{display:grid;grid-template-columns:auto 1fr auto;gap:6px;align-items:center}
+.anybar{display:grid;grid-template-columns:1fr auto 1fr auto;gap:8px;align-items:center}
+.anybar .mb-v{font-size:12px;letter-spacing:.14em}
+.flist{display:grid;grid-template-columns:repeat(auto-fill,minmax(288px,1fr));gap:5px}
+.frow{
+  display:grid;grid-template-columns:auto 1fr auto;gap:9px;align-items:center;
+  padding:8px 10px;border-radius:12px;cursor:pointer;border:1px solid transparent;text-align:left;
+  background:transparent;font:inherit;color:inherit;width:100%
+}
+.frow:hover{background:var(--glass-2);border-color:var(--glass-edge)}
+.frow.on{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 40%,transparent)}
+.pips{display:flex;gap:3px;flex:none}
+.pip{width:9px;height:22px;border-radius:3px;box-shadow:0 0 0 1px rgba(0,0,0,.22) inset}
+.ftx{min-width:0;display:flex;flex-direction:column;gap:2px}
+.ftm{display:block;font-size:12.5px;line-height:1.25}
+.fsh{display:block;font-family:"IBM Plex Mono",monospace;font-size:9.5px;color:var(--ink-3);letter-spacing:.05em}
+.fsc{font-family:"Saira Condensed",sans-serif;font-weight:700;font-size:15px;font-variant-numeric:tabular-nums;color:var(--ink-2);flex:none}
+
+.src{font-size:11px;color:var(--ink-3);line-height:1.6}
+.src a{color:var(--ink-2)}
+
+.pitchScroll{min-width:0}
+
+@media (max-width:1240px){
+  .stage{grid-template-columns:minmax(0,1fr)}
+  .rail{
+    max-height:none;overflow:visible;
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(258px,1fr));align-items:start
+  }
+  .rail > section{flex:none;min-width:0}
+  .pitchWrap{order:-1}
+}
+@media (max-width:680px){
+  .app{padding:10px 10px 18px;gap:10px}
+  .matchbar{gap:10px;padding:11px 13px}
+  .mb-name{font-size:18px}
+  .mb-shape{font-size:10.5px}
+  .crest{width:30px;height:30px;border-radius:9px;font-size:12px}
+  .mb-meta{margin-left:0;width:100%}
+  .rail{grid-template-columns:1fr}
+  .modal{padding:15px}
+  .flist{grid-template-columns:1fr}
+  .anybar{grid-template-columns:1fr auto 1fr;row-gap:8px}
+  .anybar #anyGo{grid-column:1 / -1}
+  .transport{padding:8px 9px;gap:8px}
+}
+
+/* ---- portrait: the pitch turns to play up the screen ---- */
+body.portrait .pitchScroll{
+  position:relative;width:100%;aspect-ratio:770/1140;overflow:visible;max-height:none
+}
+body.portrait .pitchOuter{
+  position:absolute;top:50%;left:50%;aspect-ratio:auto;min-width:0;
+  width:calc(100% * 1140 / 770);
+  height:calc(100% * 770 / 1140);
+  transform:translate(-50%,-50%) rotate(-90deg);
+}
+body.portrait .tok{
+  width:clamp(30px,7.4vw,42px);height:clamp(30px,7.4vw,42px);
+  font-size:clamp(13px,3.5vw,17px);
+  transform:translate(-50%,-50%) rotate(90deg);
+}
+body.portrait .tok .nameplate{font-size:clamp(9px,2.5vw,11px)}
+body.portrait .transport{flex-wrap:wrap}
+body.portrait .phasestrip{order:3;flex:1 0 100%;padding-top:2px}
+body.portrait .pchip{padding:8px 12px;font-size:12.5px}
+body.portrait .btn{padding:9px 12px}
+body.portrait .rrow{padding:7px 6px}
+body.portrait .ghost{width:clamp(30px,7.4vw,42px);height:clamp(30px,7.4vw,42px)}
+
+/* ---- portrait: rail panels fold away so the pitch owns the screen ---- */
+body.portrait section.coll > h2,
+body.portrait section.coll > .teamhead{cursor:pointer;position:relative;padding-right:20px}
+body.portrait section.coll > h2::after,
+body.portrait section.coll > .teamhead::after{
+  content:"▾";position:absolute;right:0;top:50%;transform:translateY(-50%) rotate(-90deg);
+  color:var(--ink-3);font-size:11px;transition:transform .18s ease
+}
+body.portrait section.coll.open > h2::after,
+body.portrait section.coll.open > .teamhead::after{transform:translateY(-50%) rotate(0deg)}
+body.portrait section.coll > .teamhead{margin-bottom:0}
+body.portrait section.coll:not(.open) > *:not(h2):not(.teamhead){display:none}
+body.portrait section.coll.open > .teamhead{margin-bottom:10px}
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.001ms !important;transition-duration:.001ms !important}
+}
+</style>
+
+<div class="app">
+
+  <header class="glass matchbar">
+    <div class="mb-team">
+      <div class="crest home" id="crestH">FUL</div>
+      <div>
+        <div class="mb-name" id="nameH">Fulham</div>
+        <div class="mb-shape" id="shapeH">4-2-3-1</div>
+      </div>
+    </div>
+    <div class="mb-v">v</div>
+    <div class="mb-team">
+      <div class="crest away" id="crestA">CHE</div>
+      <div>
+        <div class="mb-name" id="nameA">Chelsea</div>
+        <div class="mb-shape" id="shapeA">3-4-2-1</div>
+      </div>
+    </div>
+    <div class="mb-meta">
+      <span class="chip live" id="chipScore">2–3</span>
+      <span class="chip" id="chipRound">Matchweek 1</span>
+      <span class="chip" id="chipVenue">Craven Cottage</span>
+      <span class="chip" id="chipDate">Mon 24 Aug 2026</span>
+      <button class="btn" id="boardsBtn">Matches &amp; boards</button>
+      <button class="btn icon" id="themeBtn" title="Switch theme">◐</button>
+    </div>
+  </header>
+
+  <div class="stage">
+
+    <!-- LEFT RAIL -->
+    <aside class="rail">
+      <section class="glass panel teamcard" data-team="home">
+        <div class="teamhead"><div class="crest home">FUL</div><div class="nm">Fulham</div></div>
+        <label class="lbl" for="fH">Formation</label>
+        <select class="sel" id="fH"></select>
+        <div class="coach" id="coachH"></div>
+        <div class="roster" id="rosterH"></div>
+      </section>
+
+      <section class="glass panel teamcard" data-team="away">
+        <div class="teamhead"><div class="crest away">CHE</div><div class="nm">Chelsea</div></div>
+        <label class="lbl" for="fA">Formation</label>
+        <select class="sel" id="fA"></select>
+        <div class="coach" id="coachA"></div>
+        <div class="roster" id="rosterA"></div>
+      </section>
+
+      <section class="glass panel">
+        <h2>Squad<span class="rule"></span></h2>
+        <div class="btnrow">
+          <button class="btn" id="importBtn">Load a lineup…</button>
+          <button class="btn" id="swapBtn">Swap ends</button>
+        </div>
+        <p class="hint" style="margin:9px 0 0">Click a player on the pitch to rename or renumber. Shift-drag moves a whole team at once. Arrow keys nudge the selected player.</p>
+      </section>
+
+      <section class="glass panel">
+        <h2>Where this came from<span class="rule"></span></h2>
+        <p class="src" id="dataSource" style="margin-bottom:8px;color:var(--accent)"></p>
+        <p class="src">Matchweek 1's twenty elevens are the confirmed line-ups, cross-checked across Sky Sports, WhoScored, ESPN, FotMob and club team news. Every later fixture is <em>projected</em>: each club is put out in the personnel and shape it used on the opening weekend, so a Matchweek 30 board is a starting position, not a prediction of the teamsheet. The formation menu leads with the shapes each head coach actually uses. Ask Claude to refresh a club and every future board for that club follows.</p>
+      </section>
+    </aside>
+
+    <!-- PITCH -->
+    <main class="pitchWrap">
+      <div class="pitchScroll">
+      <div class="pitchOuter" id="pitchOuter">
+        <div class="pitchInner" id="pitchInner">
+          <svg id="markings" viewBox="0 0 1050 680" aria-hidden="true"></svg>
+          <svg id="overlay" viewBox="0 0 1050 680"></svg>
+          <div id="ghosts"></div>
+          <div id="tokens"></div>
+        </div>
+      </div>
+      </div>
+
+      <div class="glass transport">
+        <button class="btn play" id="playBtn" title="Play through the phases">▶</button>
+        <div class="phasestrip" id="strip"></div>
+        <select class="sel" id="speedSel" style="width:auto;flex:none">
+          <option value="1500">Slow</option>
+          <option value="900" selected>Normal</option>
+          <option value="480">Quick</option>
+        </select>
+      </div>
+    </main>
+
+    <!-- RIGHT RAIL -->
+    <aside class="rail">
+      <section class="glass panel">
+        <h2>Phases<span class="rule"></span></h2>
+        <div class="plist" id="plist"></div>
+        <div class="btnrow" style="margin-top:9px">
+          <button class="btn" id="addPhase">Capture current</button>
+          <button class="btn" id="dupPhase">Duplicate</button>
+        </div>
+        <div class="note" id="phaseNote"></div>
+      </section>
+
+      <section class="glass panel">
+        <h2>Draw<span class="rule"></span></h2>
+        <div class="grid3">
+          <button class="btn on" data-tool="move">Move</button>
+          <button class="btn" data-tool="pass">Pass</button>
+          <button class="btn" data-tool="run">Run</button>
+          <button class="btn" data-tool="press">Press</button>
+          <button class="btn" data-tool="zone">Zone</button>
+          <button class="btn" data-tool="erase">Erase</button>
+        </div>
+        <div class="legend">
+          <span class="lg"><i style="background:var(--pass)"></i>Pass</span>
+          <span class="lg"><i style="background:var(--run)"></i>Run</span>
+          <span class="lg"><i style="background:var(--press)"></i>Press</span>
+        </div>
+        <div class="btnrow" style="margin-top:9px">
+          <button class="btn wide" id="clearDraw">Clear drawings on this phase</button>
+        </div>
+      </section>
+
+      <section class="glass panel">
+        <h2>Overlays<span class="rule"></span></h2>
+        <div id="overlayToggles"></div>
+      </section>
+
+      <section class="glass panel">
+        <h2>Take it with you<span class="rule"></span></h2>
+        <div class="grid2">
+          <button class="btn" id="pngBtn">Save image</button>
+          <button class="btn" id="jsonBtn">Save board</button>
+        </div>
+        <div class="btnrow" style="margin-top:6px">
+          <button class="btn wide" id="resetBtn">Reset to the confirmed XIs</button>
+        </div>
+      </section>
+    </aside>
+  </div>
+</div>
+
+<!-- player editor -->
+<div class="scrim hide" id="playerScrim">
+  <div class="glass modal">
+    <h3 id="peTitle">Player</h3>
+    <p class="hint" id="peSub"></p>
+    <div style="display:grid;grid-template-columns:80px 1fr;gap:10px;margin-top:14px">
+      <div><label class="lbl" for="peNum">Number</label><input class="txt" id="peNum" inputmode="numeric"></div>
+      <div><label class="lbl" for="peName">Name</label><input class="txt" id="peName"></div>
+    </div>
+    <div class="btnrow" style="margin-top:14px;justify-content:flex-end">
+      <button class="btn" id="peClose">Done</button>
+    </div>
+  </div>
+</div>
+
+<!-- matches and boards -->
+<div class="scrim hide" id="boardScrim">
+  <div class="glass modal" style="width:min(740px,100%)">
+    <h3>Matches &amp; boards</h3>
+    <p class="hint">Each board keeps its own phases and drawings. Open a match to start one; your work stays where you left it.</p>
+
+    <h4 class="mh">Your boards</h4>
+    <div class="blist" id="blist"></div>
+
+    <h4 class="mh">Premier League 2026/27</h4>
+    <div class="roundbar">
+      <button class="btn icon" id="rPrev" aria-label="Previous matchweek">‹</button>
+      <select class="sel" id="roundSel"></select>
+      <button class="btn icon" id="rNext" aria-label="Next matchweek">›</button>
+    </div>
+    <p class="hint" id="roundNote" style="margin:8px 0 2px"></p>
+    <div class="flist" id="flist"></div>
+
+    <h4 class="mh">Any matchup</h4>
+    <div class="anybar">
+      <select class="sel" id="anyH"></select>
+      <span class="mb-v">v</span>
+      <select class="sel" id="anyA"></select>
+      <button class="btn" id="anyGo">Open</button>
+    </div>
+
+    <div class="btnrow" style="margin-top:16px;justify-content:space-between">
+      <button class="btn" id="importFromBoards">Paste a lineup instead…</button>
+      <button class="btn" id="boardClose">Done</button>
+    </div>
+  </div>
+</div>
+
+<!-- lineup import -->
+<div class="scrim hide" id="importScrim">
+  <div class="glass modal">
+    <h3>Load a lineup</h3>
+    <p class="hint">Paste a team sheet the way it is usually written — goalkeeper first, then back to front, right to left. One team per box. The formation menu decides where each name lands.</p>
+    <div style="margin-top:14px">
+      <label class="lbl" for="impH">Home team — attacks right</label>
+      <div style="display:grid;grid-template-columns:1fr 130px;gap:6px;margin-bottom:6px">
+        <input class="txt" id="impTeamH" placeholder="Fulham">
+        <select class="sel" id="impFH"></select>
+      </div>
+      <textarea class="txt" id="impH" rows="3" placeholder="Leno; Castagne, Cuenca, Bassey, Robinson; Berge, King; Bobb, Iwobi, Palacios; García"></textarea>
+    </div>
+    <div style="margin-top:12px">
+      <label class="lbl" for="impA">Away team — attacks left</label>
+      <div style="display:grid;grid-template-columns:1fr 130px;gap:6px;margin-bottom:6px">
+        <input class="txt" id="impTeamA" placeholder="Chelsea">
+        <select class="sel" id="impFA"></select>
+      </div>
+      <textarea class="txt" id="impA" rows="3" placeholder="Sánchez; Acheampong, Lacroix, Colwill; Gusto, James, Lavia, Hato; Palmer, Rogers; João Pedro"></textarea>
+    </div>
+    <p class="hint" style="margin-top:10px">Numbers are kept if you write them, like <span style="font-family:'IBM Plex Mono',monospace">1 Leno</span>.</p>
+    <div class="btnrow" style="margin-top:14px;justify-content:flex-end">
+      <button class="btn" id="impCancel">Cancel</button>
+      <button class="btn on" id="impApply">Load onto the pitch</button>
+    </div>
+  </div>
+</div>
+
+<!-- small prompt / confirm -->
+<div class="scrim hide" id="askScrim">
+  <div class="glass modal" style="width:min(400px,100%)">
+    <h3 id="askTitle">Name this phase</h3>
+    <p class="hint" id="askBody"></p>
+    <input class="txt" id="askInput" style="margin-top:12px">
+    <div class="btnrow" style="margin-top:14px;justify-content:flex-end">
+      <button class="btn" id="askNo">Cancel</button>
+      <button class="btn on" id="askYes">Save</button>
+    </div>
+  </div>
+</div>
+
+<script>
+"use strict";
+
+/* A prompt/confirm pair that works inside a sandboxed frame,
+   where window.prompt is not guaranteed to be available. */
+const askScrim=document.getElementById("askScrim");
+let askResolve=null;
+function ask(opts){
+  document.getElementById("askTitle").textContent=opts.title;
+  document.getElementById("askBody").textContent=opts.body||"";
+  document.getElementById("askBody").style.display=opts.body?"block":"none";
+  const inp=document.getElementById("askInput");
+  inp.style.display = opts.input===false ? "none" : "block";
+  inp.value = opts.value||"";
+  document.getElementById("askYes").textContent=opts.confirmLabel||"Save";
+  askScrim.classList.remove("hide");
+  setTimeout(function(){ (opts.input===false?document.getElementById("askYes"):inp).focus(); },20);
+  return new Promise(function(res){ askResolve=res; });
+}
+function askDone(v){
+  askScrim.classList.add("hide");
+  if(askResolve){ const r=askResolve; askResolve=null; r(v); }
+}
+document.getElementById("askYes").addEventListener("click", function(){
+  askDone(document.getElementById("askInput").style.display==="none" ? true : document.getElementById("askInput").value);
+});
+document.getElementById("askNo").addEventListener("click", function(){ askDone(null); });
+askScrim.addEventListener("click", function(e){ if(e.target===this) askDone(null); });
+document.getElementById("askInput").addEventListener("keydown", function(e){
+  if(e.key==="Enter"){ e.preventDefault(); askDone(this.value); }
+});
+
+/* ============================================================
+   Formations. Coordinates are in "team space": x runs 0 (own
+   goal) to 100 (opponent goal); y is 0..100 with larger y on the
+   team's RIGHT when they attack to the right of the screen.
+   Slots are listed in team-sheet order: GK, back line right to
+   left, then forward.
+   ============================================================ */
+const FORMATIONS = {
+  "4-4-2":   [["GK","GK",4,50],["RB","DEF",18,85],["RCB","DEF",13,63],["LCB","DEF",13,37],["LB","DEF",18,15],["RM","MID",32,86],["RCM","MID",28,60],["LCM","MID",28,40],["LM","MID",32,14],["RS","FWD",43,60],["LS","FWD",43,40]],
+  "4-2-3-1": [["GK","GK",4,50],["RB","DEF",18,85],["RCB","DEF",13,63],["LCB","DEF",13,37],["LB","DEF",18,15],["RDM","MID",25,62],["LDM","MID",25,38],["RW","MID",35,84],["AM","MID",34,50],["LW","MID",35,16],["ST","FWD",45,50]],
+  "4-3-3":   [["GK","GK",4,50],["RB","DEF",18,85],["RCB","DEF",13,63],["LCB","DEF",13,37],["LB","DEF",18,15],["DM","MID",25,50],["RCM","MID",32,68],["LCM","MID",32,32],["RW","FWD",43,84],["ST","FWD",46,50],["LW","FWD",43,16]],
+  "4-3-2-1": [["GK","GK",4,50],["RB","DEF",18,85],["RCB","DEF",13,63],["LCB","DEF",13,37],["LB","DEF",18,15],["DM","MID",24,50],["RCM","MID",31,70],["LCM","MID",31,30],["RAM","FWD",39,62],["LAM","FWD",39,38],["ST","FWD",46,50]],
+  "4-1-4-1": [["GK","GK",4,50],["RB","DEF",18,85],["RCB","DEF",13,63],["LCB","DEF",13,37],["LB","DEF",18,15],["DM","MID",23,50],["RM","MID",33,86],["RCM","MID",31,62],["LCM","MID",31,38],["LM","MID",33,14],["ST","FWD",43,50]],
+  "4-2-2-2": [["GK","GK",4,50],["RB","DEF",18,85],["RCB","DEF",13,63],["LCB","DEF",13,37],["LB","DEF",18,15],["RDM","MID",25,62],["LDM","MID",25,38],["RAM","MID",35,76],["LAM","MID",35,24],["RS","FWD",44,60],["LS","FWD",44,40]],
+  "4-4-1-1": [["GK","GK",4,50],["RB","DEF",18,85],["RCB","DEF",13,63],["LCB","DEF",13,37],["LB","DEF",18,15],["RM","MID",31,86],["RCM","MID",27,60],["LCM","MID",27,40],["LM","MID",31,14],["CF","FWD",38,50],["ST","FWD",45,50]],
+  "4-2-4":   [["GK","GK",4,50],["RB","DEF",18,85],["RCB","DEF",13,63],["LCB","DEF",13,37],["LB","DEF",18,15],["RCM","MID",27,62],["LCM","MID",27,38],["RW","FWD",42,88],["RS","FWD",45,62],["LS","FWD",45,38],["LW","FWD",42,12]],
+  "3-4-3":   [["GK","GK",4,50],["RCB","DEF",14,72],["CB","DEF",12,50],["LCB","DEF",14,28],["RWB","MID",27,90],["RCM","MID",25,60],["LCM","MID",25,40],["LWB","MID",27,10],["RW","FWD",41,84],["ST","FWD",45,50],["LW","FWD",41,16]],
+  "3-4-2-1": [["GK","GK",4,50],["RCB","DEF",14,72],["CB","DEF",12,50],["LCB","DEF",14,28],["RWB","MID",28,90],["RCM","MID",25,60],["LCM","MID",25,40],["LWB","MID",28,10],["RAM","FWD",38,66],["LAM","FWD",38,34],["ST","FWD",45,50]],
+  "3-5-2":   [["GK","GK",4,50],["RCB","DEF",14,72],["CB","DEF",12,50],["LCB","DEF",14,28],["RWB","MID",29,90],["RCM","MID",27,66],["DM","MID",23,50],["LCM","MID",27,34],["LWB","MID",29,10],["RS","FWD",43,60],["LS","FWD",43,40]],
+  "3-2-4-1": [["GK","GK",5,50],["RCB","DEF",15,74],["CB","DEF",13,50],["LCB","DEF",15,26],["RDM","MID",26,62],["LDM","MID",26,38],["RW","MID",40,92],["RAM","MID",36,64],["LAM","MID",36,36],["LW","MID",40,8],["ST","FWD",45,50]],
+  "5-3-2":   [["GK","GK",4,50],["RWB","DEF",22,88],["RCB","DEF",16,70],["CB","DEF",14,50],["LCB","DEF",16,30],["LWB","DEF",22,12],["RCM","MID",30,68],["CM","MID",28,50],["LCM","MID",30,32],["RS","FWD",42,60],["LS","FWD",42,40]],
+  "5-4-1":   [["GK","GK",4,50],["RWB","DEF",21,88],["RCB","DEF",15,70],["CB","DEF",13,50],["LCB","DEF",15,30],["LWB","DEF",21,12],["RM","MID",29,86],["RCM","MID",27,60],["LCM","MID",27,40],["LM","MID",29,14],["ST","FWD",41,50]],
+  "2-3-5":   [["GK","GK",4,50],["RB","DEF",14,64],["LB","DEF",14,36],["RH","MID",26,78],["CH","MID",24,50],["LH","MID",26,22],["OR","FWD",42,90],["IR","FWD",40,70],["CF","FWD",46,50],["IL","FWD",40,30],["OL","FWD",42,10]]
+};
+const FORMATION_KEYS = Object.keys(FORMATIONS);
+
+/* Club kit colours: token fill, the number on it, and the ring that
+   keeps a white or black shirt legible on grass. */
+const CLUBS = {
+  ARS:["#EF0107","#FFFFFF","#FFD9DA"], COV:["#7CD1F2","#0B2237","#0B2237"],
+  BRE:["#D6001C","#FFFFFF","#FFD9DE"], TOT:["#F4F6FA","#0E1740","#0E1740"],
+  EVE:["#0B47B5","#FFFFFF","#A8C6FF"], CRY:["#C4122E","#FFFFFF","#FFC9D1"],
+  HUL:["#FBB040","#141210","#141210"], MUN:["#DA291C","#FFFFFF","#FFD2CE"],
+  IPS:["#2E5FB0","#FFFFFF","#B9CEF3"], SUN:["#E8112D","#FFFFFF","#FFCBD2"],
+  NFO:["#DD0000","#FFFFFF","#FFCFCF"], LEE:["#F5F7FA","#12336B","#12336B"],
+  BHA:["#0057B8","#FFFFFF","#A9CBF5"], AVL:["#670E36","#95BFE5","#95BFE5"],
+  MCI:["#7EBBE4","#0A2440","#0A2440"], BOU:["#D0021B","#FFFFFF","#FFCBD1"],
+  NEW:["#1B1A1C","#FFFFFF","#E8E8EA"], LIV:["#C8102E","#FFFFFF","#FFCBD3"],
+  FUL:["#F5F7FA","#12161C","#12161C"], CHE:["#0B4FA8","#FFFFFF","#9CC8FF"]
+};
+function kit(short){ return CLUBS[short] || ["#8A93A5","#0B0F12","#DDE3EC"]; }
+
+/* Every club's baseline: the eleven and shape they actually used in
+   Matchweek 1. Any fixture in the season is projected by putting two
+   of these baselines on the pitch. Update a club here and every
+   future board for that club follows. */
+const BASELINE_AS_OF = "Matchweek 1 · 24 Aug 2026";
+const SEED_SQUADS = {
+  ARS:{team:"Arsenal",nick:"Arsenal",short:"ARS",venue:"Emirates Stadium",formation:"4-2-3-1",coach:"Mikel Arteta",shapes:[["4-2-3-1","used in Matchweek 1"], ["4-3-3","his main system"], ["3-2-4-1","in-possession shape via an inverted full-back"]],xi:[["Raya",1], ["White",4], ["Mosquera",3], ["Gabriel",6], ["Calafiori",33], ["Rice",41], ["Lewis-Skelly",49], ["Saka",7], ["Ødegaard",8], ["Tzolis",17], ["Havertz",29]]},
+  AVL:{team:"Aston Villa",nick:"Villa",short:"AVL",venue:"Villa Park",formation:"4-2-3-1",coach:"Unai Emery",shapes:[["4-2-3-1","his main system, used in Matchweek 1"], ["4-4-2","resolute mid-block out of possession"]],xi:[["Bizot",40], ["Cash",2], ["Lindelöf",3], ["Torres",14], ["Maatsen",22], ["Kamara",8], ["Gomes",35], ["Hemmings",53], ["Barkley",6], ["McGinn",7], ["Buendía",10]]},
+  BOU:{team:"Bournemouth",nick:"Bournemouth",short:"BOU",venue:"Vitality Stadium",formation:"4-2-3-1",coach:"Marco Rose",shapes:[["4-2-3-1","his main system, used in Matchweek 1"]],xi:[["Petrović",1], ["Smith",15], ["Hill",5], ["Silva",14], ["Truffert",3], ["Cook",4], ["Scott",8], ["Rayan",37], ["Kluivert",19], ["Tavernier",16], ["Evanilson",9]]},
+  BRE:{team:"Brentford",nick:"Brentford",short:"BRE",venue:"Gtech Community Stadium",formation:"4-2-3-1",coach:"Keith Andrews",shapes:[["4-2-3-1","used in Matchweek 1"], ["4-4-2","his main system"], ["5-3-2","against advanced wing-backs"], ["5-4-1","against sides building centrally"]],xi:[["Kelleher",1], ["Kayode",33], ["Ajer",20], ["Collins",22], ["Lewis-Potter",23], ["Janelt",27], ["Sangaré",18], ["Ouattara",11], ["Jensen",8], ["Schade",7], ["Thiago",9]]},
+  BHA:{team:"Brighton",nick:"Brighton",short:"BHA",venue:"Amex Stadium",formation:"4-3-3",coach:"Fabian Hürzeler",shapes:[["4-3-3","used in Matchweek 1"], ["4-2-3-1","his main system"], ["4-4-2","deep block away at strong sides"]],xi:[["Verbruggen",1], ["Vuskovic",44], ["Dunk",5], ["Boscagli",21], ["De Cuyper",29], ["Ayari",26], ["Wieffer",27], ["Groß",13], ["Gómez",25], ["Rutter",10], ["Hinshelwood",8]]},
+  CHE:{team:"Chelsea",nick:"Chelsea",short:"CHE",venue:"Stamford Bridge",formation:"3-4-2-1",coach:"Xabi Alonso",shapes:[["3-4-2-1","his main system, used in Matchweek 1"], ["4-3-3","his base system at Real Madrid"]],xi:[["Sánchez",1], ["Acheampong",34], ["Lacroix",5], ["Colwill",6], ["Gusto",27], ["James",24], ["Lavia",45], ["Hato",21], ["Palmer",10], ["Rogers",17], ["João Pedro",20]]},
+  COV:{team:"Coventry City",nick:"Coventry",short:"COV",venue:"Coventry Building Society Arena",formation:"4-3-3",coach:"Frank Lampard",shapes:[["4-3-3","used in Matchweek 1"], ["4-2-3-1","his main system"], ["4-4-2","compact block when defending"]],xi:[["Rushworth",19], ["van Ewijk",27], ["Thomas",4], ["Amenda",24], ["Dasilva",3], ["Onyeka",16], ["Grimes",6], ["Yirenkyi",8], ["Tchaouna",18], ["Simms",9], ["Thomas-Asante",23]]},
+  CRY:{team:"Crystal Palace",nick:"Palace",short:"CRY",venue:"Selhurst Park",formation:"3-4-2-1",coach:"Pierre Sage",shapes:[["3-4-2-1","his main system, used in Matchweek 1"], ["3-4-3","wide front three variant"]],xi:[["Henderson",1], ["Canvot",6], ["Richards",26], ["Riad",4], ["Muñoz",2], ["Kamada",18], ["Wharton",20], ["Mitchell",3], ["Nketiah",9], ["McNeil",11], ["Mateta",14]]},
+  EVE:{team:"Everton",nick:"Everton",short:"EVE",venue:"Hill Dickinson Stadium",formation:"4-2-3-1",coach:"David Moyes",shapes:[["4-2-3-1","his main system, used in Matchweek 1"], ["3-4-2-1","in-game switch to chase a game"], ["4-3-3","fluid shape in build-up"]],xi:[["Pickford",1], ["Röhl",6], ["Branthwaite",4], ["Tarkowski",5], ["Mykolenko",16], ["Armstrong",30], ["Hackney",45], ["Ndiaye",10], ["Dewsbury-Hall",8], ["George",19], ["Barry",11]]},
+  FUL:{team:"Fulham",nick:"Fulham",short:"FUL",venue:"Craven Cottage",formation:"4-2-3-1",coach:"Álvaro Arbeloa",shapes:[["4-2-3-1","his main system, used in Matchweek 1"], ["4-3-3","possession-based alternate"]],xi:[["Leno",1], ["Castagne",21], ["Cuenca",4], ["Bassey",3], ["Robinson",33], ["Berge",16], ["King",24], ["Bobb",14], ["Iwobi",17], ["Palacios",null], ["García",7]]},
+  HUL:{team:"Hull City",nick:"Hull",short:"HUL",venue:"MKM Stadium",formation:"3-4-2-1",coach:"Sergej Jakirović",shapes:[["3-4-2-1","his main system, used in Matchweek 1"], ["4-3-3","his shape through the Championship season"]],xi:[["Tzolakis",19], ["Egan",15], ["Ajayi",6], ["Mendy",32], ["Coyle",2], ["Slater",27], ["Crooks",25], ["Giles",3], ["Belloumi",10], ["Stroud",21], ["McBurnie",9]]},
+  IPS:{team:"Ipswich Town",nick:"Ipswich",short:"IPS",venue:"Portman Road",formation:"4-2-3-1",coach:"Gary O'Neil",shapes:[["4-2-3-1","his main system, used in Matchweek 1"], ["3-5-2","back three with wing-backs, as at Wolves"], ["4-1-4-1","after in-game substitutions"]],xi:[["Scherpen",37], ["O'Shea",26], ["Diop",6], ["Greaves",24], ["Davis",3], ["Lukic",23], ["Núñez",32], ["Fatawu",7], ["Enciso",10], ["Maeda",38], ["Emersonn",19]]},
+  LEE:{team:"Leeds United",nick:"Leeds",short:"LEE",venue:"Elland Road",formation:"3-4-2-1",coach:"Daniel Farke",shapes:[["3-4-2-1","his main system, used in Matchweek 1"], ["3-5-2","twin-striker variant"]],xi:[["Trafford",1], ["Bijol",15], ["Rodon",6], ["Muharemović",5], ["Bogle",2], ["Ampadu",4], ["Stach",18], ["Justin",24], ["Wilson",10], ["Aaronson",11], ["Calvert-Lewin",9]]},
+  LIV:{team:"Liverpool",nick:"Liverpool",short:"LIV",venue:"Anfield",formation:"4-2-3-1",coach:"Andoni Iraola",shapes:[["4-2-3-1","his main system, used in Matchweek 1"], ["4-3-3","alternate base shape from Bournemouth"], ["3-2-4-1","inverted full-back build-up"]],xi:[["Alisson",1], ["Frimpong",30], ["Jacquet",5], ["Van Dijk",4], ["Kerkez",6], ["Szoboszlai",8], ["Gravenberch",38], ["Ngumoha",73], ["Wirtz",7], ["Gakpo",18], ["Isak",9]]},
+  MCI:{team:"Manchester City",nick:"Man City",short:"MCI",venue:"Etihad Stadium",formation:"4-2-3-1",coach:"Enzo Maresca",shapes:[["4-2-3-1","his main system, used in Matchweek 1"], ["4-3-3","midfield variant against certain opponents"], ["3-2-4-1","build-up shape with an inverted full-back"]],xi:[["Donnarumma",1], ["Khusanov",45], ["Dias",3], ["Guéhi",6], ["Gvardiol",24], ["Anderson",5], ["O'Reilly",33], ["Semenyo",42], ["Foden",47], ["Lewis",82], ["Haaland",9]]},
+  MUN:{team:"Manchester United",nick:"Man Utd",short:"MUN",venue:"Old Trafford",formation:"4-2-3-1",coach:"Michael Carrick",shapes:[["4-2-3-1","his main system, used in Matchweek 1"], ["5-3-2","against stronger sides or protecting a lead"], ["4-1-4-1","against deep blocks"]],xi:[["Lammens",1], ["Mazraoui",3], ["Maguire",5], ["Heaven",26], ["Shaw",23], ["Tielemans",18], ["Santos",17], ["Mbeumo",19], ["Fernandes",8], ["Dorgu",13], ["Cunha",10]]},
+  NEW:{team:"Newcastle United",nick:"Newcastle",short:"NEW",venue:"St James' Park",formation:"4-2-3-1",coach:"Matthias Jaissle",shapes:[["4-2-3-1","his main system, used in Matchweek 1"], ["4-4-2","narrow diamond, his Salzburg signature"]],xi:[["Hornicek",21], ["Dedic",37], ["Thiaw",12], ["Botman",4], ["Hall",3], ["Steur",14], ["Miley",67], ["Elanga",19], ["Wissa",9], ["Barnes",11], ["Osula",10]]},
+  NFO:{team:"Nottingham Forest",nick:"Forest",short:"NFO",venue:"City Ground",formation:"3-4-2-1",coach:"Oliver Glasner",shapes:[["3-4-2-1","his main system, used in Matchweek 1"], ["3-4-3","attacking variant"], ["5-4-1","deep block, wing-backs drop in"]],xi:[["Sels",26], ["Cunha",23], ["Milenković",31], ["Murillo",5], ["Aina",34], ["Sangaré",6], ["McAtee",24], ["Williams",3], ["Ndoye",14], ["Gibbs-White",10], ["Jesus",11]]},
+  SUN:{team:"Sunderland",nick:"Sunderland",short:"SUN",venue:"Stadium of Light",formation:"4-2-3-1",coach:"Régis Le Bris",shapes:[["4-2-3-1","his main system, used in Matchweek 1"], ["4-3-3","attacking back-four shape"], ["3-5-2","against stronger possession sides"]],xi:[["Roefs",22], ["Meunier",12], ["Ballard",5], ["O'Nien",13], ["Reinildo",17], ["Sadiki",27], ["Xhaka",34], ["Hume",32], ["Le Fée",28], ["Angulo",10], ["Brobbey",9]]},
+  TOT:{team:"Tottenham Hotspur",nick:"Spurs",short:"TOT",venue:"Tottenham Hotspur Stadium",formation:"4-2-3-1",coach:"Roberto De Zerbi",shapes:[["4-2-3-1","his main system, used in Matchweek 1"], ["4-3-3","earlier in his Spurs tenure"]],xi:[["Kinsky",31], ["Gray",14], ["Senesi",5], ["Van Hecke",6], ["Robertson",3], ["Bergvall",15], ["Tonali",16], ["Moore",47], ["Gallagher",8], ["Tel",11], ["Richarlison",9]]},
+};
+
+/* The 2026/27 calendar: 38 rounds, 380 matches. Matchweek 1 carries
+   its final score; later dates are as published, before TV moves. */
+const SEED_ROUNDS = [
+  {n:1, when:"Aug 21 – Aug 24", m:[["ARS","COV","Fri, Aug 21","3–0"], ["HUL","MUN","Sat, Aug 22","2–0"], ["EVE","CRY","Sat, Aug 22","2–0"], ["IPS","SUN","Sat, Aug 22","2–1"], ["NFO","LEE","Sat, Aug 22","0–1"], ["BRE","TOT","Sat, Aug 22","3–0"], ["BHA","AVL","Sun, Aug 23","4–0"], ["MCI","BOU","Sun, Aug 23","2–1"], ["NEW","LIV","Sun, Aug 23","2–2"], ["FUL","CHE","Mon, Aug 24","2–3"]]},
+  {n:2, when:"Aug 28 – Aug 31", m:[["CRY","MCI","Fri, Aug 28"], ["LIV","NFO","Sat, Aug 29"], ["BOU","EVE","Sat, Aug 29"], ["COV","HUL","Sat, Aug 29"], ["TOT","NEW","Sat, Aug 29"], ["CHE","BHA","Sun, Aug 30"], ["LEE","BRE","Sun, Aug 30"], ["SUN","FUL","Sun, Aug 30"], ["MUN","IPS","Sun, Aug 30"], ["AVL","ARS","Mon, Aug 31"]]},
+  {n:3, when:"Sat, Sep 5", m:[["ARS","CHE","Sat, Sep 5"], ["BRE","SUN","Sat, Sep 5"], ["BHA","LEE","Sat, Sep 5"], ["EVE","MUN","Sat, Sep 5"], ["FUL","CRY","Sat, Sep 5"], ["HUL","AVL","Sat, Sep 5"], ["IPS","LIV","Sat, Sep 5"], ["MCI","COV","Sat, Sep 5"], ["NEW","BOU","Sat, Sep 5"], ["NFO","TOT","Sat, Sep 5"]]},
+  {n:4, when:"Sat, Sep 12", m:[["BOU","BRE","Sat, Sep 12"], ["AVL","NFO","Sat, Sep 12"], ["CHE","HUL","Sat, Sep 12"], ["COV","BHA","Sat, Sep 12"], ["CRY","IPS","Sat, Sep 12"], ["LEE","NEW","Sat, Sep 12"], ["LIV","FUL","Sat, Sep 12"], ["MUN","MCI","Sat, Sep 12"], ["SUN","ARS","Sat, Sep 12"], ["TOT","EVE","Sat, Sep 12"]]},
+  {n:5, when:"Sat, Sep 19", m:[["BOU","LIV","Sat, Sep 19"], ["BRE","CHE","Sat, Sep 19"], ["BHA","ARS","Sat, Sep 19"], ["EVE","IPS","Sat, Sep 19"], ["FUL","MUN","Sat, Sep 19"], ["LEE","CRY","Sat, Sep 19"], ["MCI","SUN","Sat, Sep 19"], ["NEW","HUL","Sat, Sep 19"], ["NFO","COV","Sat, Sep 19"], ["TOT","AVL","Sat, Sep 19"]]},
+  {n:6, when:"Sat, Oct 10", m:[["ARS","LEE","Sat, Oct 10"], ["AVL","BRE","Sat, Oct 10"], ["CHE","BOU","Sat, Oct 10"], ["COV","NEW","Sat, Oct 10"], ["CRY","NFO","Sat, Oct 10"], ["HUL","EVE","Sat, Oct 10"], ["IPS","FUL","Sat, Oct 10"], ["LIV","MCI","Sat, Oct 10"], ["MUN","TOT","Sat, Oct 10"], ["SUN","BHA","Sat, Oct 10"]]},
+  {n:7, when:"Sat, Oct 17", m:[["BOU","SUN","Sat, Oct 17"], ["BRE","LIV","Sat, Oct 17"], ["BHA","CRY","Sat, Oct 17"], ["EVE","CHE","Sat, Oct 17"], ["FUL","HUL","Sat, Oct 17"], ["LEE","MUN","Sat, Oct 17"], ["MCI","IPS","Sat, Oct 17"], ["NEW","AVL","Sat, Oct 17"], ["NFO","ARS","Sat, Oct 17"], ["TOT","COV","Sat, Oct 17"]]},
+  {n:8, when:"Sat, Oct 24", m:[["ARS","EVE","Sat, Oct 24"], ["AVL","MCI","Sat, Oct 24"], ["CHE","TOT","Sat, Oct 24"], ["COV","FUL","Sat, Oct 24"], ["CRY","NEW","Sat, Oct 24"], ["HUL","BRE","Sat, Oct 24"], ["IPS","NFO","Sat, Oct 24"], ["LIV","BHA","Sat, Oct 24"], ["MUN","BOU","Sat, Oct 24"], ["SUN","LEE","Sat, Oct 24"]]},
+  {n:9, when:"Sat, Oct 31", m:[["BOU","LEE","Sat, Oct 31"], ["AVL","FUL","Sat, Oct 31"], ["BRE","NFO","Sat, Oct 31"], ["CHE","MUN","Sat, Oct 31"], ["COV","SUN","Sat, Oct 31"], ["HUL","IPS","Sat, Oct 31"], ["LIV","ARS","Sat, Oct 31"], ["MCI","BHA","Sat, Oct 31"], ["NEW","EVE","Sat, Oct 31"], ["TOT","CRY","Sat, Oct 31"]]},
+  {n:10, when:"Sat, Nov 7", m:[["ARS","HUL","Sat, Nov 7"], ["BHA","BRE","Sat, Nov 7"], ["CRY","LIV","Sat, Nov 7"], ["EVE","COV","Sat, Nov 7"], ["FUL","NEW","Sat, Nov 7"], ["IPS","BOU","Sat, Nov 7"], ["LEE","TOT","Sat, Nov 7"], ["MUN","AVL","Sat, Nov 7"], ["NFO","MCI","Sat, Nov 7"], ["SUN","CHE","Sat, Nov 7"]]},
+  {n:11, when:"Sat, Nov 21", m:[["BOU","NFO","Sat, Nov 21"], ["AVL","SUN","Sat, Nov 21"], ["BRE","EVE","Sat, Nov 21"], ["CHE","LEE","Sat, Nov 21"], ["COV","CRY","Sat, Nov 21"], ["HUL","BHA","Sat, Nov 21"], ["LIV","MUN","Sat, Nov 21"], ["MCI","FUL","Sat, Nov 21"], ["NEW","ARS","Sat, Nov 21"], ["TOT","IPS","Sat, Nov 21"]]},
+  {n:12, when:"Sat, Nov 28", m:[["ARS","MCI","Sat, Nov 28"], ["BHA","NEW","Sat, Nov 28"], ["CRY","HUL","Sat, Nov 28"], ["EVE","LIV","Sat, Nov 28"], ["FUL","BOU","Sat, Nov 28"], ["IPS","AVL","Sat, Nov 28"], ["LEE","COV","Sat, Nov 28"], ["MUN","BRE","Sat, Nov 28"], ["NFO","CHE","Sat, Nov 28"], ["SUN","TOT","Sat, Nov 28"]]},
+  {n:13, when:"Wed, Dec 2", m:[["BOU","BHA","Wed, Dec 2"], ["AVL","EVE","Wed, Dec 2"], ["BRE","ARS","Wed, Dec 2"], ["CHE","CRY","Wed, Dec 2"], ["COV","IPS","Wed, Dec 2"], ["HUL","NFO","Wed, Dec 2"], ["LIV","SUN","Wed, Dec 2"], ["MCI","LEE","Wed, Dec 2"], ["NEW","MUN","Wed, Dec 2"], ["TOT","FUL","Wed, Dec 2"]]},
+  {n:14, when:"Sat, Dec 5", m:[["BOU","HUL","Sat, Dec 5"], ["AVL","CRY","Sat, Dec 5"], ["BRE","MCI","Sat, Dec 5"], ["CHE","LIV","Sat, Dec 5"], ["EVE","FUL","Sat, Dec 5"], ["LEE","IPS","Sat, Dec 5"], ["MUN","COV","Sat, Dec 5"], ["NEW","SUN","Sat, Dec 5"], ["NFO","BHA","Sat, Dec 5"], ["TOT","ARS","Sat, Dec 5"]]},
+  {n:15, when:"Sat, Dec 12", m:[["ARS","BOU","Sat, Dec 12"], ["BHA","EVE","Sat, Dec 12"], ["COV","AVL","Sat, Dec 12"], ["CRY","MUN","Sat, Dec 12"], ["FUL","BRE","Sat, Dec 12"], ["HUL","TOT","Sat, Dec 12"], ["IPS","NEW","Sat, Dec 12"], ["LIV","LEE","Sat, Dec 12"], ["MCI","CHE","Sat, Dec 12"], ["SUN","NFO","Sat, Dec 12"]]},
+  {n:16, when:"Sat, Dec 19", m:[["BOU","COV","Sat, Dec 19"], ["ARS","MUN","Sat, Dec 19"], ["BRE","NEW","Sat, Dec 19"], ["BHA","IPS","Sat, Dec 19"], ["CHE","AVL","Sat, Dec 19"], ["LEE","FUL","Sat, Dec 19"], ["LIV","TOT","Sat, Dec 19"], ["MCI","HUL","Sat, Dec 19"], ["NFO","EVE","Sat, Dec 19"], ["SUN","CRY","Sat, Dec 19"]]},
+  {n:17, when:"Sat, Dec 26", m:[["AVL","LEE","Sat, Dec 26"], ["COV","CHE","Sat, Dec 26"], ["CRY","ARS","Sat, Dec 26"], ["EVE","SUN","Sat, Dec 26"], ["FUL","BHA","Sat, Dec 26"], ["HUL","LIV","Sat, Dec 26"], ["IPS","BRE","Sat, Dec 26"], ["MUN","NFO","Sat, Dec 26"], ["NEW","MCI","Sat, Dec 26"], ["TOT","BOU","Sat, Dec 26"]]},
+  {n:18, when:"Wed, Dec 30", m:[["AVL","LIV","Wed, Dec 30"], ["COV","BRE","Wed, Dec 30"], ["CRY","BOU","Wed, Dec 30"], ["EVE","MCI","Wed, Dec 30"], ["FUL","ARS","Wed, Dec 30"], ["HUL","LEE","Wed, Dec 30"], ["IPS","CHE","Wed, Dec 30"], ["MUN","SUN","Wed, Dec 30"], ["NEW","NFO","Wed, Dec 30"], ["TOT","BHA","Wed, Dec 30"]]},
+  {n:19, when:"Sat, Jan 2", m:[["BOU","AVL","Sat, Jan 2"], ["ARS","IPS","Sat, Jan 2"], ["BRE","CRY","Sat, Jan 2"], ["BHA","MUN","Sat, Jan 2"], ["CHE","NEW","Sat, Jan 2"], ["LEE","EVE","Sat, Jan 2"], ["LIV","COV","Sat, Jan 2"], ["MCI","TOT","Sat, Jan 2"], ["NFO","FUL","Sat, Jan 2"], ["SUN","HUL","Sat, Jan 2"]]},
+  {n:20, when:"Wed, Jan 6", m:[["ARS","BRE","Wed, Jan 6"], ["BHA","BOU","Wed, Jan 6"], ["CRY","CHE","Wed, Jan 6"], ["EVE","AVL","Wed, Jan 6"], ["FUL","TOT","Wed, Jan 6"], ["IPS","COV","Wed, Jan 6"], ["LEE","MCI","Wed, Jan 6"], ["MUN","NEW","Wed, Jan 6"], ["NFO","HUL","Wed, Jan 6"], ["SUN","LIV","Wed, Jan 6"]]},
+  {n:21, when:"Sat, Jan 16", m:[["BOU","IPS","Sat, Jan 16"], ["AVL","MUN","Sat, Jan 16"], ["BRE","BHA","Sat, Jan 16"], ["CHE","SUN","Sat, Jan 16"], ["COV","EVE","Sat, Jan 16"], ["HUL","ARS","Sat, Jan 16"], ["LIV","CRY","Sat, Jan 16"], ["MCI","NFO","Sat, Jan 16"], ["NEW","FUL","Sat, Jan 16"], ["TOT","LEE","Sat, Jan 16"]]},
+  {n:22, when:"Sat, Jan 23", m:[["ARS","NEW","Sat, Jan 23"], ["BHA","MCI","Sat, Jan 23"], ["CRY","TOT","Sat, Jan 23"], ["EVE","BRE","Sat, Jan 23"], ["FUL","AVL","Sat, Jan 23"], ["IPS","HUL","Sat, Jan 23"], ["LEE","CHE","Sat, Jan 23"], ["MUN","LIV","Sat, Jan 23"], ["NFO","BOU","Sat, Jan 23"], ["SUN","COV","Sat, Jan 23"]]},
+  {n:23, when:"Sat, Jan 30", m:[["BOU","FUL","Sat, Jan 30"], ["AVL","IPS","Sat, Jan 30"], ["BRE","MUN","Sat, Jan 30"], ["CHE","NFO","Sat, Jan 30"], ["COV","LEE","Sat, Jan 30"], ["HUL","CRY","Sat, Jan 30"], ["LIV","EVE","Sat, Jan 30"], ["MCI","ARS","Sat, Jan 30"], ["NEW","BHA","Sat, Jan 30"], ["TOT","SUN","Sat, Jan 30"]]},
+  {n:24, when:"Sat, Feb 6", m:[["ARS","LIV","Sat, Feb 6"], ["BHA","HUL","Sat, Feb 6"], ["CRY","COV","Sat, Feb 6"], ["EVE","NEW","Sat, Feb 6"], ["FUL","MCI","Sat, Feb 6"], ["IPS","TOT","Sat, Feb 6"], ["LEE","BOU","Sat, Feb 6"], ["MUN","CHE","Sat, Feb 6"], ["NFO","BRE","Sat, Feb 6"], ["SUN","AVL","Sat, Feb 6"]]},
+  {n:25, when:"Wed, Feb 10", m:[["AVL","BOU","Wed, Feb 10"], ["COV","LIV","Wed, Feb 10"], ["CRY","BRE","Wed, Feb 10"], ["EVE","LEE","Wed, Feb 10"], ["FUL","NFO","Wed, Feb 10"], ["HUL","SUN","Wed, Feb 10"], ["IPS","ARS","Wed, Feb 10"], ["MUN","BHA","Wed, Feb 10"], ["NEW","CHE","Wed, Feb 10"], ["TOT","MCI","Wed, Feb 10"]]},
+  {n:26, when:"Sat, Feb 20", m:[["BOU","CRY","Sat, Feb 20"], ["ARS","FUL","Sat, Feb 20"], ["BRE","COV","Sat, Feb 20"], ["BHA","TOT","Sat, Feb 20"], ["CHE","IPS","Sat, Feb 20"], ["LEE","AVL","Sat, Feb 20"], ["LIV","HUL","Sat, Feb 20"], ["MCI","NEW","Sat, Feb 20"], ["NFO","MUN","Sat, Feb 20"], ["SUN","EVE","Sat, Feb 20"]]},
+  {n:27, when:"Sat, Feb 27", m:[["AVL","CHE","Sat, Feb 27"], ["COV","BOU","Sat, Feb 27"], ["CRY","SUN","Sat, Feb 27"], ["EVE","NFO","Sat, Feb 27"], ["FUL","LEE","Sat, Feb 27"], ["HUL","MCI","Sat, Feb 27"], ["IPS","BHA","Sat, Feb 27"], ["MUN","ARS","Sat, Feb 27"], ["NEW","BRE","Sat, Feb 27"], ["TOT","LIV","Sat, Feb 27"]]},
+  {n:28, when:"Wed, Mar 3", m:[["BOU","TOT","Wed, Mar 3"], ["ARS","CRY","Wed, Mar 3"], ["BRE","IPS","Wed, Mar 3"], ["BHA","FUL","Wed, Mar 3"], ["CHE","COV","Wed, Mar 3"], ["LEE","HUL","Wed, Mar 3"], ["LIV","AVL","Wed, Mar 3"], ["MCI","EVE","Wed, Mar 3"], ["NFO","NEW","Wed, Mar 3"], ["SUN","MUN","Wed, Mar 3"]]},
+  {n:29, when:"Sat, Mar 13", m:[["BOU","NEW","Sat, Mar 13"], ["AVL","HUL","Sat, Mar 13"], ["CHE","ARS","Sat, Mar 13"], ["COV","MCI","Sat, Mar 13"], ["CRY","FUL","Sat, Mar 13"], ["LEE","BHA","Sat, Mar 13"], ["LIV","IPS","Sat, Mar 13"], ["MUN","EVE","Sat, Mar 13"], ["SUN","BRE","Sat, Mar 13"], ["TOT","NFO","Sat, Mar 13"]]},
+  {n:30, when:"Sat, Mar 20", m:[["ARS","SUN","Sat, Mar 20"], ["BRE","BOU","Sat, Mar 20"], ["BHA","COV","Sat, Mar 20"], ["EVE","TOT","Sat, Mar 20"], ["FUL","LIV","Sat, Mar 20"], ["HUL","CHE","Sat, Mar 20"], ["IPS","CRY","Sat, Mar 20"], ["MCI","MUN","Sat, Mar 20"], ["NEW","LEE","Sat, Mar 20"], ["NFO","AVL","Sat, Mar 20"]]},
+  {n:31, when:"Sat, Apr 10", m:[["BOU","MCI","Sat, Apr 10"], ["AVL","BHA","Sat, Apr 10"], ["CHE","FUL","Sat, Apr 10"], ["COV","ARS","Sat, Apr 10"], ["CRY","EVE","Sat, Apr 10"], ["LEE","NFO","Sat, Apr 10"], ["LIV","NEW","Sat, Apr 10"], ["MUN","HUL","Sat, Apr 10"], ["SUN","IPS","Sat, Apr 10"], ["TOT","BRE","Sat, Apr 10"]]},
+  {n:32, when:"Sat, Apr 17", m:[["ARS","AVL","Sat, Apr 17"], ["BRE","LEE","Sat, Apr 17"], ["BHA","CHE","Sat, Apr 17"], ["EVE","BOU","Sat, Apr 17"], ["FUL","SUN","Sat, Apr 17"], ["HUL","COV","Sat, Apr 17"], ["IPS","MUN","Sat, Apr 17"], ["MCI","CRY","Sat, Apr 17"], ["NEW","TOT","Sat, Apr 17"], ["NFO","LIV","Sat, Apr 17"]]},
+  {n:33, when:"Sat, Apr 24", m:[["BOU","ARS","Sat, Apr 24"], ["AVL","COV","Sat, Apr 24"], ["BRE","FUL","Sat, Apr 24"], ["CHE","MCI","Sat, Apr 24"], ["EVE","BHA","Sat, Apr 24"], ["LEE","LIV","Sat, Apr 24"], ["MUN","CRY","Sat, Apr 24"], ["NEW","IPS","Sat, Apr 24"], ["NFO","SUN","Sat, Apr 24"], ["TOT","HUL","Sat, Apr 24"]]},
+  {n:34, when:"Sat, May 1", m:[["ARS","TOT","Sat, May 1"], ["BHA","NFO","Sat, May 1"], ["COV","MUN","Sat, May 1"], ["CRY","AVL","Sat, May 1"], ["FUL","EVE","Sat, May 1"], ["HUL","BOU","Sat, May 1"], ["IPS","LEE","Sat, May 1"], ["LIV","CHE","Sat, May 1"], ["MCI","BRE","Sat, May 1"], ["SUN","NEW","Sat, May 1"]]},
+  {n:35, when:"Sat, May 8", m:[["BOU","MUN","Sat, May 8"], ["BRE","AVL","Sat, May 8"], ["BHA","SUN","Sat, May 8"], ["EVE","HUL","Sat, May 8"], ["FUL","IPS","Sat, May 8"], ["LEE","ARS","Sat, May 8"], ["MCI","LIV","Sat, May 8"], ["NEW","COV","Sat, May 8"], ["NFO","CRY","Sat, May 8"], ["TOT","CHE","Sat, May 8"]]},
+  {n:36, when:"Sat, May 15", m:[["ARS","NFO","Sat, May 15"], ["AVL","NEW","Sat, May 15"], ["CHE","EVE","Sat, May 15"], ["COV","TOT","Sat, May 15"], ["CRY","BHA","Sat, May 15"], ["HUL","FUL","Sat, May 15"], ["IPS","MCI","Sat, May 15"], ["LIV","BRE","Sat, May 15"], ["MUN","LEE","Sat, May 15"], ["SUN","BOU","Sat, May 15"]]},
+  {n:37, when:"Sun, May 23", m:[["BOU","CHE","Sun, May 23"], ["BRE","HUL","Sun, May 23"], ["BHA","LIV","Sun, May 23"], ["EVE","ARS","Sun, May 23"], ["FUL","COV","Sun, May 23"], ["LEE","SUN","Sun, May 23"], ["MCI","AVL","Sun, May 23"], ["NEW","CRY","Sun, May 23"], ["NFO","IPS","Sun, May 23"], ["TOT","MUN","Sun, May 23"]]},
+  {n:38, when:"Sun, May 30", m:[["ARS","BHA","Sun, May 30"], ["AVL","TOT","Sun, May 30"], ["CHE","BRE","Sun, May 30"], ["COV","NFO","Sun, May 30"], ["CRY","LEE","Sun, May 30"], ["HUL","NEW","Sun, May 30"], ["IPS","EVE","Sun, May 30"], ["LIV","BOU","Sun, May 30"], ["MUN","FUL","Sun, May 30"], ["SUN","MCI","Sun, May 30"]]},
+];
+
+/* Seeded data ships with the page so it works before any job has run.
+   loadData() replaces it with whatever the ingest job has committed. */
+let SQUADS = SEED_SQUADS;
+let ROUNDS = SEED_ROUNDS;
+let LIVE = { matches: {} };
+let DATA_SOURCE = "seeded";
+
+async function loadData(){
+  const get = async (path) => {
+    try{
+      const r = await fetch(path, {cache:"no-store"});
+      if(!r.ok) return null;
+      return await r.json();
+    }catch(e){ return null; }
+  };
+  const [sq, cal, live] = await Promise.all([
+    get("data/squads.json"), get("data/calendar.json"), get("data/live/index.json")
+  ]);
+  if(sq && sq.clubs && Object.keys(sq.clubs).length === 20){
+    SQUADS = sq.clubs; DATA_SOURCE = sq.asOf ? ("updated " + sq.asOf) : "live";
+  }
+  if(cal && cal.rounds && cal.rounds.length){
+    ROUNDS = cal.rounds;
+    if(typeof cal.confirmedRounds === "number") CONFIRMED_ROUNDS = cal.confirmedRounds;
+  }
+  if(live && live.matches) LIVE = live;
+}
+
+/* A match the ingest job has confirmed, with any tactical shifts it read. */
+async function loadLiveMatch(fixtureId){
+  const get = async (path) => {
+    try{ const r = await fetch(path,{cache:"no-store"}); return r.ok ? await r.json() : null; }
+    catch(e){ return null; }
+  };
+  const [snap, timeline] = await Promise.all([
+    get("data/live/"+fixtureId+".json"),
+    get("data/live/"+fixtureId+".timeline.json")
+  ]);
+  return snap ? {snap, timeline} : null;
+}
+
+let CONFIRMED_ROUNDS = 1;   /* rounds whose elevens actually happened */
+
+/* Turn a calendar entry into the fixture object the board builds from. */
+function makeFixture(roundNo, hc, ac, when, score){
+  const H=SQUADS[hc], A=SQUADS[ac];
+  const confirmed = roundNo<=CONFIRMED_ROUNDS;
+  return {
+    id:"r"+roundNo+"-"+hc+"-"+ac, round:roundNo, date:when, venue:H.venue,
+    score: score || null, confirmed:confirmed,
+    scripted: (roundNo===1 && hc==="FUL" && ac==="CHE"),
+    home:{team:H.team,nick:H.nick,short:hc,formation:H.formation,xi:H.xi},
+    away:{team:A.team,nick:A.nick,short:ac,formation:A.formation,xi:A.xi}
+  };
+}
+function roundByNo(n){ return ROUNDS.filter(function(r){ return r.n===n; })[0]; }
+function fixturesOfRound(n){
+  const r=roundByNo(n); if(!r) return [];
+  return r.m.map(function(e){ return makeFixture(n, e[0], e[1], e[2], e[3]); });
+}
+/* A matchup that is not on the calendar — any club against any club. */
+function customFixture(hc, ac){
+  const f=makeFixture(0, hc, ac, "", null);
+  f.id="x-"+hc+"-"+ac; f.round=0; f.venue=SQUADS[hc].venue; f.confirmed=false;
+  return f;
+}
+/* The season runs across the new year: August to December is 2026,
+   January to May is 2027. */
+function seasonYear(when){
+  return /Jan|Feb|Mar|Apr|May/.test(String(when)) ? "2027" : "2026";
+}
+function fixtureById(id){
+  if(!id) return null;
+  const p=String(id).split("-");
+  if(p.length!==3) return null;
+  const hc=p[1], ac=p[2];
+  if(!SQUADS[hc] || !SQUADS[ac]) return null;
+  if(p[0]==="x") return customFixture(hc,ac);
+  const n=parseInt(p[0].slice(1),10);
+  const r=roundByNo(n); if(!r) return null;
+  const e=r.m.filter(function(x){ return x[0]===hc && x[1]===ac; })[0];
+  if(!e) return null;
+  return makeFixture(n, hc, ac, e[2], e[3]);
+}
+let CLUB_CODES = Object.keys(SQUADS);
+
+/* Phase seeds: a base formation per team, pushed up or dropped
+   back and squeezed narrow, plus drawings in pitch coordinates.
+   These five are written for Fulham v Chelsea specifically. */
+const SCRIPTED_PHASES = [
+  { name:"Kick-off shape",
+    note:"How both teams lined up at Craven Cottage. Fulham attack right, Chelsea attack left. Drag anyone to start reshaping.",
+    home:{f:"4-2-3-1"}, away:{f:"3-4-2-1"}, arrows:[], zones:[] },
+
+  { name:"Chelsea build 3-2-5",
+    note:"The back three splits, Gusto and Hato climb the touchlines and Palmer and Rogers sit in the half-spaces. Fulham drop into a compact 4-4-2 and wait.",
+    home:{f:"4-4-2", push:-1, squeeze:0.8}, away:{f:"3-2-4-1", push:25},
+    arrows:[[88,50,74,24,"pass"],[74,24,52,12,"pass"],[52,12,34,11,"run"]],
+    zones:[] },
+
+  { name:"Fulham high press",
+    note:"García curves onto Lacroix, King jumps to Lavia and the wide players pin the wing-backs. Fulham press in a 4-2-4 and dare Chelsea to go long.",
+    home:{f:"4-2-4", push:26, squeeze:0.88}, away:{f:"3-2-4-1", push:8},
+    arrows:[[66,50,78,48,"press"],[60,68,74,62,"press"],[60,32,74,36,"press"]],
+    zones:[[62,6,34,88]] },
+
+  { name:"Fulham counter",
+    note:"Ball won in midfield. García attacks the channel outside Colwill, Bobb sprints the far post, and Chelsea are caught with three at the back and everyone else upfield.",
+    home:{f:"4-2-3-1", push:23, squeeze:1.05},
+    away:{f:"3-4-2-1", push:6, pushByRole:{MID:16, FWD:30}},
+    arrows:[[46,58,64,51,"pass"],[67,52,88,66,"run"],[59,84,86,40,"run"]],
+    zones:[] },
+
+  { name:"Chelsea low block",
+    note:"Wing-backs fold into a back five, Palmer and Rogers tuck into the midfield line and Chelsea defend the width of the box. Fulham camp in, Castagne pushes on to make a front five, and the cross comes from the far side.",
+    home:{f:"3-2-4-1", push:24}, away:{f:"5-4-1", push:-2, squeeze:0.82},
+    arrows:[[56,88,74,22,"pass"],[62,60,80,44,"run"]],
+    zones:[[68,16,30,68]] }
+];
+
+/* The same five moments, derived for any pair of formations. A back
+   three builds in a 3-2-4-1 and defends in a 5-4-1; a back four
+   presses in a 4-2-4 and blocks in a 4-4-2. */
+function backThree(f){ return f.charAt(0)==="3" || f.charAt(0)==="5"; }
+function buildShape(f){ return backThree(f) ? "3-2-4-1" : "4-2-3-1"; }
+function pressShape(f){ return backThree(f) ? "3-4-3" : "4-2-4"; }
+function blockShape(f){ return backThree(f) ? "5-4-1" : "4-4-2"; }
+
+function genericPhases(fx){
+  const H=fx.home.nick||fx.home.team, A=fx.away.nick||fx.away.team;
+  const hf=fx.home.formation, af=fx.away.formation;
+  return [
+    { name:"Kick-off shape",
+      note:H+" attack right, "+A+" attack left. These are the elevens as they lined up at "+fx.venue+". Drag anyone to start reshaping.",
+      home:{f:hf}, away:{f:af}, arrows:[], zones:[] },
+    { name:A+" in possession",
+      note:A+" push into a "+buildShape(af)+", stretching the pitch with the wide players and stepping the back line over halfway. "+H+" drop into a compact "+blockShape(hf)+" and wait.",
+      home:{f:blockShape(hf), push:-1, squeeze:0.82}, away:{f:buildShape(af), push:24},
+      arrows:[[88,50,74,24,"pass"],[74,24,52,12,"pass"]], zones:[] },
+    { name:H+" high press",
+      note:H+" jump into a "+pressShape(hf)+", match up across the back line and force the ball long. The high line is the risk.",
+      home:{f:pressShape(hf), push:25, squeeze:0.88}, away:{f:buildShape(af), push:8},
+      arrows:[[66,50,78,48,"press"],[60,68,74,62,"press"],[60,32,74,36,"press"]],
+      zones:[[62,6,34,88]] },
+    { name:H+" counter",
+      note:"Ball won in midfield. "+H+" break at speed while "+A+" are caught with their front players upfield and only the back line home.",
+      home:{f:hf, push:23, squeeze:1.05},
+      away:{f:af, push:6, pushByRole:{MID:16, FWD:30}},
+      arrows:[[46,58,64,51,"pass"],[67,52,88,66,"run"],[59,84,86,40,"run"]], zones:[] },
+    { name:A+" low block",
+      note:A+" fold into a "+blockShape(af)+" and defend the width of the box. "+H+" camp in, push a full-back on to make a front five, and cross from the far side.",
+      home:{f:buildShape(hf), push:24}, away:{f:blockShape(af), push:-2, squeeze:0.82},
+      arrows:[[56,88,74,22,"pass"],[62,60,80,44,"run"]],
+      zones:[[68,16,30,68]] }
+  ];
+}
+
+/* Every position label placed on a grid: which channel of the pitch
+   it occupies (0 = the team's right touchline, 4 = their left) and
+   how far up the team it sits (0 = keeper, 4 = centre forward).
+   Reshaping a team is then a matter of keeping people in their
+   channel and moving them a line at a time. */
+const POS_META = {
+  GK:[2,0],
+  RB:[0,1], RWB:[0,1], RCB:[1,1], CB:[2,1], LCB:[3,1], LB:[4,1], LWB:[4,1],
+  RM:[0,2], RDM:[1,2], RCM:[1,2], RH:[1,2], DM:[2,2], CM:[2,2], CH:[2,2],
+  LDM:[3,2], LCM:[3,2], LH:[3,2], LM:[4,2],
+  RW:[0,3], RAM:[1,3], IR:[1,3], AM:[2,3], CF:[2,3], LAM:[3,3], IL:[3,3], LW:[4,3],
+  OR:[0,4], RS:[1,4], ST:[2,4], LS:[3,4], OL:[4,4]
+};
+function meta(pos){ return POS_META[pos] || [2,2]; }
+
+/* Greedy assignment of eleven players to eleven slots: stay in your
+   channel first, shift a line second, travel distance breaks ties. */
+function matchToTargets(players, targets){
+  const n=targets.length;
+  const C=[];
+  players.forEach(function(p,pi){
+    C[pi]=targets.map(function(t){
+      const gkMismatch=(p.pos==="GK")!==(t.pos==="GK");
+      if(gkMismatch) return 9999;
+      const a=meta(p.pos), b=meta(t.pos);
+      const dx=p.x-t.x, dy=p.y-t.y;
+      const dl=Math.abs(a[1]-b[1]);
+      return Math.abs(a[0]-b[0])*20 + dl*dl*18 + Math.sqrt(dx*dx+dy*dy)*0.35;
+    });
+  });
+  // cheapest-pair-first, then swap any two players whenever trading
+  // their slots costs less — greedy alone strands the odd man out.
+  const pairs=[];
+  for(let i=0;i<players.length;i++) for(let j=0;j<n;j++) pairs.push([i,j,C[i][j]]);
+  pairs.sort(function(a,b){ return a[2]-b[2]; });
+  const slotOf=new Array(players.length).fill(-1), taken=new Array(n).fill(false);
+  pairs.forEach(function(pr){
+    if(slotOf[pr[0]]>=0 || taken[pr[1]]) return;
+    slotOf[pr[0]]=pr[1]; taken[pr[1]]=true;
+  });
+  for(let i=0;i<players.length;i++) if(slotOf[i]<0)
+    for(let j=0;j<n;j++) if(!taken[j]){ slotOf[i]=j; taken[j]=true; break; }
+  for(let pass=0; pass<6; pass++){
+    let improved=false;
+    for(let a=0;a<players.length;a++) for(let b=a+1;b<players.length;b++){
+      const sa=slotOf[a], sb=slotOf[b];
+      if(sa<0||sb<0) continue;
+      if(C[a][sb]+C[b][sa] < C[a][sa]+C[b][sb] - 1e-6){
+        slotOf[a]=sb; slotOf[b]=sa; improved=true;
+      }
+    }
+    if(!improved) break;
+  }
+  const out=new Array(n);
+  for(let i=0;i<players.length;i++) if(slotOf[i]>=0) out[slotOf[i]]=players[i];
+  return out;
+}
+
+const OVERLAY_DEFS = [
+  ["lines",   "Unit lines",       true ],
+  ["hull",    "Team block",       false],
+  ["defline", "Defensive lines",  true ],
+  ["channels","Five channels",    false],
+  ["heat",    "Player influence", false],
+  ["names",   "Player names",     true ]
+];
+
+/* ===================== state ===================== */
+const store = {
+  teams:{
+    home:{ id:"home", name:"Fulham", short:"FUL", formation:"4-2-3-1", players:[] },
+    away:{ id:"away", name:"Chelsea", short:"CHE", formation:"3-4-2-1", players:[] }
+  },
+  meta:{ title:"Fulham v Chelsea", fixtureId:"ful-che", date:"Mon 24 Aug", venue:"Craven Cottage", score:"2–3" },
+  phases:[], active:0,
+  library:[], li:0,
+  overlays:{}, tool:"move", selected:null
+};
+OVERLAY_DEFS.forEach(function(o){ store.overlays[o[0]] = o[2]; });
+
+function teamSpaceToPitch(team,x,y){
+  return team==="home" ? {x:x, y:y} : {x:100-x, y:100-y};
+}
+function buildPlayers(teamId, formation, xi){
+  const slots = FORMATIONS[formation];
+  return slots.map(function(s,i){
+    const src = xi && xi[i] ? xi[i] : ["Player "+(i+1), i+1];
+    const p = teamSpaceToPitch(teamId, s[2], s[3]);
+    return { id:teamId+"-"+i, name:src[0], num:src[1], pos:s[0], role:s[1], x:p.x, y:p.y };
+  });
+}
+function shapePositions(teamId, spec){
+  const slots = FORMATIONS[spec.f];
+  const base = spec.push || 0, sq = spec.squeeze == null ? 1 : spec.squeeze;
+  const byRole = spec.pushByRole || {};
+  return slots.map(function(s){
+    const push = base + (byRole[s[1]] || 0);
+    let x = s[2] + (s[1]==="GK" ? push*0.22 : push);
+    if (s[1]==="GK") x = Math.min(x, 17);
+    x = Math.max(2, Math.min(93, x));
+    let y = 50 + (s[3]-50)*sq;
+    y = Math.max(4, Math.min(96, y));
+    const p = teamSpaceToPitch(teamId, x, y);
+    return { pos:s[0], role:s[1], x:p.x, y:p.y };
+  });
+}
+function seedPhases(specs){
+  return specs.map(function(sp,i){
+    const pos={}, mt={};
+    ["home","away"].forEach(function(t){
+      const targets = shapePositions(t, sp[t]);
+      const order = matchToTargets(store.teams[t].players, targets);
+      order.forEach(function(p,j){
+        pos[p.id]={x:targets[j].x, y:targets[j].y};
+        mt[p.id]={pos:targets[j].pos, role:targets[j].role};
+      });
+    });
+    return {
+      id:"ph"+i+"-"+Math.round(i*7919), name:sp.name, note:sp.note,
+      formations:{ home:sp.home.f, away:sp.away.f },
+      pos:pos, meta:mt,
+      arrows:(sp.arrows||[]).map(function(a){ return {x1:a[0],y1:a[1],x2:a[2],y2:a[3],kind:a[4]}; }),
+      zones:(sp.zones||[]).map(function(z){ return {x:z[0],y:z[1],w:z[2],h:z[3]}; })
+    };
+  });
+}
+/* Build a complete board from a fixture and make it the live one. */
+function loadFixture(fx){
+  ["home","away"].forEach(function(side){
+    const src=fx[side], t=store.teams[side];
+    t.name=src.team; t.short=src.short; t.formation=src.formation;
+    t.players=buildPlayers(side, src.formation, src.xi);
+  });
+  store.meta={ title:fx.home.team+" v "+fx.away.team, fixtureId:fx.id,
+               date:fx.date, venue:fx.venue, score:fx.score,
+               round:fx.round, confirmed:!!fx.confirmed };
+  store.phases = seedPhases(fx.scripted ? SCRIPTED_PHASES : genericPhases(fx));
+  store.active = 0;
+  store.selected = null;
+  applyPhase(0, 0);
+}
+const OPENING_BOARD = "r1-FUL-CHE";
+function freshBoard(){ loadFixture(fixtureById(OPENING_BOARD)); }
+
+/* ---- the board library: each match keeps its own phases ---- */
+function liveBoard(){
+  return { name:store.meta.title, meta:JSON.parse(JSON.stringify(store.meta)),
+           teams:JSON.parse(JSON.stringify(store.teams)),
+           phases:JSON.parse(JSON.stringify(store.phases)), active:store.active };
+}
+function syncLibrary(){
+  if(!store.library.length){ store.library=[liveBoard()]; store.li=0; return; }
+  store.library[store.li]=liveBoard();
+}
+function openBoard(i){
+  if(i===store.li || !store.library[i]) return;
+  syncLibrary();
+  store.li=i;
+  const b=store.library[i];
+  store.teams=JSON.parse(JSON.stringify(b.teams));
+  store.meta=JSON.parse(JSON.stringify(b.meta));
+  store.phases=JSON.parse(JSON.stringify(b.phases));
+  store.active=Math.min(b.active||0, store.phases.length-1);
+  store.selected=null;
+  renderTokens();
+  applyPhase(store.active, 0);
+  refreshChrome();
+}
+function newBoardFromFixture(fx){
+  const existing=store.library.map(function(b,i){ return b.meta && b.meta.fixtureId===fx.id ? i : -1; })
+                              .filter(function(i){ return i>=0; });
+  if(existing.length){ openBoard(existing[0]); return; }
+  syncLibrary();
+  loadFixture(fx);
+  store.library.push(liveBoard());
+  store.li=store.library.length-1;
+  renderTokens();
+  applyPhase(0, 0);
+  refreshChrome();
+}
+function deleteBoard(i){
+  if(store.library.length<2) return;
+  store.library.splice(i,1);
+  if(store.li>=store.library.length) store.li=store.library.length-1;
+  else if(i<store.li) store.li--;
+  const b=store.library[store.li];
+  store.teams=JSON.parse(JSON.stringify(b.teams));
+  store.meta=JSON.parse(JSON.stringify(b.meta));
+  store.phases=JSON.parse(JSON.stringify(b.phases));
+  store.active=Math.min(b.active||0, store.phases.length-1);
+  renderTokens();
+  applyPhase(store.active, 0);
+  refreshChrome();
+}
+
+/* Paint the two teams' kit colours into the page's tokens. */
+function applyKits(){
+  const r=document.documentElement.style;
+  const h=kit(store.teams.home.short), a=kit(store.teams.away.short);
+  r.setProperty("--home-fill",h[0]); r.setProperty("--home-ink",h[1]); r.setProperty("--home-ring",h[2]);
+  r.setProperty("--away-fill",a[0]); r.setProperty("--away-ink",a[1]); r.setProperty("--away-ring",a[2]);
+}
+
+/* ===================== persistence ===================== */
+const LSKEY = "touchline.board.v4";
+const LSKEY_OLD = "touchline.board.v3";
+let saveTimer = null;
+function writeNow(){
+  try{
+    syncLibrary();
+    localStorage.setItem(LSKEY, JSON.stringify({
+      library:store.library, li:store.li, overlays:store.overlays
+    }));
+  }catch(e){ /* private window, blocked storage — the board still works */ }
+}
+function save(){
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(writeNow, 300);
+}
+/* Flush before the tab goes away, so the last drag is not lost. */
+document.addEventListener("visibilitychange", function(){ if(document.hidden){ clearTimeout(saveTimer); writeNow(); } });
+window.addEventListener("pagehide", function(){ clearTimeout(saveTimer); writeNow(); });
+function adoptOverlays(o){
+  if(!o) return;
+  Object.keys(store.overlays).forEach(function(k){
+    if(typeof o[k] === "boolean") store.overlays[k] = o[k];
+  });
+}
+function load(){
+  try{
+    const raw = localStorage.getItem(LSKEY);
+    if(raw){
+      const d = JSON.parse(raw);
+      if(d && d.library && d.library.length){
+        store.library = d.library;
+        store.li = Math.min(d.li||0, d.library.length-1);
+        adoptOverlays(d.overlays);
+        const b = store.library[store.li];
+        store.teams=b.teams; store.phases=b.phases;
+        store.meta=b.meta||{title:"Board",fixtureId:null,date:"",venue:"",score:""};
+        store.active=Math.min(b.active||0, b.phases.length-1);
+        return true;
+      }
+    }
+    /* carry boards saved before the season calendar existed */
+    const old = localStorage.getItem(LSKEY_OLD);
+    if(old){
+      const d = JSON.parse(old);
+      if(d && d.library && d.library.length){
+        store.library = d.library.map(function(b){
+          const m = b.meta || {};
+          const fx = m.fixtureId ? fixtureById("r1-"+(b.teams.home.short)+"-"+(b.teams.away.short)) : null;
+          b.meta = { title:m.title||"Board", fixtureId: fx ? fx.id : null,
+                     date:m.date||"", venue:m.venue||"", score:m.score||null,
+                     round: fx ? fx.round : 0, confirmed: !!fx };
+          return b;
+        });
+        store.li = Math.min(d.li||0, store.library.length-1);
+        adoptOverlays(d.overlays);
+        const b = store.library[store.li];
+        store.teams=b.teams; store.phases=b.phases; store.meta=b.meta;
+        store.active=Math.min(b.active||0, b.phases.length-1);
+        return true;
+      }
+    }
+    return false;
+  }catch(e){ return false; }
+}
+
+/* ===================== pitch markings ===================== */
+(function drawMarkings(){
+  const W=1050,H=680,ns="http://www.w3.org/2000/svg";
+  const svg=document.getElementById("markings");
+  function el(t,a){ const n=document.createElementNS(ns,t); for(const k in a) n.setAttribute(k,a[k]); return n; }
+  const g=el("g",{fill:"none",stroke:"var(--line)","stroke-width":"3.2","stroke-linecap":"round"});
+  g.appendChild(el("rect",{x:0,y:0,width:W,height:H}));
+  g.appendChild(el("line",{x1:W/2,y1:0,x2:W/2,y2:H}));
+  g.appendChild(el("circle",{cx:W/2,cy:H/2,r:91.5}));
+  g.appendChild(el("circle",{cx:W/2,cy:H/2,r:5,fill:"var(--line)",stroke:"none"}));
+  // penalty + six yard boxes
+  const pbW=165, pbH=403, sbW=55, sbH=183;
+  g.appendChild(el("rect",{x:0,y:(H-pbH)/2,width:pbW,height:pbH}));
+  g.appendChild(el("rect",{x:W-pbW,y:(H-pbH)/2,width:pbW,height:pbH}));
+  g.appendChild(el("rect",{x:0,y:(H-sbH)/2,width:sbW,height:sbH}));
+  g.appendChild(el("rect",{x:W-sbW,y:(H-sbH)/2,width:sbW,height:sbH}));
+  g.appendChild(el("circle",{cx:110,cy:H/2,r:5,fill:"var(--line)",stroke:"none"}));
+  g.appendChild(el("circle",{cx:W-110,cy:H/2,r:5,fill:"var(--line)",stroke:"none"}));
+  // D arcs
+  const dy=Math.sqrt(91.5*91.5-55*55);         /* where the D meets the box */
+  g.appendChild(el("path",{d:"M 165 "+(340-dy)+" A 91.5 91.5 0 0 1 165 "+(340+dy)}));
+  g.appendChild(el("path",{d:"M 885 "+(340-dy)+" A 91.5 91.5 0 0 0 885 "+(340+dy)}));
+  // goals
+  g.appendChild(el("rect",{x:-20,y:(H-73)/2,width:20,height:73,"stroke-width":"2.4"}));
+  g.appendChild(el("rect",{x:W,y:(H-73)/2,width:20,height:73,"stroke-width":"2.4"}));
+  // corner arcs
+  [[0,0,"M 0 16 A 16 16 0 0 0 16 0"],[W,0,"M "+(W-16)+" 0 A 16 16 0 0 0 "+W+" 16"],
+   [0,H,"M 16 "+H+" A 16 16 0 0 0 0 "+(H-16)],[W,H,"M "+W+" "+(H-16)+" A 16 16 0 0 0 "+(W-16)+" "+H]]
+   .forEach(function(c){ g.appendChild(el("path",{d:c[2]})); });
+  svg.appendChild(g);
+})();
+
+/* ===================== render ===================== */
+const NS="http://www.w3.org/2000/svg";
+const tokensEl=document.getElementById("tokens");
+const ghostsEl=document.getElementById("ghosts");
+const overlayEl=document.getElementById("overlay");
+const pitchInner=document.getElementById("pitchInner");
+
+function allPlayers(){ return store.teams.home.players.concat(store.teams.away.players); }
+function byId(id){ return allPlayers().filter(function(p){ return p.id===id; })[0]; }
+
+function renderTokens(){
+  tokensEl.innerHTML="";
+  ["home","away"].forEach(function(t){
+    store.teams[t].players.forEach(function(p){
+      const d=document.createElement("div");
+      d.className="tok "+t+(store.selected===p.id?" sel":"");
+      d.dataset.id=p.id; d.style.left=p.x+"%"; d.style.top=p.y+"%";
+      d.tabIndex=0;
+      d.setAttribute("role","button");
+      d.setAttribute("aria-label",p.name+", "+p.pos+", "+store.teams[t].name);
+      const hasNum = !(p.num===null||p.num===undefined||p.num==="");
+      d.textContent = hasNum ? p.num : p.pos;
+      if(!hasNum) d.style.fontSize="clamp(8px,.95vw,11px)";
+      const np=document.createElement("span"); np.className="nameplate"; np.textContent=p.name;
+      d.appendChild(np);
+      tokensEl.appendChild(d);
+    });
+  });
+  document.body.classList.toggle("nonames", !store.overlays.names);
+}
+function moveTokens(dur){
+  const nodes=tokensEl.children;
+  for(let i=0;i<nodes.length;i++){
+    const p=byId(nodes[i].dataset.id); if(!p) continue;
+    nodes[i].style.setProperty("--dur", dur+"ms");
+    nodes[i].style.left=p.x+"%"; nodes[i].style.top=p.y+"%";
+  }
+}
+function spawnGhosts(prev, dur){
+  ghostsEl.innerHTML="";
+  if(dur<200) return;
+  allPlayers().forEach(function(p){
+    const o=prev[p.id]; if(!o) return;
+    if(Math.abs(o.x-p.x)+Math.abs(o.y-p.y) < 1.2) return;
+    const g=document.createElement("div");
+    g.className="ghost "+p.id.split("-")[0];
+    g.style.left=o.x+"%"; g.style.top=o.y+"%";
+    g.style.setProperty("--dur", dur+"ms");
+    g.style.background = p.id.indexOf("home")===0 ? "var(--home-fill)" : "var(--away-fill)";
+    ghostsEl.appendChild(g);
+  });
+  setTimeout(function(){ ghostsEl.innerHTML=""; }, dur+60);
+}
+
+function px(x){ return x/100*1050; }
+function py(y){ return y/100*680; }
+function svgEl(t,a){ const n=document.createElementNS(NS,t); for(const k in a) n.setAttribute(k,a[k]); return n; }
+
+function hull(points){
+  if(points.length<3) return points;
+  const pts=points.slice().sort(function(a,b){ return a.x-b.x || a.y-b.y; });
+  const cross=function(o,a,b){ return (a.x-o.x)*(b.y-o.y)-(a.y-o.y)*(b.x-o.x); };
+  const lower=[],upper=[];
+  pts.forEach(function(p){ while(lower.length>=2 && cross(lower[lower.length-2],lower[lower.length-1],p)<=0) lower.pop(); lower.push(p); });
+  pts.slice().reverse().forEach(function(p){ while(upper.length>=2 && cross(upper[upper.length-2],upper[upper.length-1],p)<=0) upper.pop(); upper.push(p); });
+  lower.pop(); upper.pop();
+  return lower.concat(upper);
+}
+
+/* Group a team's outfield players into horizontal banks. Within a
+   role, a gap of more than 7% up the pitch starts a new bank, so a
+   double pivot and a band of three read as two lines, not a zigzag. */
+function bands(players){
+  const out=[];
+  ["DEF","MID","FWD"].forEach(function(r){
+    const grp=players.filter(function(p){ return p.role===r; }).slice().sort(function(a,b){ return a.x-b.x; });
+    let cur=[];
+    grp.forEach(function(p){
+      if(cur.length && Math.abs(p.x-cur[cur.length-1].x)>7){ out.push(cur); cur=[]; }
+      cur.push(p);
+    });
+    if(cur.length) out.push(cur);
+  });
+  return out.filter(function(b){ return b.length>1; })
+            .map(function(b){ return b.slice().sort(function(a,c){ return a.y-c.y; }); });
+}
+
+function renderOverlay(){
+  overlayEl.innerHTML="";
+  const ph=store.phases[store.active];
+  const defs=svgEl("defs",{});
+  [["ah-pass","var(--pass)"],["ah-run","var(--run)"],["ah-press","var(--press)"]].forEach(function(a){
+    const m=svgEl("marker",{id:a[0],viewBox:"0 0 10 10",refX:"8.4",refY:"5",markerWidth:"5.2",markerHeight:"5.2",orient:"auto-start-reverse"});
+    m.appendChild(svgEl("path",{d:"M 0 1 L 10 5 L 0 9 z",fill:a[1]}));
+    defs.appendChild(m);
+  });
+  const glow=svgEl("radialGradient",{id:"heatg"});
+  glow.appendChild(svgEl("stop",{offset:"0%","stop-color":"#fff","stop-opacity":".15"}));
+  glow.appendChild(svgEl("stop",{offset:"100%","stop-color":"#fff","stop-opacity":"0"}));
+  defs.appendChild(glow);
+  overlayEl.appendChild(defs);
+
+  // five vertical channels
+  if(store.overlays.channels){
+    const g=svgEl("g",{});
+    [0.2,0.4,0.6,0.8].forEach(function(f){
+      g.appendChild(svgEl("line",{x1:0,y1:680*f,x2:1050,y2:680*f,stroke:"var(--line)","stroke-width":"1.6","stroke-dasharray":"7 11","opacity":".5"}));
+    });
+    [[0.2,0.4],[0.6,0.8]].forEach(function(b){
+      g.appendChild(svgEl("rect",{x:0,y:680*b[0],width:1050,height:680*(b[1]-b[0]),fill:"#fff",opacity:".045"}));
+    });
+    overlayEl.appendChild(g);
+  }
+
+  // player influence glow
+  if(store.overlays.heat){
+    const g=svgEl("g",{});
+    allPlayers().forEach(function(p){
+      g.appendChild(svgEl("circle",{cx:px(p.x),cy:py(p.y),r:88,fill:"url(#heatg)"}));
+    });
+    overlayEl.appendChild(g);
+  }
+
+  // zones
+  if(ph && ph.zones){
+    ph.zones.forEach(function(z,i){
+      const g=svgEl("g",{class:"drawable","data-kind":"zone","data-i":i,style:"pointer-events:"+(store.tool==="erase"?"auto":"none")+";cursor:"+(store.tool==="erase"?"pointer":"default")});
+      g.appendChild(svgEl("rect",{x:px(z.x),y:py(z.y),width:px(z.w),height:py(z.h),rx:14,
+        fill:"var(--accent)",opacity:".14",stroke:"var(--accent)","stroke-width":"2.4","stroke-dasharray":"9 8"}));
+      overlayEl.appendChild(g);
+    });
+  }
+
+  ["home","away"].forEach(function(t){
+    const ps=store.teams[t].players;
+    const col = t==="home" ? "var(--home-ring)" : "var(--away-ring)";
+    // unit lines
+    if(store.overlays.lines){
+      const g=svgEl("g",{opacity:".55"});
+      bands(ps).forEach(function(line){
+        let d="M "+px(line[0].x)+" "+py(line[0].y);
+        for(let i=1;i<line.length;i++) d+=" L "+px(line[i].x)+" "+py(line[i].y);
+        g.appendChild(svgEl("path",{d:d,fill:"none",stroke:col,"stroke-width":"2.4","stroke-linecap":"round","stroke-dasharray":"1 9"}));
+      });
+      overlayEl.appendChild(g);
+    }
+    // team block
+    if(store.overlays.hull){
+      const pts=hull(ps.filter(function(p){ return p.role!=="GK"; }).map(function(p){ return {x:px(p.x),y:py(p.y)}; }));
+      if(pts.length>2){
+        overlayEl.appendChild(svgEl("polygon",{
+          points:pts.map(function(p){ return p.x+","+p.y; }).join(" "),
+          fill:col,opacity:".10",stroke:col,"stroke-width":"2","stroke-opacity":".45"}));
+      }
+    }
+    // defensive line
+    if(store.overlays.defline){
+      const def=ps.filter(function(p){ return p.role==="DEF"; });
+      if(def.length){
+        const xs=def.map(function(p){ return p.x; });
+        const v = t==="home" ? Math.max.apply(null,xs) : Math.min.apply(null,xs);
+        overlayEl.appendChild(svgEl("line",{x1:px(v),y1:14,x2:px(v),y2:666,stroke:col,"stroke-width":"2.2","stroke-dasharray":"14 10",opacity:".45"}));
+      }
+    }
+  });
+
+  // arrows
+  if(ph && ph.arrows){
+    ph.arrows.forEach(function(a,i){
+      const c = a.kind==="press" ? "var(--press)" : a.kind==="run" ? "var(--run)" : "var(--pass)";
+      const dash = a.kind==="run" ? "12 9" : a.kind==="press" ? "0" : "0";
+      const x1=px(a.x1),y1=py(a.y1),x2=px(a.x2),y2=py(a.y2);
+      const mx=(x1+x2)/2, my=(y1+y2)/2, dx=x2-x1, dy=y2-y1;
+      const len=Math.sqrt(dx*dx+dy*dy)||1;
+      const bow = a.kind==="press" ? 0 : Math.min(len*0.16, 70);
+      const cx=mx - dy/len*bow, cy=my + dx/len*bow;
+      const g=svgEl("g",{"data-kind":"arrow","data-i":i,style:"pointer-events:"+(store.tool==="erase"?"auto":"none")+";cursor:"+(store.tool==="erase"?"pointer":"default")});
+      g.appendChild(svgEl("path",{d:"M "+x1+" "+y1+" Q "+cx+" "+cy+" "+x2+" "+y2,fill:"none",stroke:"rgba(0,0,0,.35)","stroke-width":a.kind==="press"?"9":"7","stroke-linecap":"round",opacity:".5"}));
+      g.appendChild(svgEl("path",{d:"M "+x1+" "+y1+" Q "+cx+" "+cy+" "+x2+" "+y2,fill:"none",stroke:c,
+        "stroke-width":a.kind==="press"?"5.6":"4.2","stroke-linecap":"round","stroke-dasharray":dash,
+        "marker-end":"url(#ah-"+a.kind+")"}));
+      overlayEl.appendChild(g);
+    });
+  }
+}
+
+function renderAll(){ renderTokens(); renderOverlay(); }
+
+/* ===================== phases ===================== */
+function capturePos(){
+  const pos={}; allPlayers().forEach(function(p){ pos[p.id]={x:p.x,y:p.y}; }); return pos;
+}
+function captureMeta(){
+  const m={}; allPlayers().forEach(function(p){ m[p.id]={pos:p.pos,role:p.role}; }); return m;
+}
+function applyPhase(i, dur){
+  const ph=store.phases[i]; if(!ph) return;
+  const prev=capturePos();
+  ["home","away"].forEach(function(t){
+    if(ph.formations && ph.formations[t] && FORMATIONS[ph.formations[t]]) store.teams[t].formation=ph.formations[t];
+  });
+  allPlayers().forEach(function(p){
+    const q=ph.pos[p.id];
+    if(q){ p.x=q.x; p.y=q.y; }
+    const m=ph.meta && ph.meta[p.id];
+    if(m){ p.pos=m.pos; p.role=m.role; }
+  });
+  store.active=i;
+  if(tokensEl.children.length!==allPlayers().length) renderTokens();
+  spawnGhosts(prev, dur===undefined?760:dur);
+  moveTokens(dur===undefined?760:dur);
+  renderOverlay();
+  renderPhaseList(); renderStrip(); renderRosters(); syncHeader();
+  save();
+}
+function commitToPhase(){
+  const ph=store.phases[store.active]; if(!ph) return;
+  ph.pos=capturePos(); ph.meta=captureMeta();
+  ph.formations={home:store.teams.home.formation, away:store.teams.away.formation};
+  save();
+}
+
+/* Move a team into a different formation, keeping everyone as close
+   to their own channel and line as the new shape allows. */
+function reslot(teamId, formation, silent){
+  const team=store.teams[teamId];
+  const targets=FORMATIONS[formation].map(function(s){
+    const p=teamSpaceToPitch(teamId,s[2],s[3]);
+    return {pos:s[0],role:s[1],x:p.x,y:p.y};
+  });
+  const order=matchToTargets(team.players.slice(), targets);
+  team.players=order.map(function(p,i){
+    return { id:p.id, name:p.name, num:p.num, pos:targets[i].pos, role:targets[i].role, x:targets[i].x, y:targets[i].y };
+  });
+  team.formation=formation;
+  if(!silent){
+    moveTokens(620); renderOverlay(); renderRosters(); syncHeader(); commitToPhase();
+    setTimeout(function(){ renderTokens(); }, 640);
+  }
+}
+
+/* ===================== dragging ===================== */
+let drag=null;
+function pitchPct(e){
+  const r=pitchInner.getBoundingClientRect();
+  let x, y;
+  if(document.body.classList.contains("portrait")){
+    /* the pitch is rotated a quarter turn, so screen down is pitch left
+       and screen right is the home team's right */
+    const dx=e.clientX-(r.left+r.width/2), dy=e.clientY-(r.top+r.height/2);
+    x = (-dy + r.height/2)/r.height*100;
+    y = ( dx + r.width/2)/r.width*100;
+  } else {
+    x = (e.clientX-r.left)/r.width*100;
+    y = (e.clientY-r.top)/r.height*100;
+  }
+  return { x: Math.max(0.5, Math.min(99.5, x)), y: Math.max(1.0, Math.min(99.0, y)) };
+}
+tokensEl.addEventListener("pointerdown", function(e){
+  const tok=e.target.closest(".tok"); if(!tok) return;
+  if(store.tool!=="move"){ return; }
+  e.preventDefault();
+  const p=byId(tok.dataset.id); if(!p) return;
+  const c=pitchPct(e);
+  drag={ id:p.id, dx:p.x-c.x, dy:p.y-c.y, moved:0, team:p.id.split("-")[0], group:e.shiftKey,
+         offsets:null, node:tok };
+  if(drag.group){
+    drag.offsets=store.teams[drag.team].players.map(function(q){ return {id:q.id, dx:q.x-c.x, dy:q.y-c.y}; });
+  }
+  tok.setPointerCapture(e.pointerId);
+  tok.classList.add("dragging");
+  select(p.id);
+});
+tokensEl.addEventListener("pointermove", function(e){
+  if(!drag) return;
+  const c=pitchPct(e);
+  drag.moved += 1;
+  if(drag.group){
+    drag.offsets.forEach(function(o){
+      const q=byId(o.id);
+      q.x=Math.max(0.6,Math.min(99.4,c.x+o.dx)); q.y=Math.max(1.2,Math.min(98.8,c.y+o.dy));
+      const n=tokensEl.querySelector('[data-id="'+o.id+'"]');
+      if(n){ n.style.setProperty("--dur","0ms"); n.style.left=q.x+"%"; n.style.top=q.y+"%"; }
+    });
+  } else {
+    const p=byId(drag.id);
+    p.x=Math.max(0.6,Math.min(99.4,c.x+drag.dx)); p.y=Math.max(1.2,Math.min(98.8,c.y+drag.dy));
+    drag.node.style.left=p.x+"%"; drag.node.style.top=p.y+"%";
+  }
+  renderOverlay();
+});
+function endDrag(e){
+  if(!drag) return;
+  drag.node.classList.remove("dragging");
+  const nodes=tokensEl.children;
+  for(let i=0;i<nodes.length;i++) nodes[i].style.setProperty("--dur","760ms");
+  if(drag.moved>2) commitToPhase();
+  drag=null;
+  renderOverlay();
+}
+tokensEl.addEventListener("pointerup", endDrag);
+tokensEl.addEventListener("pointercancel", endDrag);
+tokensEl.addEventListener("dblclick", function(e){
+  const tok=e.target.closest(".tok"); if(!tok) return;
+  openPlayerEditor(tok.dataset.id);
+});
+tokensEl.addEventListener("keydown", function(e){
+  const tok=e.target.closest(".tok"); if(!tok) return;
+  const p=byId(tok.dataset.id); if(!p) return;
+  const step=e.shiftKey?4:1; let hit=true;
+  if(e.key==="ArrowLeft") p.x=Math.max(0.6,p.x-step);
+  else if(e.key==="ArrowRight") p.x=Math.min(99.4,p.x+step);
+  else if(e.key==="ArrowUp") p.y=Math.max(1.2,p.y-step);
+  else if(e.key==="ArrowDown") p.y=Math.min(98.8,p.y+step);
+  else if(e.key==="Enter"||e.key===" "){ openPlayerEditor(p.id); }
+  else hit=false;
+  if(hit){ e.preventDefault(); tok.style.setProperty("--dur","0ms"); tok.style.left=p.x+"%"; tok.style.top=p.y+"%"; renderOverlay(); commitToPhase(); }
+});
+
+function select(id){
+  store.selected=id;
+  Array.prototype.forEach.call(tokensEl.children,function(n){ n.classList.toggle("sel", n.dataset.id===id); });
+  renderRosters();
+}
+
+/* ===================== drawing tools ===================== */
+let draw=null;
+const tempLayer=document.createElementNS(NS,"g");
+pitchInner.addEventListener("pointerdown", function(e){
+  if(store.tool==="move") return;
+  if(e.target.closest(".tok")) return;
+  const g=e.target.closest("[data-kind]");
+  if(store.tool==="erase"){
+    if(!g) return;
+    const ph=store.phases[store.active];
+    const i=parseInt(g.dataset.i,10);
+    if(g.dataset.kind==="arrow") ph.arrows.splice(i,1); else ph.zones.splice(i,1);
+    renderOverlay(); save();
+    return;
+  }
+  e.preventDefault();
+  const c=pitchPct(e);
+  draw={ x1:c.x, y1:c.y, x2:c.x, y2:c.y };
+  overlayEl.appendChild(tempLayer);
+  pitchInner.setPointerCapture(e.pointerId);
+});
+pitchInner.addEventListener("pointermove", function(e){
+  if(!draw) return;
+  const c=pitchPct(e);
+  draw.x2=c.x; draw.y2=c.y;
+  tempLayer.innerHTML="";
+  if(store.tool==="zone"){
+    tempLayer.appendChild(svgEl("rect",{
+      x:px(Math.min(draw.x1,draw.x2)),y:py(Math.min(draw.y1,draw.y2)),
+      width:px(Math.abs(draw.x2-draw.x1)),height:py(Math.abs(draw.y2-draw.y1)),rx:14,
+      fill:"var(--accent)",opacity:".18",stroke:"var(--accent)","stroke-width":"2.4","stroke-dasharray":"9 8"}));
+  } else {
+    const c2 = store.tool==="press" ? "var(--press)" : store.tool==="run" ? "var(--run)" : "var(--pass)";
+    tempLayer.appendChild(svgEl("line",{x1:px(draw.x1),y1:py(draw.y1),x2:px(draw.x2),y2:py(draw.y2),
+      stroke:c2,"stroke-width":"4.2","stroke-linecap":"round","marker-end":"url(#ah-"+store.tool+")"}));
+  }
+});
+function endDraw(){
+  if(!draw) return;
+  const ph=store.phases[store.active];
+  const dist=Math.abs(draw.x2-draw.x1)+Math.abs(draw.y2-draw.y1);
+  if(dist>3){
+    if(store.tool==="zone"){
+      ph.zones.push({x:Math.min(draw.x1,draw.x2),y:Math.min(draw.y1,draw.y2),
+                     w:Math.abs(draw.x2-draw.x1),h:Math.abs(draw.y2-draw.y1)});
+    } else {
+      ph.arrows.push({x1:draw.x1,y1:draw.y1,x2:draw.x2,y2:draw.y2,kind:store.tool});
+    }
+  }
+  draw=null; tempLayer.innerHTML="";
+  if(tempLayer.parentNode) tempLayer.parentNode.removeChild(tempLayer);
+  renderOverlay(); save();
+}
+pitchInner.addEventListener("pointerup", endDraw);
+pitchInner.addEventListener("pointercancel", endDraw);
+
+/* ===================== UI wiring ===================== */
+function syncHeader(){
+  document.getElementById("nameH").textContent=store.teams.home.name;
+  document.getElementById("nameA").textContent=store.teams.away.name;
+  document.getElementById("shapeH").textContent=store.teams.home.formation;
+  document.getElementById("shapeA").textContent=store.teams.away.formation;
+  document.getElementById("crestH").textContent=store.teams.home.short;
+  document.getElementById("crestA").textContent=store.teams.away.short;
+  document.querySelectorAll('.teamcard[data-team="home"] .nm').forEach(function(n){ n.textContent=store.teams.home.name; });
+  document.querySelectorAll('.teamcard[data-team="away"] .nm').forEach(function(n){ n.textContent=store.teams.away.name; });
+  document.querySelectorAll('.teamcard[data-team="home"] .crest').forEach(function(n){ n.textContent=store.teams.home.short; });
+  document.querySelectorAll('.teamcard[data-team="away"] .crest').forEach(function(n){ n.textContent=store.teams.away.short; });
+  document.getElementById("fH").value=store.teams.home.formation;
+  document.getElementById("fA").value=store.teams.away.formation;
+  const m=store.meta||{};
+  const score=document.getElementById("chipScore");
+  score.textContent = m.confirmed && m.score ? m.score
+                    : m.fixtureId ? "Projected XIs" : "Custom board";
+  score.classList.toggle("live", !!(m.confirmed && m.score));
+  function chip(id, text){
+    const el=document.getElementById(id);
+    el.textContent = text || "";
+    el.style.display = text ? "" : "none";
+  }
+  chip("chipRound", m.round ? "Matchweek "+m.round : (m.fixtureId ? "Friendly" : ""));
+  chip("chipVenue", m.venue);
+  chip("chipDate", m.date ? m.date.replace(/^\w+,?\s*/,"")+" "+seasonYear(m.date) : "");
+  applyKits();
+  paintFormationMenus();
+}
+
+/* Everything outside the pitch that depends on which board is open. */
+function refreshChrome(){
+  syncHeader(); renderRosters(); renderPhaseList(); renderStrip(); renderBoardPanel();
+}
+
+function renderBoardPanel(){
+  syncLibrary();
+  const bl=document.getElementById("blist"); bl.innerHTML="";
+  store.library.forEach(function(b,i){
+    const d=document.createElement("div");
+    d.className="brow"+(i===store.li?" on":"");
+    d.innerHTML='<div><div class="bn"></div><div class="bs"></div></div>'+
+      '<span class="acts"><button class="mini" data-a="ren" title="Rename">✎</button>'+
+      '<button class="mini" data-a="del" title="Delete">✕</button></span>';
+    d.querySelector(".bn").textContent=b.name;
+    d.querySelector(".bs").textContent=b.phases.length+" phase"+(b.phases.length===1?"":"s")+
+      " · "+b.teams.home.formation+" v "+b.teams.away.formation;
+    d.addEventListener("click", function(e){ if(e.target.dataset.a) return; openBoard(i); renderBoardPanel(); });
+    d.querySelector('[data-a="ren"]').addEventListener("click", async function(e){
+      e.stopPropagation();
+      const v=await ask({title:"Rename board", value:b.name});
+      if(v!==null && String(v).trim()){
+        b.name=String(v).trim();
+        if(i===store.li) store.meta.title=b.name;
+        refreshChrome(); save();
+      }
+    });
+    d.querySelector('[data-a="del"]').addEventListener("click", async function(e){
+      e.stopPropagation();
+      if(store.library.length<2){ await ask({title:"That's your only board",body:"Open another match first, then you can delete this one.",input:false,confirmLabel:"OK"}); return; }
+      const ok=await ask({title:"Delete “"+b.name+"”?", body:"Its phases and drawings go with it.", input:false, confirmLabel:"Delete"});
+      if(!ok) return;
+      deleteBoard(i); renderBoardPanel(); save();
+    });
+    bl.appendChild(d);
+  });
+
+  renderRound();
+}
+
+let shownRound = 1;
+function renderRound(){
+  const sel=document.getElementById("roundSel");
+  if(!sel.options.length){
+    ROUNDS.forEach(function(r){
+      const o=document.createElement("option");
+      o.value=r.n; o.textContent="Matchweek "+r.n+" · "+r.when+" "+seasonYear(r.when);
+      sel.appendChild(o);
+    });
+  }
+  sel.value=shownRound;
+  const confirmed = shownRound<=CONFIRMED_ROUNDS;
+  document.getElementById("roundNote").textContent = confirmed
+    ? "Confirmed elevens — these are the teams that actually played."
+    : "Projected elevens, each club in the shape and personnel it used in Matchweek 1. Change either side's shape on the board, or reload once real team news lands.";
+
+  const fl=document.getElementById("flist"); fl.innerHTML="";
+  fixturesOfRound(shownRound).forEach(function(fx){
+    const b=document.createElement("button");
+    b.className="frow"+(store.meta && store.meta.fixtureId===fx.id ? " on":"");
+    b.type="button";
+    b.innerHTML='<span class="pips"><i class="pip"></i><i class="pip"></i></span>'+
+      '<span class="ftx"><span class="ftm"></span><span class="fsh"></span></span>'+
+      '<span class="fsc"></span>';
+    const pips=b.querySelectorAll(".pip");
+    pips[0].style.background=kit(fx.home.short)[0];
+    pips[1].style.background=kit(fx.away.short)[0];
+    b.querySelector(".ftm").textContent=fx.home.team+" v "+fx.away.team;
+    b.querySelector(".fsh").textContent=fx.date+" · "+fx.home.formation+" v "+fx.away.formation;
+    b.querySelector(".fsc").textContent=fx.score || "";
+    b.addEventListener("click", function(){ newBoardFromFixture(fx); renderBoardPanel(); save(); });
+    fl.appendChild(b);
+  });
+}
+(function wireRoundBar(){
+  const sel=document.getElementById("roundSel");
+  sel.addEventListener("change", function(){ shownRound=parseInt(sel.value,10); renderRound(); });
+  document.getElementById("rPrev").addEventListener("click", function(){
+    shownRound=Math.max(1, shownRound-1); renderRound();
+  });
+  document.getElementById("rNext").addEventListener("click", function(){
+    shownRound=Math.min(ROUNDS.length, shownRound+1); renderRound();
+  });
+  ["anyH","anyA"].forEach(function(id,i){
+    const s=document.getElementById(id);
+    CLUB_CODES.slice().sort(function(a,b){ return SQUADS[a].team.localeCompare(SQUADS[b].team); })
+      .forEach(function(c){
+        const o=document.createElement("option");
+        o.value=c; o.textContent=SQUADS[c].team; s.appendChild(o);
+      });
+    s.value = i===0 ? "FUL" : "CHE";
+  });
+  document.getElementById("anyGo").addEventListener("click", function(){
+    const h=document.getElementById("anyH").value, a=document.getElementById("anyA").value;
+    if(h===a) return;
+    newBoardFromFixture(customFixture(h,a)); renderBoardPanel(); save();
+  });
+})();
+["fH","fA"].forEach(function(id,i){
+  document.getElementById(id).addEventListener("change", function(){
+    reslot(i===0?"home":"away", this.value);
+  });
+});
+
+/* The formation menu leads with the shapes this club's coach actually
+   uses, then offers everything else. */
+function paintFormationMenus(){
+  [["fH","home","coachH"],["fA","away","coachA"]].forEach(function(cfg){
+    const sel=document.getElementById(cfg[0]);
+    const t=store.teams[cfg[1]];
+    const sq=SQUADS[t.short];
+    const cur=t.formation;
+    sel.innerHTML="";
+    const known={};
+    if(sq && sq.shapes && sq.shapes.length){
+      const g=document.createElement("optgroup");
+      g.label = (sq.coach ? sq.coach+"'s shapes" : "This club's shapes");
+      sq.shapes.forEach(function(pair){
+        known[pair[0]]=pair[1];
+        const o=document.createElement("option");
+        o.value=pair[0]; o.textContent=pair[0];
+        g.appendChild(o);
+      });
+      sel.appendChild(g);
+    }
+    const rest=FORMATION_KEYS.filter(function(k){ return !(k in known); });
+    if(rest.length){
+      const g2=document.createElement("optgroup"); g2.label="Every other shape";
+      rest.forEach(function(k){
+        const o=document.createElement("option"); o.value=k; o.textContent=k; g2.appendChild(o);
+      });
+      sel.appendChild(g2);
+    }
+    sel.value=cur;
+    const line=document.getElementById(cfg[2]);
+    if(line){
+      if(sq && sq.coach){
+        line.textContent = sq.coach + (known[cur] ? " · " + known[cur] : " · off-book shape");
+        line.style.display="";
+      } else { line.style.display="none"; }
+    }
+  });
+}
+
+function renderRosters(){
+  [["rosterH","home"],["rosterA","away"]].forEach(function(pair){
+    const box=document.getElementById(pair[0]); box.innerHTML="";
+    store.teams[pair[1]].players.forEach(function(p){
+      const r=document.createElement("div");
+      r.className="rrow"+(store.selected===p.id?" sel":"");
+      r.innerHTML='<span class="rnum"></span><span class="rnm"></span><span class="rpos"></span>';
+      r.children[0].textContent = (p.num===null||p.num===undefined||p.num==="") ? "–" : p.num;
+      r.children[1].textContent = p.name;
+      r.children[2].textContent = p.pos;
+      r.addEventListener("click", function(){ select(p.id); });
+      r.addEventListener("dblclick", function(){ openPlayerEditor(p.id); });
+      box.appendChild(r);
+    });
+  });
+}
+
+function renderPhaseList(){
+  const box=document.getElementById("plist"); box.innerHTML="";
+  store.phases.forEach(function(ph,i){
+    const d=document.createElement("div");
+    d.className="pitem"+(i===store.active?" on":"");
+    d.innerHTML='<span class="n"></span><span class="t"></span><span class="acts">'+
+      '<button class="mini" data-a="up" title="Move up">↑</button>'+
+      '<button class="mini" data-a="ren" title="Rename">✎</button>'+
+      '<button class="mini" data-a="del" title="Delete">✕</button></span>';
+    d.children[0].textContent=String(i+1).padStart(2,"0");
+    d.children[1].textContent=ph.name;
+    d.addEventListener("click", function(e){
+      if(e.target.dataset.a) return;
+      applyPhase(i, parseInt(document.getElementById("speedSel").value,10));
+    });
+    d.querySelector('[data-a="up"]').addEventListener("click", function(e){
+      e.stopPropagation(); if(i===0) return;
+      const t=store.phases[i-1]; store.phases[i-1]=store.phases[i]; store.phases[i]=t;
+      if(store.active===i) store.active=i-1; else if(store.active===i-1) store.active=i;
+      renderPhaseList(); renderStrip(); save();
+    });
+    d.querySelector('[data-a="ren"]').addEventListener("click", async function(e){
+      e.stopPropagation();
+      const v=await ask({title:"Rename phase", value:ph.name});
+      if(v!==null && String(v).trim()){ ph.name=String(v).trim(); renderPhaseList(); renderStrip(); save(); }
+    });
+    d.querySelector('[data-a="del"]').addEventListener("click", function(e){
+      e.stopPropagation();
+      if(store.phases.length<2) return;
+      store.phases.splice(i,1);
+      store.active=Math.min(store.active, store.phases.length-1);
+      applyPhase(store.active, 0);
+    });
+    box.appendChild(d);
+  });
+  const ph=store.phases[store.active];
+  document.getElementById("phaseNote").textContent = ph && ph.note ? ph.note : "Drag players, draw the movement, then capture it as a new phase.";
+}
+function renderStrip(){
+  const s=document.getElementById("strip"); s.innerHTML="";
+  store.phases.forEach(function(ph,i){
+    const b=document.createElement("button");
+    b.className="pchip"+(i===store.active?" on":"");
+    b.innerHTML='<span class="idx"></span><span class="lb"></span>';
+    b.children[0].textContent=String(i+1).padStart(2,"0");
+    b.children[1].textContent=ph.name;
+    b.addEventListener("click", function(){ applyPhase(i, parseInt(document.getElementById("speedSel").value,10)); });
+    s.appendChild(b);
+  });
+}
+
+/* overlay toggles */
+(function(){
+  const box=document.getElementById("overlayToggles");
+  OVERLAY_DEFS.forEach(function(o){
+    const d=document.createElement("div");
+    d.className="toggle"+(store.overlays[o[0]]?" on":"");
+    d.setAttribute("role","switch"); d.tabIndex=0;
+    d.setAttribute("aria-checked", store.overlays[o[0]]?"true":"false");
+    d.innerHTML='<span></span><span class="sw"></span>';
+    d.children[0].textContent=o[1];
+    function flip(){
+      store.overlays[o[0]]=!store.overlays[o[0]];
+      d.classList.toggle("on", store.overlays[o[0]]);
+      d.setAttribute("aria-checked", store.overlays[o[0]]?"true":"false");
+      document.body.classList.toggle("nonames", !store.overlays.names);
+      renderOverlay(); save();
+    }
+    d.addEventListener("click", flip);
+    d.addEventListener("keydown", function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); flip(); } });
+    box.appendChild(d);
+  });
+})();
+
+/* tools */
+document.querySelectorAll("[data-tool]").forEach(function(b){
+  b.addEventListener("click", function(){
+    store.tool=b.dataset.tool;
+    document.querySelectorAll("[data-tool]").forEach(function(x){ x.classList.toggle("on", x===b); });
+    pitchInner.style.cursor = store.tool==="move" ? "default" : store.tool==="erase" ? "pointer" : "crosshair";
+    document.body.classList.toggle("drawing", store.tool!=="move");
+    renderOverlay();
+  });
+});
+document.getElementById("clearDraw").addEventListener("click", function(){
+  const ph=store.phases[store.active]; ph.arrows=[]; ph.zones=[]; renderOverlay(); save();
+});
+
+/* phases add / duplicate */
+document.getElementById("addPhase").addEventListener("click", async function(){
+  const name=await ask({title:"Capture this shape as a phase", body:"Every player position and drawing on the pitch right now gets saved under this name.", value:"Phase "+(store.phases.length+1)});
+  if(name===null) return;
+  store.phases.splice(store.active+1,0,{
+    id:"ph"+Date.now(), name:String(name).trim()||("Phase "+(store.phases.length+1)), note:"",
+    formations:{home:store.teams.home.formation,away:store.teams.away.formation},
+    pos:capturePos(), meta:captureMeta(), arrows:[], zones:[]
+  });
+  store.active++;
+  renderPhaseList(); renderStrip(); save();
+});
+document.getElementById("dupPhase").addEventListener("click", function(){
+  const ph=store.phases[store.active];
+  store.phases.splice(store.active+1,0,JSON.parse(JSON.stringify(Object.assign({},ph,{id:"ph"+Date.now(),name:ph.name+" copy"}))));
+  store.active++;
+  renderPhaseList(); renderStrip(); save();
+});
+
+/* playback */
+let playing=null;
+document.getElementById("playBtn").addEventListener("click", function(){
+  const btn=this;
+  if(playing){ clearTimeout(playing); playing=null; btn.textContent="▶"; return; }
+  btn.textContent="❚❚";
+  const dur=parseInt(document.getElementById("speedSel").value,10);
+  let i=store.active;
+  (function step(){
+    i=(i+1)%store.phases.length;
+    applyPhase(i,dur);
+    playing=setTimeout(step, dur+Math.round(dur*0.85));
+  })();
+});
+
+/* theme */
+document.getElementById("themeBtn").addEventListener("click", function(){
+  const cur=document.documentElement.getAttribute("data-theme");
+  const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const next = cur ? (cur==="dark"?"light":"dark") : (prefersDark?"light":"dark");
+  document.documentElement.setAttribute("data-theme", next);
+  try{ localStorage.setItem("touchline.theme", next); }catch(e){}
+});
+try{ const t=localStorage.getItem("touchline.theme"); if(t) document.documentElement.setAttribute("data-theme",t); }catch(e){}
+
+/* swap ends */
+document.getElementById("swapBtn").addEventListener("click", function(){
+  store.phases.forEach(function(ph){
+    Object.keys(ph.pos).forEach(function(k){ ph.pos[k]={x:100-ph.pos[k].x, y:100-ph.pos[k].y}; });
+    ph.arrows.forEach(function(a){ a.x1=100-a.x1;a.y1=100-a.y1;a.x2=100-a.x2;a.y2=100-a.y2; });
+    ph.zones.forEach(function(z){ z.x=100-z.x-z.w; z.y=100-z.y-z.h; });
+  });
+  applyPhase(store.active, 700);
+});
+
+/* player editor */
+let peId=null;
+function openPlayerEditor(id){
+  const p=byId(id); if(!p) return;
+  peId=id;
+  const t=store.teams[id.split("-")[0]];
+  document.getElementById("peTitle").textContent=p.name;
+  document.getElementById("peSub").textContent=t.name+" · "+p.pos+" · "+p.role.toLowerCase();
+  document.getElementById("peNum").value=(p.num===null||p.num===undefined)?"":p.num;
+  document.getElementById("peName").value=p.name;
+  document.getElementById("playerScrim").classList.remove("hide");
+  document.getElementById("peName").focus();
+}
+function closePlayerEditor(){
+  const p=byId(peId);
+  if(p){
+    const n=document.getElementById("peName").value.trim();
+    const num=document.getElementById("peNum").value.trim();
+    if(n) p.name=n;
+    p.num = num==="" ? null : (isNaN(parseInt(num,10)) ? num : parseInt(num,10));
+    renderTokens(); renderRosters(); save();
+  }
+  document.getElementById("playerScrim").classList.add("hide"); peId=null;
+}
+document.getElementById("peClose").addEventListener("click", closePlayerEditor);
+document.getElementById("playerScrim").addEventListener("click", function(e){ if(e.target===this) closePlayerEditor(); });
+
+/* matches and boards */
+const boardScrim=document.getElementById("boardScrim");
+function openBoards(){
+  const r = store.meta && store.meta.round;
+  if(r) shownRound = Math.min(Math.max(r,1), ROUNDS.length);
+  renderBoardPanel();
+  boardScrim.classList.remove("hide");
+}
+document.getElementById("boardsBtn").addEventListener("click", openBoards);
+document.getElementById("boardClose").addEventListener("click", function(){ boardScrim.classList.add("hide"); });
+boardScrim.addEventListener("click", function(e){ if(e.target===this) boardScrim.classList.add("hide"); });
+
+/* lineup import */
+const impScrim=document.getElementById("importScrim");
+["impFH","impFA"].forEach(function(id){
+  const sel=document.getElementById(id);
+  FORMATION_KEYS.forEach(function(k){
+    const o=document.createElement("option"); o.value=k; o.textContent=k; sel.appendChild(o);
+  });
+});
+document.getElementById("importBtn").addEventListener("click", function(){
+  document.getElementById("impTeamH").value=store.teams.home.name;
+  document.getElementById("impTeamA").value=store.teams.away.name;
+  document.getElementById("impFH").value=store.teams.home.formation;
+  document.getElementById("impFA").value=store.teams.away.formation;
+  impScrim.classList.remove("hide");
+});
+document.getElementById("impCancel").addEventListener("click", function(){ impScrim.classList.add("hide"); });
+impScrim.addEventListener("click", function(e){ if(e.target===this) impScrim.classList.add("hide"); });
+function parseLineup(text){
+  return text.split(/[;,\n]/).map(function(s){ return s.trim(); }).filter(Boolean).slice(0,11)
+    .map(function(s){
+      const m=s.match(/^(\d{1,2})[.)\s]+(.+)$/);
+      if(m) return {name:m[2].trim(), num:parseInt(m[1],10)};
+      const m2=s.match(/^(.+?)\s+\((\d{1,2})\)$/);
+      if(m2) return {name:m2[1].trim(), num:parseInt(m2[2],10)};
+      return {name:s, num:null};
+    });
+}
+function shortOf(name){
+  const w=name.trim().split(/\s+/);
+  if(w.length>1) return (w[0][0]+w[1][0]+(w[1][1]||"")).toUpperCase();
+  return name.trim().slice(0,3).toUpperCase();
+}
+document.getElementById("impApply").addEventListener("click", function(){
+  syncLibrary();
+  [["impH","impTeamH","impFH","home"],["impA","impTeamA","impFA","away"]].forEach(function(cfg){
+    const txt=document.getElementById(cfg[0]).value;
+    const nm=document.getElementById(cfg[1]).value.trim();
+    const t=store.teams[cfg[3]];
+    if(nm){ t.name=nm; t.short=shortOf(nm); }
+    t.formation=document.getElementById(cfg[2]).value;
+    const list=parseLineup(txt);
+    if(!list.length){ reslot(cfg[3], t.formation, true); return; }
+    t.players=buildPlayers(cfg[3], t.formation, list.map(function(x){ return [x.name, x.num]; }));
+  });
+  const pseudo={
+    venue:"the ground", scripted:false,
+    home:{team:store.teams.home.name, formation:store.teams.home.formation},
+    away:{team:store.teams.away.name, formation:store.teams.away.formation}
+  };
+  store.meta={ title:store.teams.home.name+" v "+store.teams.away.name,
+               fixtureId:null, date:"", venue:"", score:"" };
+  store.phases=seedPhases(genericPhases(pseudo));
+  store.active=0; store.selected=null;
+  store.library.push(liveBoard());
+  store.li=store.library.length-1;
+  impScrim.classList.add("hide");
+  boardScrim.classList.add("hide");
+  renderTokens(); applyPhase(0,0); refreshChrome(); save();
+});
+document.getElementById("importFromBoards").addEventListener("click", function(){
+  boardScrim.classList.add("hide");
+  document.getElementById("importBtn").click();
+});
+
+/* reset */
+document.getElementById("resetBtn").addEventListener("click", async function(){
+  const fx=store.meta && store.meta.fixtureId ? fixtureById(store.meta.fixtureId) : null;
+  const what = fx ? "the confirmed "+fx.home.team+" v "+fx.away.team+" XIs" : "the five default phases";
+  const ok=await ask({title:"Reset this board?", body:"Your phases, drawings and any renamed players go back to "+what+". Your other boards are untouched.", input:false, confirmLabel:"Reset"});
+  if(!ok) return;
+  if(fx){ loadFixture(fx); }
+  else {
+    store.phases=seedPhases(genericPhases({
+      venue:"the ground",
+      home:{team:store.teams.home.name, formation:store.teams.home.formation},
+      away:{team:store.teams.away.name, formation:store.teams.away.formation}
+    }));
+    store.active=0; applyPhase(0,0);
+  }
+  renderTokens(); refreshChrome(); save();
+});
+
+/* ===================== export ===================== */
+async function saveFile(filename, data, mime){
+  try{
+    const dl = await window.claude.use("downloads");
+    if(dl){ await dl.save({filename:filename, data:data}); return true; }
+  }catch(e){ /* fall through */ }
+  return false;
+}
+document.getElementById("jsonBtn").addEventListener("click", async function(){
+  const payload=JSON.stringify({teams:store.teams,phases:store.phases},null,2);
+  const ok=await saveFile("touchline-board.json", payload, "application/json");
+  if(!ok) flash(this,"Save unavailable here");
+});
+function flash(btn,msg){
+  const old=btn.textContent; btn.textContent=msg;
+  setTimeout(function(){ btn.textContent=old; }, 1800);
+}
+
+function renderPNG(scale){
+  const W=1140*scale, H=770*scale, PX=45*scale;
+  const cv=document.createElement("canvas"); cv.width=W; cv.height=H;
+  const g=cv.getContext("2d");
+  const pw=1050*scale, phh=680*scale;
+  const cs=getComputedStyle(document.body);
+  const ta=cs.getPropertyValue("--turf-a").trim()||"#12482B";
+  const tb=cs.getPropertyValue("--turf-b").trim()||"#104226";
+  for(let i=0;i<16;i++){
+    g.fillStyle=(i%2)?tb:ta;
+    g.fillRect(Math.round(W/16*i),0,Math.ceil(W/16)+1,H);
+  }
+  const X=function(x){ return PX + x/100*pw; }, Y=function(y){ return PX + y/100*phh; };
+  const UW=function(v){ return v/100*pw; }, UH=function(v){ return v/100*phh; };
+  g.save(); g.translate(PX,PX); g.scale(pw/1050, phh/680);
+  g.strokeStyle="rgba(255,255,255,.62)"; g.lineWidth=3.2; g.lineCap="round";
+  g.strokeRect(0,0,1050,680);
+  g.beginPath(); g.moveTo(525,0); g.lineTo(525,680); g.stroke();
+  g.beginPath(); g.arc(525,340,91.5,0,Math.PI*2); g.stroke();
+  g.fillStyle="rgba(255,255,255,.62)";
+  [[525,340],[110,340],[940,340]].forEach(function(p){ g.beginPath(); g.arc(p[0],p[1],5,0,Math.PI*2); g.fill(); });
+  g.strokeRect(0,138.5,165,403); g.strokeRect(885,138.5,165,403);
+  g.strokeRect(0,248.5,55,183);  g.strokeRect(995,248.5,55,183);
+  const dA=Math.acos((165-110)/91.5);          /* where the D meets the box */
+  g.beginPath(); g.arc(110,340,91.5,-dA,dA); g.stroke();
+  g.beginPath(); g.arc(940,340,91.5,Math.PI-dA,Math.PI+dA); g.stroke();
+  g.restore();
+
+  const ph=store.phases[store.active];
+  // zones
+  (ph.zones||[]).forEach(function(z){
+    g.fillStyle="rgba(242,166,59,.18)"; g.strokeStyle="rgba(242,166,59,.85)";
+    g.lineWidth=2.4*scale; g.setLineDash([9*scale,8*scale]);
+    g.fillRect(X(z.x),Y(z.y),UW(z.w),UH(z.h));
+    g.strokeRect(X(z.x),Y(z.y),UW(z.w),UH(z.h));
+    g.setLineDash([]);
+  });
+  // unit lines
+  if(store.overlays.lines){
+    ["home","away"].forEach(function(t){
+      g.strokeStyle = t==="home" ? "rgba(255,255,255,.5)" : "rgba(156,200,255,.55)";
+      g.lineWidth=2.4*scale; g.setLineDash([1.5*scale,9*scale]);
+      bands(store.teams[t].players).forEach(function(ln){
+        g.beginPath(); g.moveTo(X(ln[0].x),Y(ln[0].y));
+        for(let i=1;i<ln.length;i++) g.lineTo(X(ln[i].x),Y(ln[i].y));
+        g.stroke();
+      });
+      g.setLineDash([]);
+    });
+  }
+  // arrows
+  (ph.arrows||[]).forEach(function(a){
+    const col = a.kind==="press" ? "#F0575C" : a.kind==="run" ? "#3FD6C9" : "#F2A63B";
+    const x1=X(a.x1),y1=Y(a.y1),x2=X(a.x2),y2=Y(a.y2);
+    const dx=x2-x1, dy=y2-y1, len=Math.sqrt(dx*dx+dy*dy)||1;
+    const bow = a.kind==="press" ? 0 : Math.min(len*0.16, 70*scale);
+    const cx=(x1+x2)/2 - dy/len*bow, cy=(y1+y2)/2 + dx/len*bow;
+    g.strokeStyle=col; g.lineWidth=(a.kind==="press"?5.6:4.2)*scale; g.lineCap="round";
+    g.setLineDash(a.kind==="run"?[12*scale,9*scale]:[]);
+    g.beginPath(); g.moveTo(x1,y1); g.quadraticCurveTo(cx,cy,x2,y2); g.stroke();
+    g.setLineDash([]);
+    const ang=Math.atan2(y2-cy,x2-cx), hs=13*scale;
+    g.fillStyle=col; g.beginPath();
+    g.moveTo(x2,y2);
+    g.lineTo(x2-hs*Math.cos(ang-0.42), y2-hs*Math.sin(ang-0.42));
+    g.lineTo(x2-hs*Math.cos(ang+0.42), y2-hs*Math.sin(ang+0.42));
+    g.closePath(); g.fill();
+  });
+  // tokens
+  const R=17*scale;
+  ["home","away"].forEach(function(t){
+    store.teams[t].players.forEach(function(p){
+      const x=X(p.x), y=Y(p.y);
+      g.save();
+      g.shadowColor="rgba(0,0,0,.55)"; g.shadowBlur=10*scale; g.shadowOffsetY=3*scale;
+      g.fillStyle = t==="home" ? "#F5F7FA" : "#1462CF";
+      g.beginPath(); g.arc(x,y,R,0,Math.PI*2); g.fill();
+      g.restore();
+      g.lineWidth=1.6*scale; g.strokeStyle = t==="home" ? "#1B2027" : "#9CC8FF";
+      g.beginPath(); g.arc(x,y,R,0,Math.PI*2); g.stroke();
+      g.fillStyle = t==="home" ? "#12161C" : "#FFFFFF";
+      g.font="700 "+(17*scale)+"px 'Saira Condensed', Arial Narrow, sans-serif";
+      g.textAlign="center"; g.textBaseline="middle";
+      g.fillText(String(p.num===null||p.num===undefined||p.num===""?p.pos:p.num), x, y+scale);
+      if(store.overlays.names){
+        g.font="600 "+(11*scale)+"px 'Instrument Sans', Helvetica, sans-serif";
+        const w=g.measureText(p.name).width+11*scale;
+        g.fillStyle = t==="home" ? "rgba(240,244,248,.88)" : "rgba(6,14,9,.68)";
+        const ry=y+R+4*scale;
+        g.beginPath();
+        if(g.roundRect) g.roundRect(x-w/2, ry, w, 15*scale, 7.5*scale);
+        else g.rect(x-w/2, ry, w, 15*scale);
+        g.fill();
+        g.fillStyle = t==="home" ? "#12161C" : "#F2F7F3";
+        g.fillText(p.name, x, ry+8*scale);
+      }
+    });
+  });
+  // caption
+  g.fillStyle="rgba(255,255,255,.82)";
+  g.font="600 "+(17*scale)+"px 'Saira Condensed', Arial Narrow, sans-serif";
+  g.textAlign="left"; g.textBaseline="middle";
+  g.fillText(store.teams.home.name+" "+store.teams.home.formation+"  v  "+store.teams.away.name+" "+store.teams.away.formation, PX, PX/2);
+  g.textAlign="right";
+  g.fillText(ph.name.toUpperCase(), W-PX, PX/2);
+  return cv;
+}
+document.getElementById("pngBtn").addEventListener("click", async function(){
+  const btn=this;
+  const cv=renderPNG(2);
+  const blob=await new Promise(function(res){ cv.toBlob(res,"image/png"); });
+  if(!blob){ flash(btn,"Could not render"); return; }
+  const buf=await blob.arrayBuffer();
+  let bin=""; const bytes=new Uint8Array(buf);
+  for(let i=0;i<bytes.length;i++) bin+=String.fromCharCode(bytes[i]);
+  const b64=btoa(bin);
+  const name=(store.phases[store.active].name||"board").toLowerCase().replace(/[^a-z0-9]+/g,"-");
+  const ok=await saveFile("touchline-"+name+".png", "data:image/png;base64,"+b64, "image/png");
+  if(!ok){
+    const w=window.open("");
+    if(w){ w.document.write('<img src="data:image/png;base64,'+b64+'" style="max-width:100%">'); }
+    else flash(btn,"Save unavailable here");
+  }
+});
+
+/* keyboard: phase stepping */
+document.addEventListener("keydown", function(e){
+  if(e.target.closest("input,textarea,select,.tok")) return;
+  const dur=parseInt(document.getElementById("speedSel").value,10);
+  if(e.key==="]"||e.key==="PageDown"){ applyPhase((store.active+1)%store.phases.length,dur); }
+  if(e.key==="["||e.key==="PageUp"){ applyPhase((store.active-1+store.phases.length)%store.phases.length,dur); }
+  if(e.key==="Escape"){
+    if(peId) closePlayerEditor();
+    impScrim.classList.add("hide"); boardScrim.classList.add("hide");
+    if(askResolve) askDone(null);
+  }
+});
+
+/* ===================== boot ===================== */
+async function boot(){
+  await loadData();
+  CLUB_CODES = Object.keys(SQUADS);
+  rebuildClubPickers();
+  if(!load()) freshBoard();
+  else { renderTokens(); applyPhase(store.active, 0); }
+  if(!store.library.length){ store.library=[liveBoard()]; store.li=0; }
+  renderAll(); refreshChrome();
+  markDataSource();
+}
+
+/* The "any matchup" pickers are filled from SQUADS, so they are rebuilt
+   once the real club list has arrived. */
+function rebuildClubPickers(){
+  ["anyH","anyA"].forEach(function(id,i){
+    const sel=document.getElementById(id);
+    if(!sel) return;
+    const keep=sel.value;
+    sel.innerHTML="";
+    CLUB_CODES.slice().sort(function(a,b){ return SQUADS[a].team.localeCompare(SQUADS[b].team); })
+      .forEach(function(c){
+        const o=document.createElement("option");
+        o.value=c; o.textContent=SQUADS[c].team; sel.appendChild(o);
+      });
+    sel.value = keep && SQUADS[keep] ? keep : (i===0 ? "FUL" : "CHE");
+  });
+}
+
+function markDataSource(){
+  const el=document.getElementById("dataSource");
+  if(!el) return;
+  const n=Object.keys(LIVE.matches||{}).length;
+  el.textContent = DATA_SOURCE==="seeded"
+    ? "Shipped data — no ingest job has run yet."
+    : "Squads " + DATA_SOURCE + (n ? " · " + n + " match(es) confirmed by the job." : ".");
+}
+
+boot();
+window.addEventListener("resize", function(){ renderOverlay(); });
+
+/* ---- phone layout: turn the pitch upright, fold the side panels ---- */
+(function mobileLayout(){
+  const mq = window.matchMedia("(max-width: 680px)");
+  const OPEN_BY_DEFAULT = ["home","away","phases"];
+  function markSections(){
+    document.querySelectorAll(".rail > section").forEach(function(s,i){
+      if(s.classList.contains("coll")) return;
+      s.classList.add("coll");
+      const head = s.querySelector(":scope > h2, :scope > .teamhead");
+      if(!head) { s.classList.add("open"); return; }
+      const key = s.dataset.team || (head.textContent||"").trim().toLowerCase();
+      if(OPEN_BY_DEFAULT.some(function(k){ return key.indexOf(k)===0; })) s.classList.add("open");
+      head.setAttribute("role","button");
+      head.tabIndex=0;
+      function toggle(){
+        s.classList.toggle("open");
+        if(s.classList.contains("open")) renderOverlay();
+      }
+      head.addEventListener("click", function(e){
+        if(!document.body.classList.contains("portrait")) return;
+        if(e.target.closest("button,select,input")) return;
+        toggle();
+      });
+      head.addEventListener("keydown", function(e){
+        if(!document.body.classList.contains("portrait")) return;
+        if(e.key==="Enter"||e.key===" "){ e.preventDefault(); toggle(); }
+      });
+    });
+  }
+  function apply(){
+    const on = mq.matches;
+    document.body.classList.toggle("portrait", on);
+    if(on) markSections();
+    renderOverlay();
+  }
+  apply();
+  if(mq.addEventListener) mq.addEventListener("change", apply);
+  else if(mq.addListener) mq.addListener(apply);
+})();
+</script>

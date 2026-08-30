@@ -1,0 +1,53 @@
+name: Lineup sweep
+
+# Runs a few times through the day looking for confirmed team sheets.
+# Actions cron is coarse and often late — that is fine here, because
+# lineups land about an hour before kickoff and stay put.
+on:
+  schedule:
+    - cron: "0 10 * * *"   # morning: pick up the day's fixtures
+    - cron: "30 11 * * *"
+    - cron: "0 13 * * *"   # around 12:30 and 14:00 kickoffs
+    - cron: "45 14 * * *"
+    - cron: "45 16 * * *"  # around 17:30
+    - cron: "0 19 * * *"   # around 20:00
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date to sweep (YYYY-MM-DD). Blank = today."
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: touchline-data
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Fetch lineups
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          API_FOOTBALL_DAILY_CAP: ${{ vars.API_FOOTBALL_DAILY_CAP || '100' }}
+        run: node scripts/fetch-lineups.mjs ${{ github.event.inputs.date }}
+
+      - name: Commit whatever changed
+        run: |
+          git config user.name  "touchline-bot"
+          git config user.email "touchline-bot@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "lineups: sweep $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

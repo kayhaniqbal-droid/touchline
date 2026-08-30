@@ -1,0 +1,70 @@
+name: Watch a match
+
+# One long-running job rather than a cron every minute. Actions schedules
+# fire every five minutes at best and are routinely late, but a single job
+# may run for six hours — so this starts once and loops internally.
+#
+# Start it from the Actions tab, or from the app's "watch this match" button
+# via a repository_dispatch.
+on:
+  workflow_dispatch:
+    inputs:
+      fixture:
+        description: "API-Football fixture id"
+        required: true
+      interval:
+        description: "Seconds between polls (120 keeps a match inside the free tier)"
+        required: false
+        default: "120"
+      maxMinutes:
+        description: "Give up after this many minutes"
+        required: false
+        default: "150"
+  repository_dispatch:
+    types: [watch-match]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: touchline-data
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    # Six hours is the platform ceiling; a match needs about two and a half.
+    timeout-minutes: 200
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Configure git for the in-match commits
+        run: |
+          git config user.name  "touchline-bot"
+          git config user.email "touchline-bot@users.noreply.github.com"
+
+      - name: Follow the match
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          API_FOOTBALL_DAILY_CAP: ${{ vars.API_FOOTBALL_DAILY_CAP || '100' }}
+        run: |
+          FIXTURE="${{ github.event.inputs.fixture || github.event.client_payload.fixture }}"
+          INTERVAL="${{ github.event.inputs.interval || github.event.client_payload.interval || '120' }}"
+          MAXMIN="${{ github.event.inputs.maxMinutes || github.event.client_payload.maxMinutes || '150' }}"
+          echo "Watching fixture $FIXTURE every ${INTERVAL}s for up to ${MAXMIN} min"
+          node scripts/watch-match.mjs "$FIXTURE" --interval "$INTERVAL" --max-minutes "$MAXMIN"
+
+      - name: Final push
+        if: always()
+        run: |
+          git add data
+          if git diff --cached --quiet; then
+            echo "Nothing left to push."
+          else
+            git commit -m "watch: final state"
+            git push
+          fi

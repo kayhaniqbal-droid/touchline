@@ -1,0 +1,2145 @@
+{
+ "season": "2026/27",
+ "competition": "Premier League",
+ "confirmedRounds": 1,
+ "rounds": [
+  {
+   "n": 1,
+   "when": "Aug 21 – Aug 24",
+   "m": [
+    [
+     "ARS",
+     "COV",
+     "Fri, Aug 21",
+     "3–0"
+    ],
+    [
+     "HUL",
+     "MUN",
+     "Sat, Aug 22",
+     "2–0"
+    ],
+    [
+     "EVE",
+     "CRY",
+     "Sat, Aug 22",
+     "2–0"
+    ],
+    [
+     "IPS",
+     "SUN",
+     "Sat, Aug 22",
+     "2–1"
+    ],
+    [
+     "NFO",
+     "LEE",
+     "Sat, Aug 22",
+     "0–1"
+    ],
+    [
+     "BRE",
+     "TOT",
+     "Sat, Aug 22",
+     "3–0"
+    ],
+    [
+     "BHA",
+     "AVL",
+     "Sun, Aug 23",
+     "4–0"
+    ],
+    [
+     "MCI",
+     "BOU",
+     "Sun, Aug 23",
+     "2–1"
+    ],
+    [
+     "NEW",
+     "LIV",
+     "Sun, Aug 23",
+     "2–2"
+    ],
+    [
+     "FUL",
+     "CHE",
+     "Mon, Aug 24",
+     "2–3"
+    ]
+   ]
+  },
+  {
+   "n": 2,
+   "when": "Aug 28 – Aug 31",
+   "m": [
+    [
+     "CRY",
+     "MCI",
+     "Fri, Aug 28"
+    ],
+    [
+     "LIV",
+     "NFO",
+     "Sat, Aug 29"
+    ],
+    [
+     "BOU",
+     "EVE",
+     "Sat, Aug 29"
+    ],
+    [
+     "COV",
+     "HUL",
+     "Sat, Aug 29"
+    ],
+    [
+     "TOT",
+     "NEW",
+     "Sat, Aug 29"
+    ],
+    [
+     "CHE",
+     "BHA",
+     "Sun, Aug 30"
+    ],
+    [
+     "LEE",
+     "BRE",
+     "Sun, Aug 30"
+    ],
+    [
+     "SUN",
+     "FUL",
+     "Sun, Aug 30"
+    ],
+    [
+     "MUN",
+     "IPS",
+     "Sun, Aug 30"
+    ],
+    [
+     "AVL",
+     "ARS",
+     "Mon, Aug 31"
+    ]
+   ]
+  },
+  {
+   "n": 3,
+   "when": "Sat, Sep 5",
+   "m": [
+    [
+     "ARS",
+     "CHE",
+     "Sat, Sep 5"
+    ],
+    [
+     "BRE",
+     "SUN",
+     "Sat, Sep 5"
+    ],
+    [
+     "BHA",
+     "LEE",
+     "Sat, Sep 5"
+    ],
+    [
+     "EVE",
+     "MUN",
+     "Sat, Sep 5"
+    ],
+    [
+     "FUL",
+     "CRY",
+     "Sat, Sep 5"
+    ],
+    [
+     "HUL",
+     "AVL",
+     "Sat, Sep 5"
+    ],
+    [
+     "IPS",
+     "LIV",
+     "Sat, Sep 5"
+    ],
+    [
+     "MCI",
+     "COV",
+     "Sat, Sep 5"
+    ],
+    [
+     "NEW",
+     "BOU",
+     "Sat, Sep 5"
+    ],
+    [
+     "NFO",
+     "TOT",
+     "Sat, Sep 5"
+    ]
+   ]
+  },
+  {
+   "n": 4,
+   "when": "Sat, Sep 12",
+   "m": [
+    [
+     "BOU",
+     "BRE",
+     "Sat, Sep 12"
+    ],
+    [
+     "AVL",
+     "NFO",
+     "Sat, Sep 12"
+    ],
+    [
+     "CHE",
+     "HUL",
+     "Sat, Sep 12"
+    ],
+    [
+     "COV",
+     "BHA",
+     "Sat, Sep 12"
+    ],
+    [
+     "CRY",
+     "IPS",
+     "Sat, Sep 12"
+    ],
+    [
+     "LEE",
+     "NEW",
+     "Sat, Sep 12"
+    ],
+    [
+     "LIV",
+     "FUL",
+     "Sat, Sep 12"
+    ],
+    [
+     "MUN",
+     "MCI",
+     "Sat, Sep 12"
+    ],
+    [
+     "SUN",
+     "ARS",
+     "Sat, Sep 12"
+    ],
+    [
+     "TOT",
+     "EVE",
+     "Sat, Sep 12"
+    ]
+   ]
+  },
+  {
+   "n": 5,
+   "when": "Sat, Sep 19",
+   "m": [
+    [
+     "BOU",
+     "LIV",
+     "Sat, Sep 19"
+    ],
+    [
+     "BRE",
+     "CHE",
+     "Sat, Sep 19"
+    ],
+    [
+     "BHA",
+     "ARS",
+     "Sat, Sep 19"
+    ],
+    [
+     "EVE",
+     "IPS",
+     "Sat, Sep 19"
+    ],
+    [
+     "FUL",
+     "MUN",
+     "Sat, Sep 19"
+    ],
+    [
+     "LEE",
+     "CRY",
+     "Sat, Sep 19"
+    ],
+    [
+     "MCI",
+     "SUN",
+     "Sat, Sep 19"
+    ],
+    [
+     "NEW",
+     "HUL",
+     "Sat, Sep 19"
+    ],
+    [
+     "NFO",
+     "COV",
+     "Sat, Sep 19"
+    ],
+    [
+     "TOT",
+     "AVL",
+     "Sat, Sep 19"
+    ]
+   ]
+  },
+  {
+   "n": 6,
+   "when": "Sat, Oct 10",
+   "m": [
+    [
+     "ARS",
+     "LEE",
+     "Sat, Oct 10"
+    ],
+    [
+     "AVL",
+     "BRE",
+     "Sat, Oct 10"
+    ],
+    [
+     "CHE",
+     "BOU",
+     "Sat, Oct 10"
+    ],
+    [
+     "COV",
+     "NEW",
+     "Sat, Oct 10"
+    ],
+    [
+     "CRY",
+     "NFO",
+     "Sat, Oct 10"
+    ],
+    [
+     "HUL",
+     "EVE",
+     "Sat, Oct 10"
+    ],
+    [
+     "IPS",
+     "FUL",
+     "Sat, Oct 10"
+    ],
+    [
+     "LIV",
+     "MCI",
+     "Sat, Oct 10"
+    ],
+    [
+     "MUN",
+     "TOT",
+     "Sat, Oct 10"
+    ],
+    [
+     "SUN",
+     "BHA",
+     "Sat, Oct 10"
+    ]
+   ]
+  },
+  {
+   "n": 7,
+   "when": "Sat, Oct 17",
+   "m": [
+    [
+     "BOU",
+     "SUN",
+     "Sat, Oct 17"
+    ],
+    [
+     "BRE",
+     "LIV",
+     "Sat, Oct 17"
+    ],
+    [
+     "BHA",
+     "CRY",
+     "Sat, Oct 17"
+    ],
+    [
+     "EVE",
+     "CHE",
+     "Sat, Oct 17"
+    ],
+    [
+     "FUL",
+     "HUL",
+     "Sat, Oct 17"
+    ],
+    [
+     "LEE",
+     "MUN",
+     "Sat, Oct 17"
+    ],
+    [
+     "MCI",
+     "IPS",
+     "Sat, Oct 17"
+    ],
+    [
+     "NEW",
+     "AVL",
+     "Sat, Oct 17"
+    ],
+    [
+     "NFO",
+     "ARS",
+     "Sat, Oct 17"
+    ],
+    [
+     "TOT",
+     "COV",
+     "Sat, Oct 17"
+    ]
+   ]
+  },
+  {
+   "n": 8,
+   "when": "Sat, Oct 24",
+   "m": [
+    [
+     "ARS",
+     "EVE",
+     "Sat, Oct 24"
+    ],
+    [
+     "AVL",
+     "MCI",
+     "Sat, Oct 24"
+    ],
+    [
+     "CHE",
+     "TOT",
+     "Sat, Oct 24"
+    ],
+    [
+     "COV",
+     "FUL",
+     "Sat, Oct 24"
+    ],
+    [
+     "CRY",
+     "NEW",
+     "Sat, Oct 24"
+    ],
+    [
+     "HUL",
+     "BRE",
+     "Sat, Oct 24"
+    ],
+    [
+     "IPS",
+     "NFO",
+     "Sat, Oct 24"
+    ],
+    [
+     "LIV",
+     "BHA",
+     "Sat, Oct 24"
+    ],
+    [
+     "MUN",
+     "BOU",
+     "Sat, Oct 24"
+    ],
+    [
+     "SUN",
+     "LEE",
+     "Sat, Oct 24"
+    ]
+   ]
+  },
+  {
+   "n": 9,
+   "when": "Sat, Oct 31",
+   "m": [
+    [
+     "BOU",
+     "LEE",
+     "Sat, Oct 31"
+    ],
+    [
+     "AVL",
+     "FUL",
+     "Sat, Oct 31"
+    ],
+    [
+     "BRE",
+     "NFO",
+     "Sat, Oct 31"
+    ],
+    [
+     "CHE",
+     "MUN",
+     "Sat, Oct 31"
+    ],
+    [
+     "COV",
+     "SUN",
+     "Sat, Oct 31"
+    ],
+    [
+     "HUL",
+     "IPS",
+     "Sat, Oct 31"
+    ],
+    [
+     "LIV",
+     "ARS",
+     "Sat, Oct 31"
+    ],
+    [
+     "MCI",
+     "BHA",
+     "Sat, Oct 31"
+    ],
+    [
+     "NEW",
+     "EVE",
+     "Sat, Oct 31"
+    ],
+    [
+     "TOT",
+     "CRY",
+     "Sat, Oct 31"
+    ]
+   ]
+  },
+  {
+   "n": 10,
+   "when": "Sat, Nov 7",
+   "m": [
+    [
+     "ARS",
+     "HUL",
+     "Sat, Nov 7"
+    ],
+    [
+     "BHA",
+     "BRE",
+     "Sat, Nov 7"
+    ],
+    [
+     "CRY",
+     "LIV",
+     "Sat, Nov 7"
+    ],
+    [
+     "EVE",
+     "COV",
+     "Sat, Nov 7"
+    ],
+    [
+     "FUL",
+     "NEW",
+     "Sat, Nov 7"
+    ],
+    [
+     "IPS",
+     "BOU",
+     "Sat, Nov 7"
+    ],
+    [
+     "LEE",
+     "TOT",
+     "Sat, Nov 7"
+    ],
+    [
+     "MUN",
+     "AVL",
+     "Sat, Nov 7"
+    ],
+    [
+     "NFO",
+     "MCI",
+     "Sat, Nov 7"
+    ],
+    [
+     "SUN",
+     "CHE",
+     "Sat, Nov 7"
+    ]
+   ]
+  },
+  {
+   "n": 11,
+   "when": "Sat, Nov 21",
+   "m": [
+    [
+     "BOU",
+     "NFO",
+     "Sat, Nov 21"
+    ],
+    [
+     "AVL",
+     "SUN",
+     "Sat, Nov 21"
+    ],
+    [
+     "BRE",
+     "EVE",
+     "Sat, Nov 21"
+    ],
+    [
+     "CHE",
+     "LEE",
+     "Sat, Nov 21"
+    ],
+    [
+     "COV",
+     "CRY",
+     "Sat, Nov 21"
+    ],
+    [
+     "HUL",
+     "BHA",
+     "Sat, Nov 21"
+    ],
+    [
+     "LIV",
+     "MUN",
+     "Sat, Nov 21"
+    ],
+    [
+     "MCI",
+     "FUL",
+     "Sat, Nov 21"
+    ],
+    [
+     "NEW",
+     "ARS",
+     "Sat, Nov 21"
+    ],
+    [
+     "TOT",
+     "IPS",
+     "Sat, Nov 21"
+    ]
+   ]
+  },
+  {
+   "n": 12,
+   "when": "Sat, Nov 28",
+   "m": [
+    [
+     "ARS",
+     "MCI",
+     "Sat, Nov 28"
+    ],
+    [
+     "BHA",
+     "NEW",
+     "Sat, Nov 28"
+    ],
+    [
+     "CRY",
+     "HUL",
+     "Sat, Nov 28"
+    ],
+    [
+     "EVE",
+     "LIV",
+     "Sat, Nov 28"
+    ],
+    [
+     "FUL",
+     "BOU",
+     "Sat, Nov 28"
+    ],
+    [
+     "IPS",
+     "AVL",
+     "Sat, Nov 28"
+    ],
+    [
+     "LEE",
+     "COV",
+     "Sat, Nov 28"
+    ],
+    [
+     "MUN",
+     "BRE",
+     "Sat, Nov 28"
+    ],
+    [
+     "NFO",
+     "CHE",
+     "Sat, Nov 28"
+    ],
+    [
+     "SUN",
+     "TOT",
+     "Sat, Nov 28"
+    ]
+   ]
+  },
+  {
+   "n": 13,
+   "when": "Wed, Dec 2",
+   "m": [
+    [
+     "BOU",
+     "BHA",
+     "Wed, Dec 2"
+    ],
+    [
+     "AVL",
+     "EVE",
+     "Wed, Dec 2"
+    ],
+    [
+     "BRE",
+     "ARS",
+     "Wed, Dec 2"
+    ],
+    [
+     "CHE",
+     "CRY",
+     "Wed, Dec 2"
+    ],
+    [
+     "COV",
+     "IPS",
+     "Wed, Dec 2"
+    ],
+    [
+     "HUL",
+     "NFO",
+     "Wed, Dec 2"
+    ],
+    [
+     "LIV",
+     "SUN",
+     "Wed, Dec 2"
+    ],
+    [
+     "MCI",
+     "LEE",
+     "Wed, Dec 2"
+    ],
+    [
+     "NEW",
+     "MUN",
+     "Wed, Dec 2"
+    ],
+    [
+     "TOT",
+     "FUL",
+     "Wed, Dec 2"
+    ]
+   ]
+  },
+  {
+   "n": 14,
+   "when": "Sat, Dec 5",
+   "m": [
+    [
+     "BOU",
+     "HUL",
+     "Sat, Dec 5"
+    ],
+    [
+     "AVL",
+     "CRY",
+     "Sat, Dec 5"
+    ],
+    [
+     "BRE",
+     "MCI",
+     "Sat, Dec 5"
+    ],
+    [
+     "CHE",
+     "LIV",
+     "Sat, Dec 5"
+    ],
+    [
+     "EVE",
+     "FUL",
+     "Sat, Dec 5"
+    ],
+    [
+     "LEE",
+     "IPS",
+     "Sat, Dec 5"
+    ],
+    [
+     "MUN",
+     "COV",
+     "Sat, Dec 5"
+    ],
+    [
+     "NEW",
+     "SUN",
+     "Sat, Dec 5"
+    ],
+    [
+     "NFO",
+     "BHA",
+     "Sat, Dec 5"
+    ],
+    [
+     "TOT",
+     "ARS",
+     "Sat, Dec 5"
+    ]
+   ]
+  },
+  {
+   "n": 15,
+   "when": "Sat, Dec 12",
+   "m": [
+    [
+     "ARS",
+     "BOU",
+     "Sat, Dec 12"
+    ],
+    [
+     "BHA",
+     "EVE",
+     "Sat, Dec 12"
+    ],
+    [
+     "COV",
+     "AVL",
+     "Sat, Dec 12"
+    ],
+    [
+     "CRY",
+     "MUN",
+     "Sat, Dec 12"
+    ],
+    [
+     "FUL",
+     "BRE",
+     "Sat, Dec 12"
+    ],
+    [
+     "HUL",
+     "TOT",
+     "Sat, Dec 12"
+    ],
+    [
+     "IPS",
+     "NEW",
+     "Sat, Dec 12"
+    ],
+    [
+     "LIV",
+     "LEE",
+     "Sat, Dec 12"
+    ],
+    [
+     "MCI",
+     "CHE",
+     "Sat, Dec 12"
+    ],
+    [
+     "SUN",
+     "NFO",
+     "Sat, Dec 12"
+    ]
+   ]
+  },
+  {
+   "n": 16,
+   "when": "Sat, Dec 19",
+   "m": [
+    [
+     "BOU",
+     "COV",
+     "Sat, Dec 19"
+    ],
+    [
+     "ARS",
+     "MUN",
+     "Sat, Dec 19"
+    ],
+    [
+     "BRE",
+     "NEW",
+     "Sat, Dec 19"
+    ],
+    [
+     "BHA",
+     "IPS",
+     "Sat, Dec 19"
+    ],
+    [
+     "CHE",
+     "AVL",
+     "Sat, Dec 19"
+    ],
+    [
+     "LEE",
+     "FUL",
+     "Sat, Dec 19"
+    ],
+    [
+     "LIV",
+     "TOT",
+     "Sat, Dec 19"
+    ],
+    [
+     "MCI",
+     "HUL",
+     "Sat, Dec 19"
+    ],
+    [
+     "NFO",
+     "EVE",
+     "Sat, Dec 19"
+    ],
+    [
+     "SUN",
+     "CRY",
+     "Sat, Dec 19"
+    ]
+   ]
+  },
+  {
+   "n": 17,
+   "when": "Sat, Dec 26",
+   "m": [
+    [
+     "AVL",
+     "LEE",
+     "Sat, Dec 26"
+    ],
+    [
+     "COV",
+     "CHE",
+     "Sat, Dec 26"
+    ],
+    [
+     "CRY",
+     "ARS",
+     "Sat, Dec 26"
+    ],
+    [
+     "EVE",
+     "SUN",
+     "Sat, Dec 26"
+    ],
+    [
+     "FUL",
+     "BHA",
+     "Sat, Dec 26"
+    ],
+    [
+     "HUL",
+     "LIV",
+     "Sat, Dec 26"
+    ],
+    [
+     "IPS",
+     "BRE",
+     "Sat, Dec 26"
+    ],
+    [
+     "MUN",
+     "NFO",
+     "Sat, Dec 26"
+    ],
+    [
+     "NEW",
+     "MCI",
+     "Sat, Dec 26"
+    ],
+    [
+     "TOT",
+     "BOU",
+     "Sat, Dec 26"
+    ]
+   ]
+  },
+  {
+   "n": 18,
+   "when": "Wed, Dec 30",
+   "m": [
+    [
+     "AVL",
+     "LIV",
+     "Wed, Dec 30"
+    ],
+    [
+     "COV",
+     "BRE",
+     "Wed, Dec 30"
+    ],
+    [
+     "CRY",
+     "BOU",
+     "Wed, Dec 30"
+    ],
+    [
+     "EVE",
+     "MCI",
+     "Wed, Dec 30"
+    ],
+    [
+     "FUL",
+     "ARS",
+     "Wed, Dec 30"
+    ],
+    [
+     "HUL",
+     "LEE",
+     "Wed, Dec 30"
+    ],
+    [
+     "IPS",
+     "CHE",
+     "Wed, Dec 30"
+    ],
+    [
+     "MUN",
+     "SUN",
+     "Wed, Dec 30"
+    ],
+    [
+     "NEW",
+     "NFO",
+     "Wed, Dec 30"
+    ],
+    [
+     "TOT",
+     "BHA",
+     "Wed, Dec 30"
+    ]
+   ]
+  },
+  {
+   "n": 19,
+   "when": "Sat, Jan 2",
+   "m": [
+    [
+     "BOU",
+     "AVL",
+     "Sat, Jan 2"
+    ],
+    [
+     "ARS",
+     "IPS",
+     "Sat, Jan 2"
+    ],
+    [
+     "BRE",
+     "CRY",
+     "Sat, Jan 2"
+    ],
+    [
+     "BHA",
+     "MUN",
+     "Sat, Jan 2"
+    ],
+    [
+     "CHE",
+     "NEW",
+     "Sat, Jan 2"
+    ],
+    [
+     "LEE",
+     "EVE",
+     "Sat, Jan 2"
+    ],
+    [
+     "LIV",
+     "COV",
+     "Sat, Jan 2"
+    ],
+    [
+     "MCI",
+     "TOT",
+     "Sat, Jan 2"
+    ],
+    [
+     "NFO",
+     "FUL",
+     "Sat, Jan 2"
+    ],
+    [
+     "SUN",
+     "HUL",
+     "Sat, Jan 2"
+    ]
+   ]
+  },
+  {
+   "n": 20,
+   "when": "Wed, Jan 6",
+   "m": [
+    [
+     "ARS",
+     "BRE",
+     "Wed, Jan 6"
+    ],
+    [
+     "BHA",
+     "BOU",
+     "Wed, Jan 6"
+    ],
+    [
+     "CRY",
+     "CHE",
+     "Wed, Jan 6"
+    ],
+    [
+     "EVE",
+     "AVL",
+     "Wed, Jan 6"
+    ],
+    [
+     "FUL",
+     "TOT",
+     "Wed, Jan 6"
+    ],
+    [
+     "IPS",
+     "COV",
+     "Wed, Jan 6"
+    ],
+    [
+     "LEE",
+     "MCI",
+     "Wed, Jan 6"
+    ],
+    [
+     "MUN",
+     "NEW",
+     "Wed, Jan 6"
+    ],
+    [
+     "NFO",
+     "HUL",
+     "Wed, Jan 6"
+    ],
+    [
+     "SUN",
+     "LIV",
+     "Wed, Jan 6"
+    ]
+   ]
+  },
+  {
+   "n": 21,
+   "when": "Sat, Jan 16",
+   "m": [
+    [
+     "BOU",
+     "IPS",
+     "Sat, Jan 16"
+    ],
+    [
+     "AVL",
+     "MUN",
+     "Sat, Jan 16"
+    ],
+    [
+     "BRE",
+     "BHA",
+     "Sat, Jan 16"
+    ],
+    [
+     "CHE",
+     "SUN",
+     "Sat, Jan 16"
+    ],
+    [
+     "COV",
+     "EVE",
+     "Sat, Jan 16"
+    ],
+    [
+     "HUL",
+     "ARS",
+     "Sat, Jan 16"
+    ],
+    [
+     "LIV",
+     "CRY",
+     "Sat, Jan 16"
+    ],
+    [
+     "MCI",
+     "NFO",
+     "Sat, Jan 16"
+    ],
+    [
+     "NEW",
+     "FUL",
+     "Sat, Jan 16"
+    ],
+    [
+     "TOT",
+     "LEE",
+     "Sat, Jan 16"
+    ]
+   ]
+  },
+  {
+   "n": 22,
+   "when": "Sat, Jan 23",
+   "m": [
+    [
+     "ARS",
+     "NEW",
+     "Sat, Jan 23"
+    ],
+    [
+     "BHA",
+     "MCI",
+     "Sat, Jan 23"
+    ],
+    [
+     "CRY",
+     "TOT",
+     "Sat, Jan 23"
+    ],
+    [
+     "EVE",
+     "BRE",
+     "Sat, Jan 23"
+    ],
+    [
+     "FUL",
+     "AVL",
+     "Sat, Jan 23"
+    ],
+    [
+     "IPS",
+     "HUL",
+     "Sat, Jan 23"
+    ],
+    [
+     "LEE",
+     "CHE",
+     "Sat, Jan 23"
+    ],
+    [
+     "MUN",
+     "LIV",
+     "Sat, Jan 23"
+    ],
+    [
+     "NFO",
+     "BOU",
+     "Sat, Jan 23"
+    ],
+    [
+     "SUN",
+     "COV",
+     "Sat, Jan 23"
+    ]
+   ]
+  },
+  {
+   "n": 23,
+   "when": "Sat, Jan 30",
+   "m": [
+    [
+     "BOU",
+     "FUL",
+     "Sat, Jan 30"
+    ],
+    [
+     "AVL",
+     "IPS",
+     "Sat, Jan 30"
+    ],
+    [
+     "BRE",
+     "MUN",
+     "Sat, Jan 30"
+    ],
+    [
+     "CHE",
+     "NFO",
+     "Sat, Jan 30"
+    ],
+    [
+     "COV",
+     "LEE",
+     "Sat, Jan 30"
+    ],
+    [
+     "HUL",
+     "CRY",
+     "Sat, Jan 30"
+    ],
+    [
+     "LIV",
+     "EVE",
+     "Sat, Jan 30"
+    ],
+    [
+     "MCI",
+     "ARS",
+     "Sat, Jan 30"
+    ],
+    [
+     "NEW",
+     "BHA",
+     "Sat, Jan 30"
+    ],
+    [
+     "TOT",
+     "SUN",
+     "Sat, Jan 30"
+    ]
+   ]
+  },
+  {
+   "n": 24,
+   "when": "Sat, Feb 6",
+   "m": [
+    [
+     "ARS",
+     "LIV",
+     "Sat, Feb 6"
+    ],
+    [
+     "BHA",
+     "HUL",
+     "Sat, Feb 6"
+    ],
+    [
+     "CRY",
+     "COV",
+     "Sat, Feb 6"
+    ],
+    [
+     "EVE",
+     "NEW",
+     "Sat, Feb 6"
+    ],
+    [
+     "FUL",
+     "MCI",
+     "Sat, Feb 6"
+    ],
+    [
+     "IPS",
+     "TOT",
+     "Sat, Feb 6"
+    ],
+    [
+     "LEE",
+     "BOU",
+     "Sat, Feb 6"
+    ],
+    [
+     "MUN",
+     "CHE",
+     "Sat, Feb 6"
+    ],
+    [
+     "NFO",
+     "BRE",
+     "Sat, Feb 6"
+    ],
+    [
+     "SUN",
+     "AVL",
+     "Sat, Feb 6"
+    ]
+   ]
+  },
+  {
+   "n": 25,
+   "when": "Wed, Feb 10",
+   "m": [
+    [
+     "AVL",
+     "BOU",
+     "Wed, Feb 10"
+    ],
+    [
+     "COV",
+     "LIV",
+     "Wed, Feb 10"
+    ],
+    [
+     "CRY",
+     "BRE",
+     "Wed, Feb 10"
+    ],
+    [
+     "EVE",
+     "LEE",
+     "Wed, Feb 10"
+    ],
+    [
+     "FUL",
+     "NFO",
+     "Wed, Feb 10"
+    ],
+    [
+     "HUL",
+     "SUN",
+     "Wed, Feb 10"
+    ],
+    [
+     "IPS",
+     "ARS",
+     "Wed, Feb 10"
+    ],
+    [
+     "MUN",
+     "BHA",
+     "Wed, Feb 10"
+    ],
+    [
+     "NEW",
+     "CHE",
+     "Wed, Feb 10"
+    ],
+    [
+     "TOT",
+     "MCI",
+     "Wed, Feb 10"
+    ]
+   ]
+  },
+  {
+   "n": 26,
+   "when": "Sat, Feb 20",
+   "m": [
+    [
+     "BOU",
+     "CRY",
+     "Sat, Feb 20"
+    ],
+    [
+     "ARS",
+     "FUL",
+     "Sat, Feb 20"
+    ],
+    [
+     "BRE",
+     "COV",
+     "Sat, Feb 20"
+    ],
+    [
+     "BHA",
+     "TOT",
+     "Sat, Feb 20"
+    ],
+    [
+     "CHE",
+     "IPS",
+     "Sat, Feb 20"
+    ],
+    [
+     "LEE",
+     "AVL",
+     "Sat, Feb 20"
+    ],
+    [
+     "LIV",
+     "HUL",
+     "Sat, Feb 20"
+    ],
+    [
+     "MCI",
+     "NEW",
+     "Sat, Feb 20"
+    ],
+    [
+     "NFO",
+     "MUN",
+     "Sat, Feb 20"
+    ],
+    [
+     "SUN",
+     "EVE",
+     "Sat, Feb 20"
+    ]
+   ]
+  },
+  {
+   "n": 27,
+   "when": "Sat, Feb 27",
+   "m": [
+    [
+     "AVL",
+     "CHE",
+     "Sat, Feb 27"
+    ],
+    [
+     "COV",
+     "BOU",
+     "Sat, Feb 27"
+    ],
+    [
+     "CRY",
+     "SUN",
+     "Sat, Feb 27"
+    ],
+    [
+     "EVE",
+     "NFO",
+     "Sat, Feb 27"
+    ],
+    [
+     "FUL",
+     "LEE",
+     "Sat, Feb 27"
+    ],
+    [
+     "HUL",
+     "MCI",
+     "Sat, Feb 27"
+    ],
+    [
+     "IPS",
+     "BHA",
+     "Sat, Feb 27"
+    ],
+    [
+     "MUN",
+     "ARS",
+     "Sat, Feb 27"
+    ],
+    [
+     "NEW",
+     "BRE",
+     "Sat, Feb 27"
+    ],
+    [
+     "TOT",
+     "LIV",
+     "Sat, Feb 27"
+    ]
+   ]
+  },
+  {
+   "n": 28,
+   "when": "Wed, Mar 3",
+   "m": [
+    [
+     "BOU",
+     "TOT",
+     "Wed, Mar 3"
+    ],
+    [
+     "ARS",
+     "CRY",
+     "Wed, Mar 3"
+    ],
+    [
+     "BRE",
+     "IPS",
+     "Wed, Mar 3"
+    ],
+    [
+     "BHA",
+     "FUL",
+     "Wed, Mar 3"
+    ],
+    [
+     "CHE",
+     "COV",
+     "Wed, Mar 3"
+    ],
+    [
+     "LEE",
+     "HUL",
+     "Wed, Mar 3"
+    ],
+    [
+     "LIV",
+     "AVL",
+     "Wed, Mar 3"
+    ],
+    [
+     "MCI",
+     "EVE",
+     "Wed, Mar 3"
+    ],
+    [
+     "NFO",
+     "NEW",
+     "Wed, Mar 3"
+    ],
+    [
+     "SUN",
+     "MUN",
+     "Wed, Mar 3"
+    ]
+   ]
+  },
+  {
+   "n": 29,
+   "when": "Sat, Mar 13",
+   "m": [
+    [
+     "BOU",
+     "NEW",
+     "Sat, Mar 13"
+    ],
+    [
+     "AVL",
+     "HUL",
+     "Sat, Mar 13"
+    ],
+    [
+     "CHE",
+     "ARS",
+     "Sat, Mar 13"
+    ],
+    [
+     "COV",
+     "MCI",
+     "Sat, Mar 13"
+    ],
+    [
+     "CRY",
+     "FUL",
+     "Sat, Mar 13"
+    ],
+    [
+     "LEE",
+     "BHA",
+     "Sat, Mar 13"
+    ],
+    [
+     "LIV",
+     "IPS",
+     "Sat, Mar 13"
+    ],
+    [
+     "MUN",
+     "EVE",
+     "Sat, Mar 13"
+    ],
+    [
+     "SUN",
+     "BRE",
+     "Sat, Mar 13"
+    ],
+    [
+     "TOT",
+     "NFO",
+     "Sat, Mar 13"
+    ]
+   ]
+  },
+  {
+   "n": 30,
+   "when": "Sat, Mar 20",
+   "m": [
+    [
+     "ARS",
+     "SUN",
+     "Sat, Mar 20"
+    ],
+    [
+     "BRE",
+     "BOU",
+     "Sat, Mar 20"
+    ],
+    [
+     "BHA",
+     "COV",
+     "Sat, Mar 20"
+    ],
+    [
+     "EVE",
+     "TOT",
+     "Sat, Mar 20"
+    ],
+    [
+     "FUL",
+     "LIV",
+     "Sat, Mar 20"
+    ],
+    [
+     "HUL",
+     "CHE",
+     "Sat, Mar 20"
+    ],
+    [
+     "IPS",
+     "CRY",
+     "Sat, Mar 20"
+    ],
+    [
+     "MCI",
+     "MUN",
+     "Sat, Mar 20"
+    ],
+    [
+     "NEW",
+     "LEE",
+     "Sat, Mar 20"
+    ],
+    [
+     "NFO",
+     "AVL",
+     "Sat, Mar 20"
+    ]
+   ]
+  },
+  {
+   "n": 31,
+   "when": "Sat, Apr 10",
+   "m": [
+    [
+     "BOU",
+     "MCI",
+     "Sat, Apr 10"
+    ],
+    [
+     "AVL",
+     "BHA",
+     "Sat, Apr 10"
+    ],
+    [
+     "CHE",
+     "FUL",
+     "Sat, Apr 10"
+    ],
+    [
+     "COV",
+     "ARS",
+     "Sat, Apr 10"
+    ],
+    [
+     "CRY",
+     "EVE",
+     "Sat, Apr 10"
+    ],
+    [
+     "LEE",
+     "NFO",
+     "Sat, Apr 10"
+    ],
+    [
+     "LIV",
+     "NEW",
+     "Sat, Apr 10"
+    ],
+    [
+     "MUN",
+     "HUL",
+     "Sat, Apr 10"
+    ],
+    [
+     "SUN",
+     "IPS",
+     "Sat, Apr 10"
+    ],
+    [
+     "TOT",
+     "BRE",
+     "Sat, Apr 10"
+    ]
+   ]
+  },
+  {
+   "n": 32,
+   "when": "Sat, Apr 17",
+   "m": [
+    [
+     "ARS",
+     "AVL",
+     "Sat, Apr 17"
+    ],
+    [
+     "BRE",
+     "LEE",
+     "Sat, Apr 17"
+    ],
+    [
+     "BHA",
+     "CHE",
+     "Sat, Apr 17"
+    ],
+    [
+     "EVE",
+     "BOU",
+     "Sat, Apr 17"
+    ],
+    [
+     "FUL",
+     "SUN",
+     "Sat, Apr 17"
+    ],
+    [
+     "HUL",
+     "COV",
+     "Sat, Apr 17"
+    ],
+    [
+     "IPS",
+     "MUN",
+     "Sat, Apr 17"
+    ],
+    [
+     "MCI",
+     "CRY",
+     "Sat, Apr 17"
+    ],
+    [
+     "NEW",
+     "TOT",
+     "Sat, Apr 17"
+    ],
+    [
+     "NFO",
+     "LIV",
+     "Sat, Apr 17"
+    ]
+   ]
+  },
+  {
+   "n": 33,
+   "when": "Sat, Apr 24",
+   "m": [
+    [
+     "BOU",
+     "ARS",
+     "Sat, Apr 24"
+    ],
+    [
+     "AVL",
+     "COV",
+     "Sat, Apr 24"
+    ],
+    [
+     "BRE",
+     "FUL",
+     "Sat, Apr 24"
+    ],
+    [
+     "CHE",
+     "MCI",
+     "Sat, Apr 24"
+    ],
+    [
+     "EVE",
+     "BHA",
+     "Sat, Apr 24"
+    ],
+    [
+     "LEE",
+     "LIV",
+     "Sat, Apr 24"
+    ],
+    [
+     "MUN",
+     "CRY",
+     "Sat, Apr 24"
+    ],
+    [
+     "NEW",
+     "IPS",
+     "Sat, Apr 24"
+    ],
+    [
+     "NFO",
+     "SUN",
+     "Sat, Apr 24"
+    ],
+    [
+     "TOT",
+     "HUL",
+     "Sat, Apr 24"
+    ]
+   ]
+  },
+  {
+   "n": 34,
+   "when": "Sat, May 1",
+   "m": [
+    [
+     "ARS",
+     "TOT",
+     "Sat, May 1"
+    ],
+    [
+     "BHA",
+     "NFO",
+     "Sat, May 1"
+    ],
+    [
+     "COV",
+     "MUN",
+     "Sat, May 1"
+    ],
+    [
+     "CRY",
+     "AVL",
+     "Sat, May 1"
+    ],
+    [
+     "FUL",
+     "EVE",
+     "Sat, May 1"
+    ],
+    [
+     "HUL",
+     "BOU",
+     "Sat, May 1"
+    ],
+    [
+     "IPS",
+     "LEE",
+     "Sat, May 1"
+    ],
+    [
+     "LIV",
+     "CHE",
+     "Sat, May 1"
+    ],
+    [
+     "MCI",
+     "BRE",
+     "Sat, May 1"
+    ],
+    [
+     "SUN",
+     "NEW",
+     "Sat, May 1"
+    ]
+   ]
+  },
+  {
+   "n": 35,
+   "when": "Sat, May 8",
+   "m": [
+    [
+     "BOU",
+     "MUN",
+     "Sat, May 8"
+    ],
+    [
+     "BRE",
+     "AVL",
+     "Sat, May 8"
+    ],
+    [
+     "BHA",
+     "SUN",
+     "Sat, May 8"
+    ],
+    [
+     "EVE",
+     "HUL",
+     "Sat, May 8"
+    ],
+    [
+     "FUL",
+     "IPS",
+     "Sat, May 8"
+    ],
+    [
+     "LEE",
+     "ARS",
+     "Sat, May 8"
+    ],
+    [
+     "MCI",
+     "LIV",
+     "Sat, May 8"
+    ],
+    [
+     "NEW",
+     "COV",
+     "Sat, May 8"
+    ],
+    [
+     "NFO",
+     "CRY",
+     "Sat, May 8"
+    ],
+    [
+     "TOT",
+     "CHE",
+     "Sat, May 8"
+    ]
+   ]
+  },
+  {
+   "n": 36,
+   "when": "Sat, May 15",
+   "m": [
+    [
+     "ARS",
+     "NFO",
+     "Sat, May 15"
+    ],
+    [
+     "AVL",
+     "NEW",
+     "Sat, May 15"
+    ],
+    [
+     "CHE",
+     "EVE",
+     "Sat, May 15"
+    ],
+    [
+     "COV",
+     "TOT",
+     "Sat, May 15"
+    ],
+    [
+     "CRY",
+     "BHA",
+     "Sat, May 15"
+    ],
+    [
+     "HUL",
+     "FUL",
+     "Sat, May 15"
+    ],
+    [
+     "IPS",
+     "MCI",
+     "Sat, May 15"
+    ],
+    [
+     "LIV",
+     "BRE",
+     "Sat, May 15"
+    ],
+    [
+     "MUN",
+     "LEE",
+     "Sat, May 15"
+    ],
+    [
+     "SUN",
+     "BOU",
+     "Sat, May 15"
+    ]
+   ]
+  },
+  {
+   "n": 37,
+   "when": "Sun, May 23",
+   "m": [
+    [
+     "BOU",
+     "CHE",
+     "Sun, May 23"
+    ],
+    [
+     "BRE",
+     "HUL",
+     "Sun, May 23"
+    ],
+    [
+     "BHA",
+     "LIV",
+     "Sun, May 23"
+    ],
+    [
+     "EVE",
+     "ARS",
+     "Sun, May 23"
+    ],
+    [
+     "FUL",
+     "COV",
+     "Sun, May 23"
+    ],
+    [
+     "LEE",
+     "SUN",
+     "Sun, May 23"
+    ],
+    [
+     "MCI",
+     "AVL",
+     "Sun, May 23"
+    ],
+    [
+     "NEW",
+     "CRY",
+     "Sun, May 23"
+    ],
+    [
+     "NFO",
+     "IPS",
+     "Sun, May 23"
+    ],
+    [
+     "TOT",
+     "MUN",
+     "Sun, May 23"
+    ]
+   ]
+  },
+  {
+   "n": 38,
+   "when": "Sun, May 30",
+   "m": [
+    [
+     "ARS",
+     "BHA",
+     "Sun, May 30"
+    ],
+    [
+     "AVL",
+     "TOT",
+     "Sun, May 30"
+    ],
+    [
+     "CHE",
+     "BRE",
+     "Sun, May 30"
+    ],
+    [
+     "COV",
+     "NFO",
+     "Sun, May 30"
+    ],
+    [
+     "CRY",
+     "LEE",
+     "Sun, May 30"
+    ],
+    [
+     "HUL",
+     "NEW",
+     "Sun, May 30"
+    ],
+    [
+     "IPS",
+     "EVE",
+     "Sun, May 30"
+    ],
+    [
+     "LIV",
+     "BOU",
+     "Sun, May 30"
+    ],
+    [
+     "MUN",
+     "FUL",
+     "Sun, May 30"
+    ],
+    [
+     "SUN",
+     "MCI",
+     "Sun, May 30"
+    ]
+   ]
+  }
+ ]
+}
