@@ -1,7 +1,7 @@
 {
  "fixtureId": 209550,
- "minute": 81,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 1,
   "away": 1
@@ -28,9 +28,9 @@
      "y": 50
     },
     {
-     "id": "home-367",
-     "providerId": 367,
-     "name": "Tanaka",
+     "id": "home-2869",
+     "providerId": 2869,
+     "name": "Elvedi",
      "num": null,
      "pos": "RCB",
      "role": "DEF",
@@ -38,9 +38,9 @@
      "y": 72
     },
     {
-     "id": "home-2869",
-     "providerId": 2869,
-     "name": "Elvedi",
+     "id": "home-367",
+     "providerId": 367,
+     "name": "Tanaka",
      "num": null,
      "pos": "CB",
      "role": "DEF",
@@ -68,10 +68,10 @@
      "y": 90
     },
     {
-     "id": "home-376",
-     "providerId": 376,
-     "name": "Justin",
-     "num": 24,
+     "id": "home-368",
+     "providerId": 368,
+     "name": "Ampadu",
+     "num": 4,
      "pos": "RCM",
      "role": "MID",
      "x": 25,
@@ -88,10 +88,10 @@
      "y": 40
     },
     {
-     "id": "home-368",
-     "providerId": 368,
-     "name": "Ampadu",
-     "num": 4,
+     "id": "home-376",
+     "providerId": 376,
+     "name": "Justin",
+     "num": 24,
      "pos": "LWB",
      "role": "MID",
      "x": 28,
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-463",
-     "providerId": 463,
-     "name": "Kayode",
-     "num": 33,
+     "id": "away-1644",
+     "providerId": 1644,
+     "name": "Wilson",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -180,30 +180,30 @@
      "y": 63
     },
     {
-     "id": "away-477",
-     "providerId": 477,
-     "name": "Lewis-Potter",
-     "num": 23,
+     "id": "away-467",
+     "providerId": 467,
+     "name": "Henry",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
      "y": 85
     },
     {
-     "id": "away-469",
-     "providerId": 469,
-     "name": "Janelt",
-     "num": 27,
+     "id": "away-1411",
+     "providerId": 1411,
+     "name": "Sangare",
+     "num": 18,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-1411",
-     "providerId": 1411,
-     "name": "Sangare",
-     "num": 18,
+     "id": "away-469",
+     "providerId": 469,
+     "name": "Janelt",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -230,10 +230,10 @@
      "y": 50
     },
     {
-     "id": "away-472",
-     "providerId": 472,
-     "name": "Schade",
-     "num": 7,
+     "id": "away-2373",
+     "providerId": 2373,
+     "name": "Hickey",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-08-30T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-08-30T14:42:48.600Z"
+ "fetchedAt": "2026-08-30T15:24:30.577Z"
 }

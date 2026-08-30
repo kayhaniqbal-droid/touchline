@@ -1,6 +1,6 @@
 {
  "fixtureId": 209547,
- "title": "Chelsea 4–2 Brighton & Hove Albion",
+ "title": "Chelsea 4–3 Brighton & Hove Albion",
  "lineupStatus": "confirmed",
  "phases": [
   {
@@ -8,14 +8,14 @@
    "minute": 68,
    "side": "home",
    "name": "68' Chelsea make a double change",
-   "note": "Acheampong, James and Caicedo on together for Fofana, Lavia and Neto on 68'.",
+   "note": "Acheampong, Caicedo and James on together for Fofana, Neto and Lavia on 68'.",
    "ruleId": "double-change",
-   "formation": "3-4-3",
+   "formation": "3-4-2-1",
    "players": [
     {
      "id": "home-1629",
      "name": "Martínez",
-     "num": 23,
+     "num": 26,
      "pos": "GK",
      "role": "GK",
      "x": 4,
@@ -33,7 +33,7 @@
     {
      "id": "home-424",
      "name": "Lacroix",
-     "num": 23,
+     "num": 5,
      "pos": "CB",
      "role": "DEF",
      "x": 12,
@@ -49,18 +49,18 @@
      "y": 28
     },
     {
-     "id": "home-393",
-     "name": "Gusto",
-     "num": 27,
+     "id": "home-1345",
+     "name": "Caicedo",
+     "num": null,
      "pos": "RWB",
      "role": "MID",
-     "x": 27,
+     "x": 28,
      "y": 90
     },
     {
-     "id": "home-401",
-     "name": "Hato",
-     "num": 21,
+     "id": "home-393",
+     "name": "Gusto",
+     "num": 27,
      "pos": "RCM",
      "role": "MID",
      "x": 25,
@@ -76,40 +76,40 @@
      "y": 40
     },
     {
-     "id": "home-511",
-     "name": "Rogers",
-     "num": 17,
+     "id": "home-401",
+     "name": "Hato",
+     "num": 21,
      "pos": "LWB",
      "role": "MID",
-     "x": 27,
+     "x": 28,
      "y": 10
     },
     {
      "id": "home-395",
      "name": "Palmer",
      "num": 10,
-     "pos": "RW",
+     "pos": "RAM",
      "role": "FWD",
-     "x": 41,
-     "y": 84
+     "x": 38,
+     "y": 66
     },
     {
-     "id": "home-1345",
-     "name": "Caicedo",
-     "num": null,
-     "pos": "ST",
+     "id": "home-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LAM",
      "role": "FWD",
-     "x": 45,
-     "y": 50
+     "x": 38,
+     "y": 34
     },
     {
      "id": "home-390",
      "name": "Pedro",
-     "num": 20,
-     "pos": "LW",
+     "num": 9,
+     "pos": "ST",
      "role": "FWD",
-     "x": 41,
-     "y": 16
+     "x": 45,
+     "y": 50
     }
    ]
   },
@@ -120,12 +120,12 @@
    "name": "72' Chelsea freshen it up",
    "note": "Chavarría on for Colwill on 72', same job.",
    "ruleId": "like-for-like",
-   "formation": "3-4-3",
+   "formation": "3-4-2-1",
    "players": [
     {
      "id": "home-1629",
      "name": "Martínez",
-     "num": 23,
+     "num": 26,
      "pos": "GK",
      "role": "GK",
      "x": 4,
@@ -143,7 +143,7 @@
     {
      "id": "home-424",
      "name": "Lacroix",
-     "num": 23,
+     "num": 5,
      "pos": "CB",
      "role": "DEF",
      "x": 12,
@@ -159,18 +159,18 @@
      "y": 28
     },
     {
-     "id": "home-393",
-     "name": "Gusto",
-     "num": 27,
+     "id": "home-1345",
+     "name": "Caicedo",
+     "num": null,
      "pos": "RWB",
      "role": "MID",
-     "x": 27,
+     "x": 28,
      "y": 90
     },
     {
-     "id": "home-401",
-     "name": "Hato",
-     "num": 21,
+     "id": "home-393",
+     "name": "Gusto",
+     "num": 27,
      "pos": "RCM",
      "role": "MID",
      "x": 25,
@@ -186,40 +186,40 @@
      "y": 40
     },
     {
-     "id": "home-511",
-     "name": "Rogers",
-     "num": 17,
+     "id": "home-401",
+     "name": "Hato",
+     "num": 21,
      "pos": "LWB",
      "role": "MID",
-     "x": 27,
+     "x": 28,
      "y": 10
     },
     {
      "id": "home-395",
      "name": "Palmer",
      "num": 10,
-     "pos": "RW",
+     "pos": "RAM",
      "role": "FWD",
-     "x": 41,
-     "y": 84
+     "x": 38,
+     "y": 66
     },
     {
-     "id": "home-1345",
-     "name": "Caicedo",
-     "num": null,
-     "pos": "ST",
+     "id": "home-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LAM",
      "role": "FWD",
-     "x": 45,
-     "y": 50
+     "x": 38,
+     "y": 34
     },
     {
      "id": "home-390",
      "name": "Pedro",
-     "num": 20,
-     "pos": "LW",
+     "num": 9,
+     "pos": "ST",
      "role": "FWD",
-     "x": 41,
-     "y": 16
+     "x": 45,
+     "y": 50
     }
    ]
   },
@@ -269,36 +269,36 @@
      "y": 63
     },
     {
-     "id": "away-498",
-     "name": "Boscagli",
-     "num": 21,
+     "id": "away-486",
+     "name": "Kadıoğlu",
+     "num": 24,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
      "y": 85
     },
     {
-     "id": "away-486",
-     "name": "Kadıoğlu",
-     "num": 24,
+     "id": "away-2173",
+     "name": "Groß",
+     "num": 13,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-491",
-     "name": "De Cuyper",
-     "num": 29,
+     "id": "away-498",
+     "name": "Boscagli",
+     "num": 21,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-2173",
-     "name": "Groß",
-     "num": 13,
+     "id": "away-488",
+     "name": "Gómez",
+     "num": 25,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -314,9 +314,9 @@
      "y": 50
     },
     {
-     "id": "away-488",
-     "name": "Gómez",
-     "num": 25,
+     "id": "away-491",
+     "name": "De Cuyper",
+     "num": 29,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -379,36 +379,36 @@
      "y": 63
     },
     {
-     "id": "away-498",
-     "name": "Boscagli",
-     "num": 21,
+     "id": "away-486",
+     "name": "Kadıoğlu",
+     "num": 24,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
      "y": 85
     },
     {
-     "id": "away-486",
-     "name": "Kadıoğlu",
-     "num": 24,
+     "id": "away-2173",
+     "name": "Groß",
+     "num": 13,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-491",
-     "name": "De Cuyper",
-     "num": 29,
+     "id": "away-498",
+     "name": "Boscagli",
+     "num": 21,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-2173",
-     "name": "Groß",
-     "num": 13,
+     "id": "away-488",
+     "name": "Gómez",
+     "num": 25,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -424,9 +424,9 @@
      "y": 50
     },
     {
-     "id": "away-488",
-     "name": "Gómez",
-     "num": 25,
+     "id": "away-491",
+     "name": "De Cuyper",
+     "num": 29,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -450,12 +450,12 @@
    "name": "82' Chelsea freshen it up",
    "note": "Barco on for Caicedo on 82', same job.",
    "ruleId": "like-for-like",
-   "formation": "3-4-3",
+   "formation": "3-4-2-1",
    "players": [
     {
      "id": "home-1629",
      "name": "Martínez",
-     "num": 23,
+     "num": 26,
      "pos": "GK",
      "role": "GK",
      "x": 4,
@@ -473,7 +473,7 @@
     {
      "id": "home-424",
      "name": "Lacroix",
-     "num": 23,
+     "num": 5,
      "pos": "CB",
      "role": "DEF",
      "x": 12,
@@ -489,18 +489,18 @@
      "y": 28
     },
     {
-     "id": "home-393",
-     "name": "Gusto",
-     "num": 27,
+     "id": "home-3896",
+     "name": "Barco",
+     "num": null,
      "pos": "RWB",
      "role": "MID",
-     "x": 27,
+     "x": 28,
      "y": 90
     },
     {
-     "id": "home-401",
-     "name": "Hato",
-     "num": 21,
+     "id": "home-393",
+     "name": "Gusto",
+     "num": 27,
      "pos": "RCM",
      "role": "MID",
      "x": 25,
@@ -516,40 +516,40 @@
      "y": 40
     },
     {
-     "id": "home-511",
-     "name": "Rogers",
-     "num": 17,
+     "id": "home-401",
+     "name": "Hato",
+     "num": 21,
      "pos": "LWB",
      "role": "MID",
-     "x": 27,
+     "x": 28,
      "y": 10
     },
     {
      "id": "home-395",
      "name": "Palmer",
      "num": 10,
-     "pos": "RW",
+     "pos": "RAM",
      "role": "FWD",
-     "x": 41,
-     "y": 84
+     "x": 38,
+     "y": 66
     },
     {
-     "id": "home-3896",
-     "name": "Barco",
-     "num": null,
-     "pos": "ST",
+     "id": "home-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LAM",
      "role": "FWD",
-     "x": 45,
-     "y": 50
+     "x": 38,
+     "y": 34
     },
     {
      "id": "home-390",
      "name": "Pedro",
-     "num": 20,
-     "pos": "LW",
+     "num": 9,
+     "pos": "ST",
      "role": "FWD",
-     "x": 41,
-     "y": 16
+     "x": 45,
+     "y": 50
     }
    ]
   }

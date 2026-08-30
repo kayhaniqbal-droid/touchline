@@ -1,7 +1,7 @@
 {
  "fixtureId": 209553,
- "minute": 85,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 1,
   "away": 0
@@ -28,30 +28,30 @@
      "y": 50
     },
     {
-     "id": "home-343",
-     "providerId": 343,
-     "name": "Mukiele",
-     "num": 20,
+     "id": "home-1446",
+     "providerId": 1446,
+     "name": "Meunier",
+     "num": 12,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
      "y": 85
     },
     {
-     "id": "home-344",
-     "providerId": 344,
-     "name": "Ballard",
-     "num": 5,
+     "id": "home-343",
+     "providerId": 343,
+     "name": "Mukiele",
+     "num": 20,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-1446",
-     "providerId": 1446,
-     "name": "Meunier",
-     "num": 12,
+     "id": "home-344",
+     "providerId": 344,
+     "name": "Ballard",
+     "num": 5,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -68,10 +68,10 @@
      "y": 15
     },
     {
-     "id": "home-347",
-     "providerId": 347,
-     "name": "Hume",
-     "num": 32,
+     "id": "home-348",
+     "providerId": 348,
+     "name": "Xhaka",
+     "num": 34,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -88,20 +88,20 @@
      "y": 38
     },
     {
-     "id": "home-348",
-     "providerId": 348,
-     "name": "Xhaka",
-     "num": 34,
+     "id": "home-347",
+     "providerId": 347,
+     "name": "Hume",
+     "num": 32,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-351",
-     "providerId": 351,
-     "name": "Le Fée",
-     "num": 28,
+     "id": "home-359",
+     "providerId": 359,
+     "name": "Mundle",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -160,20 +160,20 @@
      "y": 15
     },
     {
-     "id": "away-826",
-     "providerId": 826,
-     "name": "Bassey",
-     "num": 3,
+     "id": "away-825",
+     "providerId": 825,
+     "name": "Andersen",
+     "num": 5,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
      "y": 37
     },
     {
-     "id": "away-825",
-     "providerId": 825,
-     "name": "Andersen",
-     "num": 5,
+     "id": "away-826",
+     "providerId": 826,
+     "name": "Bassey",
+     "num": 3,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
@@ -190,20 +190,20 @@
      "y": 85
     },
     {
-     "id": "away-832",
-     "providerId": 832,
-     "name": "Iwobi",
-     "num": 17,
+     "id": "away-838",
+     "providerId": 838,
+     "name": "Kevin",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-838",
-     "providerId": 838,
-     "name": "Kevin",
-     "num": null,
+     "id": "away-832",
+     "providerId": 832,
+     "name": "Iwobi",
+     "num": 17,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-08-30T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-08-30T14:42:48.283Z"
+ "fetchedAt": "2026-08-30T15:24:30.072Z"
 }

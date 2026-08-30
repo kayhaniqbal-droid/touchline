@@ -1,10 +1,10 @@
 {
  "fixtureId": 209547,
- "minute": 82,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 4,
-  "away": 2
+  "away": 3
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -14,14 +14,14 @@
    "nick": "Chelsea",
    "providerId": 13,
    "coach": null,
-   "formation": "3-4-3",
+   "formation": "3-4-2-1",
    "derivedShape": true,
    "players": [
     {
      "id": "home-1629",
      "providerId": 1629,
      "name": "Martínez",
-     "num": 23,
+     "num": 26,
      "pos": "GK",
      "role": "GK",
      "x": 4,
@@ -41,7 +41,7 @@
      "id": "home-424",
      "providerId": 424,
      "name": "Lacroix",
-     "num": 23,
+     "num": 5,
      "pos": "CB",
      "role": "DEF",
      "x": 12,
@@ -58,20 +58,20 @@
      "y": 28
     },
     {
+     "id": "home-3896",
+     "providerId": 3896,
+     "name": "Barco",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 28,
+     "y": 90
+    },
+    {
      "id": "home-393",
      "providerId": 393,
      "name": "Gusto",
      "num": 27,
-     "pos": "RWB",
-     "role": "MID",
-     "x": 27,
-     "y": 90
-    },
-    {
-     "id": "home-401",
-     "providerId": 401,
-     "name": "Hato",
-     "num": 21,
      "pos": "RCM",
      "role": "MID",
      "x": 25,
@@ -88,13 +88,13 @@
      "y": 40
     },
     {
-     "id": "home-511",
-     "providerId": 511,
-     "name": "Rogers",
-     "num": 17,
+     "id": "home-401",
+     "providerId": 401,
+     "name": "Hato",
+     "num": 21,
      "pos": "LWB",
      "role": "MID",
-     "x": 27,
+     "x": 28,
      "y": 10
     },
     {
@@ -102,30 +102,30 @@
      "providerId": 395,
      "name": "Palmer",
      "num": 10,
-     "pos": "RW",
+     "pos": "RAM",
      "role": "FWD",
-     "x": 41,
-     "y": 84
+     "x": 38,
+     "y": 66
     },
     {
-     "id": "home-3896",
-     "providerId": 3896,
-     "name": "Barco",
-     "num": null,
-     "pos": "ST",
+     "id": "home-511",
+     "providerId": 511,
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LAM",
      "role": "FWD",
-     "x": 45,
-     "y": 50
+     "x": 38,
+     "y": 34
     },
     {
      "id": "home-390",
      "providerId": 390,
      "name": "Pedro",
-     "num": 20,
-     "pos": "LW",
+     "num": 9,
+     "pos": "ST",
      "role": "FWD",
-     "x": 41,
-     "y": 16
+     "x": 45,
+     "y": 50
     }
    ],
    "bench": []
@@ -180,40 +180,40 @@
      "y": 63
     },
     {
-     "id": "away-498",
-     "providerId": 498,
-     "name": "Boscagli",
-     "num": 21,
+     "id": "away-486",
+     "providerId": 486,
+     "name": "Kadıoğlu",
+     "num": 24,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
      "y": 85
     },
     {
-     "id": "away-486",
-     "providerId": 486,
-     "name": "Kadıoğlu",
-     "num": 24,
+     "id": "away-2173",
+     "providerId": 2173,
+     "name": "Groß",
+     "num": 13,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-491",
-     "providerId": 491,
-     "name": "De Cuyper",
-     "num": 29,
+     "id": "away-498",
+     "providerId": 498,
+     "name": "Boscagli",
+     "num": 21,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-2173",
-     "providerId": 2173,
-     "name": "Groß",
-     "num": 13,
+     "id": "away-488",
+     "providerId": 488,
+     "name": "Gómez",
+     "num": 25,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -230,10 +230,10 @@
      "y": 50
     },
     {
-     "id": "away-488",
-     "providerId": 488,
-     "name": "Gómez",
-     "num": 25,
+     "id": "away-491",
+     "providerId": 491,
+     "name": "De Cuyper",
+     "num": 29,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-08-30T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-08-30T14:42:48.904Z"
+ "fetchedAt": "2026-08-30T15:24:31.118Z"
 }
