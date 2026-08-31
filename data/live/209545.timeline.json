@@ -58,35 +58,255 @@
      "y": 85
     },
     {
-     "id": "away-458",
-     "name": "Lewis-Skelly",
-     "num": 49,
+     "id": "away-449",
+     "name": "Rice",
+     "num": 41,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-449",
-     "name": "Rice",
-     "num": 41,
+     "id": "away-458",
+     "name": "Lewis-Skelly",
+     "num": 49,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-447",
-     "name": "Ødegaard",
-     "num": 8,
+     "id": "away-455",
+     "name": "Saka",
+     "num": 7,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
+     "id": "away-447",
+     "name": "Ødegaard",
+     "num": 8,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
      "id": "away-454",
      "name": "Eze",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-4941",
+     "name": "Havertz",
+     "num": 29,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-71-double-change",
+   "minute": 71,
+   "side": "home",
+   "name": "71' Villa make a double change",
+   "note": "Alysson and Abraham on together for Hemmings and Jackson on 71'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-4055",
+     "name": "Suzuki",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-503",
+     "name": "Cash",
+     "num": 2,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-519",
+     "name": "Lindelöf",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-505",
+     "name": "Torres",
+     "num": 14,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-506",
+     "name": "Maatsen",
+     "num": 22,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-507",
+     "name": "Kamara",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-1630",
+     "name": "Barkley",
+     "num": 6,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-510",
+     "name": "McGinn",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-517",
+     "name": "Buendía",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-614",
+     "name": "Alysson",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-5837",
+     "name": "Abraham",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-71-double-change",
+   "minute": 71,
+   "side": "away",
+   "name": "71' Arsenal make a double change",
+   "note": "Guimarães and Merino on together for Lewis-Skelly and Ødegaard on 71'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-442",
+     "name": "Raya",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-443",
+     "name": "White",
+     "num": 4,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-444",
+     "name": "Mosquera",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-4072",
+     "name": "Magalhães",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-446",
+     "name": "Calafiori",
+     "num": 33,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-449",
+     "name": "Rice",
+     "num": 41,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-709",
+     "name": "Guimarães",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-455",
+     "name": "Saka",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-451",
+     "name": "Merino",
      "num": null,
      "pos": "AM",
      "role": "MID",
@@ -94,9 +314,339 @@
      "y": 50
     },
     {
+     "id": "away-454",
+     "name": "Eze",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-4941",
+     "name": "Havertz",
+     "num": 29,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-78-double-change",
+   "minute": 78,
+   "side": "home",
+   "name": "78' Villa make a double change",
+   "note": "Wan-Bissaka and Garnacho on together for Cash and Barkley on 78'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-4055",
+     "name": "Suzuki",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-1635",
+     "name": "Wan-Bissaka",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-519",
+     "name": "Lindelöf",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-505",
+     "name": "Torres",
+     "num": 14,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-506",
+     "name": "Maatsen",
+     "num": 22,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-507",
+     "name": "Kamara",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-396",
+     "name": "Garnacho",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-510",
+     "name": "McGinn",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-517",
+     "name": "Buendía",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-614",
+     "name": "Alysson",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-5837",
+     "name": "Abraham",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-79-like-for-like",
+   "minute": 79,
+   "side": "away",
+   "name": "79' Arsenal freshen it up",
+   "note": "Konsa on for Mosquera on 79', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-442",
+     "name": "Raya",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-443",
+     "name": "White",
+     "num": 4,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-504",
+     "name": "Konsa",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-4072",
+     "name": "Magalhães",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-446",
+     "name": "Calafiori",
+     "num": 33,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-449",
+     "name": "Rice",
+     "num": 41,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-709",
+     "name": "Guimarães",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
      "id": "away-455",
      "name": "Saka",
      "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-451",
+     "name": "Merino",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-454",
+     "name": "Eze",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-4941",
+     "name": "Havertz",
+     "num": 29,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-85-like-for-like",
+   "minute": 85,
+   "side": "away",
+   "name": "85' Arsenal freshen it up",
+   "note": "Zubimendi on for Rice on 85', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-442",
+     "name": "Raya",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-443",
+     "name": "White",
+     "num": 4,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-504",
+     "name": "Konsa",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-4072",
+     "name": "Magalhães",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-446",
+     "name": "Calafiori",
+     "num": 33,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-448",
+     "name": "Zubimendi",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-709",
+     "name": "Guimarães",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-455",
+     "name": "Saka",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-451",
+     "name": "Merino",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-454",
+     "name": "Eze",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
