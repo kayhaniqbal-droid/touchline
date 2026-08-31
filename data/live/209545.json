@@ -1,10 +1,10 @@
 {
  "fixtureId": 209545,
- "minute": 21,
- "status": "1st_half",
+ "minute": 63,
+ "status": "2nd_half",
  "goals": {
   "home": 0,
-  "away": 0
+  "away": 1
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -220,10 +220,10 @@
      "y": 16
     },
     {
-     "id": "away-3543",
-     "providerId": 3543,
-     "name": "Tzolis",
-     "num": 17,
+     "id": "away-454",
+     "providerId": 454,
+     "name": "Eze",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-08-31T19:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-08-31T19:22:54.014Z"
+ "fetchedAt": "2026-08-31T20:22:16.322Z"
 }
