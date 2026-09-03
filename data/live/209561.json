@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209561,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "IPS",
+   "name": "Ipswich Town",
+   "nick": "Ipswich",
+   "providerId": 200,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-3744",
+     "providerId": 3744,
+     "name": "Scherpen",
+     "num": 37,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6147",
+     "providerId": 6147,
+     "name": "Davis",
+     "num": 3,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-6145",
+     "providerId": 6145,
+     "name": "O'Shea",
+     "num": 26,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-6160",
+     "providerId": 6160,
+     "name": "Greaves",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-6144",
+     "providerId": 6144,
+     "name": "Furlong",
+     "num": 2,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-6151",
+     "providerId": 6151,
+     "name": "Núñez",
+     "num": 32,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-828",
+     "providerId": 828,
+     "name": "Lukić",
+     "num": 23,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-1710",
+     "providerId": 1710,
+     "name": "Enciso",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6131",
+     "providerId": 6131,
+     "name": "Issahaku",
+     "num": 7,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-3393",
+     "providerId": 3393,
+     "name": "Maeda",
+     "num": 38,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-6161",
+     "providerId": 6161,
+     "name": "Akpom",
+     "num": 29,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "LIV",
+   "name": "Liverpool FC",
+   "nick": "Liverpool",
+   "providerId": 1,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-322",
+     "providerId": 322,
+     "name": "Alisson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-336",
+     "providerId": 336,
+     "name": "Kerkez",
+     "num": 6,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-325",
+     "providerId": 325,
+     "name": "van Dijk",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-2803",
+     "providerId": 2803,
+     "name": "Jacquet",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-4429",
+     "providerId": 4429,
+     "name": "Frimpong",
+     "num": 30,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-327",
+     "providerId": 327,
+     "name": "Gravenberch",
+     "num": 38,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-328",
+     "providerId": 328,
+     "name": "Mac Allister",
+     "num": 10,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-331",
+     "providerId": 331,
+     "name": "Gakpo",
+     "num": 18,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-329",
+     "providerId": 329,
+     "name": "Szoboszlai",
+     "num": 8,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-330",
+     "providerId": 330,
+     "name": "Wirtz",
+     "num": 7,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-332",
+     "providerId": 332,
+     "name": "Isak",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-09-04T19:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-09-03T14:11:32.041Z"
+}
