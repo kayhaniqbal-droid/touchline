@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209556,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "BRE",
+   "name": "Brentford",
+   "nick": "Brentford",
+   "providerId": 16,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-462",
+     "providerId": 462,
+     "name": "Kelleher",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-477",
+     "providerId": 477,
+     "name": "Lewis-Potter",
+     "num": 23,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-476",
+     "providerId": 476,
+     "name": "Collins",
+     "num": 22,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-464",
+     "providerId": 464,
+     "name": "Ajer",
+     "num": 20,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-463",
+     "providerId": 463,
+     "name": "Kayode",
+     "num": 33,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-469",
+     "providerId": 469,
+     "name": "Janelt",
+     "num": 27,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-468",
+     "providerId": 468,
+     "name": "Yarmoliuk",
+     "num": 6,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-472",
+     "providerId": 472,
+     "name": "Schade",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-475",
+     "providerId": 475,
+     "name": "Damsgaard",
+     "num": 24,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-471",
+     "providerId": 471,
+     "name": "Ouattara",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-473",
+     "providerId": 473,
+     "name": "Thiago",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "SUN",
+   "name": "Sunderland",
+   "nick": "Sunderland",
+   "providerId": 7,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-342",
+     "providerId": 342,
+     "name": "Roefs",
+     "num": 22,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-346",
+     "providerId": 346,
+     "name": "Mandava",
+     "num": 17,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-355",
+     "providerId": 355,
+     "name": "O'Nien",
+     "num": 13,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-344",
+     "providerId": 344,
+     "name": "Ballard",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-347",
+     "providerId": 347,
+     "name": "Hume",
+     "num": 32,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-348",
+     "providerId": 348,
+     "name": "Xhaka",
+     "num": 34,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-351",
+     "providerId": 351,
+     "name": "Le Fée",
+     "num": 28,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-7347",
+     "providerId": 7347,
+     "name": "Angulo",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-349",
+     "providerId": 349,
+     "name": "Sadiki",
+     "num": 27,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-350",
+     "providerId": 350,
+     "name": "Talbi",
+     "num": 7,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-352",
+     "providerId": 352,
+     "name": "Brobbey",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-09-05T14:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-09-04T14:02:53.243Z"
+}
