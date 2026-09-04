@@ -174,8 +174,15 @@
    "home": "NEW",
    "away": "BOU",
    "confirmed": false
+  },
+  "209564": {
+   "kickoff": "2026-09-05T14:00:00+00:00",
+   "status": "notstarted",
+   "home": "NFO",
+   "away": "TOT",
+   "confirmed": false
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-09-04T14:02:54.034Z"
+ "updatedAt": "2026-09-04T15:02:22.157Z"
 }

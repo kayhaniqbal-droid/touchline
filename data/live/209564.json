@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209564,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "NFO",
+   "name": "Nottingham Forest",
+   "nick": "Forest",
+   "providerId": 15,
+   "coach": null,
+   "formation": "3-5-2",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-542",
+     "providerId": 542,
+     "name": "Sels",
+     "num": 26,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-544",
+     "providerId": 544,
+     "name": "Milenković",
+     "num": 31,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-557",
+     "providerId": 557,
+     "name": "Jair",
+     "num": 23,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-2913",
+     "providerId": 2913,
+     "name": "Murillo",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-4788",
+     "providerId": 4788,
+     "name": "Aina",
+     "num": 34,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 29,
+     "y": 90
+    },
+    {
+     "id": "home-551",
+     "providerId": 551,
+     "name": "Ndoye",
+     "num": 14,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 66
+    },
+    {
+     "id": "home-560",
+     "providerId": 560,
+     "name": "McAtee",
+     "num": 24,
+     "pos": "DM",
+     "role": "MID",
+     "x": 23,
+     "y": 50
+    },
+    {
+     "id": "home-2892",
+     "providerId": 2892,
+     "name": "Schlager",
+     "num": 21,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 34
+    },
+    {
+     "id": "home-555",
+     "providerId": 555,
+     "name": "Domínguez",
+     "num": 8,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 29,
+     "y": 10
+    },
+    {
+     "id": "home-552",
+     "providerId": 552,
+     "name": "Jesus",
+     "num": 11,
+     "pos": "RS",
+     "role": "FWD",
+     "x": 43,
+     "y": 60
+    },
+    {
+     "id": "home-4472",
+     "providerId": 4472,
+     "name": "Wood",
+     "num": 9,
+     "pos": "LS",
+     "role": "FWD",
+     "x": 43,
+     "y": 40
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "TOT",
+   "name": "Tottenham Hotspur",
+   "nick": "Spurs",
+   "providerId": 9,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-734",
+     "providerId": 734,
+     "name": "Kinský",
+     "num": 31,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-326",
+     "providerId": 326,
+     "name": "Robertson",
+     "num": 3,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-484",
+     "providerId": 484,
+     "name": "van Hecke",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-1962",
+     "providerId": 1962,
+     "name": "Davies",
+     "num": 33,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-732",
+     "providerId": 732,
+     "name": "Gray",
+     "num": 14,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-704",
+     "providerId": 704,
+     "name": "Tonali",
+     "num": 16,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-8808",
+     "providerId": 8808,
+     "name": "Hall",
+     "num": 89,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-33510",
+     "providerId": 33510,
+     "name": "Ajayi",
+     "num": 63,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-4154",
+     "providerId": 4154,
+     "name": "Moore",
+     "num": 47,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-3474",
+     "providerId": 3474,
+     "name": "Williams-Barnett",
+     "num": 68,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-731",
+     "providerId": 731,
+     "name": "Tel",
+     "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-09-05T14:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-09-04T15:02:20.332Z"
+}
