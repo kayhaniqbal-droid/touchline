@@ -1,10 +1,10 @@
 {
  "fixtureId": 209561,
- "minute": 0,
- "status": "notstarted",
+ "minute": 9,
+ "status": "1st_half",
  "goals": {
   "home": 0,
-  "away": 0
+  "away": 2
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -68,10 +68,10 @@
      "y": 15
     },
     {
-     "id": "home-6151",
-     "providerId": 6151,
-     "name": "Núñez",
-     "num": 32,
+     "id": "home-4750",
+     "providerId": 4750,
+     "name": "Palacios",
+     "num": 25,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -91,7 +91,7 @@
      "id": "home-6131",
      "providerId": 6131,
      "name": "Issahaku",
-     "num": 15,
+     "num": 7,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -111,7 +111,7 @@
      "id": "home-3393",
      "providerId": 3393,
      "name": "Maeda",
-     "num": 12,
+     "num": 38,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -121,7 +121,7 @@
      "id": "home-1952",
      "providerId": 1952,
      "name": "Emersonn",
-     "num": 13,
+     "num": 19,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -150,40 +150,40 @@
      "y": 50
     },
     {
-     "id": "away-2803",
-     "providerId": 2803,
-     "name": "Jacquet",
-     "num": 5,
+     "id": "away-3661",
+     "providerId": 3661,
+     "name": "Araújo",
+     "num": 33,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
      "y": 15
     },
     {
-     "id": "away-325",
-     "providerId": 325,
-     "name": "van Dijk",
-     "num": 4,
+     "id": "away-2803",
+     "providerId": 2803,
+     "name": "Jacquet",
+     "num": 5,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
      "y": 37
     },
     {
-     "id": "away-336",
-     "providerId": 336,
-     "name": "Kerkez",
-     "num": 6,
+     "id": "away-325",
+     "providerId": 325,
+     "name": "van Dijk",
+     "num": 4,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
      "y": 63
     },
     {
-     "id": "away-329",
-     "providerId": 329,
-     "name": "Szoboszlai",
-     "num": 8,
+     "id": "away-336",
+     "providerId": 336,
+     "name": "Kerkez",
+     "num": 6,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
@@ -200,10 +200,10 @@
      "y": 38
     },
     {
-     "id": "away-327",
-     "providerId": 327,
-     "name": "Gravenberch",
-     "num": 38,
+     "id": "away-329",
+     "providerId": 329,
+     "name": "Szoboszlai",
+     "num": 8,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-04T19:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-04T17:47:29.230Z"
+ "fetchedAt": "2026-09-04T19:09:40.217Z"
 }
