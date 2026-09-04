@@ -68,20 +68,20 @@
      "y": 15
     },
     {
-     "id": "home-483",
-     "providerId": 483,
-     "name": "Wieffer",
-     "num": 27,
+     "id": "home-2173",
+     "providerId": 2173,
+     "name": "Groß",
+     "num": 13,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-2173",
-     "providerId": 2173,
-     "name": "Groß",
-     "num": 13,
+     "id": "home-488",
+     "providerId": 488,
+     "name": "Gómez",
+     "num": 25,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-05T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-04T19:09:38.218Z"
+ "fetchedAt": "2026-09-04T21:16:13.722Z"
 }
