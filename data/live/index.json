@@ -159,7 +159,7 @@
    "status": "notstarted",
    "home": "IPS",
    "away": "LIV",
-   "confirmed": false
+   "confirmed": true
   },
   "209562": {
    "kickoff": "2026-09-05T14:00:00+00:00",
@@ -184,5 +184,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-09-04T16:43:14.248Z"
+ "updatedAt": "2026-09-04T17:47:29.231Z"
 }
