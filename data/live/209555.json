@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209555,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "ARS",
+   "name": "Arsenal",
+   "nick": "Arsenal",
+   "providerId": 18,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-442",
+     "providerId": 442,
+     "name": "Raya",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-458",
+     "providerId": 458,
+     "name": "Lewis-Skelly",
+     "num": 49,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-4072",
+     "providerId": 4072,
+     "name": "Magalhães",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-444",
+     "providerId": 444,
+     "name": "Mosquera",
+     "num": 3,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-443",
+     "providerId": 443,
+     "name": "White",
+     "num": 4,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-446",
+     "providerId": 446,
+     "name": "Calafiori",
+     "num": 33,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-449",
+     "providerId": 449,
+     "name": "Rice",
+     "num": 41,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-3543",
+     "providerId": 3543,
+     "name": "Tzolis",
+     "num": 17,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-454",
+     "providerId": 454,
+     "name": "Eze",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-455",
+     "providerId": 455,
+     "name": "Saka",
+     "num": 7,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-4941",
+     "providerId": 4941,
+     "name": "Havertz",
+     "num": 29,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "CHE",
+   "name": "Chelsea",
+   "nick": "Chelsea",
+   "providerId": 13,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-4535",
+     "providerId": 4535,
+     "name": "Słonina",
+     "num": 44,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-401",
+     "providerId": 401,
+     "name": "Hato",
+     "num": 21,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-1344",
+     "providerId": 1344,
+     "name": "Fofana",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-424",
+     "providerId": 424,
+     "name": "Lacroix",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-393",
+     "providerId": 393,
+     "name": "Gusto",
+     "num": 27,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-400",
+     "providerId": 400,
+     "name": "James",
+     "num": 24,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-4237",
+     "providerId": 4237,
+     "name": "Lavia",
+     "num": 45,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-391",
+     "providerId": 391,
+     "name": "Gittens",
+     "num": 11,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-511",
+     "providerId": 511,
+     "name": "Rogers",
+     "num": 17,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-394",
+     "providerId": 394,
+     "name": "Neto",
+     "num": 7,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-390",
+     "providerId": 390,
+     "name": "Pedro",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-09-06T15:30:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-09-05T13:16:20.353Z"
+}

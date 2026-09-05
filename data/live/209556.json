@@ -6,7 +6,7 @@
   "home": 0,
   "away": 0
  },
- "lineupsConfirmed": false,
+ "lineupsConfirmed": true,
  "teams": {
   "home": {
    "code": "BRE",
@@ -28,70 +28,70 @@
      "y": 50
     },
     {
-     "id": "home-477",
-     "providerId": 477,
-     "name": "Lewis-Potter",
-     "num": 23,
+     "id": "home-463",
+     "providerId": 463,
+     "name": "Kayode",
+     "num": 33,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
      "y": 85
     },
     {
-     "id": "home-476",
-     "providerId": 476,
-     "name": "Collins",
-     "num": 22,
+     "id": "home-464",
+     "providerId": 464,
+     "name": "Ajer",
+     "num": 20,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-464",
-     "providerId": 464,
-     "name": "Ajer",
-     "num": 20,
+     "id": "home-476",
+     "providerId": 476,
+     "name": "Collins",
+     "num": 22,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
      "y": 37
     },
     {
-     "id": "home-463",
-     "providerId": 463,
-     "name": "Kayode",
-     "num": 33,
+     "id": "home-477",
+     "providerId": 477,
+     "name": "Lewis-Potter",
+     "num": 23,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
      "y": 15
     },
     {
-     "id": "home-469",
-     "providerId": 469,
-     "name": "Janelt",
-     "num": 27,
+     "id": "home-1411",
+     "providerId": 1411,
+     "name": "Sangare",
+     "num": 18,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-468",
-     "providerId": 468,
-     "name": "Yarmoliuk",
-     "num": 6,
+     "id": "home-469",
+     "providerId": 469,
+     "name": "Janelt",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-472",
-     "providerId": 472,
-     "name": "Schade",
-     "num": 7,
+     "id": "home-471",
+     "providerId": 471,
+     "name": "Ouattara",
+     "num": 11,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -108,10 +108,10 @@
      "y": 50
     },
     {
-     "id": "home-471",
-     "providerId": 471,
-     "name": "Ouattara",
-     "num": 11,
+     "id": "home-472",
+     "providerId": 472,
+     "name": "Schade",
+     "num": 7,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -136,7 +136,7 @@
    "nick": "Sunderland",
    "providerId": 7,
    "coach": null,
-   "formation": "4-2-3-1",
+   "formation": "5-4-1",
    "derivedShape": true,
    "players": [
     {
@@ -150,94 +150,94 @@
      "y": 50
     },
     {
-     "id": "away-346",
-     "providerId": 346,
-     "name": "Mandava",
-     "num": 17,
-     "pos": "RB",
+     "id": "away-1446",
+     "providerId": 1446,
+     "name": "Meunier",
+     "num": 12,
+     "pos": "RWB",
      "role": "DEF",
-     "x": 82,
-     "y": 15
+     "x": 79,
+     "y": 12
     },
     {
-     "id": "away-355",
-     "providerId": 355,
-     "name": "O'Nien",
-     "num": 13,
+     "id": "away-343",
+     "providerId": 343,
+     "name": "Mukiele",
+     "num": 20,
      "pos": "RCB",
      "role": "DEF",
-     "x": 87,
-     "y": 37
+     "x": 85,
+     "y": 30
     },
     {
      "id": "away-344",
      "providerId": 344,
      "name": "Ballard",
      "num": 5,
-     "pos": "LCB",
+     "pos": "CB",
      "role": "DEF",
      "x": 87,
-     "y": 63
+     "y": 50
     },
     {
-     "id": "away-347",
-     "providerId": 347,
-     "name": "Hume",
-     "num": 32,
-     "pos": "LB",
+     "id": "away-721",
+     "providerId": 721,
+     "name": "Danso",
+     "num": 4,
+     "pos": "LCB",
      "role": "DEF",
-     "x": 82,
-     "y": 85
+     "x": 85,
+     "y": 70
+    },
+    {
+     "id": "away-346",
+     "providerId": 346,
+     "name": "Mandava",
+     "num": 17,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 88
     },
     {
      "id": "away-348",
      "providerId": 348,
      "name": "Xhaka",
      "num": 34,
-     "pos": "RDM",
+     "pos": "RM",
      "role": "MID",
-     "x": 75,
-     "y": 38
-    },
-    {
-     "id": "away-351",
-     "providerId": 351,
-     "name": "Le Fée",
-     "num": 28,
-     "pos": "LDM",
-     "role": "MID",
-     "x": 75,
-     "y": 62
-    },
-    {
-     "id": "away-7347",
-     "providerId": 7347,
-     "name": "Angulo",
-     "num": 10,
-     "pos": "RW",
-     "role": "MID",
-     "x": 65,
-     "y": 16
+     "x": 71,
+     "y": 14
     },
     {
      "id": "away-349",
      "providerId": 349,
      "name": "Sadiki",
      "num": 27,
-     "pos": "AM",
+     "pos": "RCM",
      "role": "MID",
-     "x": 66,
-     "y": 50
+     "x": 73,
+     "y": 40
     },
     {
-     "id": "away-350",
-     "providerId": 350,
-     "name": "Talbi",
-     "num": 7,
-     "pos": "LW",
+     "id": "away-351",
+     "providerId": 351,
+     "name": "Le Fée",
+     "num": 28,
+     "pos": "LCM",
      "role": "MID",
-     "x": 65,
-     "y": 84
+     "x": 73,
+     "y": 60
+    },
+    {
+     "id": "away-7347",
+     "providerId": 7347,
+     "name": "Angulo",
+     "num": 10,
+     "pos": "LM",
+     "role": "MID",
+     "x": 71,
+     "y": 86
     },
     {
      "id": "away-352",
@@ -246,7 +246,7 @@
      "num": 9,
      "pos": "ST",
      "role": "FWD",
-     "x": 55,
+     "x": 59,
      "y": 50
     }
    ],
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-05T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-04T21:16:14.088Z"
+ "fetchedAt": "2026-09-05T13:16:26.906Z"
 }

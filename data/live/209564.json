@@ -6,7 +6,7 @@
   "home": 0,
   "away": 0
  },
- "lineupsConfirmed": false,
+ "lineupsConfirmed": true,
  "teams": {
   "home": {
    "code": "NFO",
@@ -14,7 +14,7 @@
    "nick": "Forest",
    "providerId": 15,
    "coach": null,
-   "formation": "3-5-2",
+   "formation": "3-4-2-1",
    "derivedShape": true,
    "players": [
     {
@@ -28,20 +28,20 @@
      "y": 50
     },
     {
-     "id": "home-544",
-     "providerId": 544,
-     "name": "Milenković",
-     "num": 31,
+     "id": "home-557",
+     "providerId": 557,
+     "name": "Jair",
+     "num": 23,
      "pos": "RCB",
      "role": "DEF",
      "x": 14,
      "y": 72
     },
     {
-     "id": "home-557",
-     "providerId": 557,
-     "name": "Jair",
-     "num": 23,
+     "id": "home-544",
+     "providerId": 544,
+     "name": "Milenković",
+     "num": 31,
      "pos": "CB",
      "role": "DEF",
      "x": 12,
@@ -64,28 +64,18 @@
      "num": 34,
      "pos": "RWB",
      "role": "MID",
-     "x": 29,
+     "x": 28,
      "y": 90
     },
     {
-     "id": "home-551",
-     "providerId": 551,
-     "name": "Ndoye",
-     "num": 14,
+     "id": "home-546",
+     "providerId": 546,
+     "name": "Williams",
+     "num": 3,
      "pos": "RCM",
      "role": "MID",
-     "x": 27,
-     "y": 66
-    },
-    {
-     "id": "home-560",
-     "providerId": 560,
-     "name": "McAtee",
-     "num": 24,
-     "pos": "DM",
-     "role": "MID",
-     "x": 23,
-     "y": 50
+     "x": 25,
+     "y": 60
     },
     {
      "id": "home-2892",
@@ -94,38 +84,48 @@
      "num": 21,
      "pos": "LCM",
      "role": "MID",
-     "x": 27,
-     "y": 34
+     "x": 25,
+     "y": 40
     },
     {
-     "id": "home-555",
-     "providerId": 555,
-     "name": "Domínguez",
-     "num": 8,
+     "id": "home-560",
+     "providerId": 560,
+     "name": "McAtee",
+     "num": 24,
      "pos": "LWB",
      "role": "MID",
-     "x": 29,
+     "x": 28,
      "y": 10
     },
     {
-     "id": "home-552",
-     "providerId": 552,
-     "name": "Jesus",
-     "num": 11,
-     "pos": "RS",
+     "id": "home-551",
+     "providerId": 551,
+     "name": "Ndoye",
+     "num": 14,
+     "pos": "RAM",
      "role": "FWD",
-     "x": 43,
-     "y": 60
+     "x": 38,
+     "y": 66
     },
     {
-     "id": "home-4472",
-     "providerId": 4472,
-     "name": "Wood",
-     "num": 9,
-     "pos": "LS",
+     "id": "home-550",
+     "providerId": 550,
+     "name": "Gibbs-White",
+     "num": 10,
+     "pos": "LAM",
      "role": "FWD",
-     "x": 43,
-     "y": 40
+     "x": 38,
+     "y": 34
+    },
+    {
+     "id": "home-392",
+     "providerId": 392,
+     "name": "Delap",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
     }
    ],
    "bench": []
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-326",
-     "providerId": 326,
-     "name": "Robertson",
-     "num": 3,
+     "id": "away-719",
+     "providerId": 719,
+     "name": "Porro",
+     "num": 23,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -170,20 +170,20 @@
      "y": 37
     },
     {
-     "id": "away-1962",
-     "providerId": 1962,
-     "name": "Davies",
-     "num": 33,
+     "id": "away-736",
+     "providerId": 736,
+     "name": "van de Ven",
+     "num": 37,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
      "y": 63
     },
     {
-     "id": "away-732",
-     "providerId": 732,
-     "name": "Gray",
-     "num": 14,
+     "id": "away-722",
+     "providerId": 722,
+     "name": "Udogie",
+     "num": 13,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
@@ -200,50 +200,50 @@
      "y": 38
     },
     {
-     "id": "away-8808",
-     "providerId": 8808,
-     "name": "Hall",
-     "num": 89,
+     "id": "away-723",
+     "providerId": 723,
+     "name": "Bentancur",
+     "num": 30,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-1643",
-     "providerId": 1643,
-     "name": "Fernandes",
-     "num": 18,
+     "id": "away-855",
+     "providerId": 855,
+     "name": "Sávio",
+     "num": 17,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-33510",
-     "providerId": 33510,
-     "name": "Ajayi",
-     "num": 63,
+     "id": "away-772",
+     "providerId": 772,
+     "name": "Gallagher",
+     "num": 8,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-3474",
-     "providerId": 3474,
-     "name": "Williams-Barnett",
-     "num": 68,
+     "id": "away-731",
+     "providerId": 731,
+     "name": "Tel",
+     "num": 11,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-731",
-     "providerId": 731,
-     "name": "Tel",
-     "num": 11,
+     "id": "away-862",
+     "providerId": 862,
+     "name": "Marmoush",
+     "num": 22,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-05T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-04T21:16:12.581Z"
+ "fetchedAt": "2026-09-05T13:16:22.394Z"
 }
