@@ -58,10 +58,10 @@
      "y": 37
     },
     {
-     "id": "home-818",
-     "providerId": 818,
-     "name": "Patterson",
-     "num": 2,
+     "id": "home-8798",
+     "providerId": 8798,
+     "name": "Branthwaite",
+     "num": 4,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
@@ -88,20 +88,20 @@
      "y": 38
     },
     {
-     "id": "home-810",
-     "providerId": 810,
-     "name": "Ndiaye",
-     "num": 10,
+     "id": "home-4094",
+     "providerId": 4094,
+     "name": "Röhl",
+     "num": 34,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-4094",
-     "providerId": 4094,
-     "name": "Röhl",
-     "num": 34,
+     "id": "home-3659",
+     "providerId": 3659,
+     "name": "George",
+     "num": 19,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-06T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-05T18:35:22.900Z"
+ "fetchedAt": "2026-09-05T20:56:58.571Z"
 }
