@@ -1,7 +1,7 @@
 {
  "fixtureId": 209560,
- "minute": 25,
- "status": "1st_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
   "away": 0
@@ -28,10 +28,10 @@
      "y": 50
     },
     {
-     "id": "home-6183",
-     "providerId": 6183,
-     "name": "Coyle",
-     "num": 2,
+     "id": "home-3923",
+     "providerId": 3923,
+     "name": "Norton-Cuffy",
+     "num": null,
      "pos": "RWB",
      "role": "DEF",
      "x": 21,
@@ -58,10 +58,10 @@
      "y": 50
     },
     {
-     "id": "home-906",
-     "providerId": 906,
-     "name": "Mendy",
-     "num": 32,
+     "id": "home-12179",
+     "providerId": 12179,
+     "name": "Herrington",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 15,
@@ -78,10 +78,10 @@
      "y": 12
     },
     {
-     "id": "home-6187",
-     "providerId": 6187,
-     "name": "Belloumi",
-     "num": 10,
+     "id": "home-1494",
+     "providerId": 1494,
+     "name": "Cho",
+     "num": null,
      "pos": "RM",
      "role": "MID",
      "x": 29,
@@ -98,20 +98,20 @@
      "y": 60
     },
     {
-     "id": "home-4189",
-     "providerId": 4189,
-     "name": "Gourna-Douath",
-     "num": 29,
+     "id": "home-50187",
+     "providerId": 50187,
+     "name": "Hjertø-Dahl",
+     "num": null,
      "pos": "LCM",
      "role": "MID",
      "x": 27,
      "y": 40
     },
     {
-     "id": "home-16077",
-     "providerId": 16077,
-     "name": "Stroud",
-     "num": 21,
+     "id": "home-6055",
+     "providerId": 6055,
+     "name": "Thomas",
+     "num": null,
      "pos": "LM",
      "role": "MID",
      "x": 29,
@@ -143,17 +143,17 @@
      "id": "away-4055",
      "providerId": 4055,
      "name": "Suzuki",
-     "num": 54,
+     "num": 1,
      "pos": "GK",
      "role": "GK",
      "x": 96,
      "y": 50
     },
     {
-     "id": "away-503",
-     "providerId": 503,
-     "name": "Cash",
-     "num": 2,
+     "id": "away-1635",
+     "providerId": 1635,
+     "name": "Wan-Bissaka",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -180,10 +180,10 @@
      "y": 63
     },
     {
-     "id": "away-506",
-     "providerId": 506,
-     "name": "Maatsen",
-     "num": 22,
+     "id": "away-780",
+     "providerId": 780,
+     "name": "Ruggeri",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
@@ -220,30 +220,30 @@
      "y": 16
     },
     {
-     "id": "away-517",
-     "providerId": 517,
-     "name": "Buendía",
-     "num": 10,
+     "id": "away-396",
+     "providerId": 396,
+     "name": "Garnacho",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-3860",
-     "providerId": 3860,
-     "name": "Hemmings",
-     "num": 53,
+     "id": "away-614",
+     "providerId": 614,
+     "name": "Alysson",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-2471",
-     "providerId": 2471,
-     "name": "Jackson",
-     "num": 11,
+     "id": "away-5837",
+     "providerId": 5837,
+     "name": "Abraham",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-05T16:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-05T16:56:15.645Z"
+ "fetchedAt": "2026-09-05T18:35:23.292Z"
 }
