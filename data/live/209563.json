@@ -1,9 +1,9 @@
 {
  "fixtureId": 209563,
- "minute": 86,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
-  "home": 1,
+  "home": 2,
   "away": 2
  },
  "lineupsConfirmed": true,
@@ -31,37 +31,37 @@
      "id": "home-2052",
      "providerId": 2052,
      "name": "Dedić",
-     "num": 68,
+     "num": 37,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
      "y": 85
     },
     {
-     "id": "home-3696",
-     "providerId": 3696,
-     "name": "Botman",
-     "num": 4,
+     "id": "home-700",
+     "providerId": 700,
+     "name": "Thiaw",
+     "num": 12,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-700",
-     "providerId": 700,
-     "name": "Thiaw",
-     "num": 12,
+     "id": "home-3696",
+     "providerId": 3696,
+     "name": "Botman",
+     "num": 4,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
      "y": 37
     },
     {
-     "id": "home-702",
-     "providerId": 702,
-     "name": "Hall",
-     "num": 3,
+     "id": "home-699",
+     "providerId": 699,
+     "name": "Livramento",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
@@ -88,9 +88,9 @@
      "y": 38
     },
     {
-     "id": "home-1464",
-     "providerId": 1464,
-     "name": "Fernández-Pardo",
+     "id": "home-706",
+     "providerId": 706,
+     "name": "Murphy",
      "num": null,
      "pos": "RW",
      "role": "MID",
@@ -98,9 +98,9 @@
      "y": 84
     },
     {
-     "id": "home-706",
-     "providerId": 706,
-     "name": "Murphy",
+     "id": "home-1464",
+     "providerId": 1464,
+     "name": "Fernández-Pardo",
      "num": null,
      "pos": "AM",
      "role": "MID",
@@ -160,20 +160,20 @@
      "y": 15
     },
     {
-     "id": "away-2053",
-     "providerId": 2053,
-     "name": "Silva",
-     "num": 14,
+     "id": "away-799",
+     "providerId": 799,
+     "name": "Hill",
+     "num": 5,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
      "y": 37
     },
     {
-     "id": "away-799",
-     "providerId": 799,
-     "name": "Hill",
-     "num": 5,
+     "id": "away-2053",
+     "providerId": 2053,
+     "name": "Silva",
+     "num": 14,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
@@ -190,19 +190,19 @@
      "y": 85
     },
     {
-     "id": "away-789",
-     "providerId": 789,
-     "name": "Scott",
-     "num": 8,
+     "id": "away-2371",
+     "providerId": 2371,
+     "name": "Cook",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-2371",
-     "providerId": 2371,
-     "name": "Cook",
+     "id": "away-3900",
+     "providerId": 3900,
+     "name": "Christie",
      "num": null,
      "pos": "LDM",
      "role": "MID",
@@ -210,10 +210,10 @@
      "y": 62
     },
     {
-     "id": "away-663",
-     "providerId": 663,
-     "name": "Rayan",
-     "num": 37,
+     "id": "away-4027",
+     "providerId": 4027,
+     "name": "Doak",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -230,10 +230,10 @@
      "y": 50
     },
     {
-     "id": "away-794",
-     "providerId": 794,
-     "name": "Tavernier",
-     "num": 16,
+     "id": "away-6736",
+     "providerId": 6736,
+     "name": "Jebbison",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-05T11:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-05T13:16:27.300Z"
+ "fetchedAt": "2026-09-05T13:57:44.324Z"
 }

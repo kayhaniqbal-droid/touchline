@@ -1,6 +1,6 @@
 {
  "fixtureId": 209563,
- "title": "Newcastle United 1–2 Bournemouth",
+ "title": "Newcastle United 2–2 Bournemouth",
  "lineupStatus": "confirmed",
  "phases": [
   {
@@ -24,25 +24,25 @@
     {
      "id": "home-2052",
      "name": "Dedić",
-     "num": 68,
+     "num": 37,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
      "y": 85
     },
     {
-     "id": "home-3696",
-     "name": "Botman",
-     "num": 4,
+     "id": "home-700",
+     "name": "Thiaw",
+     "num": 12,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-700",
-     "name": "Thiaw",
-     "num": 12,
+     "id": "home-3696",
+     "name": "Botman",
+     "num": 4,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -76,18 +76,18 @@
      "y": 38
     },
     {
-     "id": "home-1464",
-     "name": "Fernández-Pardo",
-     "num": null,
+     "id": "home-710",
+     "name": "Elanga",
+     "num": 19,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-710",
-     "name": "Elanga",
-     "num": 19,
+     "id": "home-1464",
+     "name": "Fernández-Pardo",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -141,18 +141,18 @@
      "y": 15
     },
     {
-     "id": "away-2053",
-     "name": "Silva",
-     "num": 14,
+     "id": "away-799",
+     "name": "Hill",
+     "num": 5,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
      "y": 37
     },
     {
-     "id": "away-799",
-     "name": "Hill",
-     "num": 5,
+     "id": "away-2053",
+     "name": "Silva",
+     "num": 14,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
@@ -168,18 +168,18 @@
      "y": 85
     },
     {
-     "id": "away-789",
-     "name": "Scott",
-     "num": 8,
+     "id": "away-2371",
+     "name": "Cook",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-2371",
-     "name": "Cook",
-     "num": null,
+     "id": "away-789",
+     "name": "Scott",
+     "num": 8,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -244,25 +244,25 @@
     {
      "id": "home-2052",
      "name": "Dedić",
-     "num": 68,
+     "num": 37,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
      "y": 85
     },
     {
-     "id": "home-3696",
-     "name": "Botman",
-     "num": 4,
+     "id": "home-700",
+     "name": "Thiaw",
+     "num": 12,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-700",
-     "name": "Thiaw",
-     "num": 12,
+     "id": "home-3696",
+     "name": "Botman",
+     "num": 4,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -296,18 +296,18 @@
      "y": 38
     },
     {
-     "id": "home-1464",
-     "name": "Fernández-Pardo",
-     "num": null,
+     "id": "home-710",
+     "name": "Elanga",
+     "num": 19,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-710",
-     "name": "Elanga",
-     "num": 19,
+     "id": "home-1464",
+     "name": "Fernández-Pardo",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -354,25 +354,25 @@
     {
      "id": "home-2052",
      "name": "Dedić",
-     "num": 68,
+     "num": 37,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
      "y": 85
     },
     {
-     "id": "home-3696",
-     "name": "Botman",
-     "num": 4,
+     "id": "home-700",
+     "name": "Thiaw",
+     "num": 12,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-700",
-     "name": "Thiaw",
-     "num": 12,
+     "id": "home-3696",
+     "name": "Botman",
+     "num": 4,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -406,8 +406,8 @@
      "y": 38
     },
     {
-     "id": "home-1464",
-     "name": "Fernández-Pardo",
+     "id": "home-706",
+     "name": "Murphy",
      "num": null,
      "pos": "RW",
      "role": "MID",
@@ -415,8 +415,8 @@
      "y": 84
     },
     {
-     "id": "home-706",
-     "name": "Murphy",
+     "id": "home-1464",
+     "name": "Fernández-Pardo",
      "num": null,
      "pos": "AM",
      "role": "MID",
@@ -439,6 +439,336 @@
      "pos": "ST",
      "role": "FWD",
      "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-89-double-change",
+   "minute": 89,
+   "side": "away",
+   "name": "89' Bournemouth make a double change",
+   "note": "Doak and Jebbison on together for Rayan and Tavernier on 89'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-783",
+     "name": "Đ. Petrović",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-801",
+     "name": "Smith",
+     "num": 15,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-799",
+     "name": "Hill",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-2053",
+     "name": "Silva",
+     "num": 14,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-787",
+     "name": "Truffert",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-2371",
+     "name": "Cook",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-789",
+     "name": "Scott",
+     "num": 8,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-4027",
+     "name": "Doak",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-2372",
+     "name": "Brooks",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-6736",
+     "name": "Jebbison",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-795",
+     "name": "Evanilson",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-90-like-for-like",
+   "minute": 90,
+   "side": "home",
+   "name": "90' Newcastle freshen it up",
+   "note": "Livramento on for Hall on 90', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-883",
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-2052",
+     "name": "Dedić",
+     "num": 37,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-700",
+     "name": "Thiaw",
+     "num": 12,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-3696",
+     "name": "Botman",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-699",
+     "name": "Livramento",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-5178",
+     "name": "Steur",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-716",
+     "name": "Ramsey",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-706",
+     "name": "Murphy",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-1464",
+     "name": "Fernández-Pardo",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-708",
+     "name": "Barnes",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-5140",
+     "name": "Wissa",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-96-like-for-like",
+   "minute": 96,
+   "side": "away",
+   "name": "96' Bournemouth freshen it up",
+   "note": "Christie on for Scott on 96', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-783",
+     "name": "Đ. Petrović",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-801",
+     "name": "Smith",
+     "num": 15,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-799",
+     "name": "Hill",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-2053",
+     "name": "Silva",
+     "num": 14,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-787",
+     "name": "Truffert",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-2371",
+     "name": "Cook",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-3900",
+     "name": "Christie",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-4027",
+     "name": "Doak",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-2372",
+     "name": "Brooks",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-6736",
+     "name": "Jebbison",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-795",
+     "name": "Evanilson",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
      "y": 50
     }
    ]
