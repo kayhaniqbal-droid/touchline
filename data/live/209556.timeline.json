@@ -1,6 +1,6 @@
 {
  "fixtureId": 209556,
- "title": "Brentford 1–0 Sunderland",
+ "title": "Brentford 1–1 Sunderland",
  "lineupStatus": "confirmed",
  "phases": [
   {
@@ -230,7 +230,7 @@
    "name": "64' Sunderland make a double change",
    "note": "Hume and Isidor on together for Meunier and Angulo on 64'.",
    "ruleId": "double-change",
-   "formation": "5-4-1",
+   "formation": "4-2-3-1",
    "players": [
     {
      "id": "away-342",
@@ -242,85 +242,85 @@
      "y": 50
     },
     {
-     "id": "away-347",
-     "name": "Hume",
-     "num": null,
-     "pos": "RWB",
-     "role": "DEF",
-     "x": 79,
-     "y": 12
-    },
-    {
      "id": "away-343",
      "name": "Mukiele",
      "num": 20,
-     "pos": "RCB",
+     "pos": "RB",
      "role": "DEF",
-     "x": 85,
-     "y": 30
-    },
-    {
-     "id": "away-344",
-     "name": "Ballard",
-     "num": 5,
-     "pos": "CB",
-     "role": "DEF",
-     "x": 87,
-     "y": 50
+     "x": 82,
+     "y": 15
     },
     {
      "id": "away-721",
      "name": "Danso",
      "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-344",
+     "name": "Ballard",
+     "num": 5,
      "pos": "LCB",
      "role": "DEF",
-     "x": 85,
-     "y": 70
+     "x": 87,
+     "y": 63
     },
     {
      "id": "away-346",
      "name": "Mandava",
      "num": 17,
-     "pos": "LWB",
+     "pos": "LB",
      "role": "DEF",
-     "x": 79,
-     "y": 88
+     "x": 82,
+     "y": 85
     },
     {
      "id": "away-348",
      "name": "Xhaka",
      "num": 34,
-     "pos": "RM",
+     "pos": "RDM",
      "role": "MID",
-     "x": 71,
-     "y": 14
+     "x": 75,
+     "y": 38
     },
     {
      "id": "away-349",
      "name": "Sadiki",
      "num": 27,
-     "pos": "RCM",
+     "pos": "LDM",
      "role": "MID",
-     "x": 73,
-     "y": 40
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-347",
+     "name": "Hume",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
     },
     {
      "id": "away-351",
      "name": "Le Fée",
      "num": 28,
-     "pos": "LCM",
+     "pos": "AM",
      "role": "MID",
-     "x": 73,
-     "y": 60
+     "x": 66,
+     "y": 50
     },
     {
      "id": "away-353",
      "name": "Isidor",
      "num": null,
-     "pos": "LM",
+     "pos": "LW",
      "role": "MID",
-     "x": 71,
-     "y": 86
+     "x": 65,
+     "y": 84
     },
     {
      "id": "away-352",
@@ -328,7 +328,7 @@
      "num": 9,
      "pos": "ST",
      "role": "FWD",
-     "x": 59,
+     "x": 55,
      "y": 50
     }
    ]
@@ -340,7 +340,7 @@
    "name": "74' Sunderland freshen it up",
    "note": "Fofana on for Sadiki on 74', same job.",
    "ruleId": "like-for-like",
-   "formation": "5-4-1",
+   "formation": "4-2-3-1",
    "players": [
     {
      "id": "away-342",
@@ -352,85 +352,85 @@
      "y": 50
     },
     {
-     "id": "away-347",
-     "name": "Hume",
-     "num": null,
-     "pos": "RWB",
-     "role": "DEF",
-     "x": 79,
-     "y": 12
-    },
-    {
      "id": "away-343",
      "name": "Mukiele",
      "num": 20,
-     "pos": "RCB",
+     "pos": "RB",
      "role": "DEF",
-     "x": 85,
-     "y": 30
-    },
-    {
-     "id": "away-344",
-     "name": "Ballard",
-     "num": 5,
-     "pos": "CB",
-     "role": "DEF",
-     "x": 87,
-     "y": 50
+     "x": 82,
+     "y": 15
     },
     {
      "id": "away-721",
      "name": "Danso",
      "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-344",
+     "name": "Ballard",
+     "num": 5,
      "pos": "LCB",
      "role": "DEF",
-     "x": 85,
-     "y": 70
+     "x": 87,
+     "y": 63
     },
     {
      "id": "away-346",
      "name": "Mandava",
      "num": 17,
-     "pos": "LWB",
+     "pos": "LB",
      "role": "DEF",
-     "x": 79,
-     "y": 88
+     "x": 82,
+     "y": 85
     },
     {
      "id": "away-348",
      "name": "Xhaka",
      "num": 34,
-     "pos": "RM",
+     "pos": "RDM",
      "role": "MID",
-     "x": 71,
-     "y": 14
+     "x": 75,
+     "y": 38
     },
     {
      "id": "away-4335",
      "name": "Fofana",
      "num": null,
-     "pos": "RCM",
+     "pos": "LDM",
      "role": "MID",
-     "x": 73,
-     "y": 40
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-347",
+     "name": "Hume",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
     },
     {
      "id": "away-351",
      "name": "Le Fée",
      "num": 28,
-     "pos": "LCM",
+     "pos": "AM",
      "role": "MID",
-     "x": 73,
-     "y": 60
+     "x": 66,
+     "y": 50
     },
     {
      "id": "away-353",
      "name": "Isidor",
      "num": null,
-     "pos": "LM",
+     "pos": "LW",
      "role": "MID",
-     "x": 71,
-     "y": 86
+     "x": 65,
+     "y": 84
     },
     {
      "id": "away-352",
@@ -438,7 +438,117 @@
      "num": 9,
      "pos": "ST",
      "role": "FWD",
-     "x": 59,
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-86-like-for-like",
+   "minute": 86,
+   "side": "home",
+   "name": "86' Brentford freshen it up",
+   "note": "Wilson on for Damsgaard on 86', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-462",
+     "name": "Kelleher",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-2373",
+     "name": "Hickey",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-464",
+     "name": "Ajer",
+     "num": 20,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-3051",
+     "name": "Schuster",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-477",
+     "name": "Lewis-Potter",
+     "num": 23,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-468",
+     "name": "Yarmoliuk",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-469",
+     "name": "Janelt",
+     "num": 27,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-410",
+     "name": "Anthony",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-1644",
+     "name": "Wilson",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-472",
+     "name": "Schade",
+     "num": 7,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-473",
+     "name": "Thiago",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
      "y": 50
     }
    ]

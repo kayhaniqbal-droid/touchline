@@ -22,9 +22,9 @@
      "y": 50
     },
     {
-     "id": "away-436",
-     "name": "Canvot",
-     "num": 6,
+     "id": "away-423",
+     "name": "Richards",
+     "num": 26,
      "pos": "RCB",
      "role": "DEF",
      "x": 86,
@@ -40,9 +40,9 @@
      "y": 50
     },
     {
-     "id": "away-423",
-     "name": "Richards",
-     "num": 26,
+     "id": "away-436",
+     "name": "Canvot",
+     "num": 6,
      "pos": "LCB",
      "role": "DEF",
      "x": 86,
@@ -60,7 +60,7 @@
     {
      "id": "away-3373",
      "name": "Timber",
-     "num": 27,
+     "num": 23,
      "pos": "RCM",
      "role": "MID",
      "x": 75,
@@ -242,9 +242,9 @@
      "y": 50
     },
     {
-     "id": "away-436",
-     "name": "Canvot",
-     "num": 6,
+     "id": "away-423",
+     "name": "Richards",
+     "num": 26,
      "pos": "RCB",
      "role": "DEF",
      "x": 86,
@@ -260,9 +260,9 @@
      "y": 50
     },
     {
-     "id": "away-423",
-     "name": "Richards",
-     "num": 26,
+     "id": "away-436",
+     "name": "Canvot",
+     "num": 6,
      "pos": "LCB",
      "role": "DEF",
      "x": 86,
@@ -549,6 +549,116 @@
      "pos": "ST",
      "role": "FWD",
      "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-89-double-change",
+   "minute": 89,
+   "side": "away",
+   "name": "89' Palace make a double change",
+   "note": "Osorio and Mingueza on together for Kamada and Pino on 89'.",
+   "ruleId": "double-change",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-422",
+     "name": "Henderson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-423",
+     "name": "Richards",
+     "num": 26,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-8981",
+     "name": "Disasi",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-436",
+     "name": "Canvot",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-3748",
+     "name": "Khalaili",
+     "num": 25,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-435",
+     "name": "Hughes",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-427",
+     "name": "Wharton",
+     "num": 20,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-1708",
+     "name": "Chilwell",
+     "num": null,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-3252",
+     "name": "Osorio",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-1272",
+     "name": "Mingueza",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-531",
+     "name": "Larsen",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
      "y": 50
     }
    ]

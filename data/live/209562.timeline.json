@@ -10,7 +10,7 @@
    "name": "63' Coventry make a double change",
    "note": "Yirenkyi and Tchaouna on together for Onyeka and Rudoni on 63'.",
    "ruleId": "double-change",
-   "formation": "5-3-2",
+   "formation": "3-4-2-1",
    "players": [
     {
      "id": "away-6420",
@@ -22,94 +22,94 @@
      "y": 50
     },
     {
-     "id": "away-6421",
-     "name": "v. Ewijk",
-     "num": 27,
-     "pos": "RWB",
+     "id": "away-1362",
+     "name": "Amenda",
+     "num": 24,
+     "pos": "RCB",
      "role": "DEF",
-     "x": 78,
-     "y": 12
+     "x": 86,
+     "y": 28
     },
     {
      "id": "away-6687",
      "name": "Thomas",
      "num": 4,
-     "pos": "RCB",
+     "pos": "CB",
      "role": "DEF",
-     "x": 84,
-     "y": 30
+     "x": 88,
+     "y": 50
     },
     {
      "id": "away-465",
      "name": "Pinnock",
      "num": 2,
-     "pos": "CB",
-     "role": "DEF",
-     "x": 86,
-     "y": 50
-    },
-    {
-     "id": "away-1362",
-     "name": "Amenda",
-     "num": 24,
      "pos": "LCB",
      "role": "DEF",
-     "x": 84,
-     "y": 70
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-6421",
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-16696",
+     "name": "Yirenkyi",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-6426",
+     "name": "Grimes",
+     "num": 6,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
     },
     {
      "id": "away-6424",
      "name": "DaSilva",
      "num": 3,
      "pos": "LWB",
-     "role": "DEF",
-     "x": 78,
-     "y": 88
-    },
-    {
-     "id": "away-6426",
-     "name": "Grimes",
-     "num": 6,
-     "pos": "RCM",
-     "role": "MID",
-     "x": 70,
-     "y": 32
-    },
-    {
-     "id": "away-16696",
-     "name": "Yirenkyi",
-     "num": null,
-     "pos": "CM",
      "role": "MID",
      "x": 72,
-     "y": 50
+     "y": 90
     },
     {
      "id": "away-407",
      "name": "Tchaouna",
      "num": null,
-     "pos": "LCM",
-     "role": "MID",
-     "x": 70,
-     "y": 68
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
     },
     {
      "id": "away-6429",
      "name": "Ephron",
      "num": 10,
-     "pos": "RS",
+     "pos": "LAM",
      "role": "FWD",
-     "x": 58,
-     "y": 40
+     "x": 62,
+     "y": 66
     },
     {
      "id": "away-4026",
      "name": "Awoniyi",
      "num": 14,
-     "pos": "LS",
+     "pos": "ST",
      "role": "FWD",
-     "x": 58,
-     "y": 60
+     "x": 55,
+     "y": 50
     }
    ]
   },
@@ -150,27 +150,27 @@
      "y": 63
     },
     {
-     "id": "home-846",
-     "name": "Gvardiol",
-     "num": 24,
+     "id": "home-425",
+     "name": "Guéhi",
+     "num": 6,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
      "y": 37
     },
     {
-     "id": "home-425",
-     "name": "Guéhi",
-     "num": 6,
+     "id": "home-846",
+     "name": "Gvardiol",
+     "num": 24,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
      "y": 15
     },
     {
-     "id": "home-847",
-     "name": "O’Reilly",
-     "num": 33,
+     "id": "home-387",
+     "name": "Fernández",
+     "num": 17,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -186,9 +186,9 @@
      "y": 38
     },
     {
-     "id": "home-810",
-     "name": "Ndiaye",
-     "num": 10,
+     "id": "home-792",
+     "name": "Semenyo",
+     "num": 42,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -204,9 +204,9 @@
      "y": 50
     },
     {
-     "id": "home-792",
-     "name": "Semenyo",
-     "num": 42,
+     "id": "home-810",
+     "name": "Ndiaye",
+     "num": 7,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -230,7 +230,7 @@
    "name": "71' Coventry make a double change",
    "note": "Thomas-Asante and Simms on together for Ephron and Awoniyi on 71'.",
    "ruleId": "double-change",
-   "formation": "5-3-2",
+   "formation": "3-4-2-1",
    "players": [
     {
      "id": "away-6420",
@@ -242,94 +242,204 @@
      "y": 50
     },
     {
-     "id": "away-6421",
-     "name": "v. Ewijk",
-     "num": 27,
-     "pos": "RWB",
+     "id": "away-1362",
+     "name": "Amenda",
+     "num": 24,
+     "pos": "RCB",
      "role": "DEF",
-     "x": 78,
-     "y": 12
+     "x": 86,
+     "y": 28
     },
     {
      "id": "away-6687",
      "name": "Thomas",
      "num": 4,
-     "pos": "RCB",
+     "pos": "CB",
      "role": "DEF",
-     "x": 84,
-     "y": 30
+     "x": 88,
+     "y": 50
     },
     {
      "id": "away-465",
      "name": "Pinnock",
      "num": 2,
-     "pos": "CB",
-     "role": "DEF",
-     "x": 86,
-     "y": 50
-    },
-    {
-     "id": "away-1362",
-     "name": "Amenda",
-     "num": 24,
      "pos": "LCB",
      "role": "DEF",
-     "x": 84,
-     "y": 70
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-6421",
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-16696",
+     "name": "Yirenkyi",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-6426",
+     "name": "Grimes",
+     "num": 6,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
     },
     {
      "id": "away-6424",
      "name": "DaSilva",
      "num": 3,
      "pos": "LWB",
-     "role": "DEF",
-     "x": 78,
-     "y": 88
-    },
-    {
-     "id": "away-6426",
-     "name": "Grimes",
-     "num": 6,
-     "pos": "RCM",
-     "role": "MID",
-     "x": 70,
-     "y": 32
-    },
-    {
-     "id": "away-16696",
-     "name": "Yirenkyi",
-     "num": null,
-     "pos": "CM",
      "role": "MID",
      "x": 72,
-     "y": 50
+     "y": 90
     },
     {
      "id": "away-407",
      "name": "Tchaouna",
      "num": null,
-     "pos": "LCM",
-     "role": "MID",
-     "x": 70,
-     "y": 68
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
     },
     {
      "id": "away-6887",
      "name": "Thomas-Asante",
      "num": null,
-     "pos": "RS",
+     "pos": "LAM",
      "role": "FWD",
-     "x": 58,
-     "y": 40
+     "x": 62,
+     "y": 66
     },
     {
      "id": "away-6435",
      "name": "Simms",
      "num": null,
-     "pos": "LS",
+     "pos": "ST",
      "role": "FWD",
-     "x": 58,
-     "y": 60
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-76-like-for-like",
+   "minute": 76,
+   "side": "home",
+   "name": "76' Man City freshen it up",
+   "note": "Bouaddi on for Fernández on 76', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-843",
+     "name": "Donnarumma",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-860",
+     "name": "Khusanov",
+     "num": 45,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-845",
+     "name": "Dias",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-425",
+     "name": "Guéhi",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-846",
+     "name": "Gvardiol",
+     "num": 24,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-1451",
+     "name": "Bouaddi",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-548",
+     "name": "Anderson",
+     "num": 5,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-792",
+     "name": "Semenyo",
+     "num": 42,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-851",
+     "name": "Foden",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-810",
+     "name": "Ndiaye",
+     "num": 7,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-852",
+     "name": "Haaland",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
     }
    ]
   },
@@ -340,7 +450,7 @@
    "name": "85' Coventry freshen it up",
    "note": "Hamer on for DaSilva on 85', same job.",
    "ruleId": "like-for-like",
-   "formation": "5-3-2",
+   "formation": "3-4-2-1",
    "players": [
     {
      "id": "away-6420",
@@ -352,94 +462,94 @@
      "y": 50
     },
     {
-     "id": "away-6421",
-     "name": "v. Ewijk",
-     "num": 27,
-     "pos": "RWB",
+     "id": "away-1362",
+     "name": "Amenda",
+     "num": 24,
+     "pos": "RCB",
      "role": "DEF",
-     "x": 78,
-     "y": 12
+     "x": 86,
+     "y": 28
     },
     {
      "id": "away-6687",
      "name": "Thomas",
      "num": 4,
-     "pos": "RCB",
+     "pos": "CB",
      "role": "DEF",
-     "x": 84,
-     "y": 30
+     "x": 88,
+     "y": 50
     },
     {
      "id": "away-465",
      "name": "Pinnock",
      "num": 2,
-     "pos": "CB",
-     "role": "DEF",
-     "x": 86,
-     "y": 50
-    },
-    {
-     "id": "away-1362",
-     "name": "Amenda",
-     "num": 24,
      "pos": "LCB",
      "role": "DEF",
-     "x": 84,
-     "y": 70
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-6421",
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-16696",
+     "name": "Yirenkyi",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-6426",
+     "name": "Grimes",
+     "num": 6,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
     },
     {
      "id": "away-6075",
      "name": "Hamer",
      "num": null,
      "pos": "LWB",
-     "role": "DEF",
-     "x": 78,
-     "y": 88
-    },
-    {
-     "id": "away-6426",
-     "name": "Grimes",
-     "num": 6,
-     "pos": "RCM",
-     "role": "MID",
-     "x": 70,
-     "y": 32
-    },
-    {
-     "id": "away-16696",
-     "name": "Yirenkyi",
-     "num": null,
-     "pos": "CM",
      "role": "MID",
      "x": 72,
-     "y": 50
+     "y": 90
     },
     {
      "id": "away-407",
      "name": "Tchaouna",
      "num": null,
-     "pos": "LCM",
-     "role": "MID",
-     "x": 70,
-     "y": 68
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
     },
     {
      "id": "away-6887",
      "name": "Thomas-Asante",
      "num": null,
-     "pos": "RS",
+     "pos": "LAM",
      "role": "FWD",
-     "x": 58,
-     "y": 40
+     "x": 62,
+     "y": 66
     },
     {
      "id": "away-6435",
      "name": "Simms",
      "num": null,
-     "pos": "LS",
+     "pos": "ST",
      "role": "FWD",
-     "x": 58,
-     "y": 60
+     "x": 55,
+     "y": 50
     }
    ]
   },
@@ -480,27 +590,27 @@
      "y": 63
     },
     {
-     "id": "home-846",
-     "name": "Gvardiol",
-     "num": 24,
+     "id": "home-425",
+     "name": "Guéhi",
+     "num": 6,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
      "y": 37
     },
     {
-     "id": "home-425",
-     "name": "Guéhi",
-     "num": 6,
+     "id": "home-846",
+     "name": "Gvardiol",
+     "num": 24,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
      "y": 15
     },
     {
-     "id": "home-847",
-     "name": "O’Reilly",
-     "num": 33,
+     "id": "home-1451",
+     "name": "Bouaddi",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -516,9 +626,9 @@
      "y": 38
     },
     {
-     "id": "home-4639",
-     "name": "McAidoo",
-     "num": null,
+     "id": "home-792",
+     "name": "Semenyo",
+     "num": 42,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -534,9 +644,9 @@
      "y": 50
     },
     {
-     "id": "home-792",
-     "name": "Semenyo",
-     "num": 42,
+     "id": "home-4639",
+     "name": "McAidoo",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,

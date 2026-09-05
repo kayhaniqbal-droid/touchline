@@ -1,7 +1,7 @@
 {
  "fixtureId": 209562,
- "minute": 87,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 1,
   "away": 0
@@ -48,30 +48,30 @@
      "y": 63
     },
     {
-     "id": "home-846",
-     "providerId": 846,
-     "name": "Gvardiol",
-     "num": 24,
+     "id": "home-425",
+     "providerId": 425,
+     "name": "Guéhi",
+     "num": 6,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
      "y": 37
     },
     {
-     "id": "home-425",
-     "providerId": 425,
-     "name": "Guéhi",
-     "num": 6,
+     "id": "home-846",
+     "providerId": 846,
+     "name": "Gvardiol",
+     "num": 24,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
      "y": 15
     },
     {
-     "id": "home-847",
-     "providerId": 847,
-     "name": "O’Reilly",
-     "num": 33,
+     "id": "home-1451",
+     "providerId": 1451,
+     "name": "Bouaddi",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -88,10 +88,10 @@
      "y": 38
     },
     {
-     "id": "home-4639",
-     "providerId": 4639,
-     "name": "McAidoo",
-     "num": null,
+     "id": "home-792",
+     "providerId": 792,
+     "name": "Semenyo",
+     "num": 42,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -108,10 +108,10 @@
      "y": 50
     },
     {
-     "id": "home-792",
-     "providerId": 792,
-     "name": "Semenyo",
-     "num": 42,
+     "id": "home-4639",
+     "providerId": 4639,
+     "name": "McAidoo",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -136,7 +136,7 @@
    "nick": "Coventry",
    "providerId": 203,
    "coach": null,
-   "formation": "5-3-2",
+   "formation": "3-4-2-1",
    "derivedShape": true,
    "players": [
     {
@@ -150,44 +150,64 @@
      "y": 50
     },
     {
-     "id": "away-6421",
-     "providerId": 6421,
-     "name": "v. Ewijk",
-     "num": 27,
-     "pos": "RWB",
+     "id": "away-1362",
+     "providerId": 1362,
+     "name": "Amenda",
+     "num": 24,
+     "pos": "RCB",
      "role": "DEF",
-     "x": 78,
-     "y": 12
+     "x": 86,
+     "y": 28
     },
     {
      "id": "away-6687",
      "providerId": 6687,
      "name": "Thomas",
      "num": 4,
-     "pos": "RCB",
+     "pos": "CB",
      "role": "DEF",
-     "x": 84,
-     "y": 30
+     "x": 88,
+     "y": 50
     },
     {
      "id": "away-465",
      "providerId": 465,
      "name": "Pinnock",
      "num": 2,
-     "pos": "CB",
-     "role": "DEF",
-     "x": 86,
-     "y": 50
-    },
-    {
-     "id": "away-1362",
-     "providerId": 1362,
-     "name": "Amenda",
-     "num": 24,
      "pos": "LCB",
      "role": "DEF",
-     "x": 84,
-     "y": 70
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-6421",
+     "providerId": 6421,
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-16696",
+     "providerId": 16696,
+     "name": "Yirenkyi",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-6426",
+     "providerId": 6426,
+     "name": "Grimes",
+     "num": 6,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
     },
     {
      "id": "away-6075",
@@ -195,59 +215,39 @@
      "name": "Hamer",
      "num": null,
      "pos": "LWB",
-     "role": "DEF",
-     "x": 78,
-     "y": 88
-    },
-    {
-     "id": "away-6426",
-     "providerId": 6426,
-     "name": "Grimes",
-     "num": 6,
-     "pos": "RCM",
-     "role": "MID",
-     "x": 70,
-     "y": 32
-    },
-    {
-     "id": "away-16696",
-     "providerId": 16696,
-     "name": "Yirenkyi",
-     "num": null,
-     "pos": "CM",
      "role": "MID",
      "x": 72,
-     "y": 50
+     "y": 90
     },
     {
      "id": "away-407",
      "providerId": 407,
      "name": "Tchaouna",
      "num": null,
-     "pos": "LCM",
-     "role": "MID",
-     "x": 70,
-     "y": 68
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
     },
     {
      "id": "away-6887",
      "providerId": 6887,
      "name": "Thomas-Asante",
      "num": null,
-     "pos": "RS",
+     "pos": "LAM",
      "role": "FWD",
-     "x": 58,
-     "y": 40
+     "x": 62,
+     "y": 66
     },
     {
      "id": "away-6435",
      "providerId": 6435,
      "name": "Simms",
      "num": null,
-     "pos": "LS",
+     "pos": "ST",
      "role": "FWD",
-     "x": 58,
-     "y": 60
+     "x": 55,
+     "y": 50
     }
    ],
    "bench": []
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-05T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-05T15:46:47.568Z"
+ "fetchedAt": "2026-09-05T16:56:16.435Z"
 }

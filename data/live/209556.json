@@ -1,10 +1,10 @@
 {
  "fixtureId": 209556,
- "minute": 79,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 1,
-  "away": 0
+  "away": 1
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -98,10 +98,10 @@
      "y": 84
     },
     {
-     "id": "home-475",
-     "providerId": 475,
-     "name": "Damsgaard",
-     "num": 24,
+     "id": "home-1644",
+     "providerId": 1644,
+     "name": "Wilson",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -136,7 +136,7 @@
    "nick": "Sunderland",
    "providerId": 7,
    "coach": null,
-   "formation": "5-4-1",
+   "formation": "4-2-3-1",
    "derivedShape": true,
    "players": [
     {
@@ -150,94 +150,94 @@
      "y": 50
     },
     {
-     "id": "away-347",
-     "providerId": 347,
-     "name": "Hume",
-     "num": null,
-     "pos": "RWB",
-     "role": "DEF",
-     "x": 79,
-     "y": 12
-    },
-    {
      "id": "away-343",
      "providerId": 343,
      "name": "Mukiele",
      "num": 20,
-     "pos": "RCB",
+     "pos": "RB",
      "role": "DEF",
-     "x": 85,
-     "y": 30
-    },
-    {
-     "id": "away-344",
-     "providerId": 344,
-     "name": "Ballard",
-     "num": 5,
-     "pos": "CB",
-     "role": "DEF",
-     "x": 87,
-     "y": 50
+     "x": 82,
+     "y": 15
     },
     {
      "id": "away-721",
      "providerId": 721,
      "name": "Danso",
      "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-344",
+     "providerId": 344,
+     "name": "Ballard",
+     "num": 5,
      "pos": "LCB",
      "role": "DEF",
-     "x": 85,
-     "y": 70
+     "x": 87,
+     "y": 63
     },
     {
      "id": "away-346",
      "providerId": 346,
      "name": "Mandava",
      "num": 17,
-     "pos": "LWB",
+     "pos": "LB",
      "role": "DEF",
-     "x": 79,
-     "y": 88
+     "x": 82,
+     "y": 85
     },
     {
      "id": "away-348",
      "providerId": 348,
      "name": "Xhaka",
      "num": 34,
-     "pos": "RM",
+     "pos": "RDM",
      "role": "MID",
-     "x": 71,
-     "y": 14
+     "x": 75,
+     "y": 38
     },
     {
      "id": "away-4335",
      "providerId": 4335,
      "name": "Fofana",
      "num": null,
-     "pos": "RCM",
+     "pos": "LDM",
      "role": "MID",
-     "x": 73,
-     "y": 40
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-347",
+     "providerId": 347,
+     "name": "Hume",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
     },
     {
      "id": "away-351",
      "providerId": 351,
      "name": "Le Fée",
      "num": 28,
-     "pos": "LCM",
+     "pos": "AM",
      "role": "MID",
-     "x": 73,
-     "y": 60
+     "x": 66,
+     "y": 50
     },
     {
      "id": "away-353",
      "providerId": 353,
      "name": "Isidor",
      "num": null,
-     "pos": "LM",
+     "pos": "LW",
      "role": "MID",
-     "x": 71,
-     "y": 86
+     "x": 65,
+     "y": 84
     },
     {
      "id": "away-352",
@@ -246,7 +246,7 @@
      "num": 9,
      "pos": "ST",
      "role": "FWD",
-     "x": 59,
+     "x": 55,
      "y": 50
     }
    ],
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-05T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-05T15:46:54.352Z"
+ "fetchedAt": "2026-09-05T16:56:17.323Z"
 }

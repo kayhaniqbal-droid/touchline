@@ -1,7 +1,7 @@
 {
  "fixtureId": 209564,
- "minute": 88,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
   "away": 0
@@ -48,10 +48,10 @@
      "y": 50
     },
     {
-     "id": "home-2913",
-     "providerId": 2913,
-     "name": "Murillo",
-     "num": 5,
+     "id": "home-1228",
+     "providerId": 1228,
+     "name": "Diomande",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 14,
@@ -68,30 +68,30 @@
      "y": 90
     },
     {
-     "id": "home-546",
-     "providerId": 546,
-     "name": "Williams",
-     "num": 3,
+     "id": "home-2892",
+     "providerId": 2892,
+     "name": "Schlager",
+     "num": 21,
      "pos": "RCM",
      "role": "MID",
      "x": 25,
      "y": 60
     },
     {
-     "id": "home-2892",
-     "providerId": 2892,
-     "name": "Schlager",
-     "num": 21,
+     "id": "home-560",
+     "providerId": 560,
+     "name": "McAtee",
+     "num": 24,
      "pos": "LCM",
      "role": "MID",
      "x": 25,
      "y": 40
     },
     {
-     "id": "home-560",
-     "providerId": 560,
-     "name": "McAtee",
-     "num": 24,
+     "id": "home-546",
+     "providerId": 546,
+     "name": "Williams",
+     "num": 3,
      "pos": "LWB",
      "role": "MID",
      "x": 28,
@@ -190,20 +190,20 @@
      "y": 85
     },
     {
-     "id": "away-704",
-     "providerId": 704,
-     "name": "Tonali",
-     "num": 16,
+     "id": "away-723",
+     "providerId": 723,
+     "name": "Bentancur",
+     "num": 30,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-723",
-     "providerId": 723,
-     "name": "Bentancur",
-     "num": 30,
+     "id": "away-704",
+     "providerId": 704,
+     "name": "Tonali",
+     "num": 16,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-05T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-05T15:46:47.120Z"
+ "fetchedAt": "2026-09-05T16:56:16.053Z"
 }

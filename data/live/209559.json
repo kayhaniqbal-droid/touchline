@@ -1,7 +1,7 @@
 {
  "fixtureId": 209559,
- "minute": 84,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 2,
   "away": 3
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-436",
-     "providerId": 436,
-     "name": "Canvot",
-     "num": 6,
+     "id": "away-423",
+     "providerId": 423,
+     "name": "Richards",
+     "num": 26,
      "pos": "RCB",
      "role": "DEF",
      "x": 86,
@@ -170,10 +170,10 @@
      "y": 50
     },
     {
-     "id": "away-423",
-     "providerId": 423,
-     "name": "Richards",
-     "num": 26,
+     "id": "away-436",
+     "providerId": 436,
+     "name": "Canvot",
+     "num": 6,
      "pos": "LCB",
      "role": "DEF",
      "x": 86,
@@ -220,20 +220,20 @@
      "y": 90
     },
     {
-     "id": "away-430",
-     "providerId": 430,
-     "name": "Kamada",
-     "num": 18,
+     "id": "away-3252",
+     "providerId": 3252,
+     "name": "Osorio",
+     "num": null,
      "pos": "RAM",
      "role": "FWD",
      "x": 62,
      "y": 34
     },
     {
-     "id": "away-431",
-     "providerId": 431,
-     "name": "Pino",
-     "num": 10,
+     "id": "away-1272",
+     "providerId": 1272,
+     "name": "Mingueza",
+     "num": null,
      "pos": "LAM",
      "role": "FWD",
      "x": 62,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-05T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-05T15:46:51.784Z"
+ "fetchedAt": "2026-09-05T16:56:16.730Z"
 }
