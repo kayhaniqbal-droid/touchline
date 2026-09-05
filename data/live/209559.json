@@ -1,10 +1,10 @@
 {
  "fixtureId": 209559,
- "minute": 0,
- "status": "notstarted",
+ "minute": 84,
+ "status": "2nd_half",
  "goals": {
-  "home": 0,
-  "away": 0
+  "home": 2,
+  "away": 3
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -58,40 +58,40 @@
      "y": 37
     },
     {
-     "id": "home-4559",
-     "providerId": 4559,
-     "name": "Robinson",
-     "num": 33,
+     "id": "home-827",
+     "providerId": 827,
+     "name": "Sessegnon",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
      "y": 15
     },
     {
-     "id": "home-6969",
-     "providerId": 6969,
-     "name": "Charles",
-     "num": 19,
+     "id": "home-831",
+     "providerId": 831,
+     "name": "Smith Rowe",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-832",
-     "providerId": 832,
-     "name": "Iwobi",
-     "num": 17,
+     "id": "home-4095",
+     "providerId": 4095,
+     "name": "Muniz",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-3651",
-     "providerId": 3651,
-     "name": "Bobb",
-     "num": 14,
+     "id": "home-3993",
+     "providerId": 3993,
+     "name": "Larsson",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -108,10 +108,10 @@
      "y": 50
     },
     {
-     "id": "home-8608",
-     "providerId": 8608,
-     "name": "Palacios",
-     "num": 8,
+     "id": "home-829",
+     "providerId": 829,
+     "name": "Berge",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -190,10 +190,10 @@
      "y": 10
     },
     {
-     "id": "away-3373",
-     "providerId": 3373,
-     "name": "Timber",
-     "num": 27,
+     "id": "away-435",
+     "providerId": 435,
+     "name": "Hughes",
+     "num": null,
      "pos": "RCM",
      "role": "MID",
      "x": 75,
@@ -210,10 +210,10 @@
      "y": 60
     },
     {
-     "id": "away-429",
-     "providerId": 429,
-     "name": "Mitchell",
-     "num": 3,
+     "id": "away-1708",
+     "providerId": 1708,
+     "name": "Chilwell",
+     "num": null,
      "pos": "LWB",
      "role": "MID",
      "x": 72,
@@ -240,10 +240,10 @@
      "y": 66
     },
     {
-     "id": "away-434",
-     "providerId": 434,
-     "name": "Nketiah",
-     "num": 9,
+     "id": "away-531",
+     "providerId": 531,
+     "name": "Larsen",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-05T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-05T13:57:42.920Z"
+ "fetchedAt": "2026-09-05T15:46:51.784Z"
 }

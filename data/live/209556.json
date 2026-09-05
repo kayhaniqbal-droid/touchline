@@ -1,9 +1,9 @@
 {
  "fixtureId": 209556,
- "minute": 0,
- "status": "notstarted",
+ "minute": 79,
+ "status": "2nd_half",
  "goals": {
-  "home": 0,
+  "home": 1,
   "away": 0
  },
  "lineupsConfirmed": true,
@@ -28,10 +28,10 @@
      "y": 50
     },
     {
-     "id": "home-463",
-     "providerId": 463,
-     "name": "Kayode",
-     "num": 33,
+     "id": "home-2373",
+     "providerId": 2373,
+     "name": "Hickey",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
@@ -48,10 +48,10 @@
      "y": 63
     },
     {
-     "id": "home-476",
-     "providerId": 476,
-     "name": "Collins",
-     "num": 22,
+     "id": "home-3051",
+     "providerId": 3051,
+     "name": "Schuster",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -68,10 +68,10 @@
      "y": 15
     },
     {
-     "id": "home-1411",
-     "providerId": 1411,
-     "name": "Sangare",
-     "num": 18,
+     "id": "home-468",
+     "providerId": 468,
+     "name": "Yarmoliuk",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -88,10 +88,10 @@
      "y": 38
     },
     {
-     "id": "home-471",
-     "providerId": 471,
-     "name": "Ouattara",
-     "num": 11,
+     "id": "home-410",
+     "providerId": 410,
+     "name": "Anthony",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-1446",
-     "providerId": 1446,
-     "name": "Meunier",
-     "num": 12,
+     "id": "away-347",
+     "providerId": 347,
+     "name": "Hume",
+     "num": null,
      "pos": "RWB",
      "role": "DEF",
      "x": 79,
@@ -210,10 +210,10 @@
      "y": 14
     },
     {
-     "id": "away-349",
-     "providerId": 349,
-     "name": "Sadiki",
-     "num": 27,
+     "id": "away-4335",
+     "providerId": 4335,
+     "name": "Fofana",
+     "num": null,
      "pos": "RCM",
      "role": "MID",
      "x": 73,
@@ -230,10 +230,10 @@
      "y": 60
     },
     {
-     "id": "away-7347",
-     "providerId": 7347,
-     "name": "Angulo",
-     "num": 10,
+     "id": "away-353",
+     "providerId": 353,
+     "name": "Isidor",
+     "num": null,
      "pos": "LM",
      "role": "MID",
      "x": 71,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-05T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-05T13:57:43.868Z"
+ "fetchedAt": "2026-09-05T15:46:54.352Z"
 }

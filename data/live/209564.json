@@ -1,7 +1,7 @@
 {
  "fixtureId": 209564,
- "minute": 0,
- "status": "notstarted",
+ "minute": 88,
+ "status": "2nd_half",
  "goals": {
   "home": 0,
   "away": 0
@@ -58,10 +58,10 @@
      "y": 28
     },
     {
-     "id": "home-4788",
-     "providerId": 4788,
-     "name": "Aina",
-     "num": 34,
+     "id": "home-426",
+     "providerId": 426,
+     "name": "Muñoz",
+     "num": null,
      "pos": "RWB",
      "role": "MID",
      "x": 28,
@@ -98,10 +98,10 @@
      "y": 10
     },
     {
-     "id": "home-551",
-     "providerId": 551,
-     "name": "Ndoye",
-     "num": 14,
+     "id": "home-552",
+     "providerId": 552,
+     "name": "Jesus",
+     "num": null,
      "pos": "RAM",
      "role": "FWD",
      "x": 38,
@@ -118,10 +118,10 @@
      "y": 34
     },
     {
-     "id": "home-392",
-     "providerId": 392,
-     "name": "Delap",
-     "num": 19,
+     "id": "home-4472",
+     "providerId": 4472,
+     "name": "Wood",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -180,10 +180,10 @@
      "y": 63
     },
     {
-     "id": "away-722",
-     "providerId": 722,
-     "name": "Udogie",
-     "num": 13,
+     "id": "away-326",
+     "providerId": 326,
+     "name": "Robertson",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
@@ -210,40 +210,40 @@
      "y": 62
     },
     {
-     "id": "away-855",
-     "providerId": 855,
-     "name": "Sávio",
-     "num": 17,
+     "id": "away-725",
+     "providerId": 725,
+     "name": "Kudus",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-772",
-     "providerId": 772,
-     "name": "Gallagher",
-     "num": 8,
+     "id": "away-1643",
+     "providerId": 1643,
+     "name": "Fernandes",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-731",
-     "providerId": 731,
-     "name": "Tel",
-     "num": 11,
+     "id": "away-22875",
+     "providerId": 22875,
+     "name": "Mudryk",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-862",
-     "providerId": 862,
-     "name": "Marmoush",
-     "num": 22,
+     "id": "away-4923",
+     "providerId": 4923,
+     "name": "Solanke",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-05T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-05T13:57:41.910Z"
+ "fetchedAt": "2026-09-05T15:46:47.120Z"
 }

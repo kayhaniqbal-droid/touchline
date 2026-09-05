@@ -1,10 +1,10 @@
 {
  "fixtureId": 209557,
- "minute": 0,
- "status": "notstarted",
+ "minute": 87,
+ "status": "2nd_half",
  "goals": {
-  "home": 0,
-  "away": 0
+  "home": 1,
+  "away": 1
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -28,10 +28,10 @@
      "y": 50
     },
     {
-     "id": "home-486",
-     "providerId": 486,
-     "name": "Kadıoğlu",
-     "num": 24,
+     "id": "home-3490",
+     "providerId": 3490,
+     "name": "Costinha",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
@@ -68,10 +68,10 @@
      "y": 15
     },
     {
-     "id": "home-491",
-     "providerId": 491,
-     "name": "De Cuyper",
-     "num": 29,
+     "id": "home-3754",
+     "providerId": 3754,
+     "name": "David",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -190,10 +190,10 @@
      "y": 10
     },
     {
-     "id": "away-366",
-     "providerId": 366,
-     "name": "Bogle",
-     "num": 2,
+     "id": "away-364",
+     "providerId": 364,
+     "name": "Bijol",
+     "num": null,
      "pos": "RCM",
      "role": "MID",
      "x": 75,
@@ -220,30 +220,30 @@
      "y": 90
     },
     {
-     "id": "away-367",
-     "providerId": 367,
-     "name": "Tanaka",
-     "num": 22,
+     "id": "away-830",
+     "providerId": 830,
+     "name": "Wilson",
+     "num": null,
      "pos": "RAM",
      "role": "FWD",
      "x": 62,
      "y": 34
     },
     {
-     "id": "away-374",
-     "providerId": 374,
-     "name": "Okafor",
-     "num": 19,
+     "id": "away-380",
+     "providerId": 380,
+     "name": "Aaronson",
+     "num": null,
      "pos": "LAM",
      "role": "FWD",
      "x": 62,
      "y": 66
     },
     {
-     "id": "away-371",
-     "providerId": 371,
-     "name": "Calvert-Lewin",
-     "num": 9,
+     "id": "away-372",
+     "providerId": 372,
+     "name": "Nmecha",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-05T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-05T13:57:43.417Z"
+ "fetchedAt": "2026-09-05T15:46:53.887Z"
 }

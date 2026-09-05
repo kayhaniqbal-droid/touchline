@@ -1,9 +1,9 @@
 {
  "fixtureId": 209562,
- "minute": 0,
- "status": "notstarted",
+ "minute": 87,
+ "status": "2nd_half",
  "goals": {
-  "home": 0,
+  "home": 1,
   "away": 0
  },
  "lineupsConfirmed": true,
@@ -88,20 +88,20 @@
      "y": 38
     },
     {
-     "id": "home-810",
-     "providerId": 810,
-     "name": "Ndiaye",
-     "num": 10,
+     "id": "home-4639",
+     "providerId": 4639,
+     "name": "McAidoo",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-856",
-     "providerId": 856,
-     "name": "Cherki",
-     "num": 10,
+     "id": "home-851",
+     "providerId": 851,
+     "name": "Foden",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -190,10 +190,10 @@
      "y": 70
     },
     {
-     "id": "away-6424",
-     "providerId": 6424,
-     "name": "DaSilva",
-     "num": 3,
+     "id": "away-6075",
+     "providerId": 6075,
+     "name": "Hamer",
+     "num": null,
      "pos": "LWB",
      "role": "DEF",
      "x": 78,
@@ -210,40 +210,40 @@
      "y": 32
     },
     {
-     "id": "away-480",
-     "providerId": 480,
-     "name": "Onyeka",
-     "num": 16,
+     "id": "away-16696",
+     "providerId": 16696,
+     "name": "Yirenkyi",
+     "num": null,
      "pos": "CM",
      "role": "MID",
      "x": 72,
      "y": 50
     },
     {
-     "id": "away-6427",
-     "providerId": 6427,
-     "name": "Rudoni",
-     "num": 5,
+     "id": "away-407",
+     "providerId": 407,
+     "name": "Tchaouna",
+     "num": null,
      "pos": "LCM",
      "role": "MID",
      "x": 70,
      "y": 68
     },
     {
-     "id": "away-6429",
-     "providerId": 6429,
-     "name": "Ephron",
-     "num": 10,
+     "id": "away-6887",
+     "providerId": 6887,
+     "name": "Thomas-Asante",
+     "num": null,
      "pos": "RS",
      "role": "FWD",
      "x": 58,
      "y": 40
     },
     {
-     "id": "away-4026",
-     "providerId": 4026,
-     "name": "Awoniyi",
-     "num": 14,
+     "id": "away-6435",
+     "providerId": 6435,
+     "name": "Simms",
+     "num": null,
      "pos": "LS",
      "role": "FWD",
      "x": 58,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-05T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-05T13:57:42.395Z"
+ "fetchedAt": "2026-09-05T15:46:47.568Z"
 }

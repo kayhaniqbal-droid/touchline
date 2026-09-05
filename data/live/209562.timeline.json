@@ -1,7 +1,558 @@
 {
  "fixtureId": 209562,
- "title": "Manchester City 0–0 Coventry City",
+ "title": "Manchester City 1–0 Coventry City",
  "lineupStatus": "confirmed",
- "phases": [],
+ "phases": [
+  {
+   "id": "shift-away-63-double-change",
+   "minute": 63,
+   "side": "away",
+   "name": "63' Coventry make a double change",
+   "note": "Yirenkyi and Tchaouna on together for Onyeka and Rudoni on 63'.",
+   "ruleId": "double-change",
+   "formation": "5-3-2",
+   "players": [
+    {
+     "id": "away-6420",
+     "name": "Rushworth",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6421",
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 78,
+     "y": 12
+    },
+    {
+     "id": "away-6687",
+     "name": "Thomas",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 84,
+     "y": 30
+    },
+    {
+     "id": "away-465",
+     "name": "Pinnock",
+     "num": 2,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 86,
+     "y": 50
+    },
+    {
+     "id": "away-1362",
+     "name": "Amenda",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 84,
+     "y": 70
+    },
+    {
+     "id": "away-6424",
+     "name": "DaSilva",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 78,
+     "y": 88
+    },
+    {
+     "id": "away-6426",
+     "name": "Grimes",
+     "num": 6,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 70,
+     "y": 32
+    },
+    {
+     "id": "away-16696",
+     "name": "Yirenkyi",
+     "num": null,
+     "pos": "CM",
+     "role": "MID",
+     "x": 72,
+     "y": 50
+    },
+    {
+     "id": "away-407",
+     "name": "Tchaouna",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 70,
+     "y": 68
+    },
+    {
+     "id": "away-6429",
+     "name": "Ephron",
+     "num": 10,
+     "pos": "RS",
+     "role": "FWD",
+     "x": 58,
+     "y": 40
+    },
+    {
+     "id": "away-4026",
+     "name": "Awoniyi",
+     "num": 14,
+     "pos": "LS",
+     "role": "FWD",
+     "x": 58,
+     "y": 60
+    }
+   ]
+  },
+  {
+   "id": "shift-home-66-like-for-like",
+   "minute": 66,
+   "side": "home",
+   "name": "66' Man City freshen it up",
+   "note": "Foden on for Cherki on 66', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-843",
+     "name": "Donnarumma",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-860",
+     "name": "Khusanov",
+     "num": 45,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-845",
+     "name": "Dias",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-846",
+     "name": "Gvardiol",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-425",
+     "name": "Guéhi",
+     "num": 6,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-847",
+     "name": "O’Reilly",
+     "num": 33,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-548",
+     "name": "Anderson",
+     "num": 5,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-810",
+     "name": "Ndiaye",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-851",
+     "name": "Foden",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-792",
+     "name": "Semenyo",
+     "num": 42,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-852",
+     "name": "Haaland",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-71-double-change",
+   "minute": 71,
+   "side": "away",
+   "name": "71' Coventry make a double change",
+   "note": "Thomas-Asante and Simms on together for Ephron and Awoniyi on 71'.",
+   "ruleId": "double-change",
+   "formation": "5-3-2",
+   "players": [
+    {
+     "id": "away-6420",
+     "name": "Rushworth",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6421",
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 78,
+     "y": 12
+    },
+    {
+     "id": "away-6687",
+     "name": "Thomas",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 84,
+     "y": 30
+    },
+    {
+     "id": "away-465",
+     "name": "Pinnock",
+     "num": 2,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 86,
+     "y": 50
+    },
+    {
+     "id": "away-1362",
+     "name": "Amenda",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 84,
+     "y": 70
+    },
+    {
+     "id": "away-6424",
+     "name": "DaSilva",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 78,
+     "y": 88
+    },
+    {
+     "id": "away-6426",
+     "name": "Grimes",
+     "num": 6,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 70,
+     "y": 32
+    },
+    {
+     "id": "away-16696",
+     "name": "Yirenkyi",
+     "num": null,
+     "pos": "CM",
+     "role": "MID",
+     "x": 72,
+     "y": 50
+    },
+    {
+     "id": "away-407",
+     "name": "Tchaouna",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 70,
+     "y": 68
+    },
+    {
+     "id": "away-6887",
+     "name": "Thomas-Asante",
+     "num": null,
+     "pos": "RS",
+     "role": "FWD",
+     "x": 58,
+     "y": 40
+    },
+    {
+     "id": "away-6435",
+     "name": "Simms",
+     "num": null,
+     "pos": "LS",
+     "role": "FWD",
+     "x": 58,
+     "y": 60
+    }
+   ]
+  },
+  {
+   "id": "shift-away-85-like-for-like",
+   "minute": 85,
+   "side": "away",
+   "name": "85' Coventry freshen it up",
+   "note": "Hamer on for DaSilva on 85', same job.",
+   "ruleId": "like-for-like",
+   "formation": "5-3-2",
+   "players": [
+    {
+     "id": "away-6420",
+     "name": "Rushworth",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6421",
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 78,
+     "y": 12
+    },
+    {
+     "id": "away-6687",
+     "name": "Thomas",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 84,
+     "y": 30
+    },
+    {
+     "id": "away-465",
+     "name": "Pinnock",
+     "num": 2,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 86,
+     "y": 50
+    },
+    {
+     "id": "away-1362",
+     "name": "Amenda",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 84,
+     "y": 70
+    },
+    {
+     "id": "away-6075",
+     "name": "Hamer",
+     "num": null,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 78,
+     "y": 88
+    },
+    {
+     "id": "away-6426",
+     "name": "Grimes",
+     "num": 6,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 70,
+     "y": 32
+    },
+    {
+     "id": "away-16696",
+     "name": "Yirenkyi",
+     "num": null,
+     "pos": "CM",
+     "role": "MID",
+     "x": 72,
+     "y": 50
+    },
+    {
+     "id": "away-407",
+     "name": "Tchaouna",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 70,
+     "y": 68
+    },
+    {
+     "id": "away-6887",
+     "name": "Thomas-Asante",
+     "num": null,
+     "pos": "RS",
+     "role": "FWD",
+     "x": 58,
+     "y": 40
+    },
+    {
+     "id": "away-6435",
+     "name": "Simms",
+     "num": null,
+     "pos": "LS",
+     "role": "FWD",
+     "x": 58,
+     "y": 60
+    }
+   ]
+  },
+  {
+   "id": "shift-home-87-like-for-like",
+   "minute": 87,
+   "side": "home",
+   "name": "87' Man City freshen it up",
+   "note": "McAidoo on for Ndiaye on 87', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-843",
+     "name": "Donnarumma",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-860",
+     "name": "Khusanov",
+     "num": 45,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-845",
+     "name": "Dias",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-846",
+     "name": "Gvardiol",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-425",
+     "name": "Guéhi",
+     "num": 6,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-847",
+     "name": "O’Reilly",
+     "num": 33,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-548",
+     "name": "Anderson",
+     "num": 5,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-4639",
+     "name": "McAidoo",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-851",
+     "name": "Foden",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-792",
+     "name": "Semenyo",
+     "num": 42,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-852",
+     "name": "Haaland",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  }
+ ],
  "shifts": []
 }
