@@ -1,10 +1,10 @@
 {
  "fixtureId": 209555,
- "minute": 0,
- "status": "notstarted",
+ "minute": 27,
+ "status": "1st_half",
  "goals": {
-  "home": 0,
-  "away": 0
+  "home": 1,
+  "away": 1
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-06T15:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-06T14:19:11.253Z"
+ "fetchedAt": "2026-09-06T15:58:39.017Z"
 }
