@@ -1,7 +1,7 @@
 {
  "fixtureId": 209555,
- "minute": 87,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 2,
   "away": 1
@@ -68,29 +68,29 @@
      "y": 15
     },
     {
-     "id": "home-448",
-     "providerId": 448,
-     "name": "Zubimendi",
-     "num": null,
+     "id": "home-449",
+     "providerId": 449,
+     "name": "Rice",
+     "num": 41,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-449",
-     "providerId": 449,
-     "name": "Rice",
-     "num": 41,
+     "id": "home-448",
+     "providerId": 448,
+     "name": "Zubimendi",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-451",
-     "providerId": 451,
-     "name": "Merino",
+     "id": "home-450",
+     "providerId": 450,
+     "name": "Madueke",
      "num": null,
      "pos": "RW",
      "role": "MID",
@@ -98,20 +98,20 @@
      "y": 84
     },
     {
-     "id": "home-3543",
-     "providerId": 3543,
-     "name": "Tzolis",
-     "num": 17,
+     "id": "home-451",
+     "providerId": 451,
+     "name": "Merino",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-455",
-     "providerId": 455,
-     "name": "Saka",
-     "num": 7,
+     "id": "home-3543",
+     "providerId": 3543,
+     "name": "Tzolis",
+     "num": 17,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-1344",
-     "providerId": 1344,
-     "name": "Fofana",
-     "num": 3,
+     "id": "away-399",
+     "providerId": 399,
+     "name": "Acheampong",
+     "num": 34,
      "pos": "RCB",
      "role": "DEF",
      "x": 86,
@@ -170,29 +170,29 @@
      "y": 50
     },
     {
-     "id": "away-399",
-     "providerId": 399,
-     "name": "Acheampong",
-     "num": 34,
+     "id": "away-1344",
+     "providerId": 1344,
+     "name": "Fofana",
+     "num": 3,
      "pos": "LCB",
      "role": "DEF",
      "x": 86,
      "y": 72
     },
     {
-     "id": "away-400",
-     "providerId": 400,
-     "name": "James",
-     "num": 24,
+     "id": "away-389",
+     "providerId": 389,
+     "name": "Estêvão",
+     "num": null,
      "pos": "RWB",
      "role": "MID",
      "x": 72,
      "y": 10
     },
     {
-     "id": "away-907",
-     "providerId": 907,
-     "name": "Chavarría",
+     "id": "away-393",
+     "providerId": 393,
+     "name": "Gusto",
      "num": null,
      "pos": "RCM",
      "role": "MID",
@@ -200,19 +200,19 @@
      "y": 40
     },
     {
-     "id": "away-389",
-     "providerId": 389,
-     "name": "Estêvão",
-     "num": null,
+     "id": "away-400",
+     "providerId": 400,
+     "name": "James",
+     "num": 24,
      "pos": "LCM",
      "role": "MID",
      "x": 75,
      "y": 60
     },
     {
-     "id": "away-393",
-     "providerId": 393,
-     "name": "Gusto",
+     "id": "away-907",
+     "providerId": 907,
+     "name": "Chavarría",
      "num": null,
      "pos": "LWB",
      "role": "MID",
@@ -230,10 +230,10 @@
      "y": 34
     },
     {
-     "id": "away-511",
-     "providerId": 511,
-     "name": "Rogers",
-     "num": 17,
+     "id": "away-494",
+     "providerId": 494,
+     "name": "Welbeck",
+     "num": null,
      "pos": "LAM",
      "role": "FWD",
      "x": 62,
@@ -243,7 +243,7 @@
      "id": "away-390",
      "providerId": 390,
      "name": "Pedro",
-     "num": 20,
+     "num": 9,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-06T15:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-06T17:20:37.485Z"
+ "fetchedAt": "2026-09-06T18:38:58.010Z"
 }

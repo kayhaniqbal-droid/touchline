@@ -128,7 +128,7 @@
   },
   "209555": {
    "kickoff": "2026-09-06T15:30:00+00:00",
-   "status": "2nd_half",
+   "status": "FT",
    "home": "ARS",
    "away": "CHE",
    "confirmed": true
@@ -198,5 +198,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-09-06T17:20:42.045Z"
+ "updatedAt": "2026-09-06T18:39:00.947Z"
 }
