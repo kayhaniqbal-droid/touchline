@@ -140,10 +140,10 @@
    "derivedShape": true,
    "players": [
     {
-     "id": "away-4535",
-     "providerId": 4535,
-     "name": "Słonina",
-     "num": 44,
+     "id": "away-382",
+     "providerId": 382,
+     "name": "Sánchez",
+     "num": 97,
      "pos": "GK",
      "role": "GK",
      "x": 96,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-06T15:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-05T20:56:58.138Z"
+ "fetchedAt": "2026-09-06T13:25:57.169Z"
 }
