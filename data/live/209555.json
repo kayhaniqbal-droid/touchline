@@ -1,9 +1,9 @@
 {
  "fixtureId": 209555,
- "minute": 27,
- "status": "1st_half",
+ "minute": 87,
+ "status": "2nd_half",
  "goals": {
-  "home": 1,
+  "home": 2,
   "away": 1
  },
  "lineupsConfirmed": true,
@@ -58,20 +58,20 @@
      "y": 37
     },
     {
-     "id": "home-446",
-     "providerId": 446,
-     "name": "Calafiori",
-     "num": 33,
+     "id": "home-445",
+     "providerId": 445,
+     "name": "Hincapié",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
      "y": 15
     },
     {
-     "id": "home-458",
-     "providerId": 458,
-     "name": "Lewis-Skelly",
-     "num": 49,
+     "id": "home-448",
+     "providerId": 448,
+     "name": "Zubimendi",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -88,10 +88,10 @@
      "y": 38
     },
     {
-     "id": "home-447",
-     "providerId": 447,
-     "name": "Ødegaard",
-     "num": 8,
+     "id": "home-451",
+     "providerId": 451,
+     "name": "Merino",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -118,10 +118,10 @@
      "y": 16
     },
     {
-     "id": "home-4941",
-     "providerId": 4941,
-     "name": "Havertz",
-     "num": 29,
+     "id": "home-456",
+     "providerId": 456,
+     "name": "Gyökeres",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -190,30 +190,30 @@
      "y": 10
     },
     {
-     "id": "away-401",
-     "providerId": 401,
-     "name": "Hato",
-     "num": 21,
+     "id": "away-907",
+     "providerId": 907,
+     "name": "Chavarría",
+     "num": null,
      "pos": "RCM",
      "role": "MID",
      "x": 75,
      "y": 40
     },
     {
-     "id": "away-394",
-     "providerId": 394,
-     "name": "Neto",
-     "num": 7,
+     "id": "away-389",
+     "providerId": 389,
+     "name": "Estêvão",
+     "num": null,
      "pos": "LCM",
      "role": "MID",
      "x": 75,
      "y": 60
     },
     {
-     "id": "away-4237",
-     "providerId": 4237,
-     "name": "Lavia",
-     "num": 45,
+     "id": "away-393",
+     "providerId": 393,
+     "name": "Gusto",
+     "num": null,
      "pos": "LWB",
      "role": "MID",
      "x": 72,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-06T15:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-06T15:58:39.017Z"
+ "fetchedAt": "2026-09-06T17:20:37.485Z"
 }
