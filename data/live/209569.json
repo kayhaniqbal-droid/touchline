@@ -98,30 +98,30 @@
      "y": 10
     },
     {
-     "id": "home-431",
-     "providerId": 431,
-     "name": "Pino",
-     "num": 10,
+     "id": "home-3748",
+     "providerId": 3748,
+     "name": "Khalaili",
+     "num": 25,
      "pos": "RAM",
      "role": "FWD",
      "x": 38,
      "y": 66
     },
     {
-     "id": "home-531",
-     "providerId": 531,
-     "name": "Larsen",
-     "num": 22,
+     "id": "home-431",
+     "providerId": 431,
+     "name": "Pino",
+     "num": 10,
      "pos": "LAM",
      "role": "FWD",
      "x": 38,
      "y": 34
     },
     {
-     "id": "home-434",
-     "providerId": 434,
-     "name": "Nketiah",
-     "num": 9,
+     "id": "home-531",
+     "providerId": 531,
+     "name": "Larsen",
+     "num": 22,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-12T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-11T19:18:05.544Z"
+ "fetchedAt": "2026-09-11T21:33:11.598Z"
 }

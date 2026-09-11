@@ -88,20 +88,20 @@
      "y": 38
     },
     {
-     "id": "home-331",
-     "providerId": 331,
-     "name": "Gakpo",
-     "num": 18,
+     "id": "home-330",
+     "providerId": 330,
+     "name": "Wirtz",
+     "num": 7,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-330",
-     "providerId": 330,
-     "name": "Wirtz",
-     "num": 7,
+     "id": "home-341",
+     "providerId": 341,
+     "name": "Ngumoha",
+     "num": 73,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-12T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-11T19:18:05.056Z"
+ "fetchedAt": "2026-09-11T21:33:11.093Z"
 }

@@ -180,10 +180,10 @@
      "y": 63
     },
     {
-     "id": "away-6199",
-     "providerId": 6199,
-     "name": "Drameh",
-     "num": 18,
+     "id": "away-6183",
+     "providerId": 6183,
+     "name": "Coyle",
+     "num": 2,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-12T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-11T19:18:06.038Z"
+ "fetchedAt": "2026-09-11T21:33:12.108Z"
 }

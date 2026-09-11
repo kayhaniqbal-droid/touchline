@@ -200,10 +200,10 @@
      "y": 38
     },
     {
-     "id": "away-470",
-     "providerId": 470,
-     "name": "Jensen",
-     "num": 8,
+     "id": "away-1411",
+     "providerId": 1411,
+     "name": "Sangare",
+     "num": 18,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-12T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-11T19:18:06.569Z"
+ "fetchedAt": "2026-09-11T21:33:12.657Z"
 }

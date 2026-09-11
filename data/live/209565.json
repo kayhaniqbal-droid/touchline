@@ -88,10 +88,10 @@
      "y": 38
     },
     {
-     "id": "home-75822",
-     "providerId": 75822,
-     "name": "Lynch",
-     "num": 20,
+     "id": "home-1630",
+     "providerId": 1630,
+     "name": "Barkley",
+     "num": 6,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -230,20 +230,20 @@
      "y": 34
     },
     {
-     "id": "away-549",
-     "providerId": 549,
-     "name": "Hutchinson",
-     "num": 20,
+     "id": "away-552",
+     "providerId": 552,
+     "name": "Jesus",
+     "num": 11,
      "pos": "LAM",
      "role": "FWD",
      "x": 62,
      "y": 66
     },
     {
-     "id": "away-552",
-     "providerId": 552,
-     "name": "Jesus",
-     "num": 11,
+     "id": "away-4472",
+     "providerId": 4472,
+     "name": "Wood",
+     "num": 9,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-12T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-11T19:18:07.417Z"
+ "fetchedAt": "2026-09-11T21:33:13.540Z"
 }

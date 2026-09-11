@@ -78,40 +78,40 @@
      "y": 62
     },
     {
-     "id": "home-8808",
-     "providerId": 8808,
-     "name": "Hall",
-     "num": 89,
+     "id": "home-704",
+     "providerId": 704,
+     "name": "Tonali",
+     "num": 16,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-33510",
-     "providerId": 33510,
-     "name": "Ajayi",
-     "num": 17,
+     "id": "home-1643",
+     "providerId": 1643,
+     "name": "Fernandes",
+     "num": 18,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-4154",
-     "providerId": 4154,
-     "name": "Moore",
-     "num": 47,
+     "id": "home-772",
+     "providerId": 772,
+     "name": "Gallagher",
+     "num": 8,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-3474",
-     "providerId": 3474,
-     "name": "Williams-Barnett",
-     "num": 68,
+     "id": "home-725",
+     "providerId": 725,
+     "name": "Kudus",
+     "num": 20,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -180,9 +180,9 @@
      "y": 63
     },
     {
-     "id": "away-818",
-     "providerId": 818,
-     "name": "Patterson",
+     "id": "away-1115",
+     "providerId": 1115,
+     "name": "Maitland-Niles",
      "num": 2,
      "pos": "LB",
      "role": "DEF",
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-12T16:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-11T19:18:04.075Z"
+ "fetchedAt": "2026-09-11T21:33:10.596Z"
 }
