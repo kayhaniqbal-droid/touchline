@@ -195,8 +195,57 @@
    "home": "NFO",
    "away": "TOT",
    "confirmed": true
+  },
+  "209565": {
+   "kickoff": "2026-09-12T14:00:00+00:00",
+   "status": "notstarted",
+   "home": "AVL",
+   "away": "NFO",
+   "confirmed": false
+  },
+  "209566": {
+   "kickoff": "2026-09-12T14:00:00+00:00",
+   "status": "notstarted",
+   "home": "BOU",
+   "away": "BRE",
+   "confirmed": false
+  },
+  "209567": {
+   "kickoff": "2026-09-12T14:00:00+00:00",
+   "status": "notstarted",
+   "home": "CHE",
+   "away": "HUL",
+   "confirmed": false
+  },
+  "209569": {
+   "kickoff": "2026-09-12T14:00:00+00:00",
+   "status": "notstarted",
+   "home": "CRY",
+   "away": "IPS",
+   "confirmed": false
+  },
+  "209571": {
+   "kickoff": "2026-09-12T14:00:00+00:00",
+   "status": "notstarted",
+   "home": "LIV",
+   "away": "FUL",
+   "confirmed": false
+  },
+  "209573": {
+   "kickoff": "2026-09-12T19:00:00+00:00",
+   "status": "notstarted",
+   "home": "SUN",
+   "away": "ARS",
+   "confirmed": false
+  },
+  "209574": {
+   "kickoff": "2026-09-12T16:30:00+00:00",
+   "status": "notstarted",
+   "home": "TOT",
+   "away": "EVE",
+   "confirmed": false
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-09-10T21:25:59.486Z"
+ "updatedAt": "2026-09-11T14:05:27.336Z"
 }
