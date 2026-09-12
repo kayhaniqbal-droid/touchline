@@ -180,20 +180,20 @@
      "y": 85
     },
     {
-     "id": "away-4750",
-     "providerId": 4750,
-     "name": "Palacios",
-     "num": 25,
+     "id": "away-409",
+     "providerId": 409,
+     "name": "Luís",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-409",
-     "providerId": 409,
-     "name": "Luís",
-     "num": null,
+     "id": "away-4750",
+     "providerId": 4750,
+     "name": "Palacios",
+     "num": 25,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -245,5 +245,5 @@
  },
  "kickoff": "2026-09-12T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-12T15:59:27.162Z"
+ "fetchedAt": "2026-09-12T17:26:18.587Z"
 }
