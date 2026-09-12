@@ -1,10 +1,10 @@
 {
  "fixtureId": 209573,
- "minute": 0,
- "status": "notstarted",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
-  "away": 0
+  "away": 2
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -38,40 +38,30 @@
      "y": 85
     },
     {
-     "id": "home-344",
-     "providerId": 344,
-     "name": "Ballard",
-     "num": 5,
+     "id": "home-721",
+     "providerId": 721,
+     "name": "Danso",
+     "num": 4,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-721",
-     "providerId": 721,
-     "name": "Danso",
-     "num": 4,
+     "id": "home-344",
+     "providerId": 344,
+     "name": "Ballard",
+     "num": 5,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
      "y": 37
     },
     {
-     "id": "home-346",
-     "providerId": 346,
-     "name": "Mandava",
-     "num": 17,
-     "pos": "LB",
-     "role": "DEF",
-     "x": 18,
-     "y": 15
-    },
-    {
-     "id": "home-1446",
-     "providerId": 1446,
-     "name": "Meunier",
-     "num": 12,
+     "id": "home-348",
+     "providerId": 348,
+     "name": "Xhaka",
+     "num": 34,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -88,10 +78,10 @@
      "y": 38
     },
     {
-     "id": "home-348",
-     "providerId": 348,
-     "name": "Xhaka",
-     "num": 34,
+     "id": "home-4335",
+     "providerId": 4335,
+     "name": "Fofana",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -108,10 +98,10 @@
      "y": 50
     },
     {
-     "id": "home-7347",
-     "providerId": 7347,
-     "name": "Angulo",
-     "num": 10,
+     "id": "home-353",
+     "providerId": 353,
+     "name": "Isidor",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -150,10 +140,10 @@
      "y": 50
     },
     {
-     "id": "away-443",
-     "providerId": 443,
-     "name": "White",
-     "num": 4,
+     "id": "away-453",
+     "providerId": 453,
+     "name": "Timber",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -190,50 +180,50 @@
      "y": 85
     },
     {
-     "id": "away-458",
-     "providerId": 458,
-     "name": "Lewis-Skelly",
-     "num": 49,
+     "id": "away-448",
+     "providerId": 448,
+     "name": "Zubimendi",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-449",
-     "providerId": 449,
-     "name": "Rice",
-     "num": 41,
+     "id": "away-709",
+     "providerId": 709,
+     "name": "Guimarães",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-447",
-     "providerId": 447,
-     "name": "Ødegaard",
-     "num": 8,
+     "id": "away-455",
+     "providerId": 455,
+     "name": "Saka",
+     "num": 7,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-3543",
-     "providerId": 3543,
-     "name": "Tzolis",
-     "num": 17,
+     "id": "away-451",
+     "providerId": 451,
+     "name": "Merino",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-455",
-     "providerId": 455,
-     "name": "Saka",
-     "num": 7,
+     "id": "away-454",
+     "providerId": 454,
+     "name": "Eze",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -255,5 +245,5 @@
  },
  "kickoff": "2026-09-12T19:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-12T18:47:23.512Z"
+ "fetchedAt": "2026-09-12T21:14:41.781Z"
 }
