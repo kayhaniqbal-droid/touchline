@@ -1,10 +1,10 @@
 {
  "fixtureId": 209565,
- "minute": 13,
- "status": "1st_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
-  "home": 0,
-  "away": 0
+  "home": 1,
+  "away": 2
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -21,7 +21,7 @@
      "id": "home-4055",
      "providerId": 4055,
      "name": "Suzuki",
-     "num": 54,
+     "num": 1,
      "pos": "GK",
      "role": "GK",
      "x": 4,
@@ -48,10 +48,10 @@
      "y": 63
     },
     {
-     "id": "home-505",
-     "providerId": 505,
-     "name": "Torres",
-     "num": 14,
+     "id": "home-4289",
+     "providerId": 4289,
+     "name": "Mings",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -78,10 +78,10 @@
      "y": 62
     },
     {
-     "id": "home-1630",
-     "providerId": 1630,
-     "name": "Barkley",
-     "num": 6,
+     "id": "home-1178",
+     "providerId": 1178,
+     "name": "Manzambi",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
@@ -98,30 +98,30 @@
      "y": 84
     },
     {
-     "id": "home-517",
-     "providerId": 517,
-     "name": "Buendía",
-     "num": 10,
+     "id": "home-2255",
+     "providerId": 2255,
+     "name": "Mbaye",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-3860",
-     "providerId": 3860,
-     "name": "Hemmings",
-     "num": 53,
+     "id": "home-614",
+     "providerId": 614,
+     "name": "Alysson",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
      "y": 16
     },
     {
-     "id": "home-2471",
-     "providerId": 2471,
-     "name": "Jackson",
-     "num": 11,
+     "id": "home-5837",
+     "providerId": 5837,
+     "name": "Abraham",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -160,40 +160,40 @@
      "y": 28
     },
     {
-     "id": "away-2913",
-     "providerId": 2913,
-     "name": "Murillo",
-     "num": 5,
+     "id": "away-1228",
+     "providerId": 1228,
+     "name": "Diomande",
+     "num": 2,
      "pos": "CB",
      "role": "DEF",
      "x": 88,
      "y": 50
     },
     {
-     "id": "away-1228",
-     "providerId": 1228,
-     "name": "Diomande",
-     "num": 2,
+     "id": "away-2913",
+     "providerId": 2913,
+     "name": "Murillo",
+     "num": 5,
      "pos": "LCB",
      "role": "DEF",
      "x": 86,
      "y": 72
     },
     {
-     "id": "away-546",
-     "providerId": 546,
-     "name": "Williams",
-     "num": 3,
+     "id": "away-426",
+     "providerId": 426,
+     "name": "Muñoz",
+     "num": 27,
      "pos": "RWB",
      "role": "MID",
      "x": 72,
      "y": 10
     },
     {
-     "id": "away-426",
-     "providerId": 426,
-     "name": "Muñoz",
-     "num": 27,
+     "id": "away-547",
+     "providerId": 547,
+     "name": "Sangaré",
+     "num": null,
      "pos": "RCM",
      "role": "MID",
      "x": 75,
@@ -210,20 +210,20 @@
      "y": 60
     },
     {
-     "id": "away-560",
-     "providerId": 560,
-     "name": "McAtee",
-     "num": 24,
+     "id": "away-546",
+     "providerId": 546,
+     "name": "Williams",
+     "num": 3,
      "pos": "LWB",
      "role": "MID",
      "x": 72,
      "y": 90
     },
     {
-     "id": "away-551",
-     "providerId": 551,
-     "name": "Ndoye",
-     "num": 14,
+     "id": "away-552",
+     "providerId": 552,
+     "name": "Jesus",
+     "num": null,
      "pos": "RAM",
      "role": "FWD",
      "x": 62,
@@ -240,10 +240,10 @@
      "y": 66
     },
     {
-     "id": "away-392",
-     "providerId": 392,
-     "name": "Delap",
-     "num": 19,
+     "id": "away-4472",
+     "providerId": 4472,
+     "name": "Wood",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-12T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-12T14:16:43.185Z"
+ "fetchedAt": "2026-09-12T15:59:28.298Z"
 }

@@ -1,10 +1,10 @@
 {
  "fixtureId": 209566,
- "minute": 14,
- "status": "1st_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
-  "home": 0,
-  "away": 0
+  "home": 2,
+  "away": 2
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -68,10 +68,10 @@
      "y": 15
     },
     {
-     "id": "home-788",
-     "providerId": 788,
-     "name": "Adams",
-     "num": 12,
+     "id": "home-2371",
+     "providerId": 2371,
+     "name": "Cook",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -88,40 +88,40 @@
      "y": 38
     },
     {
-     "id": "home-663",
-     "providerId": 663,
-     "name": "Rayan",
-     "num": 37,
+     "id": "home-4027",
+     "providerId": 4027,
+     "name": "Doak",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-791",
-     "providerId": 791,
-     "name": "Kluivert",
-     "num": 19,
+     "id": "home-3900",
+     "providerId": 3900,
+     "name": "Christie",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-794",
-     "providerId": 794,
-     "name": "Tavernier",
-     "num": 16,
+     "id": "home-2372",
+     "providerId": 2372,
+     "name": "Brooks",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
      "y": 16
     },
     {
-     "id": "home-795",
-     "providerId": 795,
-     "name": "Evanilson",
-     "num": 9,
+     "id": "home-2767",
+     "providerId": 2767,
+     "name": "Rodriguez",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -150,40 +150,40 @@
      "y": 50
     },
     {
-     "id": "away-2373",
-     "providerId": 2373,
-     "name": "Hickey",
-     "num": 2,
+     "id": "away-463",
+     "providerId": 463,
+     "name": "Kayode",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
      "y": 15
     },
     {
-     "id": "away-464",
-     "providerId": 464,
-     "name": "Ajer",
-     "num": 20,
+     "id": "away-3051",
+     "providerId": 3051,
+     "name": "Schuster",
+     "num": 44,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
      "y": 37
     },
     {
-     "id": "away-3051",
-     "providerId": 3051,
-     "name": "Schuster",
-     "num": 44,
+     "id": "away-464",
+     "providerId": 464,
+     "name": "Ajer",
+     "num": 20,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
      "y": 63
     },
     {
-     "id": "away-477",
-     "providerId": 477,
-     "name": "Lewis-Potter",
-     "num": 23,
+     "id": "away-1638",
+     "providerId": 1638,
+     "name": "Diouf",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
@@ -200,30 +200,30 @@
      "y": 38
     },
     {
-     "id": "away-468",
-     "providerId": 468,
-     "name": "Yarmoliuk",
-     "num": 6,
+     "id": "away-469",
+     "providerId": 469,
+     "name": "Janelt",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-410",
-     "providerId": 410,
-     "name": "Anthony",
-     "num": 19,
+     "id": "away-471",
+     "providerId": 471,
+     "name": "Ouattara",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-469",
-     "providerId": 469,
-     "name": "Janelt",
-     "num": 27,
+     "id": "away-475",
+     "providerId": 475,
+     "name": "Damsgaard",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-12T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-12T14:16:42.867Z"
+ "fetchedAt": "2026-09-12T15:59:27.912Z"
 }

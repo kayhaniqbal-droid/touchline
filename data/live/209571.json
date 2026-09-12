@@ -1,7 +1,7 @@
 {
  "fixtureId": 209571,
- "minute": 14,
- "status": "1st_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
   "away": 0
@@ -28,10 +28,10 @@
      "y": 50
     },
     {
-     "id": "home-3661",
-     "providerId": 3661,
-     "name": "Araújo",
-     "num": 33,
+     "id": "home-4429",
+     "providerId": 4429,
+     "name": "Frimpong",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
@@ -58,10 +58,10 @@
      "y": 37
     },
     {
-     "id": "home-1077",
-     "providerId": 1077,
-     "name": "Tsimikas",
-     "num": 21,
+     "id": "home-336",
+     "providerId": 336,
+     "name": "Kerkez",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
@@ -78,20 +78,20 @@
      "y": 62
     },
     {
-     "id": "home-327",
-     "providerId": 327,
-     "name": "Gravenberch",
-     "num": 38,
+     "id": "home-328",
+     "providerId": 328,
+     "name": "Mac Allister",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-2668",
-     "providerId": 2668,
-     "name": "Muñoz",
-     "num": 23,
+     "id": "home-331",
+     "providerId": 331,
+     "name": "Gakpo",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -108,10 +108,10 @@
      "y": 50
     },
     {
-     "id": "home-2261",
-     "providerId": 2261,
-     "name": "Barcola",
-     "num": 29,
+     "id": "home-341",
+     "providerId": 341,
+     "name": "Ngumoha",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-834",
-     "providerId": 834,
-     "name": "Castagne",
-     "num": 21,
+     "id": "away-838",
+     "providerId": 838,
+     "name": "Kevin",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -210,40 +210,40 @@
      "y": 62
     },
     {
-     "id": "away-3651",
-     "providerId": 3651,
-     "name": "Bobb",
-     "num": 14,
+     "id": "away-824",
+     "providerId": 824,
+     "name": "Tete",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-837",
-     "providerId": 837,
-     "name": "King",
-     "num": 24,
+     "id": "away-831",
+     "providerId": 831,
+     "name": "Smith Rowe",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-832",
-     "providerId": 832,
-     "name": "Iwobi",
-     "num": 17,
+     "id": "away-3993",
+     "providerId": 3993,
+     "name": "Larsson",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-600",
-     "providerId": 600,
-     "name": "García",
-     "num": 7,
+     "id": "away-4095",
+     "providerId": 4095,
+     "name": "Muniz",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-12T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-12T14:16:41.929Z"
+ "fetchedAt": "2026-09-12T15:59:26.772Z"
 }

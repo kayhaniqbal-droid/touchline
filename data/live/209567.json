@@ -1,10 +1,10 @@
 {
  "fixtureId": 209567,
- "minute": 14,
- "status": "1st_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
-  "home": 1,
-  "away": 0
+  "home": 2,
+  "away": 2
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -14,114 +14,114 @@
    "nick": "Chelsea",
    "providerId": 13,
    "coach": null,
-   "formation": "3-4-2-1",
+   "formation": "4-2-3-1",
    "derivedShape": true,
    "players": [
     {
      "id": "home-1629",
      "providerId": 1629,
      "name": "Martínez",
-     "num": 26,
+     "num": 1,
      "pos": "GK",
      "role": "GK",
      "x": 4,
      "y": 50
     },
     {
-     "id": "home-1344",
-     "providerId": 1344,
-     "name": "Fofana",
-     "num": 3,
+     "id": "home-494",
+     "providerId": 494,
+     "name": "Welbeck",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-424",
+     "providerId": 424,
+     "name": "Lacroix",
+     "num": null,
      "pos": "RCB",
      "role": "DEF",
-     "x": 14,
-     "y": 72
+     "x": 13,
+     "y": 63
     },
     {
      "id": "home-22880",
      "providerId": 22880,
      "name": "Colwill",
      "num": 6,
-     "pos": "CB",
-     "role": "DEF",
-     "x": 12,
-     "y": 50
-    },
-    {
-     "id": "home-401",
-     "providerId": 401,
-     "name": "Hato",
-     "num": 21,
      "pos": "LCB",
      "role": "DEF",
-     "x": 14,
-     "y": 28
+     "x": 13,
+     "y": 37
     },
     {
-     "id": "home-393",
-     "providerId": 393,
-     "name": "Gusto",
-     "num": 27,
-     "pos": "RWB",
-     "role": "MID",
-     "x": 28,
-     "y": 90
+     "id": "home-907",
+     "providerId": 907,
+     "name": "Chavarría",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
     },
     {
      "id": "home-400",
      "providerId": 400,
      "name": "James",
      "num": 24,
-     "pos": "RCM",
+     "pos": "RDM",
      "role": "MID",
      "x": 25,
-     "y": 60
+     "y": 62
     },
     {
-     "id": "home-4237",
-     "providerId": 4237,
-     "name": "Lavia",
-     "num": 45,
-     "pos": "LCM",
+     "id": "home-3896",
+     "providerId": 3896,
+     "name": "Barco",
+     "num": null,
+     "pos": "LDM",
      "role": "MID",
      "x": 25,
-     "y": 40
+     "y": 38
     },
     {
-     "id": "home-394",
-     "providerId": 394,
-     "name": "Neto",
-     "num": 7,
-     "pos": "LWB",
+     "id": "home-389",
+     "providerId": 389,
+     "name": "Estêvão",
+     "num": null,
+     "pos": "RW",
      "role": "MID",
-     "x": 28,
-     "y": 10
+     "x": 35,
+     "y": 84
     },
     {
      "id": "home-395",
      "providerId": 395,
      "name": "Palmer",
      "num": 10,
-     "pos": "RAM",
-     "role": "FWD",
-     "x": 38,
-     "y": 66
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
     },
     {
      "id": "home-511",
      "providerId": 511,
      "name": "Rogers",
      "num": 17,
-     "pos": "LAM",
-     "role": "FWD",
-     "x": 38,
-     "y": 34
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
     },
     {
      "id": "home-390",
      "providerId": 390,
      "name": "Pedro",
-     "num": 20,
+     "num": 9,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -150,40 +150,40 @@
      "y": 50
     },
     {
-     "id": "away-6183",
-     "providerId": 6183,
-     "name": "Coyle",
-     "num": 2,
+     "id": "away-3923",
+     "providerId": 3923,
+     "name": "Norton-Cuffy",
+     "num": null,
      "pos": "RWB",
      "role": "DEF",
      "x": 79,
      "y": 12
     },
     {
-     "id": "away-906",
-     "providerId": 906,
-     "name": "Mendy",
-     "num": 32,
+     "id": "away-6706",
+     "providerId": 6706,
+     "name": "Ajayi",
+     "num": 6,
      "pos": "RCB",
      "role": "DEF",
      "x": 85,
      "y": 30
     },
     {
-     "id": "away-6706",
-     "providerId": 6706,
-     "name": "Ajayi",
-     "num": 6,
+     "id": "away-6184",
+     "providerId": 6184,
+     "name": "Egan",
+     "num": 15,
      "pos": "CB",
      "role": "DEF",
      "x": 87,
      "y": 50
     },
     {
-     "id": "away-6184",
-     "providerId": 6184,
-     "name": "Egan",
-     "num": 15,
+     "id": "away-12179",
+     "providerId": 12179,
+     "name": "Herrington",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 85,
@@ -200,50 +200,50 @@
      "y": 88
     },
     {
-     "id": "away-6187",
-     "providerId": 6187,
-     "name": "Belloumi",
-     "num": 10,
+     "id": "away-1494",
+     "providerId": 1494,
+     "name": "Cho",
+     "num": null,
      "pos": "RM",
      "role": "MID",
      "x": 71,
      "y": 14
     },
     {
-     "id": "away-6188",
-     "providerId": 6188,
-     "name": "Slater",
-     "num": 27,
+     "id": "away-808",
+     "providerId": 808,
+     "name": "Iroegbunam",
+     "num": null,
      "pos": "RCM",
      "role": "MID",
      "x": 73,
      "y": 40
     },
     {
-     "id": "away-6189",
-     "providerId": 6189,
-     "name": "Crooks",
-     "num": 25,
+     "id": "away-6188",
+     "providerId": 6188,
+     "name": "Slater",
+     "num": 27,
      "pos": "LCM",
      "role": "MID",
      "x": 73,
      "y": 60
     },
     {
-     "id": "away-16077",
-     "providerId": 16077,
-     "name": "Stroud",
-     "num": 21,
+     "id": "away-6055",
+     "providerId": 6055,
+     "name": "Thomas",
+     "num": null,
      "pos": "LM",
      "role": "MID",
      "x": 71,
      "y": 86
     },
     {
-     "id": "away-6191",
-     "providerId": 6191,
-     "name": "McBurnie",
-     "num": 9,
+     "id": "away-1933",
+     "providerId": 1933,
+     "name": "Vaz",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 59,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-12T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-12T14:16:42.570Z"
+ "fetchedAt": "2026-09-12T15:59:27.536Z"
 }

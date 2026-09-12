@@ -1,7 +1,888 @@
 {
  "fixtureId": 209567,
- "title": "Chelsea 1–0 Hull City",
+ "title": "Chelsea 2–2 Hull City",
  "lineupStatus": "confirmed",
- "phases": [],
+ "phases": [
+  {
+   "id": "shift-home-46-like-for-like",
+   "minute": 46,
+   "side": "home",
+   "name": "46' Chelsea freshen it up",
+   "note": "Chavarría on for Hato on 46', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-1629",
+     "name": "Martínez",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-393",
+     "name": "Gusto",
+     "num": 27,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-1344",
+     "name": "Fofana",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-22880",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-907",
+     "name": "Chavarría",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-400",
+     "name": "James",
+     "num": 24,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-4237",
+     "name": "Lavia",
+     "num": 45,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-394",
+     "name": "Neto",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-390",
+     "name": "Pedro",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-59-like-for-like",
+   "minute": 59,
+   "side": "away",
+   "name": "59' Hull freshen it up",
+   "note": "Herrington on for Mendy on 59', same job.",
+   "ruleId": "like-for-like",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "away-3476",
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6183",
+     "name": "Coyle",
+     "num": 2,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 12
+    },
+    {
+     "id": "away-6706",
+     "name": "Ajayi",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 30
+    },
+    {
+     "id": "away-6184",
+     "name": "Egan",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 87,
+     "y": 50
+    },
+    {
+     "id": "away-12179",
+     "name": "Herrington",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 70
+    },
+    {
+     "id": "away-6186",
+     "name": "Giles",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 88
+    },
+    {
+     "id": "away-6187",
+     "name": "Belloumi",
+     "num": 10,
+     "pos": "RM",
+     "role": "MID",
+     "x": 71,
+     "y": 14
+    },
+    {
+     "id": "away-6189",
+     "name": "Crooks",
+     "num": 25,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 73,
+     "y": 40
+    },
+    {
+     "id": "away-6188",
+     "name": "Slater",
+     "num": 27,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 73,
+     "y": 60
+    },
+    {
+     "id": "away-16077",
+     "name": "Stroud",
+     "num": 21,
+     "pos": "LM",
+     "role": "MID",
+     "x": 71,
+     "y": 86
+    },
+    {
+     "id": "away-6191",
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 59,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-60-double-change",
+   "minute": 60,
+   "side": "away",
+   "name": "60' Hull make a double change",
+   "note": "Cho and Thomas on together for Belloumi and Stroud on 60'.",
+   "ruleId": "double-change",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "away-3476",
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6183",
+     "name": "Coyle",
+     "num": 2,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 12
+    },
+    {
+     "id": "away-6706",
+     "name": "Ajayi",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 30
+    },
+    {
+     "id": "away-6184",
+     "name": "Egan",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 87,
+     "y": 50
+    },
+    {
+     "id": "away-12179",
+     "name": "Herrington",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 70
+    },
+    {
+     "id": "away-6186",
+     "name": "Giles",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 88
+    },
+    {
+     "id": "away-1494",
+     "name": "Cho",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 71,
+     "y": 14
+    },
+    {
+     "id": "away-6189",
+     "name": "Crooks",
+     "num": 25,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 73,
+     "y": 40
+    },
+    {
+     "id": "away-6188",
+     "name": "Slater",
+     "num": 27,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 73,
+     "y": 60
+    },
+    {
+     "id": "away-6055",
+     "name": "Thomas",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 71,
+     "y": 86
+    },
+    {
+     "id": "away-6191",
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 59,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-69-like-for-like",
+   "minute": 69,
+   "side": "away",
+   "name": "69' Hull freshen it up",
+   "note": "Iroegbunam on for Crooks on 69', same job.",
+   "ruleId": "like-for-like",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "away-3476",
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6183",
+     "name": "Coyle",
+     "num": 2,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 12
+    },
+    {
+     "id": "away-6706",
+     "name": "Ajayi",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 30
+    },
+    {
+     "id": "away-6184",
+     "name": "Egan",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 87,
+     "y": 50
+    },
+    {
+     "id": "away-12179",
+     "name": "Herrington",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 70
+    },
+    {
+     "id": "away-6186",
+     "name": "Giles",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 88
+    },
+    {
+     "id": "away-1494",
+     "name": "Cho",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 71,
+     "y": 14
+    },
+    {
+     "id": "away-808",
+     "name": "Iroegbunam",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 73,
+     "y": 40
+    },
+    {
+     "id": "away-6188",
+     "name": "Slater",
+     "num": 27,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 73,
+     "y": 60
+    },
+    {
+     "id": "away-6055",
+     "name": "Thomas",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 71,
+     "y": 86
+    },
+    {
+     "id": "away-6191",
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 59,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-70-like-for-like",
+   "minute": 70,
+   "side": "home",
+   "name": "70' Chelsea freshen it up",
+   "note": "Barco on for Lavia on 70', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-1629",
+     "name": "Martínez",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-393",
+     "name": "Gusto",
+     "num": 27,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-1344",
+     "name": "Fofana",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-22880",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-907",
+     "name": "Chavarría",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-400",
+     "name": "James",
+     "num": 24,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-3896",
+     "name": "Barco",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-394",
+     "name": "Neto",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-390",
+     "name": "Pedro",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-78-like-for-like",
+   "minute": 78,
+   "side": "home",
+   "name": "78' Chelsea freshen it up",
+   "note": "Welbeck on for Gusto on 78', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-1629",
+     "name": "Martínez",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-494",
+     "name": "Welbeck",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-1344",
+     "name": "Fofana",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-22880",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-907",
+     "name": "Chavarría",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-400",
+     "name": "James",
+     "num": 24,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-3896",
+     "name": "Barco",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-394",
+     "name": "Neto",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-390",
+     "name": "Pedro",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-82-double-change",
+   "minute": 82,
+   "side": "away",
+   "name": "82' Hull make a double change",
+   "note": "Norton-Cuffy and Vaz on together for Coyle and McBurnie on 82'.",
+   "ruleId": "double-change",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "away-3476",
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-3923",
+     "name": "Norton-Cuffy",
+     "num": null,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 12
+    },
+    {
+     "id": "away-6706",
+     "name": "Ajayi",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 30
+    },
+    {
+     "id": "away-6184",
+     "name": "Egan",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 87,
+     "y": 50
+    },
+    {
+     "id": "away-12179",
+     "name": "Herrington",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 70
+    },
+    {
+     "id": "away-6186",
+     "name": "Giles",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 88
+    },
+    {
+     "id": "away-1494",
+     "name": "Cho",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 71,
+     "y": 14
+    },
+    {
+     "id": "away-808",
+     "name": "Iroegbunam",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 73,
+     "y": 40
+    },
+    {
+     "id": "away-6188",
+     "name": "Slater",
+     "num": 27,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 73,
+     "y": 60
+    },
+    {
+     "id": "away-6055",
+     "name": "Thomas",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 71,
+     "y": 86
+    },
+    {
+     "id": "away-1933",
+     "name": "Vaz",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 59,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-86-double-change",
+   "minute": 86,
+   "side": "home",
+   "name": "86' Chelsea make a double change",
+   "note": "Lacroix and Estêvão on together for Fofana and Neto on 86'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-1629",
+     "name": "Martínez",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-494",
+     "name": "Welbeck",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-424",
+     "name": "Lacroix",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-22880",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-907",
+     "name": "Chavarría",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-400",
+     "name": "James",
+     "num": 24,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-3896",
+     "name": "Barco",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-389",
+     "name": "Estêvão",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-390",
+     "name": "Pedro",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  }
+ ],
  "shifts": []
 }
