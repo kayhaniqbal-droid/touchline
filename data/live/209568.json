@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209568,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "COV",
+   "name": "Coventry City",
+   "nick": "Coventry",
+   "providerId": 203,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-6420",
+     "providerId": 6420,
+     "name": "Rushworth",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6424",
+     "providerId": 6424,
+     "name": "DaSilva",
+     "num": 3,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-6687",
+     "providerId": 6687,
+     "name": "Thomas",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-1362",
+     "providerId": 1362,
+     "name": "Amenda",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-6421",
+     "providerId": 6421,
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-6426",
+     "providerId": 6426,
+     "name": "Grimes",
+     "num": 6,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-480",
+     "providerId": 480,
+     "name": "Onyeka",
+     "num": 16,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6429",
+     "providerId": 6429,
+     "name": "Ephron",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6427",
+     "providerId": 6427,
+     "name": "Rudoni",
+     "num": 5,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-407",
+     "providerId": 407,
+     "name": "Tchaouna",
+     "num": 18,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-4026",
+     "providerId": 4026,
+     "name": "Awoniyi",
+     "num": 14,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "BHA",
+   "name": "Brighton & Hove Albion",
+   "nick": "Brighton",
+   "providerId": 5,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-482",
+     "providerId": 482,
+     "name": "Verbruggen",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-491",
+     "providerId": 491,
+     "name": "De Cuyper",
+     "num": 29,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-498",
+     "providerId": 498,
+     "name": "Boscagli",
+     "num": 21,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-1591",
+     "providerId": 1591,
+     "name": "Vušković",
+     "num": 44,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-3490",
+     "providerId": 3490,
+     "name": "Costinha",
+     "num": 20,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-486",
+     "providerId": 486,
+     "name": "Kadıoğlu",
+     "num": 24,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-2173",
+     "providerId": 2173,
+     "name": "Groß",
+     "num": 13,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-1632",
+     "providerId": 1632,
+     "name": "Ayari",
+     "num": 26,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1633",
+     "providerId": 1633,
+     "name": "Rutter",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-488",
+     "providerId": 488,
+     "name": "Gómez",
+     "num": 25,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-495",
+     "providerId": 495,
+     "name": "Kostoulas",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-09-13T13:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-09-12T13:22:35.807Z"
+}
