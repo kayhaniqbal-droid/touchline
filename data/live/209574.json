@@ -1,7 +1,7 @@
 {
  "fixtureId": 209574,
- "minute": 45,
- "status": "halftime",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
   "away": 0
@@ -28,50 +28,50 @@
      "y": 50
     },
     {
-     "id": "home-484",
-     "providerId": 484,
-     "name": "van Hecke",
-     "num": 6,
+     "id": "home-384",
+     "providerId": 384,
+     "name": "Adarabioyo",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
      "y": 85
     },
     {
-     "id": "home-736",
-     "providerId": 736,
-     "name": "van de Ven",
-     "num": 37,
+     "id": "home-484",
+     "providerId": 484,
+     "name": "van Hecke",
+     "num": 6,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-326",
-     "providerId": 326,
-     "name": "Robertson",
-     "num": 3,
+     "id": "home-736",
+     "providerId": 736,
+     "name": "van de Ven",
+     "num": 37,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
      "y": 37
     },
     {
-     "id": "home-732",
-     "providerId": 732,
-     "name": "Gray",
-     "num": 14,
+     "id": "home-326",
+     "providerId": 326,
+     "name": "Robertson",
+     "num": 3,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
      "y": 15
     },
     {
-     "id": "home-723",
-     "providerId": 723,
-     "name": "Bentancur",
-     "num": 30,
+     "id": "home-726",
+     "providerId": 726,
+     "name": "Bergvall",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -98,30 +98,30 @@
      "y": 84
     },
     {
-     "id": "home-1643",
-     "providerId": 1643,
-     "name": "Fernandes",
-     "num": 18,
+     "id": "home-725",
+     "providerId": 725,
+     "name": "Kudus",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-862",
-     "providerId": 862,
-     "name": "Marmoush",
-     "num": 22,
+     "id": "home-30733",
+     "providerId": 30733,
+     "name": "Maddison",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
      "y": 16
     },
     {
-     "id": "home-4923",
-     "providerId": 4923,
-     "name": "Solanke",
-     "num": 19,
+     "id": "home-731",
+     "providerId": 731,
+     "name": "Tel",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -136,7 +136,7 @@
    "nick": "Everton",
    "providerId": 20,
    "coach": null,
-   "formation": "4-2-3-1",
+   "formation": "4-1-4-1",
    "derivedShape": true,
    "players": [
     {
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-1115",
-     "providerId": 1115,
-     "name": "Maitland-Niles",
-     "num": 2,
+     "id": "away-806",
+     "providerId": 806,
+     "name": "O'Brien",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -173,7 +173,7 @@
      "id": "away-8798",
      "providerId": 8798,
      "name": "Branthwaite",
-     "num": 32,
+     "num": 4,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
@@ -190,54 +190,54 @@
      "y": 85
     },
     {
-     "id": "away-4825",
-     "providerId": 4825,
-     "name": "Armstrong",
-     "num": 45,
-     "pos": "RDM",
-     "role": "MID",
-     "x": 75,
-     "y": 38
-    },
-    {
      "id": "away-804",
      "providerId": 804,
      "name": "Garner",
      "num": 37,
-     "pos": "LDM",
+     "pos": "DM",
      "role": "MID",
-     "x": 75,
-     "y": 62
+     "x": 77,
+     "y": 50
+    },
+    {
+     "id": "away-6327",
+     "providerId": 6327,
+     "name": "Hackney",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 67,
+     "y": 14
+    },
+    {
+     "id": "away-4825",
+     "providerId": 4825,
+     "name": "Armstrong",
+     "num": 45,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 69,
+     "y": 38
     },
     {
      "id": "away-809",
      "providerId": 809,
      "name": "Dewsbury-Hall",
      "num": 8,
-     "pos": "RW",
+     "pos": "LCM",
      "role": "MID",
-     "x": 65,
-     "y": 16
+     "x": 69,
+     "y": 62
     },
     {
-     "id": "away-727",
-     "providerId": 727,
-     "name": "Johnson",
-     "num": 22,
-     "pos": "AM",
+     "id": "away-812",
+     "providerId": 812,
+     "name": "Grealish",
+     "num": null,
+     "pos": "LM",
      "role": "MID",
-     "x": 66,
-     "y": 50
-    },
-    {
-     "id": "away-3659",
-     "providerId": 3659,
-     "name": "George",
-     "num": 19,
-     "pos": "LW",
-     "role": "MID",
-     "x": 65,
-     "y": 84
+     "x": 67,
+     "y": 86
     },
     {
      "id": "away-813",
@@ -246,7 +246,7 @@
      "num": 11,
      "pos": "ST",
      "role": "FWD",
-     "x": 55,
+     "x": 57,
      "y": 50
     }
    ],
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-12T16:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-12T17:26:09.025Z"
+ "fetchedAt": "2026-09-12T18:47:24.415Z"
 }

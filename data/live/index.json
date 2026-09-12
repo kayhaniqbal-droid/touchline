@@ -250,16 +250,16 @@
    "status": "notstarted",
    "home": "SUN",
    "away": "ARS",
-   "confirmed": false
+   "confirmed": true
   },
   "209574": {
    "kickoff": "2026-09-12T16:30:00+00:00",
-   "status": "halftime",
+   "status": "FT",
    "home": "TOT",
    "away": "EVE",
    "confirmed": true
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-09-12T17:26:22.489Z"
+ "updatedAt": "2026-09-12T18:47:25.994Z"
 }
