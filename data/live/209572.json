@@ -1,10 +1,10 @@
 {
  "fixtureId": 209572,
- "minute": 0,
- "status": "notstarted",
+ "minute": 61,
+ "status": "2nd_half",
  "goals": {
   "home": 0,
-  "away": 0
+  "away": 1
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -210,20 +210,10 @@
      "y": 62
     },
     {
-     "id": "away-851",
-     "providerId": 851,
-     "name": "Foden",
-     "num": 47,
-     "pos": "RW",
-     "role": "MID",
-     "x": 65,
-     "y": 16
-    },
-    {
-     "id": "away-856",
-     "providerId": 856,
-     "name": "Cherki",
-     "num": 10,
+     "id": "away-810",
+     "providerId": 810,
+     "name": "Ndiaye",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
@@ -255,5 +245,5 @@
  },
  "kickoff": "2026-09-13T15:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-13T14:58:06.875Z"
+ "fetchedAt": "2026-09-13T16:49:11.920Z"
 }
