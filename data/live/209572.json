@@ -1,7 +1,7 @@
 {
  "fixtureId": 209572,
- "minute": 61,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
   "away": 1
@@ -68,10 +68,10 @@
      "y": 15
     },
     {
-     "id": "home-514",
-     "providerId": 514,
-     "name": "Tielemans",
-     "num": 18,
+     "id": "home-4120",
+     "providerId": 4120,
+     "name": "Šeško",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -88,30 +88,30 @@
      "y": 38
     },
     {
-     "id": "home-1794",
-     "providerId": 1794,
-     "name": "Fernandes",
-     "num": 8,
+     "id": "home-1796",
+     "providerId": 1796,
+     "name": "Mbeumo",
+     "num": 19,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-1796",
-     "providerId": 1796,
-     "name": "Mbeumo",
-     "num": 19,
+     "id": "home-1794",
+     "providerId": 1794,
+     "name": "Fernandes",
+     "num": 8,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-750",
-     "providerId": 750,
-     "name": "Rashford",
-     "num": 9,
+     "id": "home-1798",
+     "providerId": 1798,
+     "name": "Zirkzee",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -160,20 +160,20 @@
      "y": 15
     },
     {
-     "id": "away-845",
-     "providerId": 845,
-     "name": "Dias",
-     "num": 3,
+     "id": "away-425",
+     "providerId": 425,
+     "name": "Guéhi",
+     "num": 6,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
      "y": 37
     },
     {
-     "id": "away-425",
-     "providerId": 425,
-     "name": "Guéhi",
-     "num": 6,
+     "id": "away-845",
+     "providerId": 845,
+     "name": "Dias",
+     "num": 3,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
@@ -190,20 +190,20 @@
      "y": 85
     },
     {
-     "id": "away-387",
-     "providerId": 387,
-     "name": "Fernández",
-     "num": 17,
+     "id": "away-548",
+     "providerId": 548,
+     "name": "Anderson",
+     "num": 5,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-548",
-     "providerId": 548,
-     "name": "Anderson",
-     "num": 5,
+     "id": "away-847",
+     "providerId": 847,
+     "name": "O’Reilly",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -245,5 +245,5 @@
  },
  "kickoff": "2026-09-13T15:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-13T16:49:11.920Z"
+ "fetchedAt": "2026-09-13T17:38:28.115Z"
 }
