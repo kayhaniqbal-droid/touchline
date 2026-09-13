@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209570,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "LEE",
+   "name": "Leeds United",
+   "nick": "Leeds",
+   "providerId": 19,
+   "coach": null,
+   "formation": "3-4-2-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-858",
+     "providerId": 858,
+     "name": "Trafford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-370",
+     "providerId": 370,
+     "name": "Gudmundsson",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-2846",
+     "providerId": 2846,
+     "name": "Muharemović",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-364",
+     "providerId": 364,
+     "name": "Bijol",
+     "num": 15,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-376",
+     "providerId": 376,
+     "name": "Justin",
+     "num": 24,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 28,
+     "y": 90
+    },
+    {
+     "id": "home-367",
+     "providerId": 367,
+     "name": "Tanaka",
+     "num": 22,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-368",
+     "providerId": 368,
+     "name": "Ampadu",
+     "num": 4,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-369",
+     "providerId": 369,
+     "name": "Stach",
+     "num": 18,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 28,
+     "y": 10
+    },
+    {
+     "id": "home-830",
+     "providerId": 830,
+     "name": "Wilson",
+     "num": 10,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 66
+    },
+    {
+     "id": "home-374",
+     "providerId": 374,
+     "name": "Okafor",
+     "num": 19,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 34
+    },
+    {
+     "id": "home-371",
+     "providerId": 371,
+     "name": "Calvert-Lewin",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "NEW",
+   "name": "Newcastle United",
+   "nick": "Newcastle",
+   "providerId": 4,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-883",
+     "providerId": 883,
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-702",
+     "providerId": 702,
+     "name": "Hall",
+     "num": 3,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-3696",
+     "providerId": 3696,
+     "name": "Botman",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-700",
+     "providerId": 700,
+     "name": "Thiaw",
+     "num": 12,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-2052",
+     "providerId": 2052,
+     "name": "Dedić",
+     "num": 37,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-715",
+     "providerId": 715,
+     "name": "Willock",
+     "num": 28,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-716",
+     "providerId": 716,
+     "name": "Ramsey",
+     "num": 41,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-708",
+     "providerId": 708,
+     "name": "Barnes",
+     "num": 11,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-706",
+     "providerId": 706,
+     "name": "Murphy",
+     "num": 23,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-710",
+     "providerId": 710,
+     "name": "Elanga",
+     "num": 19,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-5140",
+     "providerId": 5140,
+     "name": "Wissa",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-09-14T19:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-09-13T14:06:05.058Z"
+}
