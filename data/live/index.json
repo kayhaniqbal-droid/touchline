@@ -236,7 +236,7 @@
    "status": "notstarted",
    "home": "LEE",
    "away": "NEW",
-   "confirmed": false
+   "confirmed": true
   },
   "209571": {
    "kickoff": "2026-09-12T14:00:00+00:00",
@@ -268,5 +268,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-09-14T17:00:05.849Z"
+ "updatedAt": "2026-09-14T18:20:33.355Z"
 }

@@ -6,7 +6,7 @@
   "home": 0,
   "away": 0
  },
- "lineupsConfirmed": false,
+ "lineupsConfirmed": true,
  "teams": {
   "home": {
    "code": "LEE",
@@ -14,7 +14,7 @@
    "nick": "Leeds",
    "providerId": 19,
    "coach": null,
-   "formation": "3-4-2-1",
+   "formation": "3-5-2",
    "derivedShape": true,
    "players": [
     {
@@ -28,54 +28,64 @@
      "y": 50
     },
     {
-     "id": "home-370",
-     "providerId": 370,
-     "name": "Gudmundsson",
-     "num": 3,
+     "id": "home-376",
+     "providerId": 376,
+     "name": "Justin",
+     "num": 24,
      "pos": "RCB",
      "role": "DEF",
      "x": 14,
      "y": 72
     },
     {
-     "id": "home-2846",
-     "providerId": 2846,
-     "name": "Muharemović",
-     "num": 5,
+     "id": "home-2869",
+     "providerId": 2869,
+     "name": "Elvedi",
+     "num": 30,
      "pos": "CB",
      "role": "DEF",
      "x": 12,
      "y": 50
     },
     {
-     "id": "home-364",
-     "providerId": 364,
-     "name": "Bijol",
-     "num": 15,
+     "id": "home-2846",
+     "providerId": 2846,
+     "name": "Muharemović",
+     "num": 5,
      "pos": "LCB",
      "role": "DEF",
      "x": 14,
      "y": 28
     },
     {
-     "id": "home-376",
-     "providerId": 376,
-     "name": "Justin",
-     "num": 24,
+     "id": "home-370",
+     "providerId": 370,
+     "name": "Gudmundsson",
+     "num": 3,
      "pos": "RWB",
      "role": "MID",
-     "x": 28,
+     "x": 29,
      "y": 90
     },
     {
-     "id": "home-367",
-     "providerId": 367,
-     "name": "Tanaka",
-     "num": 22,
+     "id": "home-366",
+     "providerId": 366,
+     "name": "Bogle",
+     "num": 2,
      "pos": "RCM",
      "role": "MID",
-     "x": 25,
-     "y": 60
+     "x": 27,
+     "y": 66
+    },
+    {
+     "id": "home-369",
+     "providerId": 369,
+     "name": "Stach",
+     "num": 18,
+     "pos": "DM",
+     "role": "MID",
+     "x": 23,
+     "y": 50
     },
     {
      "id": "home-368",
@@ -84,48 +94,38 @@
      "num": 4,
      "pos": "LCM",
      "role": "MID",
-     "x": 25,
-     "y": 40
+     "x": 27,
+     "y": 34
     },
     {
-     "id": "home-369",
-     "providerId": 369,
-     "name": "Stach",
-     "num": 18,
+     "id": "home-367",
+     "providerId": 367,
+     "name": "Tanaka",
+     "num": 22,
      "pos": "LWB",
      "role": "MID",
-     "x": 28,
+     "x": 29,
      "y": 10
-    },
-    {
-     "id": "home-830",
-     "providerId": 830,
-     "name": "Wilson",
-     "num": 10,
-     "pos": "RAM",
-     "role": "FWD",
-     "x": 38,
-     "y": 66
-    },
-    {
-     "id": "home-374",
-     "providerId": 374,
-     "name": "Okafor",
-     "num": 19,
-     "pos": "LAM",
-     "role": "FWD",
-     "x": 38,
-     "y": 34
     },
     {
      "id": "home-371",
      "providerId": 371,
      "name": "Calvert-Lewin",
      "num": 9,
-     "pos": "ST",
+     "pos": "RS",
      "role": "FWD",
-     "x": 45,
-     "y": 50
+     "x": 43,
+     "y": 60
+    },
+    {
+     "id": "home-374",
+     "providerId": 374,
+     "name": "Okafor",
+     "num": 19,
+     "pos": "LS",
+     "role": "FWD",
+     "x": 43,
+     "y": 40
     }
    ],
    "bench": []
@@ -150,90 +150,90 @@
      "y": 50
     },
     {
-     "id": "away-702",
-     "providerId": 702,
-     "name": "Hall",
-     "num": 3,
+     "id": "away-2052",
+     "providerId": 2052,
+     "name": "Dedić",
+     "num": 37,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
      "y": 15
     },
     {
-     "id": "away-3696",
-     "providerId": 3696,
-     "name": "Botman",
-     "num": 4,
+     "id": "away-700",
+     "providerId": 700,
+     "name": "Thiaw",
+     "num": 12,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
      "y": 37
     },
     {
-     "id": "away-700",
-     "providerId": 700,
-     "name": "Thiaw",
-     "num": 12,
+     "id": "away-3696",
+     "providerId": 3696,
+     "name": "Botman",
+     "num": 4,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
      "y": 63
     },
     {
-     "id": "away-2052",
-     "providerId": 2052,
-     "name": "Dedić",
-     "num": 37,
+     "id": "away-702",
+     "providerId": 702,
+     "name": "Hall",
+     "num": 3,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
      "y": 85
     },
     {
-     "id": "away-715",
-     "providerId": 715,
-     "name": "Willock",
-     "num": 28,
+     "id": "away-849",
+     "providerId": 849,
+     "name": "González",
+     "num": 6,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-716",
-     "providerId": 716,
-     "name": "Ramsey",
-     "num": 41,
+     "id": "away-703",
+     "providerId": 703,
+     "name": "Miley",
+     "num": 67,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-708",
-     "providerId": 708,
-     "name": "Barnes",
-     "num": 11,
+     "id": "away-706",
+     "providerId": 706,
+     "name": "Murphy",
+     "num": 23,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-706",
-     "providerId": 706,
-     "name": "Murphy",
-     "num": 23,
+     "id": "away-1464",
+     "providerId": 1464,
+     "name": "Fernández-Pardo",
+     "num": 20,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-710",
-     "providerId": 710,
-     "name": "Elanga",
-     "num": 19,
+     "id": "away-708",
+     "providerId": 708,
+     "name": "Barnes",
+     "num": 11,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-14T19:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-14T17:00:02.116Z"
+ "fetchedAt": "2026-09-14T18:20:32.374Z"
 }
