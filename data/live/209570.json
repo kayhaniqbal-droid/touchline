@@ -1,9 +1,9 @@
 {
  "fixtureId": 209570,
- "minute": 0,
- "status": "notstarted",
+ "minute": 35,
+ "status": "1st_half",
  "goals": {
-  "home": 0,
+  "home": 2,
   "away": 0
  },
  "lineupsConfirmed": true,
@@ -190,10 +190,10 @@
      "y": 85
     },
     {
-     "id": "away-849",
-     "providerId": 849,
-     "name": "González",
-     "num": 6,
+     "id": "away-5178",
+     "providerId": 5178,
+     "name": "Steur",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-14T19:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-14T18:20:32.374Z"
+ "fetchedAt": "2026-09-14T19:35:28.551Z"
 }
