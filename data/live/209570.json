@@ -1,9 +1,9 @@
 {
  "fixtureId": 209570,
- "minute": 35,
- "status": "1st_half",
+ "minute": 78,
+ "status": "2nd_half",
  "goals": {
-  "home": 2,
+  "home": 4,
   "away": 0
  },
  "lineupsConfirmed": true,
@@ -58,10 +58,10 @@
      "y": 28
     },
     {
-     "id": "home-370",
-     "providerId": 370,
-     "name": "Gudmundsson",
-     "num": 3,
+     "id": "home-1488",
+     "providerId": 1488,
+     "name": "Bard",
+     "num": null,
      "pos": "RWB",
      "role": "MID",
      "x": 29,
@@ -98,10 +98,10 @@
      "y": 34
     },
     {
-     "id": "home-367",
-     "providerId": 367,
-     "name": "Tanaka",
-     "num": 22,
+     "id": "home-380",
+     "providerId": 380,
+     "name": "Aaronson",
+     "num": null,
      "pos": "LWB",
      "role": "MID",
      "x": 29,
@@ -118,10 +118,10 @@
      "y": 60
     },
     {
-     "id": "home-374",
-     "providerId": 374,
-     "name": "Okafor",
-     "num": 19,
+     "id": "home-830",
+     "providerId": 830,
+     "name": "Wilson",
+     "num": null,
      "pos": "LS",
      "role": "FWD",
      "x": 43,
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-2052",
-     "providerId": 2052,
-     "name": "Dedić",
-     "num": 37,
+     "id": "away-699",
+     "providerId": 699,
+     "name": "Livramento",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -210,20 +210,20 @@
      "y": 62
     },
     {
-     "id": "away-706",
-     "providerId": 706,
-     "name": "Murphy",
-     "num": 23,
+     "id": "away-2385",
+     "providerId": 2385,
+     "name": "Touré",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-1464",
-     "providerId": 1464,
-     "name": "Fernández-Pardo",
-     "num": 20,
+     "id": "away-715",
+     "providerId": 715,
+     "name": "Willock",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-14T19:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-14T19:35:28.551Z"
+ "fetchedAt": "2026-09-14T20:37:41.909Z"
 }

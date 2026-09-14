@@ -1,6 +1,6 @@
 {
  "fixtureId": 209570,
- "title": "Leeds United 2–0 Newcastle United",
+ "title": "Leeds United 4–0 Newcastle United",
  "lineupStatus": "confirmed",
  "phases": [
   {
@@ -110,6 +110,336 @@
      "role": "FWD",
      "x": 55,
      "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-57-double-change",
+   "minute": 57,
+   "side": "away",
+   "name": "57' Newcastle make a double change",
+   "note": "Touré and Willock on together for Murphy and Fernández-Pardo on 57'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-883",
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-2052",
+     "name": "Dedić",
+     "num": 37,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-700",
+     "name": "Thiaw",
+     "num": 12,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-3696",
+     "name": "Botman",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-702",
+     "name": "Hall",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-5178",
+     "name": "Steur",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-703",
+     "name": "Miley",
+     "num": 67,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-2385",
+     "name": "Touré",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-715",
+     "name": "Willock",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-708",
+     "name": "Barnes",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-5140",
+     "name": "Wissa",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-58-like-for-like",
+   "minute": 58,
+   "side": "away",
+   "name": "58' Newcastle freshen it up",
+   "note": "Livramento on for Dedić on 58', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-883",
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-699",
+     "name": "Livramento",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-700",
+     "name": "Thiaw",
+     "num": 12,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-3696",
+     "name": "Botman",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-702",
+     "name": "Hall",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-5178",
+     "name": "Steur",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-703",
+     "name": "Miley",
+     "num": 67,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-2385",
+     "name": "Touré",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-715",
+     "name": "Willock",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-708",
+     "name": "Barnes",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-5140",
+     "name": "Wissa",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-72-double-change",
+   "minute": 72,
+   "side": "home",
+   "name": "72' Leeds make a double change",
+   "note": "Bard, Aaronson and Wilson on together for Gudmundsson, Tanaka and Okafor on 72'.",
+   "ruleId": "double-change",
+   "formation": "3-5-2",
+   "players": [
+    {
+     "id": "home-858",
+     "name": "Trafford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-376",
+     "name": "Justin",
+     "num": 24,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-2869",
+     "name": "Elvedi",
+     "num": 30,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-2846",
+     "name": "Muharemović",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-1488",
+     "name": "Bard",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 29,
+     "y": 90
+    },
+    {
+     "id": "home-366",
+     "name": "Bogle",
+     "num": 2,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 66
+    },
+    {
+     "id": "home-369",
+     "name": "Stach",
+     "num": 18,
+     "pos": "DM",
+     "role": "MID",
+     "x": 23,
+     "y": 50
+    },
+    {
+     "id": "home-368",
+     "name": "Ampadu",
+     "num": 4,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 34
+    },
+    {
+     "id": "home-380",
+     "name": "Aaronson",
+     "num": null,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 29,
+     "y": 10
+    },
+    {
+     "id": "home-371",
+     "name": "Calvert-Lewin",
+     "num": 9,
+     "pos": "RS",
+     "role": "FWD",
+     "x": 43,
+     "y": 60
+    },
+    {
+     "id": "home-830",
+     "name": "Wilson",
+     "num": null,
+     "pos": "LS",
+     "role": "FWD",
+     "x": 43,
+     "y": 40
     }
    ]
   }
