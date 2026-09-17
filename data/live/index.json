@@ -265,8 +265,15 @@
    "home": "TOT",
    "away": "EVE",
    "confirmed": true
+  },
+  "209576": {
+   "kickoff": "2026-09-18T19:00:00+00:00",
+   "status": "notstarted",
+   "home": "BRE",
+   "away": "CHE",
+   "confirmed": false
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-09-16T21:54:26.905Z"
+ "updatedAt": "2026-09-17T14:43:28.623Z"
 }
