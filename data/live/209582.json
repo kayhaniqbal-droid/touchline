@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209582,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "NEW",
+   "name": "Newcastle United",
+   "nick": "Newcastle",
+   "providerId": 4,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-883",
+     "providerId": 883,
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-702",
+     "providerId": 702,
+     "name": "Hall",
+     "num": 3,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-3696",
+     "providerId": 3696,
+     "name": "Botman",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-700",
+     "providerId": 700,
+     "name": "Thiaw",
+     "num": 12,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-2052",
+     "providerId": 2052,
+     "name": "Dedić",
+     "num": 37,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-715",
+     "providerId": 715,
+     "name": "Willock",
+     "num": 28,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-5178",
+     "providerId": 5178,
+     "name": "Steur",
+     "num": 14,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-703",
+     "providerId": 703,
+     "name": "Miley",
+     "num": 67,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-708",
+     "providerId": 708,
+     "name": "Barnes",
+     "num": 11,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-706",
+     "providerId": 706,
+     "name": "Murphy",
+     "num": 23,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-5140",
+     "providerId": 5140,
+     "name": "Wissa",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "HUL",
+   "name": "Hull City",
+   "nick": "Hull",
+   "providerId": 204,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-3476",
+     "providerId": 3476,
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6186",
+     "providerId": 6186,
+     "name": "Giles",
+     "num": 3,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-6184",
+     "providerId": 6184,
+     "name": "Egan",
+     "num": 15,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-6706",
+     "providerId": 6706,
+     "name": "Ajayi",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-6183",
+     "providerId": 6183,
+     "name": "Coyle",
+     "num": 2,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-6188",
+     "providerId": 6188,
+     "name": "Slater",
+     "num": 27,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-4189",
+     "providerId": 4189,
+     "name": "Gourna-Douath",
+     "num": 29,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-6055",
+     "providerId": 6055,
+     "name": "Thomas",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-6189",
+     "providerId": 6189,
+     "name": "Crooks",
+     "num": 25,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-6187",
+     "providerId": 6187,
+     "name": "Belloumi",
+     "num": 10,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-6191",
+     "providerId": 6191,
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-09-19T14:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-09-18T14:08:05.094Z"
+}

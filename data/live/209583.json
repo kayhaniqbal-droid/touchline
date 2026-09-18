@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209583,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "NFO",
+   "name": "Nottingham Forest",
+   "nick": "Forest",
+   "providerId": 15,
+   "coach": null,
+   "formation": "3-4-2-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-542",
+     "providerId": 542,
+     "name": "Sels",
+     "num": 26,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-546",
+     "providerId": 546,
+     "name": "Williams",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-2913",
+     "providerId": 2913,
+     "name": "Murillo",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-1228",
+     "providerId": 1228,
+     "name": "Diomande",
+     "num": 2,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-4788",
+     "providerId": 4788,
+     "name": "Aina",
+     "num": 34,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 28,
+     "y": 90
+    },
+    {
+     "id": "home-560",
+     "providerId": 560,
+     "name": "McAtee",
+     "num": 24,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-2892",
+     "providerId": 2892,
+     "name": "Schlager",
+     "num": 21,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-547",
+     "providerId": 547,
+     "name": "Sangaré",
+     "num": 6,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 28,
+     "y": 10
+    },
+    {
+     "id": "home-551",
+     "providerId": 551,
+     "name": "Ndoye",
+     "num": 14,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 66
+    },
+    {
+     "id": "home-550",
+     "providerId": 550,
+     "name": "Gibbs-White",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 34
+    },
+    {
+     "id": "home-552",
+     "providerId": 552,
+     "name": "Jesus",
+     "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "COV",
+   "name": "Coventry City",
+   "nick": "Coventry",
+   "providerId": 203,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-6420",
+     "providerId": 6420,
+     "name": "Rushworth",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6424",
+     "providerId": 6424,
+     "name": "DaSilva",
+     "num": 3,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-465",
+     "providerId": 465,
+     "name": "Pinnock",
+     "num": 2,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-6423",
+     "providerId": 6423,
+     "name": "Latibeaudiere",
+     "num": 22,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-6421",
+     "providerId": 6421,
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-6426",
+     "providerId": 6426,
+     "name": "Grimes",
+     "num": 6,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-16696",
+     "providerId": 16696,
+     "name": "Yirenkyi",
+     "num": 8,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-6429",
+     "providerId": 6429,
+     "name": "Ephron",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-6427",
+     "providerId": 6427,
+     "name": "Rudoni",
+     "num": 5,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-1396",
+     "providerId": 1396,
+     "name": "Cherif",
+     "num": 49,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-6887",
+     "providerId": 6887,
+     "name": "Thomas-Asante",
+     "num": 23,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-09-19T16:30:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-09-18T14:08:04.765Z"
+}
