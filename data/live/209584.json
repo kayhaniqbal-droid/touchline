@@ -68,10 +68,10 @@
      "y": 15
     },
     {
-     "id": "home-704",
-     "providerId": 704,
-     "name": "Tonali",
-     "num": 16,
+     "id": "home-723",
+     "providerId": 723,
+     "name": "Bentancur",
+     "num": 30,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-19T11:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-18T14:08:06.196Z"
+ "fetchedAt": "2026-09-18T15:04:28.090Z"
 }
