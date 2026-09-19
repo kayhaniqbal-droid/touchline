@@ -1,7 +1,778 @@
 {
  "fixtureId": 209582,
- "title": "Newcastle United 0–0 Hull City",
+ "title": "Newcastle United 2–1 Hull City",
  "lineupStatus": "confirmed",
- "phases": [],
+ "phases": [
+  {
+   "id": "shift-away-46-like-for-like",
+   "minute": 46,
+   "side": "away",
+   "name": "46' Hull freshen it up",
+   "note": "Iroegbunam on for Crooks on 46', same job.",
+   "ruleId": "like-for-like",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "away-3476",
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6183",
+     "name": "Coyle",
+     "num": 2,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 12
+    },
+    {
+     "id": "away-6706",
+     "name": "Ajayi",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 30
+    },
+    {
+     "id": "away-6184",
+     "name": "Egan",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 87,
+     "y": 50
+    },
+    {
+     "id": "away-12179",
+     "name": "Herrington",
+     "num": 22,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 70
+    },
+    {
+     "id": "away-6186",
+     "name": "Giles",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 88
+    },
+    {
+     "id": "away-6187",
+     "name": "Belloumi",
+     "num": 10,
+     "pos": "RM",
+     "role": "MID",
+     "x": 71,
+     "y": 14
+    },
+    {
+     "id": "away-808",
+     "name": "Iroegbunam",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 73,
+     "y": 40
+    },
+    {
+     "id": "away-6188",
+     "name": "Slater",
+     "num": 27,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 73,
+     "y": 60
+    },
+    {
+     "id": "away-6055",
+     "name": "Thomas",
+     "num": 7,
+     "pos": "LM",
+     "role": "MID",
+     "x": 71,
+     "y": 86
+    },
+    {
+     "id": "away-6191",
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 59,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-63-like-for-like",
+   "minute": 63,
+   "side": "away",
+   "name": "63' Hull freshen it up",
+   "note": "Cho on for Thomas on 63', same job.",
+   "ruleId": "like-for-like",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "away-3476",
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6183",
+     "name": "Coyle",
+     "num": 2,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 12
+    },
+    {
+     "id": "away-6706",
+     "name": "Ajayi",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 30
+    },
+    {
+     "id": "away-6184",
+     "name": "Egan",
+     "num": 15,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 87,
+     "y": 50
+    },
+    {
+     "id": "away-12179",
+     "name": "Herrington",
+     "num": 22,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 70
+    },
+    {
+     "id": "away-6186",
+     "name": "Giles",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 88
+    },
+    {
+     "id": "away-6187",
+     "name": "Belloumi",
+     "num": 10,
+     "pos": "RM",
+     "role": "MID",
+     "x": 71,
+     "y": 14
+    },
+    {
+     "id": "away-808",
+     "name": "Iroegbunam",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 73,
+     "y": 40
+    },
+    {
+     "id": "away-6188",
+     "name": "Slater",
+     "num": 27,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 73,
+     "y": 60
+    },
+    {
+     "id": "away-1494",
+     "name": "Cho",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 71,
+     "y": 86
+    },
+    {
+     "id": "away-6191",
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 59,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-66-like-for-like",
+   "minute": 66,
+   "side": "home",
+   "name": "66' Newcastle freshen it up",
+   "note": "Schär on for Steur on 66', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-883",
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-703",
+     "name": "Miley",
+     "num": 67,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-700",
+     "name": "Thiaw",
+     "num": 12,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-3696",
+     "name": "Botman",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-702",
+     "name": "Hall",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-712",
+     "name": "Schär",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-715",
+     "name": "Willock",
+     "num": 28,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-706",
+     "name": "Murphy",
+     "num": 23,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-1464",
+     "name": "Fernández-Pardo",
+     "num": 20,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-708",
+     "name": "Barnes",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-5140",
+     "name": "Wissa",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-74-like-for-like",
+   "minute": 74,
+   "side": "home",
+   "name": "74' Newcastle freshen it up",
+   "note": "Touré on for Fernández-Pardo on 74', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-883",
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-703",
+     "name": "Miley",
+     "num": 67,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-700",
+     "name": "Thiaw",
+     "num": 12,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-3696",
+     "name": "Botman",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-702",
+     "name": "Hall",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-712",
+     "name": "Schär",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-715",
+     "name": "Willock",
+     "num": 28,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-706",
+     "name": "Murphy",
+     "num": 23,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-2385",
+     "name": "Touré",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-708",
+     "name": "Barnes",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-5140",
+     "name": "Wissa",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-78-double-change",
+   "minute": 78,
+   "side": "away",
+   "name": "78' Hull make a double change",
+   "note": "Vaz and Gourna-Douath on together for Egan and Slater on 78'.",
+   "ruleId": "double-change",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "away-3476",
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6183",
+     "name": "Coyle",
+     "num": 2,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 12
+    },
+    {
+     "id": "away-6706",
+     "name": "Ajayi",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 30
+    },
+    {
+     "id": "away-1933",
+     "name": "Vaz",
+     "num": null,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 87,
+     "y": 50
+    },
+    {
+     "id": "away-12179",
+     "name": "Herrington",
+     "num": 22,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 70
+    },
+    {
+     "id": "away-6186",
+     "name": "Giles",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 88
+    },
+    {
+     "id": "away-6187",
+     "name": "Belloumi",
+     "num": 10,
+     "pos": "RM",
+     "role": "MID",
+     "x": 71,
+     "y": 14
+    },
+    {
+     "id": "away-808",
+     "name": "Iroegbunam",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 73,
+     "y": 40
+    },
+    {
+     "id": "away-4189",
+     "name": "Gourna-Douath",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 73,
+     "y": 60
+    },
+    {
+     "id": "away-1494",
+     "name": "Cho",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 71,
+     "y": 86
+    },
+    {
+     "id": "away-6191",
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 59,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-83-like-for-like",
+   "minute": 83,
+   "side": "away",
+   "name": "83' Hull freshen it up",
+   "note": "Gelhardt on for Belloumi on 83', same job.",
+   "ruleId": "like-for-like",
+   "formation": "5-4-1",
+   "players": [
+    {
+     "id": "away-3476",
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6183",
+     "name": "Coyle",
+     "num": 2,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 12
+    },
+    {
+     "id": "away-6706",
+     "name": "Ajayi",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 30
+    },
+    {
+     "id": "away-1933",
+     "name": "Vaz",
+     "num": null,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 87,
+     "y": 50
+    },
+    {
+     "id": "away-12179",
+     "name": "Herrington",
+     "num": 22,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 85,
+     "y": 70
+    },
+    {
+     "id": "away-6186",
+     "name": "Giles",
+     "num": 3,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 79,
+     "y": 88
+    },
+    {
+     "id": "away-6803",
+     "name": "Gelhardt",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 71,
+     "y": 14
+    },
+    {
+     "id": "away-808",
+     "name": "Iroegbunam",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 73,
+     "y": 40
+    },
+    {
+     "id": "away-4189",
+     "name": "Gourna-Douath",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 73,
+     "y": 60
+    },
+    {
+     "id": "away-1494",
+     "name": "Cho",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 71,
+     "y": 86
+    },
+    {
+     "id": "away-6191",
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 59,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-87-like-for-like",
+   "minute": 87,
+   "side": "home",
+   "name": "87' Newcastle freshen it up",
+   "note": "Bamba on for Willock on 87', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-883",
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-703",
+     "name": "Miley",
+     "num": 67,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-700",
+     "name": "Thiaw",
+     "num": 12,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-3696",
+     "name": "Botman",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-702",
+     "name": "Hall",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-712",
+     "name": "Schär",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-3618",
+     "name": "Bamba",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-706",
+     "name": "Murphy",
+     "num": 23,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-2385",
+     "name": "Touré",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-708",
+     "name": "Barnes",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-5140",
+     "name": "Wissa",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  }
+ ],
  "shifts": []
 }

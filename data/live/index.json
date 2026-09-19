@@ -282,14 +282,14 @@
   },
   "209577": {
    "kickoff": "2026-09-19T14:00:00+00:00",
-   "status": "notstarted",
+   "status": "FT",
    "home": "BHA",
    "away": "ARS",
    "confirmed": true
   },
   "209578": {
    "kickoff": "2026-09-19T14:00:00+00:00",
-   "status": "notstarted",
+   "status": "FT",
    "home": "EVE",
    "away": "IPS",
    "confirmed": true
@@ -317,7 +317,7 @@
   },
   "209582": {
    "kickoff": "2026-09-19T14:00:00+00:00",
-   "status": "notstarted",
+   "status": "FT",
    "home": "NEW",
    "away": "HUL",
    "confirmed": true
@@ -327,7 +327,7 @@
    "status": "notstarted",
    "home": "NFO",
    "away": "COV",
-   "confirmed": false
+   "confirmed": true
   },
   "209584": {
    "kickoff": "2026-09-19T11:30:00+00:00",
@@ -338,5 +338,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-09-19T13:42:59.703Z"
+ "updatedAt": "2026-09-19T16:13:35.115Z"
 }
