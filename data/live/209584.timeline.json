@@ -1,7 +1,888 @@
 {
  "fixtureId": 209584,
- "title": "Tottenham Hotspur 0–0 Aston Villa",
- "lineupStatus": "predicted",
- "phases": [],
+ "title": "Tottenham Hotspur 2–3 Aston Villa",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-home-19-like-for-like",
+   "minute": 19,
+   "side": "home",
+   "name": "19' Spurs freshen it up",
+   "note": "Gray on for Porro on 19', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-734",
+     "name": "Kinský",
+     "num": 31,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-732",
+     "name": "Gray",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-484",
+     "name": "van Hecke",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-736",
+     "name": "van de Ven",
+     "num": 37,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-326",
+     "name": "Robertson",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-723",
+     "name": "Bentancur",
+     "num": 30,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-704",
+     "name": "Tonali",
+     "num": 16,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-855",
+     "name": "Sávio",
+     "num": 17,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-1643",
+     "name": "Fernandes",
+     "num": 18,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-862",
+     "name": "Marmoush",
+     "num": 22,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-4923",
+     "name": "Solanke",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-46-like-for-like",
+   "minute": 46,
+   "side": "home",
+   "name": "46' Spurs freshen it up",
+   "note": "Kudus on for Fernandes on 46', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-734",
+     "name": "Kinský",
+     "num": 31,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-732",
+     "name": "Gray",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-484",
+     "name": "van Hecke",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-736",
+     "name": "van de Ven",
+     "num": 37,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-326",
+     "name": "Robertson",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-723",
+     "name": "Bentancur",
+     "num": 30,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-704",
+     "name": "Tonali",
+     "num": 16,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-855",
+     "name": "Sávio",
+     "num": 17,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-725",
+     "name": "Kudus",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-862",
+     "name": "Marmoush",
+     "num": 22,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-4923",
+     "name": "Solanke",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-46-like-for-like",
+   "minute": 46,
+   "side": "away",
+   "name": "46' Villa freshen it up",
+   "note": "Cash on for Wan-Bissaka on 46', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-4055",
+     "name": "Suzuki",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-503",
+     "name": "Cash",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-519",
+     "name": "Lindelöf",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-4289",
+     "name": "Mings",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-780",
+     "name": "Ruggeri",
+     "num": 13,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-507",
+     "name": "Kamara",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-528",
+     "name": "Gomes",
+     "num": 35,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-510",
+     "name": "McGinn",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1178",
+     "name": "Manzambi",
+     "num": 44,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-517",
+     "name": "Buendía",
+     "num": 10,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-2471",
+     "name": "Jackson",
+     "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-66-like-for-like",
+   "minute": 66,
+   "side": "home",
+   "name": "66' Spurs freshen it up",
+   "note": "Maddison on for Solanke on 66', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-734",
+     "name": "Kinský",
+     "num": 31,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-732",
+     "name": "Gray",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-484",
+     "name": "van Hecke",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-736",
+     "name": "van de Ven",
+     "num": 37,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-326",
+     "name": "Robertson",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-723",
+     "name": "Bentancur",
+     "num": 30,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-704",
+     "name": "Tonali",
+     "num": 16,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-855",
+     "name": "Sávio",
+     "num": 17,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-725",
+     "name": "Kudus",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-862",
+     "name": "Marmoush",
+     "num": 22,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-30733",
+     "name": "Maddison",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-72-like-for-like",
+   "minute": 72,
+   "side": "away",
+   "name": "72' Villa freshen it up",
+   "note": "Hemmings on for Manzambi on 72', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-4055",
+     "name": "Suzuki",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-503",
+     "name": "Cash",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-519",
+     "name": "Lindelöf",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-4289",
+     "name": "Mings",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-780",
+     "name": "Ruggeri",
+     "num": 13,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-507",
+     "name": "Kamara",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-528",
+     "name": "Gomes",
+     "num": 35,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-510",
+     "name": "McGinn",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-3860",
+     "name": "Hemmings",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-517",
+     "name": "Buendía",
+     "num": 10,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-2471",
+     "name": "Jackson",
+     "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-84-double-change",
+   "minute": 84,
+   "side": "home",
+   "name": "84' Spurs make a double change",
+   "note": "Bergvall and Gallagher on together for Bentancur and Tonali on 84'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-734",
+     "name": "Kinský",
+     "num": 31,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-732",
+     "name": "Gray",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-484",
+     "name": "van Hecke",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-736",
+     "name": "van de Ven",
+     "num": 37,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-326",
+     "name": "Robertson",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-726",
+     "name": "Bergvall",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-772",
+     "name": "Gallagher",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-855",
+     "name": "Sávio",
+     "num": 17,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-725",
+     "name": "Kudus",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-862",
+     "name": "Marmoush",
+     "num": 22,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-30733",
+     "name": "Maddison",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-84-double-change",
+   "minute": 84,
+   "side": "away",
+   "name": "84' Villa make a double change",
+   "note": "Mbaye and Barkley on together for Kamara and McGinn on 84'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-4055",
+     "name": "Suzuki",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-503",
+     "name": "Cash",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-519",
+     "name": "Lindelöf",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-4289",
+     "name": "Mings",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-780",
+     "name": "Ruggeri",
+     "num": 13,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-2255",
+     "name": "Mbaye",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-528",
+     "name": "Gomes",
+     "num": 35,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-1630",
+     "name": "Barkley",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-3860",
+     "name": "Hemmings",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-517",
+     "name": "Buendía",
+     "num": 10,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-2471",
+     "name": "Jackson",
+     "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-88-like-for-like",
+   "minute": 88,
+   "side": "away",
+   "name": "88' Villa freshen it up",
+   "note": "Abraham on for Jackson on 88', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-4055",
+     "name": "Suzuki",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-503",
+     "name": "Cash",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-519",
+     "name": "Lindelöf",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-4289",
+     "name": "Mings",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-780",
+     "name": "Ruggeri",
+     "num": 13,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-2255",
+     "name": "Mbaye",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-528",
+     "name": "Gomes",
+     "num": 35,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-1630",
+     "name": "Barkley",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-3860",
+     "name": "Hemmings",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-517",
+     "name": "Buendía",
+     "num": 10,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-5837",
+     "name": "Abraham",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  }
+ ],
  "shifts": []
 }

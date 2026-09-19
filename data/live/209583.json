@@ -160,20 +160,20 @@
      "y": 15
     },
     {
-     "id": "away-465",
-     "providerId": 465,
-     "name": "Pinnock",
-     "num": 2,
+     "id": "away-6687",
+     "providerId": 6687,
+     "name": "Thomas",
+     "num": 4,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
      "y": 37
     },
     {
-     "id": "away-6423",
-     "providerId": 6423,
-     "name": "Latibeaudiere",
-     "num": 22,
+     "id": "away-465",
+     "providerId": 465,
+     "name": "Pinnock",
+     "num": 2,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
@@ -200,10 +200,10 @@
      "y": 38
     },
     {
-     "id": "away-16696",
-     "providerId": 16696,
-     "name": "Yirenkyi",
-     "num": 8,
+     "id": "away-6425",
+     "providerId": 6425,
+     "name": "Torp",
+     "num": 29,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -230,10 +230,10 @@
      "y": 50
     },
     {
-     "id": "away-1396",
-     "providerId": 1396,
-     "name": "Cherif",
-     "num": 49,
+     "id": "away-407",
+     "providerId": 407,
+     "name": "Tchaouna",
+     "num": 17,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-19T16:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-18T21:26:25.840Z"
+ "fetchedAt": "2026-09-19T13:42:57.566Z"
 }

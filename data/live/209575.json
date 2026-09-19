@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209575,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "BOU",
+   "name": "Bournemouth",
+   "nick": "Bournemouth",
+   "providerId": 2,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-783",
+     "providerId": 783,
+     "name": "Đ. Petrović",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-787",
+     "providerId": 787,
+     "name": "Truffert",
+     "num": 3,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-2053",
+     "providerId": 2053,
+     "name": "Silva",
+     "num": 14,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-799",
+     "providerId": 799,
+     "name": "Hill",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-801",
+     "providerId": 801,
+     "name": "Smith",
+     "num": 15,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-789",
+     "providerId": 789,
+     "name": "Scott",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-788",
+     "providerId": 788,
+     "name": "Adams",
+     "num": 12,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-794",
+     "providerId": 794,
+     "name": "Tavernier",
+     "num": 16,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-791",
+     "providerId": 791,
+     "name": "Kluivert",
+     "num": 19,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-663",
+     "providerId": 663,
+     "name": "Rayan",
+     "num": 37,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-795",
+     "providerId": 795,
+     "name": "Evanilson",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "LIV",
+   "name": "Liverpool FC",
+   "nick": "Liverpool",
+   "providerId": 1,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-322",
+     "providerId": 322,
+     "name": "Alisson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-336",
+     "providerId": 336,
+     "name": "Kerkez",
+     "num": 6,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-325",
+     "providerId": 325,
+     "name": "van Dijk",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-2803",
+     "providerId": 2803,
+     "name": "Jacquet",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-4429",
+     "providerId": 4429,
+     "name": "Frimpong",
+     "num": 30,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-329",
+     "providerId": 329,
+     "name": "Szoboszlai",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-328",
+     "providerId": 328,
+     "name": "Mac Allister",
+     "num": 10,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-331",
+     "providerId": 331,
+     "name": "Gakpo",
+     "num": 18,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-330",
+     "providerId": 330,
+     "name": "Wirtz",
+     "num": 7,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-2668",
+     "providerId": 2668,
+     "name": "Muñoz",
+     "num": 23,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-332",
+     "providerId": 332,
+     "name": "Isak",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-09-20T13:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-09-19T13:42:57.192Z"
+}

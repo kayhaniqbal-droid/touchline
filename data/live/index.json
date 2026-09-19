@@ -266,6 +266,13 @@
    "away": "EVE",
    "confirmed": true
   },
+  "209575": {
+   "kickoff": "2026-09-20T13:00:00+00:00",
+   "status": "notstarted",
+   "home": "BOU",
+   "away": "LIV",
+   "confirmed": false
+  },
   "209576": {
    "kickoff": "2026-09-18T19:00:00+00:00",
    "status": "FT",
@@ -278,13 +285,34 @@
    "status": "notstarted",
    "home": "BHA",
    "away": "ARS",
-   "confirmed": false
+   "confirmed": true
   },
   "209578": {
    "kickoff": "2026-09-19T14:00:00+00:00",
    "status": "notstarted",
    "home": "EVE",
    "away": "IPS",
+   "confirmed": true
+  },
+  "209579": {
+   "kickoff": "2026-09-20T15:30:00+00:00",
+   "status": "notstarted",
+   "home": "FUL",
+   "away": "MUN",
+   "confirmed": false
+  },
+  "209580": {
+   "kickoff": "2026-09-20T13:00:00+00:00",
+   "status": "notstarted",
+   "home": "LEE",
+   "away": "CRY",
+   "confirmed": false
+  },
+  "209581": {
+   "kickoff": "2026-09-20T13:00:00+00:00",
+   "status": "notstarted",
+   "home": "MCI",
+   "away": "SUN",
    "confirmed": false
   },
   "209582": {
@@ -292,7 +320,7 @@
    "status": "notstarted",
    "home": "NEW",
    "away": "HUL",
-   "confirmed": false
+   "confirmed": true
   },
   "209583": {
    "kickoff": "2026-09-19T16:30:00+00:00",
@@ -303,12 +331,12 @@
   },
   "209584": {
    "kickoff": "2026-09-19T11:30:00+00:00",
-   "status": "notstarted",
+   "status": "FT",
    "home": "TOT",
    "away": "AVL",
-   "confirmed": false
+   "confirmed": true
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-09-18T21:26:27.616Z"
+ "updatedAt": "2026-09-19T13:42:59.703Z"
 }
