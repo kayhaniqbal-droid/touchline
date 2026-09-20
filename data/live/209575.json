@@ -1,7 +1,7 @@
 {
  "fixtureId": 209575,
- "minute": 87,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
   "away": 1
@@ -68,40 +68,40 @@
      "y": 15
     },
     {
-     "id": "home-788",
-     "providerId": 788,
-     "name": "Adams",
-     "num": 12,
+     "id": "home-4027",
+     "providerId": 4027,
+     "name": "Doak",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-6736",
-     "providerId": 6736,
-     "name": "Jebbison",
-     "num": null,
+     "id": "home-789",
+     "providerId": 789,
+     "name": "Scott",
+     "num": 8,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-663",
-     "providerId": 663,
-     "name": "Rayan",
-     "num": 37,
+     "id": "home-3438",
+     "providerId": 3438,
+     "name": "Tóth",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-789",
-     "providerId": 789,
-     "name": "Scott",
-     "num": 8,
+     "id": "home-6736",
+     "providerId": 6736,
+     "name": "Jebbison",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-20T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-20T14:46:42.160Z"
+ "fetchedAt": "2026-09-20T16:41:18.723Z"
 }

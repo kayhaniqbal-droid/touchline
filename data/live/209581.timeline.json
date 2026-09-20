@@ -1,6 +1,6 @@
 {
  "fixtureId": 209581,
- "title": "Manchester City 4–3 Sunderland",
+ "title": "Manchester City 5–3 Sunderland",
  "lineupStatus": "confirmed",
  "phases": [
   {
@@ -49,36 +49,36 @@
      "y": 63
     },
     {
-     "id": "away-1446",
-     "name": "Meunier",
-     "num": 12,
+     "id": "away-1949",
+     "name": "Methalie",
+     "num": 6,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
      "y": 85
     },
     {
-     "id": "away-1949",
-     "name": "Methalie",
-     "num": 6,
+     "id": "away-348",
+     "name": "Xhaka",
+     "num": 34,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-348",
-     "name": "Xhaka",
-     "num": 34,
+     "id": "away-349",
+     "name": "Sadiki",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-349",
-     "name": "Sadiki",
-     "num": 27,
+     "id": "away-1446",
+     "name": "Meunier",
+     "num": 12,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -159,36 +159,36 @@
      "y": 63
     },
     {
-     "id": "away-1446",
-     "name": "Meunier",
-     "num": 12,
+     "id": "away-1949",
+     "name": "Methalie",
+     "num": 6,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
      "y": 85
     },
     {
-     "id": "away-1949",
-     "name": "Methalie",
-     "num": 6,
+     "id": "away-348",
+     "name": "Xhaka",
+     "num": 34,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-348",
-     "name": "Xhaka",
-     "num": 34,
+     "id": "away-353",
+     "name": "Isidor",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-353",
-     "name": "Isidor",
-     "num": null,
+     "id": "away-1446",
+     "name": "Meunier",
+     "num": 12,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -296,9 +296,9 @@
      "y": 38
     },
     {
-     "id": "home-792",
-     "name": "Semenyo",
-     "num": 42,
+     "id": "home-853",
+     "name": "Doku",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -314,9 +314,9 @@
      "y": 50
     },
     {
-     "id": "home-853",
-     "name": "Doku",
-     "num": null,
+     "id": "home-792",
+     "name": "Semenyo",
+     "num": 42,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -379,35 +379,35 @@
      "y": 63
     },
     {
-     "id": "away-347",
-     "name": "Hume",
-     "num": null,
+     "id": "away-1949",
+     "name": "Methalie",
+     "num": 6,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
      "y": 85
     },
     {
-     "id": "away-1949",
-     "name": "Methalie",
-     "num": 6,
+     "id": "away-348",
+     "name": "Xhaka",
+     "num": 34,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-348",
-     "name": "Xhaka",
-     "num": 34,
+     "id": "away-353",
+     "name": "Isidor",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-353",
-     "name": "Isidor",
+     "id": "away-347",
+     "name": "Hume",
      "num": null,
      "pos": "RW",
      "role": "MID",
@@ -439,6 +439,116 @@
      "pos": "ST",
      "role": "FWD",
      "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-85-like-for-like",
+   "minute": 85,
+   "side": "home",
+   "name": "85' Man City freshen it up",
+   "note": "O’Reilly on for Cherki on 85', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-843",
+     "name": "Donnarumma",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-844",
+     "name": "Nunes",
+     "num": 27,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-845",
+     "name": "Dias",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-425",
+     "name": "Guéhi",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-846",
+     "name": "Gvardiol",
+     "num": 24,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-387",
+     "name": "Fernández",
+     "num": 17,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-548",
+     "name": "Anderson",
+     "num": 5,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-853",
+     "name": "Doku",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-847",
+     "name": "O’Reilly",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-792",
+     "name": "Semenyo",
+     "num": 42,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-852",
+     "name": "Haaland",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
      "y": 50
     }
    ]

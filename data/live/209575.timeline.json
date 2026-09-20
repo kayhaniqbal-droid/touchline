@@ -287,9 +287,9 @@
      "y": 62
     },
     {
-     "id": "home-6736",
-     "name": "Jebbison",
-     "num": null,
+     "id": "home-789",
+     "name": "Scott",
+     "num": 8,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
@@ -305,9 +305,9 @@
      "y": 84
     },
     {
-     "id": "home-789",
-     "name": "Scott",
-     "num": 8,
+     "id": "home-6736",
+     "name": "Jebbison",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -439,6 +439,116 @@
      "pos": "ST",
      "role": "FWD",
      "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-88-double-change",
+   "minute": 88,
+   "side": "home",
+   "name": "88' Bournemouth make a double change",
+   "note": "Doak and Tóth on together for Adams and Rayan on 88'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-783",
+     "name": "Đ. Petrović",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-2371",
+     "name": "Cook",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-799",
+     "name": "Hill",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-2053",
+     "name": "Silva",
+     "num": 14,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-787",
+     "name": "Truffert",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-4027",
+     "name": "Doak",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-789",
+     "name": "Scott",
+     "num": 8,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-3438",
+     "name": "Tóth",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6736",
+     "name": "Jebbison",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-2372",
+     "name": "Brooks",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-795",
+     "name": "Evanilson",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
      "y": 50
     }
    ]

@@ -1,9 +1,9 @@
 {
  "fixtureId": 209581,
- "minute": 81,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
-  "home": 4,
+  "home": 5,
   "away": 3
  },
  "lineupsConfirmed": true,
@@ -88,30 +88,30 @@
      "y": 38
     },
     {
-     "id": "home-792",
-     "providerId": 792,
-     "name": "Semenyo",
-     "num": 42,
+     "id": "home-853",
+     "providerId": 853,
+     "name": "Doku",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-856",
-     "providerId": 856,
-     "name": "Cherki",
-     "num": 10,
+     "id": "home-847",
+     "providerId": 847,
+     "name": "O’Reilly",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-853",
-     "providerId": 853,
-     "name": "Doku",
-     "num": null,
+     "id": "home-792",
+     "providerId": 792,
+     "name": "Semenyo",
+     "num": 42,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -180,39 +180,39 @@
      "y": 63
     },
     {
-     "id": "away-347",
-     "providerId": 347,
-     "name": "Hume",
-     "num": null,
+     "id": "away-1949",
+     "providerId": 1949,
+     "name": "Methalie",
+     "num": 6,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
      "y": 85
     },
     {
-     "id": "away-1949",
-     "providerId": 1949,
-     "name": "Methalie",
-     "num": 6,
+     "id": "away-348",
+     "providerId": 348,
+     "name": "Xhaka",
+     "num": 34,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-348",
-     "providerId": 348,
-     "name": "Xhaka",
-     "num": 34,
+     "id": "away-353",
+     "providerId": 353,
+     "name": "Isidor",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-353",
-     "providerId": 353,
-     "name": "Isidor",
+     "id": "away-347",
+     "providerId": 347,
+     "name": "Hume",
      "num": null,
      "pos": "RW",
      "role": "MID",
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-20T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-20T14:46:41.340Z"
+ "fetchedAt": "2026-09-20T16:41:17.603Z"
 }

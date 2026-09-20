@@ -1,7 +1,7 @@
 {
  "fixtureId": 209580,
- "minute": 85,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
   "away": 0
@@ -58,49 +58,49 @@
      "y": 28
     },
     {
-     "id": "home-370",
-     "providerId": 370,
-     "name": "Gudmundsson",
-     "num": 3,
+     "id": "home-2366",
+     "providerId": 2366,
+     "name": "James",
+     "num": null,
      "pos": "RWB",
      "role": "MID",
      "x": 29,
      "y": 90
     },
     {
-     "id": "home-2366",
-     "providerId": 2366,
-     "name": "James",
-     "num": null,
+     "id": "home-369",
+     "providerId": 369,
+     "name": "Stach",
+     "num": 18,
      "pos": "RCM",
      "role": "MID",
      "x": 27,
      "y": 66
     },
     {
-     "id": "home-369",
-     "providerId": 369,
-     "name": "Stach",
-     "num": 18,
+     "id": "home-368",
+     "providerId": 368,
+     "name": "Ampadu",
+     "num": 4,
      "pos": "DM",
      "role": "MID",
      "x": 23,
      "y": 50
     },
     {
-     "id": "home-368",
-     "providerId": 368,
-     "name": "Ampadu",
-     "num": 4,
+     "id": "home-380",
+     "providerId": 380,
+     "name": "Aaronson",
+     "num": null,
      "pos": "LCM",
      "role": "MID",
      "x": 27,
      "y": 34
     },
     {
-     "id": "home-380",
-     "providerId": 380,
-     "name": "Aaronson",
+     "id": "home-1355",
+     "providerId": 1355,
+     "name": "Bahoya",
      "num": null,
      "pos": "LWB",
      "role": "MID",
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-20T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-20T14:46:41.718Z"
+ "fetchedAt": "2026-09-20T16:41:18.152Z"
 }
