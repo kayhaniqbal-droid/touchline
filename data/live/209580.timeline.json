@@ -2,6 +2,447 @@
  "fixtureId": 209580,
  "title": "Leeds United 0–0 Crystal Palace",
  "lineupStatus": "confirmed",
- "phases": [],
+ "phases": [
+  {
+   "id": "shift-away-46-like-for-like",
+   "minute": 46,
+   "side": "away",
+   "name": "46' Palace freshen it up",
+   "note": "Lerma on for Tomiyasu on 46', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-438",
+     "name": "Benítez",
+     "num": 44,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-423",
+     "name": "Richards",
+     "num": 26,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-428",
+     "name": "Lerma",
+     "num": null,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-436",
+     "name": "Canvot",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-3748",
+     "name": "Khalaili",
+     "num": 25,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-3373",
+     "name": "Timber",
+     "num": 23,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-427",
+     "name": "Wharton",
+     "num": 20,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-429",
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-430",
+     "name": "Kamada",
+     "num": 18,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-431",
+     "name": "Pino",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-531",
+     "name": "Larsen",
+     "num": 22,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-67-double-change",
+   "minute": 67,
+   "side": "home",
+   "name": "67' Leeds make a double change",
+   "note": "James and Aaronson on together for Bogle and Tanaka on 67'.",
+   "ruleId": "double-change",
+   "formation": "3-5-2",
+   "players": [
+    {
+     "id": "home-858",
+     "name": "Trafford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-376",
+     "name": "Justin",
+     "num": 24,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-2869",
+     "name": "Elvedi",
+     "num": 30,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-2846",
+     "name": "Muharemović",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-370",
+     "name": "Gudmundsson",
+     "num": 3,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 29,
+     "y": 90
+    },
+    {
+     "id": "home-2366",
+     "name": "James",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 66
+    },
+    {
+     "id": "home-369",
+     "name": "Stach",
+     "num": 18,
+     "pos": "DM",
+     "role": "MID",
+     "x": 23,
+     "y": 50
+    },
+    {
+     "id": "home-368",
+     "name": "Ampadu",
+     "num": 4,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 34
+    },
+    {
+     "id": "home-380",
+     "name": "Aaronson",
+     "num": null,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 29,
+     "y": 10
+    },
+    {
+     "id": "home-371",
+     "name": "Calvert-Lewin",
+     "num": 9,
+     "pos": "RS",
+     "role": "FWD",
+     "x": 43,
+     "y": 60
+    },
+    {
+     "id": "home-374",
+     "name": "Okafor",
+     "num": 19,
+     "pos": "LS",
+     "role": "FWD",
+     "x": 43,
+     "y": 40
+    }
+   ]
+  },
+  {
+   "id": "shift-home-76-like-for-like",
+   "minute": 76,
+   "side": "home",
+   "name": "76' Leeds freshen it up",
+   "note": "Nmecha on for Okafor on 76', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-5-2",
+   "players": [
+    {
+     "id": "home-858",
+     "name": "Trafford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-376",
+     "name": "Justin",
+     "num": 24,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-2869",
+     "name": "Elvedi",
+     "num": 30,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-2846",
+     "name": "Muharemović",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-370",
+     "name": "Gudmundsson",
+     "num": 3,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 29,
+     "y": 90
+    },
+    {
+     "id": "home-2366",
+     "name": "James",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 66
+    },
+    {
+     "id": "home-369",
+     "name": "Stach",
+     "num": 18,
+     "pos": "DM",
+     "role": "MID",
+     "x": 23,
+     "y": 50
+    },
+    {
+     "id": "home-368",
+     "name": "Ampadu",
+     "num": 4,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 34
+    },
+    {
+     "id": "home-380",
+     "name": "Aaronson",
+     "num": null,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 29,
+     "y": 10
+    },
+    {
+     "id": "home-371",
+     "name": "Calvert-Lewin",
+     "num": 9,
+     "pos": "RS",
+     "role": "FWD",
+     "x": 43,
+     "y": 60
+    },
+    {
+     "id": "home-372",
+     "name": "Nmecha",
+     "num": null,
+     "pos": "LS",
+     "role": "FWD",
+     "x": 43,
+     "y": 40
+    }
+   ]
+  },
+  {
+   "id": "shift-away-82-double-change",
+   "minute": 82,
+   "side": "away",
+   "name": "82' Palace make a double change",
+   "note": "Sarr and Nketiah on together for Pino and Larsen on 82'.",
+   "ruleId": "double-change",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-438",
+     "name": "Benítez",
+     "num": 44,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-423",
+     "name": "Richards",
+     "num": 26,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-428",
+     "name": "Lerma",
+     "num": null,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-436",
+     "name": "Canvot",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-3748",
+     "name": "Khalaili",
+     "num": 25,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-3373",
+     "name": "Timber",
+     "num": 23,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-427",
+     "name": "Wharton",
+     "num": 20,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-429",
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-430",
+     "name": "Kamada",
+     "num": 18,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-1787",
+     "name": "Sarr",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-434",
+     "name": "Nketiah",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  }
+ ],
  "shifts": []
 }

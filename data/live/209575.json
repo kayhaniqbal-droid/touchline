@@ -1,10 +1,10 @@
 {
  "fixtureId": 209575,
- "minute": 45,
- "status": "halftime",
+ "minute": 87,
+ "status": "2nd_half",
  "goals": {
   "home": 0,
-  "away": 0
+  "away": 1
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -28,10 +28,10 @@
      "y": 50
     },
     {
-     "id": "home-801",
-     "providerId": 801,
-     "name": "Smith",
-     "num": 15,
+     "id": "home-2371",
+     "providerId": 2371,
+     "name": "Cook",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
@@ -78,10 +78,10 @@
      "y": 62
     },
     {
-     "id": "home-3900",
-     "providerId": 3900,
-     "name": "Christie",
-     "num": 10,
+     "id": "home-6736",
+     "providerId": 6736,
+     "name": "Jebbison",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
@@ -108,10 +108,10 @@
      "y": 50
     },
     {
-     "id": "home-794",
-     "providerId": 794,
-     "name": "Tavernier",
-     "num": 16,
+     "id": "home-2372",
+     "providerId": 2372,
+     "name": "Brooks",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -190,10 +190,10 @@
      "y": 85
     },
     {
-     "id": "away-329",
-     "providerId": 329,
-     "name": "Szoboszlai",
-     "num": 8,
+     "id": "away-327",
+     "providerId": 327,
+     "name": "Gravenberch",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
@@ -220,30 +220,30 @@
      "y": 16
     },
     {
-     "id": "away-330",
-     "providerId": 330,
-     "name": "Wirtz",
-     "num": 7,
+     "id": "away-340",
+     "providerId": 340,
+     "name": "Nyoni",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-2261",
-     "providerId": 2261,
-     "name": "Barcola",
-     "num": 29,
+     "id": "away-2668",
+     "providerId": 2668,
+     "name": "Muñoz",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-332",
-     "providerId": 332,
-     "name": "Isak",
-     "num": 9,
+     "id": "away-6098",
+     "providerId": 6098,
+     "name": "Koumas",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-20T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-20T13:58:51.494Z"
+ "fetchedAt": "2026-09-20T14:46:42.160Z"
 }

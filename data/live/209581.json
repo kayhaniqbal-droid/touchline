@@ -1,10 +1,10 @@
 {
  "fixtureId": 209581,
- "minute": 45,
- "status": "halftime",
+ "minute": 81,
+ "status": "2nd_half",
  "goals": {
-  "home": 3,
-  "away": 2
+  "home": 4,
+  "away": 3
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -108,10 +108,10 @@
      "y": 50
     },
     {
-     "id": "home-810",
-     "providerId": 810,
-     "name": "Ndiaye",
-     "num": 7,
+     "id": "home-853",
+     "providerId": 853,
+     "name": "Doku",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -180,10 +180,10 @@
      "y": 63
     },
     {
-     "id": "away-1446",
-     "providerId": 1446,
-     "name": "Meunier",
-     "num": 12,
+     "id": "away-347",
+     "providerId": 347,
+     "name": "Hume",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
@@ -210,10 +210,10 @@
      "y": 62
     },
     {
-     "id": "away-349",
-     "providerId": 349,
-     "name": "Sadiki",
-     "num": 27,
+     "id": "away-353",
+     "providerId": 353,
+     "name": "Isidor",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -230,10 +230,10 @@
      "y": 50
     },
     {
-     "id": "away-7347",
-     "providerId": 7347,
-     "name": "Angulo",
-     "num": 10,
+     "id": "away-4335",
+     "providerId": 4335,
+     "name": "Fofana",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-20T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-20T13:58:50.667Z"
+ "fetchedAt": "2026-09-20T14:46:41.340Z"
 }

@@ -1,7 +1,7 @@
 {
  "fixtureId": 209580,
- "minute": 45,
- "status": "halftime",
+ "minute": 85,
+ "status": "2nd_half",
  "goals": {
   "home": 0,
   "away": 0
@@ -68,10 +68,10 @@
      "y": 90
     },
     {
-     "id": "home-366",
-     "providerId": 366,
-     "name": "Bogle",
-     "num": 2,
+     "id": "home-2366",
+     "providerId": 2366,
+     "name": "James",
+     "num": null,
      "pos": "RCM",
      "role": "MID",
      "x": 27,
@@ -98,10 +98,10 @@
      "y": 34
     },
     {
-     "id": "home-367",
-     "providerId": 367,
-     "name": "Tanaka",
-     "num": 22,
+     "id": "home-380",
+     "providerId": 380,
+     "name": "Aaronson",
+     "num": null,
      "pos": "LWB",
      "role": "MID",
      "x": 29,
@@ -118,10 +118,10 @@
      "y": 60
     },
     {
-     "id": "home-374",
-     "providerId": 374,
-     "name": "Okafor",
-     "num": 19,
+     "id": "home-372",
+     "providerId": 372,
+     "name": "Nmecha",
+     "num": null,
      "pos": "LS",
      "role": "FWD",
      "x": 43,
@@ -160,10 +160,10 @@
      "y": 28
     },
     {
-     "id": "away-8740",
-     "providerId": 8740,
-     "name": "Tomiyasu",
-     "num": 17,
+     "id": "away-428",
+     "providerId": 428,
+     "name": "Lerma",
+     "num": null,
      "pos": "CB",
      "role": "DEF",
      "x": 88,
@@ -230,20 +230,20 @@
      "y": 34
     },
     {
-     "id": "away-431",
-     "providerId": 431,
-     "name": "Pino",
-     "num": 10,
+     "id": "away-1787",
+     "providerId": 1787,
+     "name": "Sarr",
+     "num": null,
      "pos": "LAM",
      "role": "FWD",
      "x": 62,
      "y": 66
     },
     {
-     "id": "away-531",
-     "providerId": 531,
-     "name": "Larsen",
-     "num": 22,
+     "id": "away-434",
+     "providerId": 434,
+     "name": "Nketiah",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-09-20T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-09-20T13:58:51.090Z"
+ "fetchedAt": "2026-09-20T14:46:41.718Z"
 }
