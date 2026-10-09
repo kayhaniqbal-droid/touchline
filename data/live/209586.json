@@ -58,10 +58,10 @@
      "y": 37
     },
     {
-     "id": "home-503",
-     "providerId": 503,
-     "name": "Cash",
-     "num": 2,
+     "id": "home-1635",
+     "providerId": 1635,
+     "name": "Wan-Bissaka",
+     "num": 29,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-10T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-09T19:45:05.842Z"
+ "fetchedAt": "2026-10-09T21:19:34.756Z"
 }
