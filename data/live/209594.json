@@ -1,10 +1,10 @@
 {
  "fixtureId": 209594,
- "minute": 85,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
-  "away": 1
+  "away": 2
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -68,30 +68,30 @@
      "y": 15
     },
     {
-     "id": "home-4335",
-     "providerId": 4335,
-     "name": "Fofana",
-     "num": null,
+     "id": "home-348",
+     "providerId": 348,
+     "name": "Xhaka",
+     "num": 34,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-348",
-     "providerId": 348,
-     "name": "Xhaka",
-     "num": 34,
+     "id": "home-349",
+     "providerId": 349,
+     "name": "Sadiki",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-349",
-     "providerId": 349,
-     "name": "Sadiki",
-     "num": 27,
+     "id": "home-4335",
+     "providerId": 4335,
+     "name": "Fofana",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -180,50 +180,50 @@
      "y": 85
     },
     {
-     "id": "away-6535",
-     "providerId": 6535,
-     "name": "Yalcouyé",
-     "num": null,
+     "id": "away-2173",
+     "providerId": 2173,
+     "name": "Groß",
+     "num": 13,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-2173",
-     "providerId": 2173,
-     "name": "Groß",
-     "num": 13,
+     "id": "away-1614",
+     "providerId": 1614,
+     "name": "Andrés",
+     "num": 14,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-1614",
-     "providerId": 1614,
-     "name": "Andrés",
-     "num": 14,
+     "id": "away-3202",
+     "providerId": 3202,
+     "name": "Hadjam",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-488",
-     "providerId": 488,
-     "name": "Gómez",
-     "num": 25,
+     "id": "away-1633",
+     "providerId": 1633,
+     "name": "Rutter",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-1632",
-     "providerId": 1632,
-     "name": "Ayari",
-     "num": 26,
+     "id": "away-6535",
+     "providerId": 6535,
+     "name": "Yalcouyé",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -245,5 +245,5 @@
  },
  "kickoff": "2026-10-10T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-10T15:45:23.950Z"
+ "fetchedAt": "2026-10-10T16:18:50.183Z"
 }

@@ -1,9 +1,9 @@
 {
  "fixtureId": 209591,
- "minute": 87,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
-  "home": 0,
+  "home": 2,
   "away": 1
  },
  "lineupsConfirmed": true,
@@ -28,10 +28,10 @@
      "y": 50
     },
     {
-     "id": "home-6145",
-     "providerId": 6145,
-     "name": "O'Shea",
-     "num": 26,
+     "id": "home-4004",
+     "providerId": 4004,
+     "name": "Ouattara",
+     "num": 42,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
@@ -48,49 +48,49 @@
      "y": 63
     },
     {
-     "id": "home-6147",
-     "providerId": 6147,
-     "name": "Davis",
-     "num": 3,
+     "id": "home-6145",
+     "providerId": 6145,
+     "name": "O'Shea",
+     "num": 26,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
      "y": 37
     },
     {
-     "id": "home-4004",
-     "providerId": 4004,
-     "name": "Ouattara",
-     "num": 42,
+     "id": "home-6147",
+     "providerId": 6147,
+     "name": "Davis",
+     "num": 3,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
      "y": 15
     },
     {
-     "id": "home-4750",
-     "providerId": 4750,
-     "name": "Palacios",
-     "num": null,
+     "id": "home-828",
+     "providerId": 828,
+     "name": "Lukić",
+     "num": 23,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-828",
-     "providerId": 828,
-     "name": "Lukić",
-     "num": 23,
+     "id": "home-4750",
+     "providerId": 4750,
+     "name": "Palacios",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-6155",
-     "providerId": 6155,
-     "name": "Clarke",
+     "id": "home-6150",
+     "providerId": 6150,
+     "name": "Egeli",
      "num": null,
      "pos": "RW",
      "role": "MID",
@@ -108,9 +108,9 @@
      "y": 50
     },
     {
-     "id": "home-6150",
-     "providerId": 6150,
-     "name": "Egeli",
+     "id": "home-6155",
+     "providerId": 6155,
+     "name": "Clarke",
      "num": null,
      "pos": "LW",
      "role": "MID",
@@ -230,20 +230,20 @@
      "y": 50
     },
     {
-     "id": "away-832",
-     "providerId": 832,
-     "name": "Iwobi",
-     "num": 17,
+     "id": "away-831",
+     "providerId": 831,
+     "name": "Smith Rowe",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-600",
-     "providerId": 600,
-     "name": "García",
-     "num": 7,
+     "id": "away-3993",
+     "providerId": 3993,
+     "name": "Larsson",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-10T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-10T15:45:25.980Z"
+ "fetchedAt": "2026-10-10T16:18:50.593Z"
 }

@@ -1,6 +1,6 @@
 {
  "fixtureId": 209594,
- "title": "Sunderland 0–1 Brighton & Hove Albion",
+ "title": "Sunderland 0–2 Brighton & Hove Albion",
  "lineupStatus": "confirmed",
  "phases": [
   {
@@ -58,27 +58,27 @@
      "y": 15
     },
     {
-     "id": "home-4335",
-     "name": "Fofana",
-     "num": null,
+     "id": "home-348",
+     "name": "Xhaka",
+     "num": 34,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-348",
-     "name": "Xhaka",
-     "num": 34,
+     "id": "home-349",
+     "name": "Sadiki",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-349",
-     "name": "Sadiki",
-     "num": 27,
+     "id": "home-4335",
+     "name": "Fofana",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -160,45 +160,45 @@
      "y": 85
     },
     {
-     "id": "away-491",
-     "name": "De Cuyper",
-     "num": 29,
+     "id": "away-2173",
+     "name": "Groß",
+     "num": 13,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-2173",
-     "name": "Groß",
-     "num": 13,
+     "id": "away-1614",
+     "name": "Andrés",
+     "num": 14,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-1614",
-     "name": "Andrés",
-     "num": 14,
+     "id": "away-488",
+     "name": "Gómez",
+     "num": 25,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-488",
-     "name": "Gómez",
-     "num": 25,
+     "id": "away-1632",
+     "name": "Ayari",
+     "num": 26,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-1632",
-     "name": "Ayari",
-     "num": 26,
+     "id": "away-491",
+     "name": "De Cuyper",
+     "num": 29,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -262,45 +262,45 @@
      "y": 85
     },
     {
-     "id": "away-491",
-     "name": "De Cuyper",
-     "num": 29,
+     "id": "away-2173",
+     "name": "Groß",
+     "num": 13,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-2173",
-     "name": "Groß",
-     "num": 13,
+     "id": "away-1614",
+     "name": "Andrés",
+     "num": 14,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-1614",
-     "name": "Andrés",
-     "num": 14,
+     "id": "away-488",
+     "name": "Gómez",
+     "num": 25,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-488",
-     "name": "Gómez",
-     "num": 25,
+     "id": "away-1632",
+     "name": "Ayari",
+     "num": 26,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-1632",
-     "name": "Ayari",
-     "num": 26,
+     "id": "away-491",
+     "name": "De Cuyper",
+     "num": 29,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -364,45 +364,45 @@
      "y": 85
     },
     {
-     "id": "away-6535",
-     "name": "Yalcouyé",
-     "num": null,
+     "id": "away-2173",
+     "name": "Groß",
+     "num": 13,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-2173",
-     "name": "Groß",
-     "num": 13,
+     "id": "away-1614",
+     "name": "Andrés",
+     "num": 14,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-1614",
-     "name": "Andrés",
-     "num": 14,
+     "id": "away-488",
+     "name": "Gómez",
+     "num": 25,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-488",
-     "name": "Gómez",
-     "num": 25,
+     "id": "away-1632",
+     "name": "Ayari",
+     "num": 26,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-1632",
-     "name": "Ayari",
-     "num": 26,
+     "id": "away-6535",
+     "name": "Yalcouyé",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -474,27 +474,27 @@
      "y": 15
     },
     {
-     "id": "home-4335",
-     "name": "Fofana",
-     "num": null,
+     "id": "home-348",
+     "name": "Xhaka",
+     "num": 34,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-348",
-     "name": "Xhaka",
-     "num": 34,
+     "id": "home-349",
+     "name": "Sadiki",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-349",
-     "name": "Sadiki",
-     "num": 27,
+     "id": "home-4335",
+     "name": "Fofana",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -584,27 +584,27 @@
      "y": 15
     },
     {
-     "id": "home-4335",
-     "name": "Fofana",
-     "num": null,
+     "id": "home-348",
+     "name": "Xhaka",
+     "num": 34,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-348",
-     "name": "Xhaka",
-     "num": 34,
+     "id": "home-349",
+     "name": "Sadiki",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-349",
-     "name": "Sadiki",
-     "num": 27,
+     "id": "home-4335",
+     "name": "Fofana",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -635,6 +635,108 @@
      "pos": "ST",
      "role": "FWD",
      "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-88-double-change",
+   "minute": 88,
+   "side": "away",
+   "name": "88' Brighton make a double change",
+   "note": "Hadjam and Rutter on together for Gómez and Ayari on 88'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-482",
+     "name": "Verbruggen",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-486",
+     "name": "Kadıoğlu",
+     "num": 24,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-1591",
+     "name": "Vušković",
+     "num": 44,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    null,
+    {
+     "id": "away-3490",
+     "name": "Costinha",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-2173",
+     "name": "Groß",
+     "num": 13,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-1614",
+     "name": "Andrés",
+     "num": 14,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-3202",
+     "name": "Hadjam",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1633",
+     "name": "Rutter",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-6535",
+     "name": "Yalcouyé",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-485",
+     "name": "Dunk",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
      "y": 50
     }
    ]

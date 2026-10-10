@@ -85,18 +85,18 @@
      "y": 84
     },
     {
-     "id": "home-1178",
-     "name": "Manzambi",
-     "num": 44,
+     "id": "home-517",
+     "name": "Buendía",
+     "num": 10,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-517",
-     "name": "Buendía",
-     "num": 10,
+     "id": "home-1178",
+     "name": "Manzambi",
+     "num": 44,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -168,36 +168,36 @@
      "y": 85
     },
     {
-     "id": "away-477",
-     "name": "Lewis-Potter",
-     "num": 23,
+     "id": "away-468",
+     "name": "Yarmoliuk",
+     "num": 6,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-468",
-     "name": "Yarmoliuk",
-     "num": 6,
+     "id": "away-469",
+     "name": "Janelt",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-469",
-     "name": "Janelt",
-     "num": 27,
+     "id": "away-410",
+     "name": "Anthony",
+     "num": 19,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-410",
-     "name": "Anthony",
-     "num": 19,
+     "id": "away-477",
+     "name": "Lewis-Potter",
+     "num": 23,
      "pos": "AM",
      "role": "MID",
      "x": 66,
@@ -278,36 +278,36 @@
      "y": 85
     },
     {
-     "id": "away-477",
-     "name": "Lewis-Potter",
-     "num": 23,
+     "id": "away-468",
+     "name": "Yarmoliuk",
+     "num": 6,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-468",
-     "name": "Yarmoliuk",
-     "num": 6,
+     "id": "away-469",
+     "name": "Janelt",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-469",
-     "name": "Janelt",
-     "num": 27,
+     "id": "away-410",
+     "name": "Anthony",
+     "num": 19,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-410",
-     "name": "Anthony",
-     "num": 19,
+     "id": "away-477",
+     "name": "Lewis-Potter",
+     "num": 23,
      "pos": "AM",
      "role": "MID",
      "x": 66,
@@ -415,18 +415,18 @@
      "y": 84
     },
     {
-     "id": "home-1178",
-     "name": "Manzambi",
-     "num": 44,
+     "id": "home-2255",
+     "name": "Mbaye",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-2255",
-     "name": "Mbaye",
-     "num": null,
+     "id": "home-1178",
+     "name": "Manzambi",
+     "num": 44,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -448,7 +448,7 @@
    "minute": 67,
    "side": "away",
    "name": "67' Brentford make a double change",
-   "note": "Ouattara and Jensen on together for Lewis-Potter and Yarmoliuk on 67'.",
+   "note": "Jensen and Ouattara on together for Yarmoliuk and Lewis-Potter on 67'.",
    "ruleId": "double-change",
    "formation": "4-2-3-1",
    "players": [
@@ -498,8 +498,8 @@
      "y": 85
     },
     {
-     "id": "away-471",
-     "name": "Ouattara",
+     "id": "away-470",
+     "name": "Jensen",
      "num": null,
      "pos": "RDM",
      "role": "MID",
@@ -507,27 +507,27 @@
      "y": 38
     },
     {
-     "id": "away-470",
-     "name": "Jensen",
-     "num": null,
+     "id": "away-469",
+     "name": "Janelt",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-469",
-     "name": "Janelt",
-     "num": 27,
+     "id": "away-410",
+     "name": "Anthony",
+     "num": 19,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-410",
-     "name": "Anthony",
-     "num": 19,
+     "id": "away-471",
+     "name": "Ouattara",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
@@ -549,6 +549,226 @@
      "pos": "ST",
      "role": "FWD",
      "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-85-like-for-like",
+   "minute": 85,
+   "side": "away",
+   "name": "85' Brentford freshen it up",
+   "note": "Wilson on for Anthony on 85', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-462",
+     "name": "Kelleher",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-463",
+     "name": "Kayode",
+     "num": 33,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-2373",
+     "name": "Hickey",
+     "num": null,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-464",
+     "name": "Ajer",
+     "num": 20,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-1638",
+     "name": "Diouf",
+     "num": 25,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-470",
+     "name": "Jensen",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-469",
+     "name": "Janelt",
+     "num": 27,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-1644",
+     "name": "Wilson",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-471",
+     "name": "Ouattara",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-1411",
+     "name": "Sangare",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-473",
+     "name": "Thiago",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-86-double-change",
+   "minute": 86,
+   "side": "home",
+   "name": "86' Villa make a double change",
+   "note": "Barkley and Alysson on together for Gomes and Manzambi on 86'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-4055",
+     "name": "Suzuki",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-503",
+     "name": "Cash",
+     "num": 2,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-519",
+     "name": "Lindelöf",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-4289",
+     "name": "Mings",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-1635",
+     "name": "Wan-Bissaka",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-507",
+     "name": "Kamara",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-1630",
+     "name": "Barkley",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-510",
+     "name": "McGinn",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-2255",
+     "name": "Mbaye",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-614",
+     "name": "Alysson",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-2471",
+     "name": "Jackson",
+     "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
      "y": 50
     }
    ]

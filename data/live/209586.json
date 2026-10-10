@@ -1,7 +1,7 @@
 {
  "fixtureId": 209586,
- "minute": 82,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 2,
   "away": 2
@@ -78,10 +78,10 @@
      "y": 62
     },
     {
-     "id": "home-528",
-     "providerId": 528,
-     "name": "Gomes",
-     "num": 35,
+     "id": "home-1630",
+     "providerId": 1630,
+     "name": "Barkley",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
@@ -98,19 +98,19 @@
      "y": 84
     },
     {
-     "id": "home-1178",
-     "providerId": 1178,
-     "name": "Manzambi",
-     "num": 44,
+     "id": "home-2255",
+     "providerId": 2255,
+     "name": "Mbaye",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-2255",
-     "providerId": 2255,
-     "name": "Mbaye",
+     "id": "home-614",
+     "providerId": 614,
+     "name": "Alysson",
      "num": null,
      "pos": "LW",
      "role": "MID",
@@ -190,9 +190,9 @@
      "y": 85
     },
     {
-     "id": "away-471",
-     "providerId": 471,
-     "name": "Ouattara",
+     "id": "away-470",
+     "providerId": 470,
+     "name": "Jensen",
      "num": null,
      "pos": "RDM",
      "role": "MID",
@@ -200,30 +200,30 @@
      "y": 38
     },
     {
-     "id": "away-470",
-     "providerId": 470,
-     "name": "Jensen",
-     "num": null,
+     "id": "away-469",
+     "providerId": 469,
+     "name": "Janelt",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-469",
-     "providerId": 469,
-     "name": "Janelt",
-     "num": 27,
+     "id": "away-1644",
+     "providerId": 1644,
+     "name": "Wilson",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-410",
-     "providerId": 410,
-     "name": "Anthony",
-     "num": 19,
+     "id": "away-471",
+     "providerId": 471,
+     "name": "Ouattara",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-10T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-10T15:45:26.541Z"
+ "fetchedAt": "2026-10-10T16:18:51.427Z"
 }
