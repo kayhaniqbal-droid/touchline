@@ -6,7 +6,7 @@
   "home": 0,
   "away": 0
  },
- "lineupsConfirmed": false,
+ "lineupsConfirmed": true,
  "teams": {
   "home": {
    "code": "MUN",
@@ -28,10 +28,10 @@
      "y": 50
     },
     {
-     "id": "home-1791",
-     "providerId": 1791,
-     "name": "Shaw",
-     "num": 23,
+     "id": "home-1789",
+     "providerId": 1789,
+     "name": "Yoro",
+     "num": 15,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
@@ -58,10 +58,10 @@
      "y": 37
     },
     {
-     "id": "home-1795",
-     "providerId": 1795,
-     "name": "Dalot",
-     "num": 2,
+     "id": "home-1791",
+     "providerId": 1791,
+     "name": "Shaw",
+     "num": 23,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
@@ -88,20 +88,20 @@
      "y": 38
     },
     {
-     "id": "home-1794",
-     "providerId": 1794,
-     "name": "Fernandes",
-     "num": 8,
+     "id": "home-1792",
+     "providerId": 1792,
+     "name": "Diallo",
+     "num": 16,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-750",
-     "providerId": 750,
-     "name": "Rashford",
-     "num": 9,
+     "id": "home-1794",
+     "providerId": 1794,
+     "name": "Fernandes",
+     "num": 8,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -118,10 +118,10 @@
      "y": 16
     },
     {
-     "id": "home-1798",
-     "providerId": 1798,
-     "name": "Zirkzee",
-     "num": 11,
+     "id": "home-4119",
+     "providerId": 4119,
+     "name": "Cunha",
+     "num": 10,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-326",
-     "providerId": 326,
-     "name": "Robertson",
-     "num": 3,
+     "id": "away-484",
+     "providerId": 484,
+     "name": "van Hecke",
+     "num": 6,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -170,10 +170,10 @@
      "y": 37
     },
     {
-     "id": "away-1962",
-     "providerId": 1962,
-     "name": "Davies",
-     "num": 33,
+     "id": "away-722",
+     "providerId": 722,
+     "name": "Udogie",
+     "num": 13,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
@@ -190,60 +190,60 @@
      "y": 85
     },
     {
-     "id": "away-704",
-     "providerId": 704,
-     "name": "Tonali",
-     "num": 16,
+     "id": "away-726",
+     "providerId": 726,
+     "name": "Bergvall",
+     "num": 15,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-723",
-     "providerId": 723,
-     "name": "Bentancur",
-     "num": 30,
+     "id": "away-704",
+     "providerId": 704,
+     "name": "Tonali",
+     "num": 16,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-855",
-     "providerId": 855,
-     "name": "Sávio",
-     "num": 17,
+     "id": "away-725",
+     "providerId": 725,
+     "name": "Kudus",
+     "num": 20,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-30733",
-     "providerId": 30733,
-     "name": "Maddison",
-     "num": 10,
+     "id": "away-772",
+     "providerId": 772,
+     "name": "Gallagher",
+     "num": 8,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-725",
-     "providerId": 725,
-     "name": "Kudus",
-     "num": 20,
+     "id": "away-855",
+     "providerId": 855,
+     "name": "Sávio",
+     "num": 17,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-731",
-     "providerId": 731,
-     "name": "Tel",
-     "num": 11,
+     "id": "away-4923",
+     "providerId": 4923,
+     "name": "Solanke",
+     "num": 19,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-10T16:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-09T23:02:13.991Z"
+ "fetchedAt": "2026-10-10T15:45:23.666Z"
 }

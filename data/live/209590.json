@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209590,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "HUL",
+   "name": "Hull City",
+   "nick": "Hull",
+   "providerId": 204,
+   "coach": null,
+   "formation": "5-4-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-3476",
+     "providerId": 3476,
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6184",
+     "providerId": 6184,
+     "name": "Egan",
+     "num": 15,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 88
+    },
+    {
+     "id": "home-6706",
+     "providerId": 6706,
+     "name": "Ajayi",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 70
+    },
+    {
+     "id": "home-12179",
+     "providerId": 12179,
+     "name": "Herrington",
+     "num": 22,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 13,
+     "y": 50
+    },
+    {
+     "id": "home-6186",
+     "providerId": 6186,
+     "name": "Giles",
+     "num": 3,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 30
+    },
+    {
+     "id": "home-6187",
+     "providerId": 6187,
+     "name": "Belloumi",
+     "num": 10,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 12
+    },
+    {
+     "id": "home-6055",
+     "providerId": 6055,
+     "name": "Thomas",
+     "num": 7,
+     "pos": "RM",
+     "role": "MID",
+     "x": 29,
+     "y": 86
+    },
+    {
+     "id": "home-6188",
+     "providerId": 6188,
+     "name": "Slater",
+     "num": 27,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 60
+    },
+    {
+     "id": "home-4189",
+     "providerId": 4189,
+     "name": "Gourna-Douath",
+     "num": 29,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 40
+    },
+    {
+     "id": "home-3923",
+     "providerId": 3923,
+     "name": "Norton-Cuffy",
+     "num": 18,
+     "pos": "LM",
+     "role": "MID",
+     "x": 29,
+     "y": 14
+    },
+    {
+     "id": "home-6191",
+     "providerId": 6191,
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 41,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "EVE",
+   "name": "Everton",
+   "nick": "Everton",
+   "providerId": 20,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-803",
+     "providerId": 803,
+     "name": "Pickford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-807",
+     "providerId": 807,
+     "name": "Mykolenko",
+     "num": 16,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-805",
+     "providerId": 805,
+     "name": "Tarkowski",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-8798",
+     "providerId": 8798,
+     "name": "Branthwaite",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-1115",
+     "providerId": 1115,
+     "name": "Maitland-Niles",
+     "num": 2,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-4825",
+     "providerId": 4825,
+     "name": "Armstrong",
+     "num": 45,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-804",
+     "providerId": 804,
+     "name": "Garner",
+     "num": 37,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-809",
+     "providerId": 809,
+     "name": "Dewsbury-Hall",
+     "num": 8,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-3659",
+     "providerId": 3659,
+     "name": "George",
+     "num": 19,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-727",
+     "providerId": 727,
+     "name": "Johnson",
+     "num": 22,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-813",
+     "providerId": 813,
+     "name": "Barry",
+     "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-10-11T13:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-10-10T15:45:23.037Z"
+}

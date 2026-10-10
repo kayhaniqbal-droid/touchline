@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209589,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "CRY",
+   "name": "Crystal Palace",
+   "nick": "Palace",
+   "providerId": 14,
+   "coach": null,
+   "formation": "3-4-2-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-438",
+     "providerId": 438,
+     "name": "Benítez",
+     "num": 44,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-1708",
+     "providerId": 1708,
+     "name": "Chilwell",
+     "num": 33,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-423",
+     "providerId": 423,
+     "name": "Richards",
+     "num": 26,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-436",
+     "providerId": 436,
+     "name": "Canvot",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-8740",
+     "providerId": 8740,
+     "name": "Tomiyasu",
+     "num": 17,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 28,
+     "y": 90
+    },
+    {
+     "id": "home-429",
+     "providerId": 429,
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-430",
+     "providerId": 430,
+     "name": "Kamada",
+     "num": 18,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-427",
+     "providerId": 427,
+     "name": "Wharton",
+     "num": 20,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 28,
+     "y": 10
+    },
+    {
+     "id": "home-431",
+     "providerId": 431,
+     "name": "Pino",
+     "num": 10,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 66
+    },
+    {
+     "id": "home-531",
+     "providerId": 531,
+     "name": "Larsen",
+     "num": 22,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 34
+    },
+    {
+     "id": "home-434",
+     "providerId": 434,
+     "name": "Nketiah",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "NFO",
+   "name": "Nottingham Forest",
+   "nick": "Forest",
+   "providerId": 15,
+   "coach": null,
+   "formation": "3-4-2-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-542",
+     "providerId": 542,
+     "name": "Sels",
+     "num": 26,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-546",
+     "providerId": 546,
+     "name": "Williams",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-2913",
+     "providerId": 2913,
+     "name": "Murillo",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-557",
+     "providerId": 557,
+     "name": "Jair",
+     "num": 23,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-4788",
+     "providerId": 4788,
+     "name": "Aina",
+     "num": 34,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-560",
+     "providerId": 560,
+     "name": "McAtee",
+     "num": 24,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-2892",
+     "providerId": 2892,
+     "name": "Schlager",
+     "num": 21,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-547",
+     "providerId": 547,
+     "name": "Sangaré",
+     "num": 6,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-551",
+     "providerId": 551,
+     "name": "Ndoye",
+     "num": 14,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-550",
+     "providerId": 550,
+     "name": "Gibbs-White",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-392",
+     "providerId": 392,
+     "name": "Delap",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-10-11T13:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-10-10T15:45:23.360Z"
+}
