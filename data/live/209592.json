@@ -1,7 +1,7 @@
 {
  "fixtureId": 209592,
- "minute": 38,
- "status": "1st_half",
+ "minute": 53,
+ "status": "2nd_half",
  "goals": {
   "home": 0,
   "away": 0
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-11T15:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-11T16:09:54.463Z"
+ "fetchedAt": "2026-10-11T16:42:07.331Z"
 }
