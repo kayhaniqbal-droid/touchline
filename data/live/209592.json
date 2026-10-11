@@ -1,12 +1,12 @@
 {
  "fixtureId": 209592,
- "minute": 0,
- "status": "notstarted",
+ "minute": 38,
+ "status": "1st_half",
  "goals": {
   "home": 0,
   "away": 0
  },
- "lineupsConfirmed": false,
+ "lineupsConfirmed": true,
  "teams": {
   "home": {
    "code": "LIV",
@@ -28,10 +28,10 @@
      "y": 50
     },
     {
-     "id": "home-336",
-     "providerId": 336,
-     "name": "Kerkez",
-     "num": 6,
+     "id": "home-3661",
+     "providerId": 3661,
+     "name": "Araújo",
+     "num": 33,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
@@ -58,20 +58,20 @@
      "y": 37
     },
     {
-     "id": "home-4429",
-     "providerId": 4429,
-     "name": "Frimpong",
-     "num": 30,
+     "id": "home-336",
+     "providerId": 336,
+     "name": "Kerkez",
+     "num": 6,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
      "y": 15
     },
     {
-     "id": "home-329",
-     "providerId": 329,
-     "name": "Szoboszlai",
-     "num": 8,
+     "id": "home-327",
+     "providerId": 327,
+     "name": "Gravenberch",
+     "num": 38,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -88,30 +88,30 @@
      "y": 38
     },
     {
-     "id": "home-330",
-     "providerId": 330,
-     "name": "Wirtz",
-     "num": 7,
+     "id": "home-2668",
+     "providerId": 2668,
+     "name": "Muñoz",
+     "num": 23,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-2668",
-     "providerId": 2668,
-     "name": "Muñoz",
-     "num": 23,
+     "id": "home-330",
+     "providerId": 330,
+     "name": "Wirtz",
+     "num": 7,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-341",
-     "providerId": 341,
-     "name": "Ngumoha",
-     "num": 73,
+     "id": "home-2261",
+     "providerId": 2261,
+     "name": "Barcola",
+     "num": 29,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-846",
-     "providerId": 846,
-     "name": "Gvardiol",
-     "num": 24,
+     "id": "away-844",
+     "providerId": 844,
+     "name": "Nunes",
+     "num": 27,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -180,30 +180,30 @@
      "y": 63
     },
     {
-     "id": "away-844",
-     "providerId": 844,
-     "name": "Nunes",
-     "num": 27,
+     "id": "away-847",
+     "providerId": 847,
+     "name": "O’Reilly",
+     "num": 33,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
      "y": 85
     },
     {
-     "id": "away-548",
-     "providerId": 548,
-     "name": "Anderson",
-     "num": 5,
+     "id": "away-387",
+     "providerId": 387,
+     "name": "Fernández",
+     "num": 17,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-387",
-     "providerId": 387,
-     "name": "Fernández",
-     "num": 17,
+     "id": "away-548",
+     "providerId": 548,
+     "name": "Anderson",
+     "num": 5,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -230,10 +230,10 @@
      "y": 50
     },
     {
-     "id": "away-31",
-     "providerId": 31,
-     "name": "Allan",
-     "num": 37,
+     "id": "away-810",
+     "providerId": 810,
+     "name": "Ndiaye",
+     "num": 7,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-11T15:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-10T22:14:47.065Z"
+ "fetchedAt": "2026-10-11T16:09:54.463Z"
 }

@@ -357,19 +357,26 @@
    "away": "BOU",
    "confirmed": true
   },
+  "209588": {
+   "kickoff": "2026-10-12T19:00:00+00:00",
+   "status": "notstarted",
+   "home": "COV",
+   "away": "NEW",
+   "confirmed": false
+  },
   "209589": {
    "kickoff": "2026-10-11T13:00:00+00:00",
-   "status": "notstarted",
+   "status": "FT",
    "home": "CRY",
    "away": "NFO",
-   "confirmed": false
+   "confirmed": true
   },
   "209590": {
    "kickoff": "2026-10-11T13:00:00+00:00",
-   "status": "notstarted",
+   "status": "FT",
    "home": "HUL",
    "away": "EVE",
-   "confirmed": false
+   "confirmed": true
   },
   "209591": {
    "kickoff": "2026-10-10T14:00:00+00:00",
@@ -380,10 +387,10 @@
   },
   "209592": {
    "kickoff": "2026-10-11T15:30:00+00:00",
-   "status": "notstarted",
+   "status": "1st_half",
    "home": "LIV",
    "away": "MCI",
-   "confirmed": false
+   "confirmed": true
   },
   "209593": {
    "kickoff": "2026-10-10T16:30:00+00:00",
@@ -401,5 +408,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-10-10T22:14:50.974Z"
+ "updatedAt": "2026-10-11T16:09:58.819Z"
 }
