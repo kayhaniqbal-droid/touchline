@@ -1,10 +1,10 @@
 {
  "fixtureId": 209592,
- "minute": 53,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
-  "away": 0
+  "away": 3
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -28,30 +28,30 @@
      "y": 50
     },
     {
-     "id": "home-3661",
-     "providerId": 3661,
-     "name": "Araújo",
-     "num": 33,
+     "id": "home-4429",
+     "providerId": 4429,
+     "name": "Frimpong",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
      "y": 85
     },
     {
-     "id": "home-325",
-     "providerId": 325,
-     "name": "van Dijk",
-     "num": 4,
+     "id": "home-323",
+     "providerId": 323,
+     "name": "Gomez",
+     "num": null,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-2803",
-     "providerId": 2803,
-     "name": "Jacquet",
-     "num": 5,
+     "id": "home-325",
+     "providerId": 325,
+     "name": "van Dijk",
+     "num": 4,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -66,16 +66,6 @@
      "role": "DEF",
      "x": 18,
      "y": 15
-    },
-    {
-     "id": "home-327",
-     "providerId": 327,
-     "name": "Gravenberch",
-     "num": 38,
-     "pos": "RDM",
-     "role": "MID",
-     "x": 25,
-     "y": 62
     },
     {
      "id": "home-328",
@@ -98,30 +88,30 @@
      "y": 84
     },
     {
-     "id": "home-330",
-     "providerId": 330,
-     "name": "Wirtz",
-     "num": 7,
+     "id": "home-340",
+     "providerId": 340,
+     "name": "Nyoni",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-2261",
-     "providerId": 2261,
-     "name": "Barcola",
-     "num": 29,
+     "id": "home-337",
+     "providerId": 337,
+     "name": "Chiesa",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
      "y": 16
     },
     {
-     "id": "home-6098",
-     "providerId": 6098,
-     "name": "Koumas",
-     "num": 67,
+     "id": "home-341",
+     "providerId": 341,
+     "name": "Ngumoha",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -180,40 +170,40 @@
      "y": 63
     },
     {
-     "id": "away-847",
-     "providerId": 847,
-     "name": "O’Reilly",
-     "num": 33,
+     "id": "away-846",
+     "providerId": 846,
+     "name": "Gvardiol",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
      "y": 85
     },
     {
-     "id": "away-387",
-     "providerId": 387,
-     "name": "Fernández",
-     "num": 17,
+     "id": "away-548",
+     "providerId": 548,
+     "name": "Anderson",
+     "num": 5,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-548",
-     "providerId": 548,
-     "name": "Anderson",
-     "num": 5,
+     "id": "away-1451",
+     "providerId": 1451,
+     "name": "Bouaddi",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-792",
-     "providerId": 792,
-     "name": "Semenyo",
-     "num": 42,
+     "id": "away-853",
+     "providerId": 853,
+     "name": "Doku",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -230,20 +220,20 @@
      "y": 50
     },
     {
-     "id": "away-810",
-     "providerId": 810,
-     "name": "Ndiaye",
-     "num": 7,
+     "id": "away-792",
+     "providerId": 792,
+     "name": "Semenyo",
+     "num": 42,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-852",
-     "providerId": 852,
-     "name": "Haaland",
-     "num": 9,
+     "id": "away-31",
+     "providerId": 31,
+     "name": "Allan",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +245,5 @@
  },
  "kickoff": "2026-10-11T15:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-11T16:42:07.331Z"
+ "fetchedAt": "2026-10-11T17:53:58.452Z"
 }

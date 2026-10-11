@@ -387,7 +387,7 @@
   },
   "209592": {
    "kickoff": "2026-10-11T15:30:00+00:00",
-   "status": "2nd_half",
+   "status": "FT",
    "home": "LIV",
    "away": "MCI",
    "confirmed": true
@@ -408,5 +408,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-10-11T16:42:11.434Z"
+ "updatedAt": "2026-10-11T17:54:02.272Z"
 }
