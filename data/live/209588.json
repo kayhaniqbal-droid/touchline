@@ -1,10 +1,10 @@
 {
  "fixtureId": 209588,
- "minute": 64,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
-  "home": 2,
-  "away": 0
+  "home": 4,
+  "away": 1
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -14,7 +14,7 @@
    "nick": "Coventry",
    "providerId": 203,
    "coach": null,
-   "formation": "4-3-3",
+   "formation": "4-2-3-1",
    "derivedShape": true,
    "players": [
     {
@@ -38,20 +38,20 @@
      "y": 85
     },
     {
-     "id": "home-465",
-     "providerId": 465,
-     "name": "Pinnock",
-     "num": 2,
+     "id": "home-6687",
+     "providerId": 6687,
+     "name": "Thomas",
+     "num": 4,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-6687",
-     "providerId": 6687,
-     "name": "Thomas",
-     "num": 4,
+     "id": "home-465",
+     "providerId": 465,
+     "name": "Pinnock",
+     "num": 2,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -68,64 +68,64 @@
      "y": 15
     },
     {
-     "id": "home-16696",
-     "providerId": 16696,
-     "name": "Yirenkyi",
-     "num": 8,
-     "pos": "DM",
+     "id": "home-480",
+     "providerId": 480,
+     "name": "Onyeka",
+     "num": null,
+     "pos": "RDM",
      "role": "MID",
      "x": 25,
-     "y": 50
+     "y": 62
     },
     {
-     "id": "home-6426",
-     "providerId": 6426,
-     "name": "Grimes",
-     "num": 6,
-     "pos": "RCM",
-     "role": "MID",
-     "x": 32,
-     "y": 68
-    },
-    {
-     "id": "home-6427",
-     "providerId": 6427,
-     "name": "Rudoni",
-     "num": 5,
-     "pos": "LCM",
-     "role": "MID",
-     "x": 32,
-     "y": 32
-    },
-    {
-     "id": "home-6689",
-     "providerId": 6689,
-     "name": "Sakamoto",
+     "id": "home-4708",
+     "providerId": 4708,
+     "name": "Mfuni",
      "num": null,
-     "pos": "RW",
-     "role": "FWD",
-     "x": 43,
-     "y": 84
-    },
-    {
-     "id": "home-1396",
-     "providerId": 1396,
-     "name": "Cherif",
-     "num": 49,
-     "pos": "ST",
-     "role": "FWD",
-     "x": 46,
-     "y": 50
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
     },
     {
      "id": "home-6887",
      "providerId": 6887,
      "name": "Thomas-Asante",
      "num": 23,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6425",
+     "providerId": 6425,
+     "name": "Torp",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-6689",
+     "providerId": 6689,
+     "name": "Sakamoto",
+     "num": null,
      "pos": "LW",
-     "role": "FWD",
-     "x": 43,
+     "role": "MID",
+     "x": 35,
      "y": 16
+    },
+    {
+     "id": "home-6435",
+     "providerId": 6435,
+     "name": "Simms",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
     }
    ],
    "bench": []
@@ -150,40 +150,40 @@
      "y": 50
     },
     {
-     "id": "away-700",
-     "providerId": 700,
-     "name": "Thiaw",
-     "num": 12,
+     "id": "away-2052",
+     "providerId": 2052,
+     "name": "Dedić",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
      "y": 15
     },
     {
-     "id": "away-3696",
-     "providerId": 3696,
-     "name": "Botman",
-     "num": 4,
+     "id": "away-700",
+     "providerId": 700,
+     "name": "Thiaw",
+     "num": 12,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
      "y": 37
     },
     {
-     "id": "away-702",
-     "providerId": 702,
-     "name": "Hall",
-     "num": 3,
+     "id": "away-3696",
+     "providerId": 3696,
+     "name": "Botman",
+     "num": 4,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
      "y": 63
     },
     {
-     "id": "away-2052",
-     "providerId": 2052,
-     "name": "Dedić",
-     "num": null,
+     "id": "away-702",
+     "providerId": 702,
+     "name": "Hall",
+     "num": 3,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
@@ -210,9 +210,9 @@
      "y": 62
     },
     {
-     "id": "away-2385",
-     "providerId": 2385,
-     "name": "Touré",
+     "id": "away-701",
+     "providerId": 701,
+     "name": "Burn",
      "num": null,
      "pos": "RW",
      "role": "MID",
@@ -220,10 +220,10 @@
      "y": 16
     },
     {
-     "id": "away-5140",
-     "providerId": 5140,
-     "name": "Wissa",
-     "num": 9,
+     "id": "away-4279",
+     "providerId": 4279,
+     "name": "Osula",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-12T19:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-12T20:22:51.285Z"
+ "fetchedAt": "2026-10-12T21:32:50.648Z"
 }
