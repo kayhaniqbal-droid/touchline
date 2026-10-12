@@ -359,7 +359,7 @@
   },
   "209588": {
    "kickoff": "2026-10-12T19:00:00+00:00",
-   "status": "1st_half",
+   "status": "2nd_half",
    "home": "COV",
    "away": "NEW",
    "confirmed": true
@@ -408,5 +408,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-10-12T19:39:07.327Z"
+ "updatedAt": "2026-10-12T20:22:52.805Z"
 }

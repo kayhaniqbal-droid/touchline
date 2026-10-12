@@ -1,9 +1,9 @@
 {
  "fixtureId": 209588,
- "minute": 38,
- "status": "1st_half",
+ "minute": 64,
+ "status": "2nd_half",
  "goals": {
-  "home": 1,
+  "home": 2,
   "away": 0
  },
  "lineupsConfirmed": true,
@@ -98,10 +98,10 @@
      "y": 32
     },
     {
-     "id": "home-6429",
-     "providerId": 6429,
-     "name": "Ephron",
-     "num": 10,
+     "id": "home-6689",
+     "providerId": 6689,
+     "name": "Sakamoto",
+     "num": null,
      "pos": "RW",
      "role": "FWD",
      "x": 43,
@@ -180,10 +180,10 @@
      "y": 63
     },
     {
-     "id": "away-703",
-     "providerId": 703,
-     "name": "Miley",
-     "num": 67,
+     "id": "away-2052",
+     "providerId": 2052,
+     "name": "Dedić",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
@@ -200,20 +200,20 @@
      "y": 38
     },
     {
-     "id": "away-715",
-     "providerId": 715,
-     "name": "Willock",
-     "num": 28,
+     "id": "away-705",
+     "providerId": 705,
+     "name": "Joelinton",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-706",
-     "providerId": 706,
-     "name": "Murphy",
-     "num": 23,
+     "id": "away-2385",
+     "providerId": 2385,
+     "name": "Touré",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-12T19:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-12T19:39:06.010Z"
+ "fetchedAt": "2026-10-12T20:22:51.285Z"
 }
