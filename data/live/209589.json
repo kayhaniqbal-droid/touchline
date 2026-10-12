@@ -1,6 +1,6 @@
 {
  "fixtureId": 209589,
- "minute": 90,
+ "minute": 94,
  "status": "FT",
  "goals": {
   "home": 3,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-11T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-11T22:40:31.902Z"
+ "fetchedAt": "2026-10-12T19:39:07.261Z"
 }
