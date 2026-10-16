@@ -48,10 +48,10 @@
      "y": 63
     },
     {
-     "id": "home-8798",
-     "providerId": 8798,
-     "name": "Branthwaite",
-     "num": 4,
+     "id": "home-2134",
+     "providerId": 2134,
+     "name": "Keane",
+     "num": 5,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-17T11:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-16T19:43:10.860Z"
+ "fetchedAt": "2026-10-16T21:55:39.512Z"
 }
