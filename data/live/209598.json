@@ -1,7 +1,7 @@
 {
  "fixtureId": 209598,
- "minute": 97,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
   "away": 2
@@ -68,20 +68,20 @@
      "y": 15
     },
     {
-     "id": "home-804",
-     "providerId": 804,
-     "name": "Garner",
-     "num": 37,
+     "id": "home-459",
+     "providerId": 459,
+     "name": "Nørgaard",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-459",
-     "providerId": 459,
-     "name": "Nørgaard",
-     "num": null,
+     "id": "home-804",
+     "providerId": 804,
+     "name": "Garner",
+     "num": 37,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
@@ -136,7 +136,7 @@
    "nick": "Chelsea",
    "providerId": 13,
    "coach": null,
-   "formation": "3-4-2-1",
+   "formation": "4-2-3-1",
    "derivedShape": true,
    "players": [
     {
@@ -154,20 +154,20 @@
      "providerId": 399,
      "name": "Acheampong",
      "num": 34,
-     "pos": "RCB",
+     "pos": "RB",
      "role": "DEF",
-     "x": 86,
-     "y": 28
+     "x": 82,
+     "y": 15
     },
     {
      "id": "away-424",
      "providerId": 424,
      "name": "Lacroix",
      "num": 5,
-     "pos": "CB",
+     "pos": "RCB",
      "role": "DEF",
-     "x": 88,
-     "y": 50
+     "x": 87,
+     "y": 37
     },
     {
      "id": "away-22880",
@@ -176,68 +176,68 @@
      "num": 6,
      "pos": "LCB",
      "role": "DEF",
-     "x": 86,
-     "y": 72
+     "x": 87,
+     "y": 63
     },
     {
      "id": "away-2202",
      "providerId": 2202,
      "name": "Palestra",
      "num": null,
-     "pos": "RWB",
-     "role": "MID",
-     "x": 72,
-     "y": 10
-    },
-    {
-     "id": "away-394",
-     "providerId": 394,
-     "name": "Neto",
-     "num": 7,
-     "pos": "RCM",
-     "role": "MID",
-     "x": 75,
-     "y": 40
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
     },
     {
      "id": "away-4237",
      "providerId": 4237,
      "name": "Lavia",
      "num": null,
-     "pos": "LCM",
+     "pos": "RDM",
      "role": "MID",
      "x": 75,
-     "y": 60
+     "y": 38
     },
     {
      "id": "away-474",
      "providerId": 474,
      "name": "Henderson",
      "num": 14,
-     "pos": "LWB",
+     "pos": "LDM",
      "role": "MID",
-     "x": 72,
-     "y": 90
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-1220",
+     "providerId": 1220,
+     "name": "Quenda",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
     },
     {
      "id": "away-395",
      "providerId": 395,
      "name": "Palmer",
      "num": 10,
-     "pos": "RAM",
-     "role": "FWD",
-     "x": 62,
-     "y": 34
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
     },
     {
      "id": "away-511",
      "providerId": 511,
      "name": "Rogers",
      "num": 17,
-     "pos": "LAM",
-     "role": "FWD",
-     "x": 62,
-     "y": 66
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
     },
     {
      "id": "away-494",
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-17T11:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-17T13:28:59.919Z"
+ "fetchedAt": "2026-10-17T14:19:03.030Z"
 }

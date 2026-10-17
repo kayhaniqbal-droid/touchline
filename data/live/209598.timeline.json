@@ -58,18 +58,18 @@
      "y": 15
     },
     {
-     "id": "home-804",
-     "name": "Garner",
-     "num": 37,
+     "id": "home-4825",
+     "name": "Armstrong",
+     "num": 45,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-4825",
-     "name": "Armstrong",
-     "num": 45,
+     "id": "home-804",
+     "name": "Garner",
+     "num": 37,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
@@ -120,7 +120,7 @@
    "name": "75' Chelsea freshen it up",
    "note": "Penders on for Martínez on 75', same job.",
    "ruleId": "like-for-like",
-   "formation": "3-4-2-1",
+   "formation": "4-2-3-1",
    "players": [
     {
      "id": "away-1701",
@@ -135,19 +135,19 @@
      "id": "away-399",
      "name": "Acheampong",
      "num": 34,
-     "pos": "RCB",
+     "pos": "RB",
      "role": "DEF",
-     "x": 86,
-     "y": 28
+     "x": 82,
+     "y": 15
     },
     {
      "id": "away-424",
      "name": "Lacroix",
      "num": 5,
-     "pos": "CB",
+     "pos": "RCB",
      "role": "DEF",
-     "x": 88,
-     "y": 50
+     "x": 87,
+     "y": 37
     },
     {
      "id": "away-22880",
@@ -155,67 +155,67 @@
      "num": 6,
      "pos": "LCB",
      "role": "DEF",
-     "x": 86,
-     "y": 72
+     "x": 87,
+     "y": 63
     },
     {
      "id": "away-401",
      "name": "Hato",
      "num": 21,
-     "pos": "RWB",
-     "role": "MID",
-     "x": 72,
-     "y": 10
-    },
-    {
-     "id": "away-394",
-     "name": "Neto",
-     "num": 7,
-     "pos": "RCM",
-     "role": "MID",
-     "x": 75,
-     "y": 40
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
     },
     {
      "id": "away-1345",
      "name": "Caicedo",
      "num": 25,
-     "pos": "LCM",
+     "pos": "RDM",
      "role": "MID",
      "x": 75,
-     "y": 60
+     "y": 38
     },
     {
      "id": "away-474",
      "name": "Henderson",
      "num": 14,
-     "pos": "LWB",
+     "pos": "LDM",
      "role": "MID",
-     "x": 72,
-     "y": 90
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-394",
+     "name": "Neto",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
     },
     {
      "id": "away-395",
      "name": "Palmer",
      "num": 10,
-     "pos": "RAM",
-     "role": "FWD",
-     "x": 62,
-     "y": 34
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
     },
     {
      "id": "away-511",
      "name": "Rogers",
      "num": 17,
-     "pos": "LAM",
-     "role": "FWD",
-     "x": 62,
-     "y": 66
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
     },
     {
      "id": "away-390",
      "name": "Pedro",
-     "num": 20,
+     "num": 9,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -278,18 +278,18 @@
      "y": 15
     },
     {
-     "id": "home-804",
-     "name": "Garner",
-     "num": 37,
+     "id": "home-459",
+     "name": "Nørgaard",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-459",
-     "name": "Nørgaard",
-     "num": null,
+     "id": "home-804",
+     "name": "Garner",
+     "num": 37,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
@@ -340,7 +340,7 @@
    "name": "92' Chelsea make a double change",
    "note": "Palestra, Lavia and Welbeck on together for Hato, Caicedo and Pedro on 92'.",
    "ruleId": "double-change",
-   "formation": "3-4-2-1",
+   "formation": "4-2-3-1",
    "players": [
     {
      "id": "away-1701",
@@ -355,19 +355,19 @@
      "id": "away-399",
      "name": "Acheampong",
      "num": 34,
-     "pos": "RCB",
+     "pos": "RB",
      "role": "DEF",
-     "x": 86,
-     "y": 28
+     "x": 82,
+     "y": 15
     },
     {
      "id": "away-424",
      "name": "Lacroix",
      "num": 5,
-     "pos": "CB",
+     "pos": "RCB",
      "role": "DEF",
-     "x": 88,
-     "y": 50
+     "x": 87,
+     "y": 37
     },
     {
      "id": "away-22880",
@@ -375,62 +375,172 @@
      "num": 6,
      "pos": "LCB",
      "role": "DEF",
-     "x": 86,
-     "y": 72
+     "x": 87,
+     "y": 63
     },
     {
      "id": "away-2202",
      "name": "Palestra",
      "num": null,
-     "pos": "RWB",
-     "role": "MID",
-     "x": 72,
-     "y": 10
-    },
-    {
-     "id": "away-394",
-     "name": "Neto",
-     "num": 7,
-     "pos": "RCM",
-     "role": "MID",
-     "x": 75,
-     "y": 40
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
     },
     {
      "id": "away-4237",
      "name": "Lavia",
      "num": null,
-     "pos": "LCM",
+     "pos": "RDM",
      "role": "MID",
      "x": 75,
-     "y": 60
+     "y": 38
     },
     {
      "id": "away-474",
      "name": "Henderson",
      "num": 14,
-     "pos": "LWB",
+     "pos": "LDM",
      "role": "MID",
-     "x": 72,
-     "y": 90
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-394",
+     "name": "Neto",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
     },
     {
      "id": "away-395",
      "name": "Palmer",
      "num": 10,
-     "pos": "RAM",
-     "role": "FWD",
-     "x": 62,
-     "y": 34
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
     },
     {
      "id": "away-511",
      "name": "Rogers",
      "num": 17,
-     "pos": "LAM",
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-494",
+     "name": "Welbeck",
+     "num": null,
+     "pos": "ST",
      "role": "FWD",
-     "x": 62,
-     "y": 66
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-102-like-for-like",
+   "minute": 102,
+   "side": "away",
+   "name": "102' Chelsea freshen it up",
+   "note": "Quenda on for Neto on 102', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-1701",
+     "name": "Penders",
+     "num": null,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-399",
+     "name": "Acheampong",
+     "num": 34,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-424",
+     "name": "Lacroix",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-22880",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-2202",
+     "name": "Palestra",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-4237",
+     "name": "Lavia",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-474",
+     "name": "Henderson",
+     "num": 14,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-1220",
+     "name": "Quenda",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
     },
     {
      "id": "away-494",
