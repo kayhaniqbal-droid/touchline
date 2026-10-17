@@ -200,10 +200,10 @@
      "y": 38
     },
     {
-     "id": "away-1802",
-     "providerId": 1802,
-     "name": "Mainoo",
-     "num": 37,
+     "id": "away-388",
+     "providerId": 388,
+     "name": "Santos",
+     "num": 17,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-18T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-17T18:51:49.528Z"
+ "fetchedAt": "2026-10-17T21:15:23.936Z"
 }
