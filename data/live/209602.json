@@ -6,7 +6,7 @@
   "home": 0,
   "away": 0
  },
- "lineupsConfirmed": false,
+ "lineupsConfirmed": true,
  "teams": {
   "home": {
    "code": "NEW",
@@ -14,7 +14,7 @@
    "nick": "Newcastle",
    "providerId": 4,
    "coach": null,
-   "formation": "4-2-3-1",
+   "formation": "4-3-3",
    "derivedShape": true,
    "players": [
     {
@@ -28,10 +28,10 @@
      "y": 50
     },
     {
-     "id": "home-702",
-     "providerId": 702,
-     "name": "Hall",
-     "num": 3,
+     "id": "home-700",
+     "providerId": 700,
+     "name": "Thiaw",
+     "num": 12,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
@@ -48,20 +48,20 @@
      "y": 63
     },
     {
-     "id": "home-700",
-     "providerId": 700,
-     "name": "Thiaw",
-     "num": 12,
+     "id": "home-702",
+     "providerId": 702,
+     "name": "Hall",
+     "num": 3,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
      "y": 37
     },
     {
-     "id": "home-2052",
-     "providerId": 2052,
-     "name": "Dedić",
-     "num": 37,
+     "id": "home-703",
+     "providerId": 703,
+     "name": "Miley",
+     "num": 67,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
@@ -72,39 +72,49 @@
      "providerId": 715,
      "name": "Willock",
      "num": 28,
-     "pos": "RDM",
+     "pos": "DM",
      "role": "MID",
      "x": 25,
-     "y": 62
+     "y": 50
+    },
+    {
+     "id": "home-705",
+     "providerId": 705,
+     "name": "Joelinton",
+     "num": 7,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 32,
+     "y": 68
     },
     {
      "id": "home-849",
      "providerId": 849,
      "name": "González",
      "num": 6,
-     "pos": "LDM",
+     "pos": "LCM",
      "role": "MID",
-     "x": 25,
-     "y": 38
+     "x": 32,
+     "y": 32
     },
     {
-     "id": "home-703",
-     "providerId": 703,
-     "name": "Miley",
-     "num": 67,
+     "id": "home-5140",
+     "providerId": 5140,
+     "name": "Wissa",
+     "num": 9,
      "pos": "RW",
-     "role": "MID",
-     "x": 35,
+     "role": "FWD",
+     "x": 43,
      "y": 84
     },
     {
-     "id": "home-706",
-     "providerId": 706,
-     "name": "Murphy",
-     "num": 23,
-     "pos": "AM",
-     "role": "MID",
-     "x": 34,
+     "id": "home-1464",
+     "providerId": 1464,
+     "name": "Fernández-Pardo",
+     "num": 20,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 46,
      "y": 50
     },
     {
@@ -113,19 +123,9 @@
      "name": "Barnes",
      "num": 11,
      "pos": "LW",
-     "role": "MID",
-     "x": 35,
-     "y": 16
-    },
-    {
-     "id": "home-5140",
-     "providerId": 5140,
-     "name": "Wissa",
-     "num": 9,
-     "pos": "ST",
      "role": "FWD",
-     "x": 45,
-     "y": 50
+     "x": 43,
+     "y": 16
     }
    ],
    "bench": []
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-505",
-     "providerId": 505,
-     "name": "Torres",
-     "num": 14,
+     "id": "away-503",
+     "providerId": 503,
+     "name": "Cash",
+     "num": 2,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -180,10 +180,10 @@
      "y": 63
     },
     {
-     "id": "away-503",
-     "providerId": 503,
-     "name": "Cash",
-     "num": 2,
+     "id": "away-1635",
+     "providerId": 1635,
+     "name": "Wan-Bissaka",
+     "num": 29,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
@@ -200,40 +200,40 @@
      "y": 38
     },
     {
-     "id": "away-1178",
-     "providerId": 1178,
-     "name": "Manzambi",
-     "num": 44,
+     "id": "away-528",
+     "providerId": 528,
+     "name": "Gomes",
+     "num": 35,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-517",
-     "providerId": 517,
-     "name": "Buendía",
-     "num": 10,
+     "id": "away-614",
+     "providerId": 614,
+     "name": "Alysson",
+     "num": 47,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-528",
-     "providerId": 528,
-     "name": "Gomes",
-     "num": 35,
+     "id": "away-1178",
+     "providerId": 1178,
+     "name": "Manzambi",
+     "num": 44,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-510",
-     "providerId": 510,
-     "name": "McGinn",
-     "num": 7,
+     "id": "away-517",
+     "providerId": 517,
+     "name": "Buendía",
+     "num": 10,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-17T16:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-17T14:18:59.945Z"
+ "fetchedAt": "2026-10-17T16:07:49.614Z"
 }

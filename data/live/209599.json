@@ -1,9 +1,9 @@
 {
  "fixtureId": 209599,
- "minute": 16,
- "status": "1st_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
-  "home": 0,
+  "home": 1,
   "away": 0
  },
  "lineupsConfirmed": true,
@@ -88,24 +88,14 @@
      "y": 38
     },
     {
-     "id": "home-3651",
-     "providerId": 3651,
-     "name": "Bobb",
-     "num": 14,
+     "id": "home-842",
+     "providerId": 842,
+     "name": "Cairney",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
-    },
-    {
-     "id": "home-837",
-     "providerId": 837,
-     "name": "King",
-     "num": 24,
-     "pos": "AM",
-     "role": "MID",
-     "x": 34,
-     "y": 50
     },
     {
      "id": "home-832",
@@ -118,10 +108,10 @@
      "y": 16
     },
     {
-     "id": "home-600",
-     "providerId": 600,
-     "name": "García",
-     "num": 7,
+     "id": "home-8608",
+     "providerId": 8608,
+     "name": "Palacios",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -180,20 +170,20 @@
      "y": 50
     },
     {
-     "id": "away-12179",
-     "providerId": 12179,
-     "name": "Herrington",
-     "num": 22,
+     "id": "away-808",
+     "providerId": 808,
+     "name": "Iroegbunam",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 85,
      "y": 70
     },
     {
-     "id": "away-3923",
-     "providerId": 3923,
-     "name": "Norton-Cuffy",
-     "num": 18,
+     "id": "away-6186",
+     "providerId": 6186,
+     "name": "Giles",
+     "num": null,
      "pos": "LWB",
      "role": "DEF",
      "x": 79,
@@ -210,30 +200,30 @@
      "y": 14
     },
     {
-     "id": "away-6189",
-     "providerId": 6189,
-     "name": "Crooks",
-     "num": 25,
+     "id": "away-1933",
+     "providerId": 1933,
+     "name": "Vaz",
+     "num": null,
      "pos": "RCM",
      "role": "MID",
      "x": 73,
      "y": 40
     },
     {
-     "id": "away-6188",
-     "providerId": 6188,
-     "name": "Slater",
-     "num": 27,
+     "id": "away-1217",
+     "providerId": 1217,
+     "name": "Morita",
+     "num": null,
      "pos": "LCM",
      "role": "MID",
      "x": 73,
      "y": 60
     },
     {
-     "id": "away-6055",
-     "providerId": 6055,
-     "name": "Thomas",
-     "num": 7,
+     "id": "away-6803",
+     "providerId": 6803,
+     "name": "Gelhardt",
+     "num": null,
      "pos": "LM",
      "role": "MID",
      "x": 71,
@@ -255,5 +245,5 @@
  },
  "kickoff": "2026-10-17T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-17T14:19:01.864Z"
+ "fetchedAt": "2026-10-17T16:07:50.291Z"
 }
