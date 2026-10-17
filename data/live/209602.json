@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-4289",
-     "providerId": 4289,
-     "name": "Mings",
-     "num": 5,
+     "id": "away-505",
+     "providerId": 505,
+     "name": "Torres",
+     "num": 14,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -170,10 +170,10 @@
      "y": 37
     },
     {
-     "id": "away-6402",
-     "providerId": 6402,
-     "name": "Harwood-Bellis",
-     "num": 4,
+     "id": "away-4289",
+     "providerId": 4289,
+     "name": "Mings",
+     "num": 5,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
@@ -220,20 +220,20 @@
      "y": 16
     },
     {
-     "id": "away-510",
-     "providerId": 510,
-     "name": "McGinn",
-     "num": 7,
+     "id": "away-528",
+     "providerId": 528,
+     "name": "Gomes",
+     "num": 35,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-2255",
-     "providerId": 2255,
-     "name": "Mbaye",
-     "num": 19,
+     "id": "away-510",
+     "providerId": 510,
+     "name": "McGinn",
+     "num": 7,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-17T16:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-16T21:55:37.947Z"
+ "fetchedAt": "2026-10-17T13:28:58.151Z"
 }

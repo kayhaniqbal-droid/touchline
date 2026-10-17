@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209597,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "BHA",
+   "name": "Brighton & Hove Albion",
+   "nick": "Brighton",
+   "providerId": 5,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-482",
+     "providerId": 482,
+     "name": "Verbruggen",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-491",
+     "providerId": 491,
+     "name": "De Cuyper",
+     "num": 29,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-1591",
+     "providerId": 1591,
+     "name": "Vušković",
+     "num": 44,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-498",
+     "providerId": 498,
+     "name": "Boscagli",
+     "num": 21,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-3490",
+     "providerId": 3490,
+     "name": "Costinha",
+     "num": 20,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-2173",
+     "providerId": 2173,
+     "name": "Groß",
+     "num": 13,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-1632",
+     "providerId": 1632,
+     "name": "Ayari",
+     "num": 26,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-2102",
+     "providerId": 2102,
+     "name": "Osman",
+     "num": 15,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-1633",
+     "providerId": 1633,
+     "name": "Rutter",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-488",
+     "providerId": 488,
+     "name": "Gómez",
+     "num": 25,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-495",
+     "providerId": 495,
+     "name": "Kostoulas",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "CRY",
+   "name": "Crystal Palace",
+   "nick": "Palace",
+   "providerId": 14,
+   "coach": null,
+   "formation": "3-4-2-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-438",
+     "providerId": 438,
+     "name": "Benítez",
+     "num": 44,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-423",
+     "providerId": 423,
+     "name": "Richards",
+     "num": 26,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-436",
+     "providerId": 436,
+     "name": "Canvot",
+     "num": 6,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-429",
+     "providerId": 429,
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-3373",
+     "providerId": 3373,
+     "name": "Timber",
+     "num": 23,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-427",
+     "providerId": 427,
+     "name": "Wharton",
+     "num": 20,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-430",
+     "providerId": 430,
+     "name": "Kamada",
+     "num": 18,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-814",
+     "providerId": 814,
+     "name": "McNeil",
+     "num": 11,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-3748",
+     "providerId": 3748,
+     "name": "Khalaili",
+     "num": 25,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-431",
+     "providerId": 431,
+     "name": "Pino",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-531",
+     "providerId": 531,
+     "name": "Larsen",
+     "num": 22,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-10-18T13:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-10-17T13:28:57.253Z"
+}

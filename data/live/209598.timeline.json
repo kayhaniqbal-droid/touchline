@@ -1,7 +1,448 @@
 {
  "fixtureId": 209598,
- "title": "Everton 0–0 Chelsea",
- "lineupStatus": "predicted",
- "phases": [],
+ "title": "Everton 0–2 Chelsea",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-home-55-like-for-like",
+   "minute": 55,
+   "side": "home",
+   "name": "55' Everton freshen it up",
+   "note": "George on for Maitland-Niles on 55', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-803",
+     "name": "Pickford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-3659",
+     "name": "George",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-805",
+     "name": "Tarkowski",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-8798",
+     "name": "Branthwaite",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-807",
+     "name": "Mykolenko",
+     "num": 16,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-804",
+     "name": "Garner",
+     "num": 37,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-4825",
+     "name": "Armstrong",
+     "num": 45,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-4094",
+     "name": "Röhl",
+     "num": 34,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-809",
+     "name": "Dewsbury-Hall",
+     "num": 8,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-812",
+     "name": "Grealish",
+     "num": 10,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-813",
+     "name": "Barry",
+     "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-75-like-for-like",
+   "minute": 75,
+   "side": "away",
+   "name": "75' Chelsea freshen it up",
+   "note": "Penders on for Martínez on 75', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-1701",
+     "name": "Penders",
+     "num": null,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-399",
+     "name": "Acheampong",
+     "num": 34,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-424",
+     "name": "Lacroix",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-22880",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-401",
+     "name": "Hato",
+     "num": 21,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-394",
+     "name": "Neto",
+     "num": 7,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-1345",
+     "name": "Caicedo",
+     "num": 25,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-474",
+     "name": "Henderson",
+     "num": 14,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-390",
+     "name": "Pedro",
+     "num": 20,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-85-double-change",
+   "minute": 85,
+   "side": "home",
+   "name": "85' Everton make a double change",
+   "note": "Nørgaard and Johnson on together for Armstrong and Grealish on 85'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-803",
+     "name": "Pickford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-3659",
+     "name": "George",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-805",
+     "name": "Tarkowski",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-8798",
+     "name": "Branthwaite",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-807",
+     "name": "Mykolenko",
+     "num": 16,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-804",
+     "name": "Garner",
+     "num": 37,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-459",
+     "name": "Nørgaard",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-4094",
+     "name": "Röhl",
+     "num": 34,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-809",
+     "name": "Dewsbury-Hall",
+     "num": 8,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-727",
+     "name": "Johnson",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-813",
+     "name": "Barry",
+     "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-92-double-change",
+   "minute": 92,
+   "side": "away",
+   "name": "92' Chelsea make a double change",
+   "note": "Palestra, Lavia and Welbeck on together for Hato, Caicedo and Pedro on 92'.",
+   "ruleId": "double-change",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-1701",
+     "name": "Penders",
+     "num": null,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-399",
+     "name": "Acheampong",
+     "num": 34,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-424",
+     "name": "Lacroix",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-22880",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-2202",
+     "name": "Palestra",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-394",
+     "name": "Neto",
+     "num": 7,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-4237",
+     "name": "Lavia",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-474",
+     "name": "Henderson",
+     "num": 14,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-494",
+     "name": "Welbeck",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  }
+ ],
  "shifts": []
 }

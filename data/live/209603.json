@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209603,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "NFO",
+   "name": "Nottingham Forest",
+   "nick": "Forest",
+   "providerId": 15,
+   "coach": null,
+   "formation": "3-4-2-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-542",
+     "providerId": 542,
+     "name": "Sels",
+     "num": 26,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-546",
+     "providerId": 546,
+     "name": "Williams",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-2913",
+     "providerId": 2913,
+     "name": "Murillo",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-557",
+     "providerId": 557,
+     "name": "Jair",
+     "num": 23,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-4788",
+     "providerId": 4788,
+     "name": "Aina",
+     "num": 34,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 28,
+     "y": 90
+    },
+    {
+     "id": "home-560",
+     "providerId": 560,
+     "name": "McAtee",
+     "num": 24,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-2892",
+     "providerId": 2892,
+     "name": "Schlager",
+     "num": 21,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-547",
+     "providerId": 547,
+     "name": "Sangaré",
+     "num": 6,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 28,
+     "y": 10
+    },
+    {
+     "id": "home-551",
+     "providerId": 551,
+     "name": "Ndoye",
+     "num": 14,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 66
+    },
+    {
+     "id": "home-426",
+     "providerId": 426,
+     "name": "Muñoz",
+     "num": 27,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 34
+    },
+    {
+     "id": "home-392",
+     "providerId": 392,
+     "name": "Delap",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "ARS",
+   "name": "Arsenal",
+   "nick": "Arsenal",
+   "providerId": 18,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-442",
+     "providerId": 442,
+     "name": "Raya",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-458",
+     "providerId": 458,
+     "name": "Lewis-Skelly",
+     "num": 49,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-4072",
+     "providerId": 4072,
+     "name": "Magalhães",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-504",
+     "providerId": 504,
+     "name": "Konsa",
+     "num": 15,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-443",
+     "providerId": 443,
+     "name": "White",
+     "num": 4,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-449",
+     "providerId": 449,
+     "name": "Rice",
+     "num": 41,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-447",
+     "providerId": 447,
+     "name": "Ødegaard",
+     "num": 8,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-454",
+     "providerId": 454,
+     "name": "Eze",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-456",
+     "providerId": 456,
+     "name": "Gyökeres",
+     "num": 14,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-455",
+     "providerId": 455,
+     "name": "Saka",
+     "num": 7,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-4941",
+     "providerId": 4941,
+     "name": "Havertz",
+     "num": 29,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-10-18T15:30:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-10-17T13:28:56.127Z"
+}
