@@ -1,9 +1,9 @@
 {
  "fixtureId": 209600,
- "minute": 46,
- "status": "1st_half",
+ "minute": 84,
+ "status": "2nd_half",
  "goals": {
-  "home": 0,
+  "home": 1,
   "away": 1
  },
  "lineupsConfirmed": true,
@@ -78,10 +78,10 @@
      "y": 60
     },
     {
-     "id": "home-367",
-     "providerId": 367,
-     "name": "Tanaka",
-     "num": 22,
+     "id": "home-3859",
+     "providerId": 3859,
+     "name": "Longstaff",
+     "num": null,
      "pos": "LCM",
      "role": "MID",
      "x": 25,
@@ -108,10 +108,10 @@
      "y": 66
     },
     {
-     "id": "home-374",
-     "providerId": 374,
-     "name": "Okafor",
-     "num": 19,
+     "id": "home-372",
+     "providerId": 372,
+     "name": "Nmecha",
+     "num": null,
      "pos": "LAM",
      "role": "FWD",
      "x": 38,
@@ -170,10 +170,10 @@
      "y": 37
     },
     {
-     "id": "away-1800",
-     "providerId": 1800,
-     "name": "Martínez",
-     "num": 6,
+     "id": "away-1799",
+     "providerId": 1799,
+     "name": "Mazraoui",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
@@ -200,10 +200,10 @@
      "y": 38
     },
     {
-     "id": "away-487",
-     "providerId": 487,
-     "name": "Baleba",
-     "num": 20,
+     "id": "away-1797",
+     "providerId": 1797,
+     "name": "Mount",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-18T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-18T13:47:35.433Z"
+ "fetchedAt": "2026-10-18T14:43:57.759Z"
 }

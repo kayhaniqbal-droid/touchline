@@ -1,9 +1,9 @@
 {
  "fixtureId": 209595,
- "minute": 46,
- "status": "1st_half",
+ "minute": 82,
+ "status": "2nd_half",
  "goals": {
-  "home": 1,
+  "home": 2,
   "away": 0
  },
  "lineupsConfirmed": true,
@@ -78,10 +78,10 @@
      "y": 62
     },
     {
-     "id": "home-2371",
-     "providerId": 2371,
-     "name": "Cook",
-     "num": 4,
+     "id": "home-791",
+     "providerId": 791,
+     "name": "Kluivert",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
@@ -108,20 +108,20 @@
      "y": 50
     },
     {
-     "id": "home-794",
-     "providerId": 794,
-     "name": "Tavernier",
-     "num": 16,
+     "id": "home-790",
+     "providerId": 790,
+     "name": "Adli",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
      "y": 16
     },
     {
-     "id": "home-795",
-     "providerId": 795,
-     "name": "Evanilson",
-     "num": 9,
+     "id": "home-2767",
+     "providerId": 2767,
+     "name": "Rodriguez",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -160,10 +160,10 @@
      "y": 15
     },
     {
-     "id": "away-345",
-     "providerId": 345,
-     "name": "Alderete",
-     "num": 15,
+     "id": "away-355",
+     "providerId": 355,
+     "name": "O'Nien",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
@@ -210,10 +210,10 @@
      "y": 16
     },
     {
-     "id": "away-2369",
-     "providerId": 2369,
-     "name": "Rigg",
-     "num": 11,
+     "id": "away-37161",
+     "providerId": 37161,
+     "name": "Ahoka",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
@@ -230,10 +230,10 @@
      "y": 84
     },
     {
-     "id": "away-8389",
-     "providerId": 8389,
-     "name": "Tuterov",
-     "num": 57,
+     "id": "away-4743",
+     "providerId": 4743,
+     "name": "Diarra",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -245,5 +245,5 @@
  },
  "kickoff": "2026-10-18T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-18T13:47:35.945Z"
+ "fetchedAt": "2026-10-18T14:43:58.724Z"
 }
