@@ -1,7 +1,7 @@
 {
  "fixtureId": 209595,
- "minute": 82,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 2,
   "away": 0
@@ -14,7 +14,7 @@
    "nick": "Bournemouth",
    "providerId": 2,
    "coach": null,
-   "formation": "4-2-3-1",
+   "formation": "4-1-4-1",
    "derivedShape": true,
    "players": [
     {
@@ -68,13 +68,33 @@
      "y": 15
     },
     {
-     "id": "home-788",
-     "providerId": 788,
-     "name": "Adams",
-     "num": 12,
-     "pos": "RDM",
+     "id": "home-786",
+     "providerId": 786,
+     "name": "Diakité",
+     "num": null,
+     "pos": "DM",
      "role": "MID",
-     "x": 25,
+     "x": 23,
+     "y": 50
+    },
+    {
+     "id": "home-4027",
+     "providerId": 4027,
+     "name": "Doak",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 33,
+     "y": 86
+    },
+    {
+     "id": "home-3900",
+     "providerId": 3900,
+     "name": "Christie",
+     "num": 10,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 31,
      "y": 62
     },
     {
@@ -82,40 +102,20 @@
      "providerId": 791,
      "name": "Kluivert",
      "num": null,
-     "pos": "LDM",
+     "pos": "LCM",
      "role": "MID",
-     "x": 25,
+     "x": 31,
      "y": 38
-    },
-    {
-     "id": "home-663",
-     "providerId": 663,
-     "name": "Rayan",
-     "num": 37,
-     "pos": "RW",
-     "role": "MID",
-     "x": 35,
-     "y": 84
-    },
-    {
-     "id": "home-3900",
-     "providerId": 3900,
-     "name": "Christie",
-     "num": 10,
-     "pos": "AM",
-     "role": "MID",
-     "x": 34,
-     "y": 50
     },
     {
      "id": "home-790",
      "providerId": 790,
      "name": "Adli",
      "num": null,
-     "pos": "LW",
+     "pos": "LM",
      "role": "MID",
-     "x": 35,
-     "y": 16
+     "x": 33,
+     "y": 14
     },
     {
      "id": "home-2767",
@@ -124,7 +124,7 @@
      "num": null,
      "pos": "ST",
      "role": "FWD",
-     "x": 45,
+     "x": 43,
      "y": 50
     }
    ],
@@ -180,30 +180,30 @@
      "y": 85
     },
     {
-     "id": "away-347",
-     "providerId": 347,
-     "name": "Hume",
-     "num": 32,
+     "id": "away-348",
+     "providerId": 348,
+     "name": "Xhaka",
+     "num": 34,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-348",
-     "providerId": 348,
-     "name": "Xhaka",
-     "num": 34,
+     "id": "away-349",
+     "providerId": 349,
+     "name": "Sadiki",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-349",
-     "providerId": 349,
-     "name": "Sadiki",
-     "num": 27,
+     "id": "away-347",
+     "providerId": 347,
+     "name": "Hume",
+     "num": 32,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -245,5 +245,5 @@
  },
  "kickoff": "2026-10-18T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-18T14:43:58.724Z"
+ "fetchedAt": "2026-10-18T16:20:33.579Z"
 }

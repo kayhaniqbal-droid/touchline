@@ -50,27 +50,27 @@
      "y": 85
     },
     {
-     "id": "away-347",
-     "name": "Hume",
-     "num": 32,
+     "id": "away-348",
+     "name": "Xhaka",
+     "num": 34,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-348",
-     "name": "Xhaka",
-     "num": 34,
+     "id": "away-349",
+     "name": "Sadiki",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-349",
-     "name": "Sadiki",
-     "num": 27,
+     "id": "away-347",
+     "name": "Hume",
+     "num": 32,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -152,27 +152,27 @@
      "y": 85
     },
     {
-     "id": "away-347",
-     "name": "Hume",
-     "num": 32,
+     "id": "away-348",
+     "name": "Xhaka",
+     "num": 34,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-348",
-     "name": "Xhaka",
-     "num": 34,
+     "id": "away-349",
+     "name": "Sadiki",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-349",
-     "name": "Sadiki",
-     "num": 27,
+     "id": "away-347",
+     "name": "Hume",
+     "num": 32,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -214,7 +214,7 @@
    "name": "62' Bournemouth freshen it up",
    "note": "Kluivert on for Cook on 62', same job.",
    "ruleId": "like-for-like",
-   "formation": "4-2-3-1",
+   "formation": "4-1-4-1",
    "players": [
     {
      "id": "home-783",
@@ -265,46 +265,46 @@
      "id": "home-788",
      "name": "Adams",
      "num": 12,
-     "pos": "RDM",
+     "pos": "DM",
      "role": "MID",
-     "x": 25,
+     "x": 23,
+     "y": 50
+    },
+    {
+     "id": "home-663",
+     "name": "Rayan",
+     "num": 37,
+     "pos": "RM",
+     "role": "MID",
+     "x": 33,
+     "y": 86
+    },
+    {
+     "id": "home-3900",
+     "name": "Christie",
+     "num": 10,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 31,
      "y": 62
     },
     {
      "id": "home-791",
      "name": "Kluivert",
      "num": null,
-     "pos": "LDM",
+     "pos": "LCM",
      "role": "MID",
-     "x": 25,
+     "x": 31,
      "y": 38
-    },
-    {
-     "id": "home-663",
-     "name": "Rayan",
-     "num": 37,
-     "pos": "RW",
-     "role": "MID",
-     "x": 35,
-     "y": 84
-    },
-    {
-     "id": "home-3900",
-     "name": "Christie",
-     "num": 10,
-     "pos": "AM",
-     "role": "MID",
-     "x": 34,
-     "y": 50
     },
     {
      "id": "home-794",
      "name": "Tavernier",
      "num": 16,
-     "pos": "LW",
+     "pos": "LM",
      "role": "MID",
-     "x": 35,
-     "y": 16
+     "x": 33,
+     "y": 14
     },
     {
      "id": "home-795",
@@ -312,7 +312,7 @@
      "num": 9,
      "pos": "ST",
      "role": "FWD",
-     "x": 45,
+     "x": 43,
      "y": 50
     }
    ]
@@ -364,27 +364,27 @@
      "y": 85
     },
     {
-     "id": "away-347",
-     "name": "Hume",
-     "num": 32,
+     "id": "away-348",
+     "name": "Xhaka",
+     "num": 34,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-348",
-     "name": "Xhaka",
-     "num": 34,
+     "id": "away-349",
+     "name": "Sadiki",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-349",
-     "name": "Sadiki",
-     "num": 27,
+     "id": "away-347",
+     "name": "Hume",
+     "num": 32,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -426,7 +426,7 @@
    "name": "79' Bournemouth make a double change",
    "note": "Adli and Rodriguez on together for Tavernier and Evanilson on 79'.",
    "ruleId": "double-change",
-   "formation": "4-2-3-1",
+   "formation": "4-1-4-1",
    "players": [
     {
      "id": "home-783",
@@ -477,46 +477,46 @@
      "id": "home-788",
      "name": "Adams",
      "num": 12,
-     "pos": "RDM",
+     "pos": "DM",
      "role": "MID",
-     "x": 25,
+     "x": 23,
+     "y": 50
+    },
+    {
+     "id": "home-663",
+     "name": "Rayan",
+     "num": 37,
+     "pos": "RM",
+     "role": "MID",
+     "x": 33,
+     "y": 86
+    },
+    {
+     "id": "home-3900",
+     "name": "Christie",
+     "num": 10,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 31,
      "y": 62
     },
     {
      "id": "home-791",
      "name": "Kluivert",
      "num": null,
-     "pos": "LDM",
+     "pos": "LCM",
      "role": "MID",
-     "x": 25,
+     "x": 31,
      "y": 38
-    },
-    {
-     "id": "home-663",
-     "name": "Rayan",
-     "num": 37,
-     "pos": "RW",
-     "role": "MID",
-     "x": 35,
-     "y": 84
-    },
-    {
-     "id": "home-3900",
-     "name": "Christie",
-     "num": 10,
-     "pos": "AM",
-     "role": "MID",
-     "x": 34,
-     "y": 50
     },
     {
      "id": "home-790",
      "name": "Adli",
      "num": null,
-     "pos": "LW",
+     "pos": "LM",
      "role": "MID",
-     "x": 35,
-     "y": 16
+     "x": 33,
+     "y": 14
     },
     {
      "id": "home-2767",
@@ -524,7 +524,117 @@
      "num": null,
      "pos": "ST",
      "role": "FWD",
-     "x": 45,
+     "x": 43,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-89-double-change",
+   "minute": 89,
+   "side": "home",
+   "name": "89' Bournemouth make a double change",
+   "note": "Diakité and Doak on together for Adams and Rayan on 89'.",
+   "ruleId": "double-change",
+   "formation": "4-1-4-1",
+   "players": [
+    {
+     "id": "home-783",
+     "name": "Đ. Petrović",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-801",
+     "name": "Smith",
+     "num": 15,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-799",
+     "name": "Hill",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-2053",
+     "name": "Silva",
+     "num": 14,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-787",
+     "name": "Truffert",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-786",
+     "name": "Diakité",
+     "num": null,
+     "pos": "DM",
+     "role": "MID",
+     "x": 23,
+     "y": 50
+    },
+    {
+     "id": "home-4027",
+     "name": "Doak",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 33,
+     "y": 86
+    },
+    {
+     "id": "home-3900",
+     "name": "Christie",
+     "num": 10,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 31,
+     "y": 62
+    },
+    {
+     "id": "home-791",
+     "name": "Kluivert",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 31,
+     "y": 38
+    },
+    {
+     "id": "home-790",
+     "name": "Adli",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 33,
+     "y": 14
+    },
+    {
+     "id": "home-2767",
+     "name": "Rodriguez",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 43,
      "y": 50
     }
    ]

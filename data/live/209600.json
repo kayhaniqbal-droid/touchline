@@ -1,7 +1,7 @@
 {
  "fixtureId": 209600,
- "minute": 84,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 1,
   "away": 1
@@ -220,10 +220,10 @@
      "y": 16
     },
     {
-     "id": "away-514",
-     "providerId": 514,
-     "name": "Tielemans",
-     "num": 18,
+     "id": "away-4119",
+     "providerId": 4119,
+     "name": "Cunha",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-18T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-18T14:43:57.759Z"
+ "fetchedAt": "2026-10-18T16:20:25.606Z"
 }

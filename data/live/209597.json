@@ -1,7 +1,7 @@
 {
  "fixtureId": 209597,
- "minute": 85,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 5,
   "away": 0
@@ -48,10 +48,10 @@
      "y": 63
     },
     {
-     "id": "home-485",
-     "providerId": 485,
-     "name": "Dunk",
-     "num": 5,
+     "id": "home-16694",
+     "providerId": 16694,
+     "name": "Svoboda",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -68,50 +68,50 @@
      "y": 15
     },
     {
-     "id": "home-491",
-     "providerId": 491,
-     "name": "De Cuyper",
-     "num": 29,
+     "id": "home-493",
+     "providerId": 493,
+     "name": "Hinshelwood",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-493",
-     "providerId": 493,
-     "name": "Hinshelwood",
-     "num": null,
+     "id": "home-1614",
+     "providerId": 1614,
+     "name": "Andrés",
+     "num": 14,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-1614",
-     "providerId": 1614,
-     "name": "Andrés",
-     "num": 14,
+     "id": "home-488",
+     "providerId": 488,
+     "name": "Gómez",
+     "num": 25,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-488",
-     "providerId": 488,
-     "name": "Gómez",
-     "num": 25,
+     "id": "home-6535",
+     "providerId": 6535,
+     "name": "Yalcouyé",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-6535",
-     "providerId": 6535,
-     "name": "Yalcouyé",
-     "num": null,
+     "id": "home-491",
+     "providerId": 491,
+     "name": "De Cuyper",
+     "num": 29,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-428",
-     "providerId": 428,
-     "name": "Lerma",
-     "num": null,
+     "id": "away-436",
+     "providerId": 436,
+     "name": "Canvot",
+     "num": 6,
      "pos": "RCB",
      "role": "DEF",
      "x": 86,
@@ -170,10 +170,10 @@
      "y": 50
     },
     {
-     "id": "away-436",
-     "providerId": 436,
-     "name": "Canvot",
-     "num": 6,
+     "id": "away-428",
+     "providerId": 428,
+     "name": "Lerma",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 86,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-18T13:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-18T14:43:58.157Z"
+ "fetchedAt": "2026-10-18T16:20:26.069Z"
 }

@@ -22,9 +22,9 @@
      "y": 50
     },
     {
-     "id": "away-1315",
-     "name": "Ahanor",
-     "num": 21,
+     "id": "away-436",
+     "name": "Canvot",
+     "num": 6,
      "pos": "RCB",
      "role": "DEF",
      "x": 86,
@@ -40,9 +40,9 @@
      "y": 50
     },
     {
-     "id": "away-436",
-     "name": "Canvot",
-     "num": 6,
+     "id": "away-1315",
+     "name": "Ahanor",
+     "num": 21,
      "pos": "LCB",
      "role": "DEF",
      "x": 86,
@@ -132,9 +132,9 @@
      "y": 50
     },
     {
-     "id": "away-428",
-     "name": "Lerma",
-     "num": null,
+     "id": "away-436",
+     "name": "Canvot",
+     "num": 6,
      "pos": "RCB",
      "role": "DEF",
      "x": 86,
@@ -150,9 +150,9 @@
      "y": 50
     },
     {
-     "id": "away-436",
-     "name": "Canvot",
-     "num": 6,
+     "id": "away-428",
+     "name": "Lerma",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 86,
@@ -242,9 +242,9 @@
      "y": 50
     },
     {
-     "id": "away-428",
-     "name": "Lerma",
-     "num": null,
+     "id": "away-436",
+     "name": "Canvot",
+     "num": 6,
      "pos": "RCB",
      "role": "DEF",
      "x": 86,
@@ -260,9 +260,9 @@
      "y": 50
     },
     {
-     "id": "away-436",
-     "name": "Canvot",
-     "num": 6,
+     "id": "away-428",
+     "name": "Lerma",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 86,
@@ -388,45 +388,45 @@
      "y": 15
     },
     {
-     "id": "home-491",
-     "name": "De Cuyper",
-     "num": 29,
+     "id": "home-493",
+     "name": "Hinshelwood",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-493",
-     "name": "Hinshelwood",
-     "num": null,
+     "id": "home-1614",
+     "name": "Andrés",
+     "num": 14,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-1614",
-     "name": "Andrés",
-     "num": 14,
+     "id": "home-488",
+     "name": "Gómez",
+     "num": 25,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-488",
-     "name": "Gómez",
-     "num": 25,
+     "id": "home-1632",
+     "name": "Ayari",
+     "num": 26,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-1632",
-     "name": "Ayari",
-     "num": 26,
+     "id": "home-491",
+     "name": "De Cuyper",
+     "num": 29,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -498,45 +498,45 @@
      "y": 15
     },
     {
-     "id": "home-491",
-     "name": "De Cuyper",
-     "num": 29,
+     "id": "home-493",
+     "name": "Hinshelwood",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-493",
-     "name": "Hinshelwood",
-     "num": null,
+     "id": "home-1614",
+     "name": "Andrés",
+     "num": 14,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-1614",
-     "name": "Andrés",
-     "num": 14,
+     "id": "home-488",
+     "name": "Gómez",
+     "num": 25,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-488",
-     "name": "Gómez",
-     "num": 25,
+     "id": "home-6535",
+     "name": "Yalcouyé",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-6535",
-     "name": "Yalcouyé",
-     "num": null,
+     "id": "home-491",
+     "name": "De Cuyper",
+     "num": 29,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -572,9 +572,9 @@
      "y": 50
     },
     {
-     "id": "away-428",
-     "name": "Lerma",
-     "num": null,
+     "id": "away-436",
+     "name": "Canvot",
+     "num": 6,
      "pos": "RCB",
      "role": "DEF",
      "x": 86,
@@ -590,9 +590,9 @@
      "y": 50
     },
     {
-     "id": "away-436",
-     "name": "Canvot",
-     "num": 6,
+     "id": "away-428",
+     "name": "Lerma",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 86,
@@ -659,6 +659,116 @@
      "pos": "ST",
      "role": "FWD",
      "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-90-like-for-like",
+   "minute": 90,
+   "side": "home",
+   "name": "90' Brighton freshen it up",
+   "note": "Svoboda on for Dunk on 90', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-482",
+     "name": "Verbruggen",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-486",
+     "name": "Kadıoğlu",
+     "num": 24,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-1591",
+     "name": "Vušković",
+     "num": 44,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-16694",
+     "name": "Svoboda",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-3202",
+     "name": "Hadjam",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-493",
+     "name": "Hinshelwood",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-1614",
+     "name": "Andrés",
+     "num": 14,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-488",
+     "name": "Gómez",
+     "num": 25,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6535",
+     "name": "Yalcouyé",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-491",
+     "name": "De Cuyper",
+     "num": 29,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-1633",
+     "name": "Rutter",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
      "y": 50
     }
    ]
