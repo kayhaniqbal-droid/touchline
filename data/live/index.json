@@ -474,9 +474,9 @@
    "status": "notstarted",
    "home": "TOT",
    "away": "COV",
-   "confirmed": false
+   "confirmed": true
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-10-19T17:38:24.863Z"
+ "updatedAt": "2026-10-19T18:59:57.529Z"
 }
