@@ -88,30 +88,30 @@
      "y": 38
     },
     {
-     "id": "home-855",
-     "providerId": 855,
-     "name": "Sávio",
-     "num": 17,
+     "id": "home-30733",
+     "providerId": 30733,
+     "name": "Maddison",
+     "num": 10,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-30733",
-     "providerId": 30733,
-     "name": "Maddison",
-     "num": 10,
+     "id": "home-725",
+     "providerId": 725,
+     "name": "Kudus",
+     "num": 20,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-725",
-     "providerId": 725,
-     "name": "Kudus",
-     "num": 20,
+     "id": "home-862",
+     "providerId": 862,
+     "name": "Marmoush",
+     "num": 22,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-19T19:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-18T21:17:17.354Z"
+ "fetchedAt": "2026-10-19T16:49:22.207Z"
 }
