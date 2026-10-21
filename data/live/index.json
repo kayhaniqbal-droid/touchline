@@ -475,8 +475,15 @@
    "home": "TOT",
    "away": "COV",
    "confirmed": true
+  },
+  "209689": {
+   "kickoff": "2026-10-21T20:00:00+00:00",
+   "status": "postponed",
+   "home": "CHE",
+   "away": "AVL",
+   "confirmed": false
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-10-20T22:08:07.155Z"
+ "updatedAt": "2026-10-21T14:53:29.916Z"
 }

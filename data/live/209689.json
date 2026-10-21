@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209689,
+ "minute": 0,
+ "status": "postponed",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "CHE",
+   "name": "Chelsea",
+   "nick": "Chelsea",
+   "providerId": 13,
+   "coach": null,
+   "formation": "3-4-2-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-1701",
+     "providerId": 1701,
+     "name": "Penders",
+     "num": 39,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-907",
+     "providerId": 907,
+     "name": "Chavarría",
+     "num": 29,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-424",
+     "providerId": 424,
+     "name": "Lacroix",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-22880",
+     "providerId": 22880,
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-399",
+     "providerId": 399,
+     "name": "Acheampong",
+     "num": 34,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 28,
+     "y": 90
+    },
+    {
+     "id": "home-511",
+     "providerId": 511,
+     "name": "Rogers",
+     "num": 17,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-4237",
+     "providerId": 4237,
+     "name": "Lavia",
+     "num": 45,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-474",
+     "providerId": 474,
+     "name": "Henderson",
+     "num": 14,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 28,
+     "y": 10
+    },
+    {
+     "id": "home-395",
+     "providerId": 395,
+     "name": "Palmer",
+     "num": 10,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 66
+    },
+    {
+     "id": "home-394",
+     "providerId": 394,
+     "name": "Neto",
+     "num": 7,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 34
+    },
+    {
+     "id": "home-390",
+     "providerId": 390,
+     "name": "Pedro",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "AVL",
+   "name": "Aston Villa",
+   "nick": "Villa",
+   "providerId": 3,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-4055",
+     "providerId": 4055,
+     "name": "Suzuki",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-505",
+     "providerId": 505,
+     "name": "Torres",
+     "num": 14,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-519",
+     "providerId": 519,
+     "name": "Lindelöf",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-4289",
+     "providerId": 4289,
+     "name": "Mings",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-503",
+     "providerId": 503,
+     "name": "Cash",
+     "num": 2,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-507",
+     "providerId": 507,
+     "name": "Kamara",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-1630",
+     "providerId": 1630,
+     "name": "Barkley",
+     "num": 6,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-517",
+     "providerId": 517,
+     "name": "Buendía",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-528",
+     "providerId": 528,
+     "name": "Gomes",
+     "num": 35,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-510",
+     "providerId": 510,
+     "name": "McGinn",
+     "num": 7,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-2471",
+     "providerId": 2471,
+     "name": "Jackson",
+     "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-10-21T20:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-10-21T14:53:29.915Z"
+}
