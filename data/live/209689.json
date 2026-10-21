@@ -1,7 +1,7 @@
 {
  "fixtureId": 209689,
  "minute": 0,
- "status": "postponed",
+ "status": "cancelled",
  "goals": {
   "home": 0,
   "away": 0
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-21T20:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-21T17:54:05.871Z"
+ "fetchedAt": "2026-10-21T18:54:24.410Z"
 }

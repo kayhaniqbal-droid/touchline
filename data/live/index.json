@@ -478,12 +478,12 @@
   },
   "209689": {
    "kickoff": "2026-10-21T20:00:00+00:00",
-   "status": "postponed",
+   "status": "cancelled",
    "home": "CHE",
    "away": "AVL",
    "confirmed": false
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-10-21T17:54:05.872Z"
+ "updatedAt": "2026-10-21T18:54:24.412Z"
 }
