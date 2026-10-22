@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209611,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "IPS",
+   "name": "Ipswich Town",
+   "nick": "Ipswich",
+   "providerId": 200,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-6143",
+     "providerId": 6143,
+     "name": "Walton",
+     "num": 28,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6147",
+     "providerId": 6147,
+     "name": "Davis",
+     "num": 3,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-6145",
+     "providerId": 6145,
+     "name": "O'Shea",
+     "num": 26,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-4377",
+     "providerId": 4377,
+     "name": "Diop",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-6144",
+     "providerId": 6144,
+     "name": "Furlong",
+     "num": 2,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-828",
+     "providerId": 828,
+     "name": "Lukić",
+     "num": 23,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-4750",
+     "providerId": 4750,
+     "name": "Palacios",
+     "num": 25,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-1710",
+     "providerId": 1710,
+     "name": "Enciso",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6131",
+     "providerId": 6131,
+     "name": "Issahaku",
+     "num": 7,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-3393",
+     "providerId": 3393,
+     "name": "Maeda",
+     "num": 38,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-1952",
+     "providerId": 1952,
+     "name": "Emersonn",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "NFO",
+   "name": "Nottingham Forest",
+   "nick": "Forest",
+   "providerId": 15,
+   "coach": null,
+   "formation": "3-4-2-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-542",
+     "providerId": 542,
+     "name": "Sels",
+     "num": 26,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-546",
+     "providerId": 546,
+     "name": "Williams",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-2913",
+     "providerId": 2913,
+     "name": "Murillo",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-557",
+     "providerId": 557,
+     "name": "Jair",
+     "num": 23,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-4788",
+     "providerId": 4788,
+     "name": "Aina",
+     "num": 34,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-560",
+     "providerId": 560,
+     "name": "McAtee",
+     "num": 24,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-2892",
+     "providerId": 2892,
+     "name": "Schlager",
+     "num": 21,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-555",
+     "providerId": 555,
+     "name": "Domínguez",
+     "num": 8,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-551",
+     "providerId": 551,
+     "name": "Ndoye",
+     "num": 14,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-426",
+     "providerId": 426,
+     "name": "Muñoz",
+     "num": 27,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-392",
+     "providerId": 392,
+     "name": "Delap",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-10-23T19:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-10-22T14:53:48.152Z"
+}
