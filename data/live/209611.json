@@ -68,10 +68,10 @@
      "y": 15
     },
     {
-     "id": "home-828",
-     "providerId": 828,
-     "name": "Lukić",
-     "num": 23,
+     "id": "home-6160",
+     "providerId": 6160,
+     "name": "Greaves",
+     "num": 24,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-23T19:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-22T20:19:03.430Z"
+ "fetchedAt": "2026-10-22T22:08:01.500Z"
 }
