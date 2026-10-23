@@ -509,7 +509,7 @@
    "status": "notstarted",
    "home": "IPS",
    "away": "NFO",
-   "confirmed": false
+   "confirmed": true
   },
   "209689": {
    "kickoff": "2026-10-21T20:00:00+00:00",
@@ -520,5 +520,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-10-23T17:41:55.957Z"
+ "updatedAt": "2026-10-23T18:42:29.473Z"
 }
