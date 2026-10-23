@@ -506,7 +506,7 @@
   },
   "209611": {
    "kickoff": "2026-10-23T19:00:00+00:00",
-   "status": "2nd_half",
+   "status": "FT",
    "home": "IPS",
    "away": "NFO",
    "confirmed": true
@@ -520,5 +520,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-10-23T20:06:29.769Z"
+ "updatedAt": "2026-10-23T21:51:53.892Z"
 }
