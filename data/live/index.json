@@ -478,7 +478,7 @@
   },
   "209605": {
    "kickoff": "2026-10-24T14:00:00+00:00",
-   "status": "1st_half",
+   "status": "FT",
    "home": "ARS",
    "away": "EVE",
    "confirmed": true
@@ -495,11 +495,11 @@
    "status": "notstarted",
    "home": "CHE",
    "away": "TOT",
-   "confirmed": false
+   "confirmed": true
   },
   "209608": {
    "kickoff": "2026-10-24T14:00:00+00:00",
-   "status": "1st_half",
+   "status": "FT",
    "home": "COV",
    "away": "FUL",
    "confirmed": true
@@ -555,5 +555,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-10-24T14:43:46.152Z"
+ "updatedAt": "2026-10-24T16:25:50.275Z"
 }
