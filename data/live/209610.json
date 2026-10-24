@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209610,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "HUL",
+   "name": "Hull City",
+   "nick": "Hull",
+   "providerId": 204,
+   "coach": null,
+   "formation": "5-4-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-3476",
+     "providerId": 3476,
+     "name": "Tzolakis",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6184",
+     "providerId": 6184,
+     "name": "Egan",
+     "num": 15,
+     "pos": "RWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 88
+    },
+    {
+     "id": "home-6706",
+     "providerId": 6706,
+     "name": "Ajayi",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 70
+    },
+    {
+     "id": "home-12179",
+     "providerId": 12179,
+     "name": "Herrington",
+     "num": 22,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 13,
+     "y": 50
+    },
+    {
+     "id": "home-6186",
+     "providerId": 6186,
+     "name": "Giles",
+     "num": 3,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 15,
+     "y": 30
+    },
+    {
+     "id": "home-6183",
+     "providerId": 6183,
+     "name": "Coyle",
+     "num": 2,
+     "pos": "LWB",
+     "role": "DEF",
+     "x": 21,
+     "y": 12
+    },
+    {
+     "id": "home-16077",
+     "providerId": 16077,
+     "name": "Stroud",
+     "num": 21,
+     "pos": "RM",
+     "role": "MID",
+     "x": 29,
+     "y": 86
+    },
+    {
+     "id": "home-6188",
+     "providerId": 6188,
+     "name": "Slater",
+     "num": 27,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 27,
+     "y": 60
+    },
+    {
+     "id": "home-50187",
+     "providerId": 50187,
+     "name": "Hjertø-Dahl",
+     "num": 14,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 27,
+     "y": 40
+    },
+    {
+     "id": "home-3923",
+     "providerId": 3923,
+     "name": "Norton-Cuffy",
+     "num": 18,
+     "pos": "LM",
+     "role": "MID",
+     "x": 29,
+     "y": 14
+    },
+    {
+     "id": "home-6191",
+     "providerId": 6191,
+     "name": "McBurnie",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 41,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "BRE",
+   "name": "Brentford",
+   "nick": "Brentford",
+   "providerId": 16,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-462",
+     "providerId": 462,
+     "name": "Kelleher",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-477",
+     "providerId": 477,
+     "name": "Lewis-Potter",
+     "num": 23,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-464",
+     "providerId": 464,
+     "name": "Ajer",
+     "num": 20,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-476",
+     "providerId": 476,
+     "name": "Collins",
+     "num": 22,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-463",
+     "providerId": 463,
+     "name": "Kayode",
+     "num": 33,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-1411",
+     "providerId": 1411,
+     "name": "Sangare",
+     "num": 18,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-470",
+     "providerId": 470,
+     "name": "Jensen",
+     "num": 8,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-410",
+     "providerId": 410,
+     "name": "Anthony",
+     "num": 19,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-475",
+     "providerId": 475,
+     "name": "Damsgaard",
+     "num": 24,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-471",
+     "providerId": 471,
+     "name": "Ouattara",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-473",
+     "providerId": 473,
+     "name": "Thiago",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-10-25T14:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-10-24T13:51:19.909Z"
+}
