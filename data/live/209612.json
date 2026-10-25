@@ -1,9 +1,9 @@
 {
  "fixtureId": 209612,
- "minute": 6,
- "status": "1st_half",
+ "minute": 45,
+ "status": "halftime",
  "goals": {
-  "home": 0,
+  "home": 2,
   "away": 0
  },
  "lineupsConfirmed": true,
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-486",
-     "providerId": 486,
-     "name": "Kadıoğlu",
-     "num": 24,
+     "id": "away-3490",
+     "providerId": 3490,
+     "name": "Costinha",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-25T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-25T14:07:22.061Z"
+ "fetchedAt": "2026-10-25T14:59:48.894Z"
 }
