@@ -1,7 +1,7 @@
 {
  "fixtureId": 209614,
- "minute": 26,
- "status": "1st_half",
+ "minute": 63,
+ "status": "2nd_half",
  "goals": {
   "home": 0,
   "away": 0
@@ -28,10 +28,10 @@
      "y": 50
     },
     {
-     "id": "home-343",
-     "providerId": 343,
-     "name": "Mukiele",
-     "num": 20,
+     "id": "home-345",
+     "providerId": 345,
+     "name": "Alderete",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-25T16:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-25T16:57:24.873Z"
+ "fetchedAt": "2026-10-25T17:50:55.180Z"
 }
