@@ -541,7 +541,7 @@
   },
   "209614": {
    "kickoff": "2026-10-25T16:30:00+00:00",
-   "status": "2nd_half",
+   "status": "FT",
    "home": "SUN",
    "away": "LEE",
    "confirmed": true
@@ -555,5 +555,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-10-25T17:50:58.946Z"
+ "updatedAt": "2026-10-25T19:17:07.400Z"
 }
