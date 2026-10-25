@@ -58,45 +58,45 @@
      "y": 85
     },
     {
-     "id": "away-491",
-     "name": "De Cuyper",
-     "num": 29,
+     "id": "away-2173",
+     "name": "Groß",
+     "num": 13,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-2173",
-     "name": "Groß",
-     "num": 13,
+     "id": "away-1614",
+     "name": "Andrés",
+     "num": 14,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-1614",
-     "name": "Andrés",
-     "num": 14,
+     "id": "away-488",
+     "name": "Gómez",
+     "num": 25,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-488",
-     "name": "Gómez",
-     "num": 25,
+     "id": "away-1632",
+     "name": "Ayari",
+     "num": 26,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-1632",
-     "name": "Ayari",
-     "num": 26,
+     "id": "away-491",
+     "name": "De Cuyper",
+     "num": 29,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -109,6 +109,666 @@
      "pos": "ST",
      "role": "FWD",
      "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-46-like-for-like",
+   "minute": 46,
+   "side": "away",
+   "name": "46' Brighton freshen it up",
+   "note": "Hinshelwood on for Boscagli on 46', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-482",
+     "name": "Verbruggen",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-3490",
+     "name": "Costinha",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-1591",
+     "name": "Vušković",
+     "num": 44,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-485",
+     "name": "Dunk",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-493",
+     "name": "Hinshelwood",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-2173",
+     "name": "Groß",
+     "num": 13,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-1614",
+     "name": "Andrés",
+     "num": 14,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-488",
+     "name": "Gómez",
+     "num": 25,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1632",
+     "name": "Ayari",
+     "num": 26,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-491",
+     "name": "De Cuyper",
+     "num": 29,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-495",
+     "name": "Kostoulas",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-54-like-for-like",
+   "minute": 54,
+   "side": "away",
+   "name": "54' Brighton freshen it up",
+   "note": "Yalcouyé on for Andrés on 54', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-482",
+     "name": "Verbruggen",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-3490",
+     "name": "Costinha",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-1591",
+     "name": "Vušković",
+     "num": 44,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-485",
+     "name": "Dunk",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-493",
+     "name": "Hinshelwood",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-2173",
+     "name": "Groß",
+     "num": 13,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-6535",
+     "name": "Yalcouyé",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-488",
+     "name": "Gómez",
+     "num": 25,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1632",
+     "name": "Ayari",
+     "num": 26,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-491",
+     "name": "De Cuyper",
+     "num": 29,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-495",
+     "name": "Kostoulas",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-65-like-for-like",
+   "minute": 65,
+   "side": "home",
+   "name": "65' Liverpool freshen it up",
+   "note": "Nyoni on for Wirtz on 65', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-322",
+     "name": "Alisson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-3661",
+     "name": "Araújo",
+     "num": 33,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-2803",
+     "name": "Jacquet",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-325",
+     "name": "van Dijk",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-336",
+     "name": "Kerkez",
+     "num": 6,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-327",
+     "name": "Gravenberch",
+     "num": 38,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-328",
+     "name": "Mac Allister",
+     "num": 10,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-2261",
+     "name": "Barcola",
+     "num": 29,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-340",
+     "name": "Nyoni",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-331",
+     "name": "Gakpo",
+     "num": 18,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-332",
+     "name": "Isak",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-75-like-for-like",
+   "minute": 75,
+   "side": "away",
+   "name": "75' Brighton freshen it up",
+   "note": "Rutter on for Ayari on 75', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-482",
+     "name": "Verbruggen",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-3490",
+     "name": "Costinha",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-1591",
+     "name": "Vušković",
+     "num": 44,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-485",
+     "name": "Dunk",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-493",
+     "name": "Hinshelwood",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-2173",
+     "name": "Groß",
+     "num": 13,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-6535",
+     "name": "Yalcouyé",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-488",
+     "name": "Gómez",
+     "num": 25,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1633",
+     "name": "Rutter",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-491",
+     "name": "De Cuyper",
+     "num": 29,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-495",
+     "name": "Kostoulas",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-77-double-change",
+   "minute": 77,
+   "side": "home",
+   "name": "77' Liverpool make a double change",
+   "note": "Ngumoha and Koumas on together for Barcola and Isak on 77'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-322",
+     "name": "Alisson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-3661",
+     "name": "Araújo",
+     "num": 33,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-2803",
+     "name": "Jacquet",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-325",
+     "name": "van Dijk",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-336",
+     "name": "Kerkez",
+     "num": 6,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-327",
+     "name": "Gravenberch",
+     "num": 38,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-328",
+     "name": "Mac Allister",
+     "num": 10,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-341",
+     "name": "Ngumoha",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-340",
+     "name": "Nyoni",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-331",
+     "name": "Gakpo",
+     "num": 18,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-6098",
+     "name": "Koumas",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-88-like-for-like",
+   "minute": 88,
+   "side": "home",
+   "name": "88' Liverpool freshen it up",
+   "note": "Tsimikas on for Kerkez on 88', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-322",
+     "name": "Alisson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-3661",
+     "name": "Araújo",
+     "num": 33,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-2803",
+     "name": "Jacquet",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-325",
+     "name": "van Dijk",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-1077",
+     "name": "Tsimikas",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-327",
+     "name": "Gravenberch",
+     "num": 38,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-328",
+     "name": "Mac Allister",
+     "num": 10,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-341",
+     "name": "Ngumoha",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-340",
+     "name": "Nyoni",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-331",
+     "name": "Gakpo",
+     "num": 18,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-6098",
+     "name": "Koumas",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
      "y": 50
     }
    ]

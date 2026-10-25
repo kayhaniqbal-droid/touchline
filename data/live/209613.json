@@ -1,10 +1,10 @@
 {
  "fixtureId": 209613,
- "minute": 45,
- "status": "halftime",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
-  "away": 2
+  "away": 3
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -28,40 +28,40 @@
      "y": 50
     },
     {
-     "id": "home-1795",
-     "providerId": 1795,
-     "name": "Dalot",
-     "num": 2,
+     "id": "home-1789",
+     "providerId": 1789,
+     "name": "Yoro",
+     "num": 15,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
      "y": 85
     },
     {
-     "id": "home-1789",
-     "providerId": 1789,
-     "name": "Yoro",
-     "num": 15,
+     "id": "home-4118",
+     "providerId": 4118,
+     "name": "Maguire",
+     "num": 5,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-4118",
-     "providerId": 4118,
-     "name": "Maguire",
-     "num": 5,
+     "id": "home-1800",
+     "providerId": 1800,
+     "name": "Martínez",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
      "y": 37
     },
     {
-     "id": "home-1804",
-     "providerId": 1804,
-     "name": "Heaven",
-     "num": 26,
+     "id": "home-1795",
+     "providerId": 1795,
+     "name": "Dalot",
+     "num": 2,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
@@ -78,30 +78,30 @@
      "y": 62
     },
     {
-     "id": "home-487",
-     "providerId": 487,
-     "name": "Baleba",
-     "num": 20,
+     "id": "home-1798",
+     "providerId": 1798,
+     "name": "Zirkzee",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-1792",
-     "providerId": 1792,
-     "name": "Diallo",
-     "num": 16,
+     "id": "home-1807",
+     "providerId": 1807,
+     "name": "Lacey",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-514",
-     "providerId": 514,
-     "name": "Tielemans",
-     "num": 18,
+     "id": "home-4119",
+     "providerId": 4119,
+     "name": "Cunha",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-801",
-     "providerId": 801,
-     "name": "Smith",
-     "num": 15,
+     "id": "away-786",
+     "providerId": 786,
+     "name": "Diakité",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -200,10 +200,10 @@
      "y": 38
     },
     {
-     "id": "away-2371",
-     "providerId": 2371,
-     "name": "Cook",
-     "num": 4,
+     "id": "away-3900",
+     "providerId": 3900,
+     "name": "Christie",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -220,30 +220,30 @@
      "y": 16
     },
     {
-     "id": "away-791",
-     "providerId": 791,
-     "name": "Kluivert",
-     "num": 19,
+     "id": "away-4027",
+     "providerId": 4027,
+     "name": "Doak",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-794",
-     "providerId": 794,
-     "name": "Tavernier",
-     "num": 16,
+     "id": "away-790",
+     "providerId": 790,
+     "name": "Adli",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-795",
-     "providerId": 795,
-     "name": "Evanilson",
-     "num": 9,
+     "id": "away-793",
+     "providerId": 793,
+     "name": "Kroupi",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-25T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-25T14:59:48.462Z"
+ "fetchedAt": "2026-10-25T16:57:25.179Z"
 }

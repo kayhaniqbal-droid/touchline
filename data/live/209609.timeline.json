@@ -1,7 +1,558 @@
 {
  "fixtureId": 209609,
- "title": "Crystal Palace 0–0 Newcastle United",
+ "title": "Crystal Palace 0–2 Newcastle United",
  "lineupStatus": "confirmed",
- "phases": [],
+ "phases": [
+  {
+   "id": "shift-home-62-like-for-like",
+   "minute": 62,
+   "side": "home",
+   "name": "62' Palace freshen it up",
+   "note": "Nketiah on for Mateta on 62', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "home-438",
+     "name": "Benítez",
+     "num": 44,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-423",
+     "name": "Richards",
+     "num": 26,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-8981",
+     "name": "Disasi",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-436",
+     "name": "Canvot",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-3748",
+     "name": "Khalaili",
+     "num": 25,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 28,
+     "y": 90
+    },
+    {
+     "id": "home-427",
+     "name": "Wharton",
+     "num": 20,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-430",
+     "name": "Kamada",
+     "num": 18,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-429",
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 28,
+     "y": 10
+    },
+    {
+     "id": "home-814",
+     "name": "McNeil",
+     "num": 11,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 66
+    },
+    {
+     "id": "home-431",
+     "name": "Pino",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 34
+    },
+    {
+     "id": "home-434",
+     "name": "Nketiah",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-63-like-for-like",
+   "minute": 63,
+   "side": "home",
+   "name": "63' Palace freshen it up",
+   "note": "Osorio on for McNeil on 63', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "home-438",
+     "name": "Benítez",
+     "num": 44,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-423",
+     "name": "Richards",
+     "num": 26,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-8981",
+     "name": "Disasi",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-436",
+     "name": "Canvot",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-3748",
+     "name": "Khalaili",
+     "num": 25,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 28,
+     "y": 90
+    },
+    {
+     "id": "home-427",
+     "name": "Wharton",
+     "num": 20,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-430",
+     "name": "Kamada",
+     "num": 18,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-429",
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 28,
+     "y": 10
+    },
+    {
+     "id": "home-3252",
+     "name": "Osorio",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 66
+    },
+    {
+     "id": "home-431",
+     "name": "Pino",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 34
+    },
+    {
+     "id": "home-434",
+     "name": "Nketiah",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-77-double-change",
+   "minute": 77,
+   "side": "away",
+   "name": "77' Newcastle make a double change",
+   "note": "Ramsey, Elanga and Wissa on together for Willock, Barnes and Osula on 77'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-883",
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-2052",
+     "name": "Dedić",
+     "num": 37,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-712",
+     "name": "Schär",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-701",
+     "name": "Burn",
+     "num": 33,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-702",
+     "name": "Hall",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-849",
+     "name": "González",
+     "num": 6,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-705",
+     "name": "Joelinton",
+     "num": 7,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-706",
+     "name": "Murphy",
+     "num": 23,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-716",
+     "name": "Ramsey",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-710",
+     "name": "Elanga",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-5140",
+     "name": "Wissa",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-85-like-for-like",
+   "minute": 85,
+   "side": "away",
+   "name": "85' Newcastle freshen it up",
+   "note": "Steur on for Joelinton on 85', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-883",
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-2052",
+     "name": "Dedić",
+     "num": 37,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-712",
+     "name": "Schär",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-701",
+     "name": "Burn",
+     "num": 33,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-702",
+     "name": "Hall",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-849",
+     "name": "González",
+     "num": 6,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-5178",
+     "name": "Steur",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-706",
+     "name": "Murphy",
+     "num": 23,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-716",
+     "name": "Ramsey",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-710",
+     "name": "Elanga",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-5140",
+     "name": "Wissa",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-95-like-for-like",
+   "minute": 95,
+   "side": "away",
+   "name": "95' Newcastle freshen it up",
+   "note": "Thiaw on for Dedić on 95', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-883",
+     "name": "Horníček",
+     "num": 21,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-700",
+     "name": "Thiaw",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-712",
+     "name": "Schär",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-701",
+     "name": "Burn",
+     "num": 33,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-702",
+     "name": "Hall",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-849",
+     "name": "González",
+     "num": 6,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-5178",
+     "name": "Steur",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-706",
+     "name": "Murphy",
+     "num": 23,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-716",
+     "name": "Ramsey",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-710",
+     "name": "Elanga",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-5140",
+     "name": "Wissa",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  }
+ ],
  "shifts": []
 }

@@ -1,10 +1,10 @@
 {
  "fixtureId": 209610,
- "minute": 45,
- "status": "halftime",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 1,
-  "away": 0
+  "away": 1
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -28,10 +28,10 @@
      "y": 50
     },
     {
-     "id": "home-6183",
-     "providerId": 6183,
-     "name": "Coyle",
-     "num": 2,
+     "id": "home-3923",
+     "providerId": 3923,
+     "name": "Norton-Cuffy",
+     "num": null,
      "pos": "RWB",
      "role": "DEF",
      "x": 21,
@@ -68,30 +68,30 @@
      "y": 30
     },
     {
-     "id": "home-6186",
-     "providerId": 6186,
-     "name": "Giles",
-     "num": 3,
+     "id": "home-1494",
+     "providerId": 1494,
+     "name": "Cho",
+     "num": null,
      "pos": "LWB",
      "role": "DEF",
      "x": 21,
      "y": 12
     },
     {
-     "id": "home-6187",
-     "providerId": 6187,
-     "name": "Belloumi",
-     "num": 10,
+     "id": "home-6803",
+     "providerId": 6803,
+     "name": "Gelhardt",
+     "num": null,
      "pos": "RM",
      "role": "MID",
      "x": 29,
      "y": 86
     },
     {
-     "id": "home-808",
-     "providerId": 808,
-     "name": "Iroegbunam",
-     "num": 42,
+     "id": "home-1217",
+     "providerId": 1217,
+     "name": "Morita",
+     "num": null,
      "pos": "RCM",
      "role": "MID",
      "x": 27,
@@ -118,10 +118,10 @@
      "y": 14
     },
     {
-     "id": "home-6191",
-     "providerId": 6191,
-     "name": "McBurnie",
-     "num": 9,
+     "id": "home-1933",
+     "providerId": 1933,
+     "name": "Vaz",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 41,
@@ -136,7 +136,7 @@
    "nick": "Brentford",
    "providerId": 16,
    "coach": null,
-   "formation": "5-4-1",
+   "formation": "4-2-3-1",
    "derivedShape": true,
    "players": [
     {
@@ -154,90 +154,90 @@
      "providerId": 463,
      "name": "Kayode",
      "num": 33,
-     "pos": "RWB",
+     "pos": "RB",
      "role": "DEF",
-     "x": 79,
-     "y": 12
-    },
-    {
-     "id": "away-2373",
-     "providerId": 2373,
-     "name": "Hickey",
-     "num": 2,
-     "pos": "RCB",
-     "role": "DEF",
-     "x": 85,
-     "y": 30
-    },
-    {
-     "id": "away-464",
-     "providerId": 464,
-     "name": "Ajer",
-     "num": 20,
-     "pos": "CB",
-     "role": "DEF",
-     "x": 87,
-     "y": 50
+     "x": 82,
+     "y": 15
     },
     {
      "id": "away-466",
      "providerId": 466,
      "name": "van den Berg",
      "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-464",
+     "providerId": 464,
+     "name": "Ajer",
+     "num": 20,
      "pos": "LCB",
      "role": "DEF",
-     "x": 85,
-     "y": 70
+     "x": 87,
+     "y": 63
     },
     {
-     "id": "away-477",
-     "providerId": 477,
-     "name": "Lewis-Potter",
-     "num": 23,
-     "pos": "LWB",
+     "id": "away-1638",
+     "providerId": 1638,
+     "name": "Diouf",
+     "num": null,
+     "pos": "LB",
      "role": "DEF",
-     "x": 79,
-     "y": 88
-    },
-    {
-     "id": "away-471",
-     "providerId": 471,
-     "name": "Ouattara",
-     "num": 11,
-     "pos": "RM",
-     "role": "MID",
-     "x": 71,
-     "y": 14
-    },
-    {
-     "id": "away-470",
-     "providerId": 470,
-     "name": "Jensen",
-     "num": 8,
-     "pos": "RCM",
-     "role": "MID",
-     "x": 73,
-     "y": 40
+     "x": 82,
+     "y": 85
     },
     {
      "id": "away-1411",
      "providerId": 1411,
      "name": "Sangare",
      "num": 18,
-     "pos": "LCM",
+     "pos": "RDM",
      "role": "MID",
-     "x": 73,
-     "y": 60
+     "x": 75,
+     "y": 38
     },
     {
-     "id": "away-472",
-     "providerId": 472,
-     "name": "Schade",
-     "num": 7,
-     "pos": "LM",
+     "id": "away-475",
+     "providerId": 475,
+     "name": "Damsgaard",
+     "num": null,
+     "pos": "LDM",
      "role": "MID",
-     "x": 71,
-     "y": 86
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-1644",
+     "providerId": 1644,
+     "name": "Wilson",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-470",
+     "providerId": 470,
+     "name": "Jensen",
+     "num": 8,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-410",
+     "providerId": 410,
+     "name": "Anthony",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
     },
     {
      "id": "away-473",
@@ -246,7 +246,7 @@
      "num": 9,
      "pos": "ST",
      "role": "FWD",
-     "x": 59,
+     "x": 55,
      "y": 50
     }
    ],
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-25T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-25T14:59:49.290Z"
+ "fetchedAt": "2026-10-25T16:57:25.897Z"
 }

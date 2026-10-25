@@ -1,10 +1,10 @@
 {
  "fixtureId": 209609,
- "minute": 45,
- "status": "halftime",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
-  "away": 0
+  "away": 2
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -98,10 +98,10 @@
      "y": 10
     },
     {
-     "id": "home-814",
-     "providerId": 814,
-     "name": "McNeil",
-     "num": 11,
+     "id": "home-3252",
+     "providerId": 3252,
+     "name": "Osorio",
+     "num": null,
      "pos": "RAM",
      "role": "FWD",
      "x": 38,
@@ -118,10 +118,10 @@
      "y": 34
     },
     {
-     "id": "home-432",
-     "providerId": 432,
-     "name": "Mateta",
-     "num": 14,
+     "id": "home-434",
+     "providerId": 434,
+     "name": "Nketiah",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-2052",
-     "providerId": 2052,
-     "name": "Dedić",
-     "num": 37,
+     "id": "away-700",
+     "providerId": 700,
+     "name": "Thiaw",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -200,10 +200,10 @@
      "y": 38
     },
     {
-     "id": "away-705",
-     "providerId": 705,
-     "name": "Joelinton",
-     "num": 7,
+     "id": "away-5178",
+     "providerId": 5178,
+     "name": "Steur",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -220,30 +220,30 @@
      "y": 16
     },
     {
-     "id": "away-715",
-     "providerId": 715,
-     "name": "Willock",
-     "num": 28,
+     "id": "away-716",
+     "providerId": 716,
+     "name": "Ramsey",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-708",
-     "providerId": 708,
-     "name": "Barnes",
-     "num": 11,
+     "id": "away-710",
+     "providerId": 710,
+     "name": "Elanga",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-4279",
-     "providerId": 4279,
-     "name": "Osula",
-     "num": 10,
+     "id": "away-5140",
+     "providerId": 5140,
+     "name": "Wissa",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-25T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-25T14:59:49.664Z"
+ "fetchedAt": "2026-10-25T16:57:26.257Z"
 }
