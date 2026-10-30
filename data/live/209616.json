@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209616,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "BOU",
+   "name": "Bournemouth",
+   "nick": "Bournemouth",
+   "providerId": 2,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-783",
+     "providerId": 783,
+     "name": "Đ. Petrović",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-2053",
+     "providerId": 2053,
+     "name": "Silva",
+     "num": 14,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-799",
+     "providerId": 799,
+     "name": "Hill",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-787",
+     "providerId": 787,
+     "name": "Truffert",
+     "num": 3,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-801",
+     "providerId": 801,
+     "name": "Smith",
+     "num": 15,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-794",
+     "providerId": 794,
+     "name": "Tavernier",
+     "num": 16,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-788",
+     "providerId": 788,
+     "name": "Adams",
+     "num": 12,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-3900",
+     "providerId": 3900,
+     "name": "Christie",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-2767",
+     "providerId": 2767,
+     "name": "Rodriguez",
+     "num": 30,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-6736",
+     "providerId": 6736,
+     "name": "Jebbison",
+     "num": 29,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-795",
+     "providerId": 795,
+     "name": "Evanilson",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "LEE",
+   "name": "Leeds United",
+   "nick": "Leeds",
+   "providerId": 19,
+   "coach": null,
+   "formation": "3-4-2-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-858",
+     "providerId": 858,
+     "name": "Trafford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-2846",
+     "providerId": 2846,
+     "name": "Muharemović",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-2869",
+     "providerId": 2869,
+     "name": "Elvedi",
+     "num": 30,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-376",
+     "providerId": 376,
+     "name": "Justin",
+     "num": 24,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-370",
+     "providerId": 370,
+     "name": "Gudmundsson",
+     "num": 3,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-367",
+     "providerId": 367,
+     "name": "Tanaka",
+     "num": 22,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-368",
+     "providerId": 368,
+     "name": "Ampadu",
+     "num": 4,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-369",
+     "providerId": 369,
+     "name": "Stach",
+     "num": 18,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-366",
+     "providerId": 366,
+     "name": "Bogle",
+     "num": 2,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-374",
+     "providerId": 374,
+     "name": "Okafor",
+     "num": 19,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-371",
+     "providerId": 371,
+     "name": "Calvert-Lewin",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-10-31T15:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-10-30T16:33:10.185Z"
+}

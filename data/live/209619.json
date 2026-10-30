@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209619,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "COV",
+   "name": "Coventry City",
+   "nick": "Coventry",
+   "providerId": 203,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-6420",
+     "providerId": 6420,
+     "name": "Rushworth",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6424",
+     "providerId": 6424,
+     "name": "DaSilva",
+     "num": 3,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-465",
+     "providerId": 465,
+     "name": "Pinnock",
+     "num": 2,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-6687",
+     "providerId": 6687,
+     "name": "Thomas",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-6421",
+     "providerId": 6421,
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-16696",
+     "providerId": 16696,
+     "name": "Yirenkyi",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-6426",
+     "providerId": 6426,
+     "name": "Grimes",
+     "num": 6,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6429",
+     "providerId": 6429,
+     "name": "Ephron",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6427",
+     "providerId": 6427,
+     "name": "Rudoni",
+     "num": 5,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-6689",
+     "providerId": 6689,
+     "name": "Sakamoto",
+     "num": 7,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-6887",
+     "providerId": 6887,
+     "name": "Thomas-Asante",
+     "num": 23,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "SUN",
+   "name": "Sunderland",
+   "nick": "Sunderland",
+   "providerId": 7,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-342",
+     "providerId": 342,
+     "name": "Roefs",
+     "num": 22,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-346",
+     "providerId": 346,
+     "name": "Mandava",
+     "num": 17,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-721",
+     "providerId": 721,
+     "name": "Danso",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-355",
+     "providerId": 355,
+     "name": "O'Nien",
+     "num": 13,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-347",
+     "providerId": 347,
+     "name": "Hume",
+     "num": 32,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-348",
+     "providerId": 348,
+     "name": "Xhaka",
+     "num": 34,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-349",
+     "providerId": 349,
+     "name": "Sadiki",
+     "num": 27,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-7347",
+     "providerId": 7347,
+     "name": "Angulo",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-351",
+     "providerId": 351,
+     "name": "Le Fée",
+     "num": 28,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-12176",
+     "providerId": 12176,
+     "name": "Bi",
+     "num": 37,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-352",
+     "providerId": 352,
+     "name": "Brobbey",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-10-31T15:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-10-30T16:33:09.479Z"
+}
