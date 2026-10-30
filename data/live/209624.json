@@ -180,10 +180,10 @@
      "y": 72
     },
     {
-     "id": "away-429",
-     "providerId": 429,
-     "name": "Mitchell",
-     "num": 3,
+     "id": "away-3373",
+     "providerId": 3373,
+     "name": "Timber",
+     "num": 27,
      "pos": "RWB",
      "role": "MID",
      "x": 72,
@@ -210,10 +210,10 @@
      "y": 60
     },
     {
-     "id": "away-814",
-     "providerId": 814,
-     "name": "McNeil",
-     "num": 11,
+     "id": "away-429",
+     "providerId": 429,
+     "name": "Mitchell",
+     "num": 3,
      "pos": "LWB",
      "role": "MID",
      "x": 72,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-31T17:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-30T19:41:36.476Z"
+ "fetchedAt": "2026-10-30T21:05:50.453Z"
 }

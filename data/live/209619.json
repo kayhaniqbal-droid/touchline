@@ -48,10 +48,10 @@
      "y": 63
     },
     {
-     "id": "home-6687",
-     "providerId": 6687,
-     "name": "Thomas",
-     "num": 4,
+     "id": "home-1362",
+     "providerId": 1362,
+     "name": "Amenda",
+     "num": 24,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-31T15:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-30T19:41:37.644Z"
+ "fetchedAt": "2026-10-30T21:05:51.558Z"
 }

@@ -220,10 +220,10 @@
      "y": 90
     },
     {
-     "id": "away-553",
-     "providerId": 553,
-     "name": "Hudson Odoi",
-     "num": 7,
+     "id": "away-551",
+     "providerId": 551,
+     "name": "Ndoye",
+     "num": 14,
      "pos": "RAM",
      "role": "FWD",
      "x": 62,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-31T15:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-30T19:41:38.007Z"
+ "fetchedAt": "2026-10-30T21:05:51.912Z"
 }
