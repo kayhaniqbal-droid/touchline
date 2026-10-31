@@ -1,6 +1,6 @@
 {
  "fixtureId": 209617,
- "title": "Brentford 1–0 Nottingham Forest",
+ "title": "Brentford 2–0 Nottingham Forest",
  "lineupStatus": "confirmed",
  "phases": [
   {
@@ -58,45 +58,45 @@
      "y": 10
     },
     {
-     "id": "away-546",
-     "name": "Williams",
-     "num": 3,
+     "id": "away-560",
+     "name": "McAtee",
+     "num": 24,
      "pos": "RCM",
      "role": "MID",
      "x": 75,
      "y": 40
     },
     {
-     "id": "away-560",
-     "name": "McAtee",
-     "num": 24,
+     "id": "away-554",
+     "name": "Yates",
+     "num": null,
      "pos": "LCM",
      "role": "MID",
      "x": 75,
      "y": 60
     },
     {
-     "id": "away-554",
-     "name": "Yates",
-     "num": null,
+     "id": "away-546",
+     "name": "Williams",
+     "num": 3,
      "pos": "LWB",
      "role": "MID",
      "x": 72,
      "y": 90
     },
     {
-     "id": "away-550",
-     "name": "Gibbs-White",
-     "num": 10,
+     "id": "away-551",
+     "name": "Ndoye",
+     "num": 14,
      "pos": "RAM",
      "role": "FWD",
      "x": 62,
      "y": 34
     },
     {
-     "id": "away-551",
-     "name": "Ndoye",
-     "num": 14,
+     "id": "away-550",
+     "name": "Gibbs-White",
+     "num": 10,
      "pos": "LAM",
      "role": "FWD",
      "x": 62,
@@ -110,6 +110,446 @@
      "role": "FWD",
      "x": 55,
      "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-62-double-change",
+   "minute": 62,
+   "side": "home",
+   "name": "62' Brentford make a double change",
+   "note": "Hickey and Damsgaard on together for Sangare and Jensen on 62'.",
+   "ruleId": "double-change",
+   "formation": "4-3-3",
+   "players": [
+    {
+     "id": "home-462",
+     "name": "Kelleher",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-463",
+     "name": "Kayode",
+     "num": 33,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-464",
+     "name": "Ajer",
+     "num": 20,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-466",
+     "name": "van den Berg",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-477",
+     "name": "Lewis-Potter",
+     "num": 23,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-2373",
+     "name": "Hickey",
+     "num": null,
+     "pos": "DM",
+     "role": "MID",
+     "x": 25,
+     "y": 50
+    },
+    {
+     "id": "home-469",
+     "name": "Janelt",
+     "num": 27,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 32,
+     "y": 68
+    },
+    {
+     "id": "home-475",
+     "name": "Damsgaard",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 32,
+     "y": 32
+    },
+    {
+     "id": "home-471",
+     "name": "Ouattara",
+     "num": 11,
+     "pos": "RW",
+     "role": "FWD",
+     "x": 43,
+     "y": 84
+    },
+    {
+     "id": "home-473",
+     "name": "Thiago",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 46,
+     "y": 50
+    },
+    {
+     "id": "home-472",
+     "name": "Schade",
+     "num": 7,
+     "pos": "LW",
+     "role": "FWD",
+     "x": 43,
+     "y": 16
+    }
+   ]
+  },
+  {
+   "id": "shift-away-65-double-change",
+   "minute": 65,
+   "side": "away",
+   "name": "65' Forest make a double change",
+   "note": "Kalimuendo and Wood on together for Ndoye and Delap on 65'.",
+   "ruleId": "double-change",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-542",
+     "name": "Sels",
+     "num": 26,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-557",
+     "name": "Jair",
+     "num": 23,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-544",
+     "name": "Milenković",
+     "num": 31,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-2913",
+     "name": "Murillo",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-426",
+     "name": "Muñoz",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-560",
+     "name": "McAtee",
+     "num": 24,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-554",
+     "name": "Yates",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-546",
+     "name": "Williams",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-561",
+     "name": "Kalimuendo",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-550",
+     "name": "Gibbs-White",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-4472",
+     "name": "Wood",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-72-like-for-like",
+   "minute": 72,
+   "side": "home",
+   "name": "72' Brentford freshen it up",
+   "note": "Anthony on for Ouattara on 72', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-3-3",
+   "players": [
+    {
+     "id": "home-462",
+     "name": "Kelleher",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-463",
+     "name": "Kayode",
+     "num": 33,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-464",
+     "name": "Ajer",
+     "num": 20,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-466",
+     "name": "van den Berg",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-477",
+     "name": "Lewis-Potter",
+     "num": 23,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-2373",
+     "name": "Hickey",
+     "num": null,
+     "pos": "DM",
+     "role": "MID",
+     "x": 25,
+     "y": 50
+    },
+    {
+     "id": "home-469",
+     "name": "Janelt",
+     "num": 27,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 32,
+     "y": 68
+    },
+    {
+     "id": "home-475",
+     "name": "Damsgaard",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 32,
+     "y": 32
+    },
+    {
+     "id": "home-410",
+     "name": "Anthony",
+     "num": null,
+     "pos": "RW",
+     "role": "FWD",
+     "x": 43,
+     "y": 84
+    },
+    {
+     "id": "home-473",
+     "name": "Thiago",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 46,
+     "y": 50
+    },
+    {
+     "id": "home-472",
+     "name": "Schade",
+     "num": 7,
+     "pos": "LW",
+     "role": "FWD",
+     "x": 43,
+     "y": 16
+    }
+   ]
+  },
+  {
+   "id": "shift-home-84-like-for-like",
+   "minute": 84,
+   "side": "home",
+   "name": "84' Brentford freshen it up",
+   "note": "Wilson on for Schade on 84', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-3-3",
+   "players": [
+    {
+     "id": "home-462",
+     "name": "Kelleher",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-463",
+     "name": "Kayode",
+     "num": 33,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-464",
+     "name": "Ajer",
+     "num": 20,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-466",
+     "name": "van den Berg",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-477",
+     "name": "Lewis-Potter",
+     "num": 23,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-2373",
+     "name": "Hickey",
+     "num": null,
+     "pos": "DM",
+     "role": "MID",
+     "x": 25,
+     "y": 50
+    },
+    {
+     "id": "home-469",
+     "name": "Janelt",
+     "num": 27,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 32,
+     "y": 68
+    },
+    {
+     "id": "home-475",
+     "name": "Damsgaard",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 32,
+     "y": 32
+    },
+    {
+     "id": "home-410",
+     "name": "Anthony",
+     "num": null,
+     "pos": "RW",
+     "role": "FWD",
+     "x": 43,
+     "y": 84
+    },
+    {
+     "id": "home-473",
+     "name": "Thiago",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 46,
+     "y": 50
+    },
+    {
+     "id": "home-1644",
+     "name": "Wilson",
+     "num": null,
+     "pos": "LW",
+     "role": "FWD",
+     "x": 43,
+     "y": 16
     }
    ]
   }

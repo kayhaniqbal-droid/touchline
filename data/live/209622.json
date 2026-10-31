@@ -1,7 +1,7 @@
 {
  "fixtureId": 209622,
- "minute": 54,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
   "away": 1
@@ -14,7 +14,7 @@
    "nick": "Man City",
    "providerId": 12,
    "coach": null,
-   "formation": "4-2-3-1",
+   "formation": "4-3-3",
    "derivedShape": true,
    "players": [
     {
@@ -58,64 +58,54 @@
      "y": 37
     },
     {
-     "id": "home-846",
-     "providerId": 846,
-     "name": "Gvardiol",
-     "num": 24,
+     "id": "home-851",
+     "providerId": 851,
+     "name": "Foden",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
      "y": 15
     },
     {
+     "id": "home-856",
+     "providerId": 856,
+     "name": "Cherki",
+     "num": null,
+     "pos": "DM",
+     "role": "MID",
+     "x": 25,
+     "y": 50
+    },
+    {
      "id": "home-548",
      "providerId": 548,
      "name": "Anderson",
      "num": 5,
-     "pos": "RDM",
+     "pos": "RCM",
      "role": "MID",
-     "x": 25,
-     "y": 62
+     "x": 32,
+     "y": 68
     },
     {
-     "id": "home-1451",
-     "providerId": 1451,
-     "name": "Bouaddi",
-     "num": 32,
-     "pos": "LDM",
+     "id": "home-847",
+     "providerId": 847,
+     "name": "O’Reilly",
+     "num": null,
+     "pos": "LCM",
      "role": "MID",
-     "x": 25,
-     "y": 38
+     "x": 32,
+     "y": 32
     },
     {
-     "id": "home-810",
-     "providerId": 810,
-     "name": "Ndiaye",
-     "num": 7,
+     "id": "home-31",
+     "providerId": 31,
+     "name": "Allan",
+     "num": null,
      "pos": "RW",
-     "role": "MID",
-     "x": 35,
+     "role": "FWD",
+     "x": 43,
      "y": 84
-    },
-    {
-     "id": "home-387",
-     "providerId": 387,
-     "name": "Fernández",
-     "num": 17,
-     "pos": "AM",
-     "role": "MID",
-     "x": 34,
-     "y": 50
-    },
-    {
-     "id": "home-853",
-     "providerId": 853,
-     "name": "Doku",
-     "num": 11,
-     "pos": "LW",
-     "role": "MID",
-     "x": 35,
-     "y": 16
     },
     {
      "id": "home-852",
@@ -124,8 +114,18 @@
      "num": 9,
      "pos": "ST",
      "role": "FWD",
-     "x": 45,
+     "x": 46,
      "y": 50
+    },
+    {
+     "id": "home-853",
+     "providerId": 853,
+     "name": "Doku",
+     "num": 11,
+     "pos": "LW",
+     "role": "FWD",
+     "x": 43,
+     "y": 16
     }
    ],
    "bench": []
@@ -180,70 +180,70 @@
      "y": 63
     },
     {
-     "id": "away-498",
-     "providerId": 498,
-     "name": "Boscagli",
-     "num": 21,
+     "id": "away-3202",
+     "providerId": 3202,
+     "name": "Hadjam",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
      "y": 85
     },
     {
-     "id": "away-491",
-     "providerId": 491,
-     "name": "De Cuyper",
-     "num": 29,
+     "id": "away-2173",
+     "providerId": 2173,
+     "name": "Groß",
+     "num": 13,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-2173",
-     "providerId": 2173,
-     "name": "Groß",
-     "num": 13,
+     "id": "away-483",
+     "providerId": 483,
+     "name": "Wieffer",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-1614",
-     "providerId": 1614,
-     "name": "Andrés",
-     "num": 14,
+     "id": "away-1633",
+     "providerId": 1633,
+     "name": "Rutter",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-488",
-     "providerId": 488,
-     "name": "Gómez",
-     "num": 25,
+     "id": "away-1632",
+     "providerId": 1632,
+     "name": "Ayari",
+     "num": 26,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-1632",
-     "providerId": 1632,
-     "name": "Ayari",
-     "num": 26,
+     "id": "away-6535",
+     "providerId": 6535,
+     "name": "Yalcouyé",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-495",
-     "providerId": 495,
-     "name": "Kostoulas",
-     "num": 19,
+     "id": "away-493",
+     "providerId": 493,
+     "name": "Hinshelwood",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-31T15:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-31T16:13:27.198Z"
+ "fetchedAt": "2026-10-31T17:29:50.707Z"
 }

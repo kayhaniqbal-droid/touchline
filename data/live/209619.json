@@ -1,10 +1,10 @@
 {
  "fixtureId": 209619,
- "minute": 55,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 3,
-  "away": 0
+  "away": 1
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -68,20 +68,20 @@
      "y": 15
     },
     {
-     "id": "home-6425",
-     "providerId": 6425,
-     "name": "Torp",
-     "num": 29,
+     "id": "home-16696",
+     "providerId": 16696,
+     "name": "Yirenkyi",
+     "num": 8,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-16696",
-     "providerId": 16696,
-     "name": "Yirenkyi",
-     "num": 8,
+     "id": "home-6426",
+     "providerId": 6426,
+     "name": "Grimes",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
@@ -108,20 +108,20 @@
      "y": 50
     },
     {
-     "id": "home-3844",
-     "providerId": 3844,
-     "name": "Gboho",
-     "num": 34,
+     "id": "home-6887",
+     "providerId": 6887,
+     "name": "Thomas-Asante",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
      "y": 16
     },
     {
-     "id": "home-4026",
-     "providerId": 4026,
-     "name": "Awoniyi",
-     "num": 14,
+     "id": "home-1396",
+     "providerId": 1396,
+     "name": "Cherif",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-347",
-     "providerId": 347,
-     "name": "Hume",
-     "num": 32,
+     "id": "away-1446",
+     "providerId": 1446,
+     "name": "Meunier",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -168,16 +168,6 @@
      "role": "DEF",
      "x": 87,
      "y": 37
-    },
-    {
-     "id": "away-345",
-     "providerId": 345,
-     "name": "Alderete",
-     "num": 15,
-     "pos": "LCB",
-     "role": "DEF",
-     "x": 87,
-     "y": 63
     },
     {
      "id": "away-346",
@@ -200,20 +190,20 @@
      "y": 38
     },
     {
-     "id": "away-349",
-     "providerId": 349,
-     "name": "Sadiki",
-     "num": 27,
+     "id": "away-4335",
+     "providerId": 4335,
+     "name": "Fofana",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-2369",
-     "providerId": 2369,
-     "name": "Rigg",
-     "num": 11,
+     "id": "away-350",
+     "providerId": 350,
+     "name": "Talbi",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -230,10 +220,10 @@
      "y": 50
     },
     {
-     "id": "away-7347",
-     "providerId": 7347,
-     "name": "Angulo",
-     "num": 10,
+     "id": "away-353",
+     "providerId": 353,
+     "name": "Isidor",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -255,5 +245,5 @@
  },
  "kickoff": "2026-10-31T15:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-31T16:13:28.170Z"
+ "fetchedAt": "2026-10-31T17:29:51.430Z"
 }
