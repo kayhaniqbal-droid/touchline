@@ -1,6 +1,6 @@
 {
  "fixtureId": 209624,
- "title": "Tottenham Hotspur 1–0 Crystal Palace",
+ "title": "Tottenham Hotspur 2–0 Crystal Palace",
  "lineupStatus": "confirmed",
  "phases": [
   {
@@ -22,18 +22,18 @@
      "y": 50
     },
     {
-     "id": "away-8981",
-     "name": "Disasi",
-     "num": 5,
+     "id": "away-423",
+     "name": "Richards",
+     "num": 26,
      "pos": "RCB",
      "role": "DEF",
      "x": 86,
      "y": 28
     },
     {
-     "id": "away-423",
-     "name": "Richards",
-     "num": 26,
+     "id": "away-8981",
+     "name": "Disasi",
+     "num": 5,
      "pos": "CB",
      "role": "DEF",
      "x": 88,
@@ -124,54 +124,54 @@
      "y": 50
     },
     {
-     "id": "home-484",
-     "name": "van Hecke",
-     "num": 6,
+     "id": "home-719",
+     "name": "Porro",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
      "y": 85
     },
     {
-     "id": "home-736",
-     "name": "van de Ven",
-     "num": 37,
+     "id": "home-484",
+     "name": "van Hecke",
+     "num": 6,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-326",
-     "name": "Robertson",
-     "num": 3,
+     "id": "home-736",
+     "name": "van de Ven",
+     "num": 37,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
      "y": 37
     },
     {
-     "id": "home-719",
-     "name": "Porro",
-     "num": null,
+     "id": "home-326",
+     "name": "Robertson",
+     "num": 3,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
      "y": 15
     },
     {
-     "id": "home-1643",
-     "name": "Fernandes",
-     "num": 18,
+     "id": "home-704",
+     "name": "Tonali",
+     "num": 16,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-704",
-     "name": "Tonali",
-     "num": 16,
+     "id": "home-1643",
+     "name": "Fernandes",
+     "num": 18,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
@@ -208,6 +208,642 @@
      "id": "home-4923",
      "name": "Solanke",
      "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-60-double-change",
+   "minute": 60,
+   "side": "away",
+   "name": "60' Palace make a double change",
+   "note": "Khalaili and Nketiah on together for Mingueza and Pino on 60'.",
+   "ruleId": "double-change",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-422",
+     "name": "Henderson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-423",
+     "name": "Richards",
+     "num": 26,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-8981",
+     "name": "Disasi",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-436",
+     "name": "Canvot",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-3748",
+     "name": "Khalaili",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-427",
+     "name": "Wharton",
+     "num": 20,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-430",
+     "name": "Kamada",
+     "num": 18,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-429",
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-814",
+     "name": "McNeil",
+     "num": 11,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-434",
+     "name": "Nketiah",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    null
+   ]
+  },
+  {
+   "id": "shift-home-66-like-for-like",
+   "minute": 66,
+   "side": "home",
+   "name": "66' Spurs freshen it up",
+   "note": "Gallagher on for Solanke on 66', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-734",
+     "name": "Kinský",
+     "num": 31,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-719",
+     "name": "Porro",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-484",
+     "name": "van Hecke",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-736",
+     "name": "van de Ven",
+     "num": 37,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-326",
+     "name": "Robertson",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-704",
+     "name": "Tonali",
+     "num": 16,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-1643",
+     "name": "Fernandes",
+     "num": 18,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-725",
+     "name": "Kudus",
+     "num": 20,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-862",
+     "name": "Marmoush",
+     "num": 22,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-731",
+     "name": "Tel",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-772",
+     "name": "Gallagher",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-77-double-change",
+   "minute": 77,
+   "side": "home",
+   "name": "77' Spurs make a double change",
+   "note": "Udogie and Kulusevski on together for Robertson and Marmoush on 77'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-734",
+     "name": "Kinský",
+     "num": 31,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-719",
+     "name": "Porro",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-484",
+     "name": "van Hecke",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-736",
+     "name": "van de Ven",
+     "num": 37,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-722",
+     "name": "Udogie",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-704",
+     "name": "Tonali",
+     "num": 16,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-1643",
+     "name": "Fernandes",
+     "num": 18,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-725",
+     "name": "Kudus",
+     "num": 20,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-24019",
+     "name": "Kulusevski",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-731",
+     "name": "Tel",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-772",
+     "name": "Gallagher",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-77-like-for-like",
+   "minute": 77,
+   "side": "away",
+   "name": "77' Palace freshen it up",
+   "note": "Osorio on for McNeil on 77', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-422",
+     "name": "Henderson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-423",
+     "name": "Richards",
+     "num": 26,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-8981",
+     "name": "Disasi",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-436",
+     "name": "Canvot",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-3748",
+     "name": "Khalaili",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-427",
+     "name": "Wharton",
+     "num": 20,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-430",
+     "name": "Kamada",
+     "num": 18,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-429",
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-3252",
+     "name": "Osorio",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-434",
+     "name": "Nketiah",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    null
+   ]
+  },
+  {
+   "id": "shift-away-88-double-change",
+   "minute": 88,
+   "side": "away",
+   "name": "88' Palace make a double change",
+   "note": "Lerma and Hughes on together for Wharton and Kamada on 88'.",
+   "ruleId": "double-change",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-422",
+     "name": "Henderson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-423",
+     "name": "Richards",
+     "num": 26,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-8981",
+     "name": "Disasi",
+     "num": 5,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-436",
+     "name": "Canvot",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-3748",
+     "name": "Khalaili",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-428",
+     "name": "Lerma",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-435",
+     "name": "Hughes",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-429",
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-3252",
+     "name": "Osorio",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-434",
+     "name": "Nketiah",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    null
+   ]
+  },
+  {
+   "id": "shift-home-88-like-for-like",
+   "minute": 88,
+   "side": "home",
+   "name": "88' Spurs freshen it up",
+   "note": "Williams-Barnett on for Tel on 88', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-734",
+     "name": "Kinský",
+     "num": 31,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-719",
+     "name": "Porro",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-484",
+     "name": "van Hecke",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-736",
+     "name": "van de Ven",
+     "num": 37,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-722",
+     "name": "Udogie",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-704",
+     "name": "Tonali",
+     "num": 16,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-1643",
+     "name": "Fernandes",
+     "num": 18,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-725",
+     "name": "Kudus",
+     "num": 20,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-24019",
+     "name": "Kulusevski",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-3474",
+     "name": "Williams-Barnett",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-772",
+     "name": "Gallagher",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
