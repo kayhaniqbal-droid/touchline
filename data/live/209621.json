@@ -88,10 +88,10 @@
      "y": 38
     },
     {
-     "id": "home-327",
-     "providerId": 327,
-     "name": "Gravenberch",
-     "num": 38,
+     "id": "home-329",
+     "providerId": 329,
+     "name": "Szoboszlai",
+     "num": 8,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-01T16:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-31T20:18:52.156Z"
+ "fetchedAt": "2026-10-31T22:13:30.293Z"
 }
