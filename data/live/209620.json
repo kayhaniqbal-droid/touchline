@@ -1,7 +1,7 @@
 {
  "fixtureId": 209620,
- "minute": 34,
- "status": "1st_half",
+ "minute": 52,
+ "status": "2nd_half",
  "goals": {
   "home": 0,
   "away": 1
@@ -48,10 +48,10 @@
      "y": 70
     },
     {
-     "id": "home-6184",
-     "providerId": 6184,
-     "name": "Egan",
-     "num": 15,
+     "id": "home-6189",
+     "providerId": 6189,
+     "name": "Crooks",
+     "num": null,
      "pos": "CB",
      "role": "DEF",
      "x": 13,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-31T15:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-31T15:37:01.520Z"
+ "fetchedAt": "2026-10-31T16:13:27.693Z"
 }

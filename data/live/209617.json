@@ -1,7 +1,7 @@
 {
  "fixtureId": 209617,
- "minute": 36,
- "status": "1st_half",
+ "minute": 55,
+ "status": "2nd_half",
  "goals": {
   "home": 1,
   "away": 0
@@ -180,10 +180,10 @@
      "y": 72
     },
     {
-     "id": "away-4788",
-     "providerId": 4788,
-     "name": "Aina",
-     "num": 34,
+     "id": "away-426",
+     "providerId": 426,
+     "name": "Muñoz",
+     "num": null,
      "pos": "RWB",
      "role": "MID",
      "x": 72,
@@ -210,10 +210,10 @@
      "y": 60
     },
     {
-     "id": "away-2892",
-     "providerId": 2892,
-     "name": "Schlager",
-     "num": 21,
+     "id": "away-554",
+     "providerId": 554,
+     "name": "Yates",
+     "num": null,
      "pos": "LWB",
      "role": "MID",
      "x": 72,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-10-31T15:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-10-31T15:37:02.087Z"
+ "fetchedAt": "2026-10-31T16:13:28.636Z"
 }
