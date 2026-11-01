@@ -1,7 +1,7 @@
 {
  "fixtureId": 209621,
- "minute": 84,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
   "away": 1
@@ -68,29 +68,29 @@
      "y": 15
     },
     {
-     "id": "home-329",
-     "providerId": 329,
-     "name": "Szoboszlai",
-     "num": null,
+     "id": "home-328",
+     "providerId": 328,
+     "name": "Mac Allister",
+     "num": 10,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-328",
-     "providerId": 328,
-     "name": "Mac Allister",
-     "num": 10,
+     "id": "home-329",
+     "providerId": 329,
+     "name": "Szoboszlai",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-6098",
-     "providerId": 6098,
-     "name": "Koumas",
+     "id": "home-341",
+     "providerId": 341,
+     "name": "Ngumoha",
      "num": null,
      "pos": "RW",
      "role": "MID",
@@ -98,9 +98,9 @@
      "y": 84
     },
     {
-     "id": "home-341",
-     "providerId": 341,
-     "name": "Ngumoha",
+     "id": "home-6098",
+     "providerId": 6098,
+     "name": "Koumas",
      "num": null,
      "pos": "AM",
      "role": "MID",
@@ -210,19 +210,19 @@
      "y": 62
     },
     {
-     "id": "away-447",
-     "providerId": 447,
-     "name": "Ødegaard",
-     "num": 8,
+     "id": "away-450",
+     "providerId": 450,
+     "name": "Madueke",
+     "num": 20,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-445",
-     "providerId": 445,
-     "name": "Hincapié",
+     "id": "away-451",
+     "providerId": 451,
+     "name": "Merino",
      "num": null,
      "pos": "AM",
      "role": "MID",
@@ -230,20 +230,20 @@
      "y": 50
     },
     {
-     "id": "away-450",
-     "providerId": 450,
-     "name": "Madueke",
-     "num": 20,
+     "id": "away-445",
+     "providerId": 445,
+     "name": "Hincapié",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-4941",
-     "providerId": 4941,
-     "name": "Havertz",
-     "num": 29,
+     "id": "away-456",
+     "providerId": 456,
+     "name": "Gyökeres",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-01T16:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-01T18:15:19.855Z"
+ "fetchedAt": "2026-11-01T19:11:14.517Z"
 }
