@@ -590,10 +590,10 @@
   },
   "209621": {
    "kickoff": "2026-11-01T16:30:00+00:00",
-   "status": "notstarted",
+   "status": "1st_half",
    "home": "LIV",
    "away": "ARS",
-   "confirmed": false
+   "confirmed": true
   },
   "209622": {
    "kickoff": "2026-10-31T15:00:00+00:00",
@@ -601,6 +601,13 @@
    "home": "MCI",
    "away": "BHA",
    "confirmed": true
+  },
+  "209623": {
+   "kickoff": "2026-11-02T20:00:00+00:00",
+   "status": "notstarted",
+   "home": "NEW",
+   "away": "EVE",
+   "confirmed": false
   },
   "209624": {
    "kickoff": "2026-10-31T17:30:00+00:00",
@@ -618,5 +625,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-10-31T22:13:34.032Z"
+ "updatedAt": "2026-11-01T16:36:05.359Z"
 }
