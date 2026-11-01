@@ -1,7 +1,7 @@
 {
  "fixtureId": 209621,
- "minute": 40,
- "status": "1st_half",
+ "minute": 84,
+ "status": "2nd_half",
  "goals": {
   "home": 0,
   "away": 1
@@ -28,10 +28,10 @@
      "y": 50
     },
     {
-     "id": "home-3661",
-     "providerId": 3661,
-     "name": "Araújo",
-     "num": 33,
+     "id": "home-2668",
+     "providerId": 2668,
+     "name": "Muñoz",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
@@ -58,20 +58,20 @@
      "y": 37
     },
     {
-     "id": "home-336",
-     "providerId": 336,
-     "name": "Kerkez",
-     "num": 6,
+     "id": "home-1077",
+     "providerId": 1077,
+     "name": "Tsimikas",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
      "y": 15
     },
     {
-     "id": "home-340",
-     "providerId": 340,
-     "name": "Nyoni",
-     "num": 42,
+     "id": "home-329",
+     "providerId": 329,
+     "name": "Szoboszlai",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
@@ -88,20 +88,20 @@
      "y": 38
     },
     {
-     "id": "home-330",
-     "providerId": 330,
-     "name": "Wirtz",
-     "num": 7,
+     "id": "home-6098",
+     "providerId": 6098,
+     "name": "Koumas",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-331",
-     "providerId": 331,
-     "name": "Gakpo",
-     "num": 18,
+     "id": "home-341",
+     "providerId": 341,
+     "name": "Ngumoha",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -200,10 +200,10 @@
      "y": 38
     },
     {
-     "id": "away-709",
-     "providerId": 709,
-     "name": "Guimarães",
-     "num": 39,
+     "id": "away-458",
+     "providerId": 458,
+     "name": "Lewis-Skelly",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -220,10 +220,10 @@
      "y": 16
     },
     {
-     "id": "away-3543",
-     "providerId": 3543,
-     "name": "Tzolis",
-     "num": 17,
+     "id": "away-445",
+     "providerId": 445,
+     "name": "Hincapié",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-01T16:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-01T17:12:26.101Z"
+ "fetchedAt": "2026-11-01T18:15:19.855Z"
 }

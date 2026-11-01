@@ -590,7 +590,7 @@
   },
   "209621": {
    "kickoff": "2026-11-01T16:30:00+00:00",
-   "status": "1st_half",
+   "status": "2nd_half",
    "home": "LIV",
    "away": "ARS",
    "confirmed": true
@@ -625,5 +625,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-11-01T17:12:30.103Z"
+ "updatedAt": "2026-11-01T18:15:24.342Z"
 }

@@ -2,6 +2,557 @@
  "fixtureId": 209621,
  "title": "Liverpool FC 0–1 Arsenal",
  "lineupStatus": "confirmed",
- "phases": [],
+ "phases": [
+  {
+   "id": "shift-home-59-like-for-like",
+   "minute": 59,
+   "side": "home",
+   "name": "59' Liverpool freshen it up",
+   "note": "Szoboszlai on for Nyoni on 59', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-322",
+     "name": "Alisson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-3661",
+     "name": "Araújo",
+     "num": 33,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-2803",
+     "name": "Jacquet",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-325",
+     "name": "van Dijk",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-336",
+     "name": "Kerkez",
+     "num": 6,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-329",
+     "name": "Szoboszlai",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-328",
+     "name": "Mac Allister",
+     "num": 10,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-330",
+     "name": "Wirtz",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-331",
+     "name": "Gakpo",
+     "num": 18,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-2261",
+     "name": "Barcola",
+     "num": 29,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-332",
+     "name": "Isak",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-62-like-for-like",
+   "minute": 62,
+   "side": "away",
+   "name": "62' Arsenal freshen it up",
+   "note": "Lewis-Skelly on for Guimarães on 62', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-442",
+     "name": "Raya",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-453",
+     "name": "Timber",
+     "num": 12,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-504",
+     "name": "Konsa",
+     "num": 15,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-4072",
+     "name": "Magalhães",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-446",
+     "name": "Calafiori",
+     "num": 33,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-449",
+     "name": "Rice",
+     "num": 41,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-458",
+     "name": "Lewis-Skelly",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-447",
+     "name": "Ødegaard",
+     "num": 8,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-3543",
+     "name": "Tzolis",
+     "num": 17,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-450",
+     "name": "Madueke",
+     "num": 20,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-4941",
+     "name": "Havertz",
+     "num": 29,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-67-like-for-like",
+   "minute": 67,
+   "side": "home",
+   "name": "67' Liverpool freshen it up",
+   "note": "Ngumoha on for Gakpo on 67', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-322",
+     "name": "Alisson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-3661",
+     "name": "Araújo",
+     "num": 33,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-2803",
+     "name": "Jacquet",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-325",
+     "name": "van Dijk",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-336",
+     "name": "Kerkez",
+     "num": 6,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-329",
+     "name": "Szoboszlai",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-328",
+     "name": "Mac Allister",
+     "num": 10,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-330",
+     "name": "Wirtz",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-341",
+     "name": "Ngumoha",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-2261",
+     "name": "Barcola",
+     "num": 29,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-332",
+     "name": "Isak",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-81-double-change",
+   "minute": 81,
+   "side": "home",
+   "name": "81' Liverpool make a double change",
+   "note": "Muñoz, Tsimikas and Koumas on together for Araújo, Kerkez and Wirtz on 81'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-322",
+     "name": "Alisson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-2668",
+     "name": "Muñoz",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-2803",
+     "name": "Jacquet",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-325",
+     "name": "van Dijk",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-1077",
+     "name": "Tsimikas",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-329",
+     "name": "Szoboszlai",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-328",
+     "name": "Mac Allister",
+     "num": 10,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6098",
+     "name": "Koumas",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-341",
+     "name": "Ngumoha",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-2261",
+     "name": "Barcola",
+     "num": 29,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-332",
+     "name": "Isak",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-84-like-for-like",
+   "minute": 84,
+   "side": "away",
+   "name": "84' Arsenal freshen it up",
+   "note": "Hincapié on for Tzolis on 84', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-442",
+     "name": "Raya",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-453",
+     "name": "Timber",
+     "num": 12,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-504",
+     "name": "Konsa",
+     "num": 15,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-4072",
+     "name": "Magalhães",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-446",
+     "name": "Calafiori",
+     "num": 33,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-449",
+     "name": "Rice",
+     "num": 41,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-458",
+     "name": "Lewis-Skelly",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-447",
+     "name": "Ødegaard",
+     "num": 8,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-445",
+     "name": "Hincapié",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-450",
+     "name": "Madueke",
+     "num": 20,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-4941",
+     "name": "Havertz",
+     "num": 29,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  }
+ ],
  "shifts": []
 }
