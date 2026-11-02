@@ -1,10 +1,10 @@
 {
  "fixtureId": 209623,
- "minute": 45,
- "status": "halftime",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 0,
-  "away": 0
+  "away": 1
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -28,10 +28,10 @@
      "y": 50
     },
     {
-     "id": "home-2052",
-     "providerId": 2052,
-     "name": "Dedić",
-     "num": 37,
+     "id": "home-2385",
+     "providerId": 2385,
+     "name": "Touré",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
@@ -68,50 +68,40 @@
      "y": 15
     },
     {
-     "id": "home-849",
-     "providerId": 849,
-     "name": "González",
-     "num": 6,
-     "pos": "RDM",
-     "role": "MID",
-     "x": 25,
-     "y": 62
-    },
-    {
-     "id": "home-705",
-     "providerId": 705,
-     "name": "Joelinton",
-     "num": 7,
+     "id": "home-5178",
+     "providerId": 5178,
+     "name": "Steur",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-715",
-     "providerId": 715,
-     "name": "Willock",
-     "num": 28,
+     "id": "home-706",
+     "providerId": 706,
+     "name": "Murphy",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-708",
-     "providerId": 708,
-     "name": "Barnes",
-     "num": 11,
+     "id": "home-5140",
+     "providerId": 5140,
+     "name": "Wissa",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-710",
-     "providerId": 710,
-     "name": "Elanga",
-     "num": 19,
+     "id": "home-708",
+     "providerId": 708,
+     "name": "Barnes",
+     "num": 11,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -170,10 +160,10 @@
      "y": 37
     },
     {
-     "id": "away-8798",
-     "providerId": 8798,
-     "name": "Branthwaite",
-     "num": 4,
+     "id": "away-2134",
+     "providerId": 2134,
+     "name": "Keane",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
@@ -230,20 +220,20 @@
      "y": 50
     },
     {
-     "id": "away-3659",
-     "providerId": 3659,
-     "name": "George",
-     "num": 19,
+     "id": "away-6327",
+     "providerId": 6327,
+     "name": "Hackney",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-813",
-     "providerId": 813,
-     "name": "Barry",
-     "num": 11,
+     "id": "away-727",
+     "providerId": 727,
+     "name": "Johnson",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +245,5 @@
  },
  "kickoff": "2026-11-02T20:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-02T20:51:23.757Z"
+ "fetchedAt": "2026-11-02T22:08:16.212Z"
 }
