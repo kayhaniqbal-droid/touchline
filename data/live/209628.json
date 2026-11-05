@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209628,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "EVE",
+   "name": "Everton",
+   "nick": "Everton",
+   "providerId": 20,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-803",
+     "providerId": 803,
+     "name": "Pickford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-805",
+     "providerId": 805,
+     "name": "Tarkowski",
+     "num": 6,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-807",
+     "providerId": 807,
+     "name": "Mykolenko",
+     "num": 16,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-806",
+     "providerId": 806,
+     "name": "O'Brien",
+     "num": 15,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-1115",
+     "providerId": 1115,
+     "name": "Maitland-Niles",
+     "num": 2,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-809",
+     "providerId": 809,
+     "name": "Dewsbury-Hall",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-804",
+     "providerId": 804,
+     "name": "Garner",
+     "num": 37,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-812",
+     "providerId": 812,
+     "name": "Grealish",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-4825",
+     "providerId": 4825,
+     "name": "Armstrong",
+     "num": 45,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-813",
+     "providerId": 813,
+     "name": "Barry",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-3659",
+     "providerId": 3659,
+     "name": "George",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "COV",
+   "name": "Coventry City",
+   "nick": "Coventry",
+   "providerId": 203,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-6420",
+     "providerId": 6420,
+     "name": "Rushworth",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6424",
+     "providerId": 6424,
+     "name": "DaSilva",
+     "num": 3,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-465",
+     "providerId": 465,
+     "name": "Pinnock",
+     "num": 2,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-4708",
+     "providerId": 4708,
+     "name": "Mfuni",
+     "num": 12,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-6421",
+     "providerId": 6421,
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-16696",
+     "providerId": 16696,
+     "name": "Yirenkyi",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-6426",
+     "providerId": 6426,
+     "name": "Grimes",
+     "num": 6,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-6429",
+     "providerId": 6429,
+     "name": "Ephron",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-6427",
+     "providerId": 6427,
+     "name": "Rudoni",
+     "num": 5,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-6689",
+     "providerId": 6689,
+     "name": "Sakamoto",
+     "num": 7,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-6887",
+     "providerId": 6887,
+     "name": "Thomas-Asante",
+     "num": 23,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-11-06T20:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-11-05T00:11:02.782Z"
+}
