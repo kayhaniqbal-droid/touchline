@@ -108,20 +108,20 @@
      "y": 66
     },
     {
-     "id": "home-374",
-     "providerId": 374,
-     "name": "Okafor",
-     "num": 19,
+     "id": "home-830",
+     "providerId": 830,
+     "name": "Wilson",
+     "num": 10,
      "pos": "LAM",
      "role": "FWD",
      "x": 38,
      "y": 34
     },
     {
-     "id": "home-371",
-     "providerId": 371,
-     "name": "Calvert-Lewin",
-     "num": 9,
+     "id": "home-374",
+     "providerId": 374,
+     "name": "Okafor",
+     "num": 19,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-07T12:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-06T20:34:04.138Z"
+ "fetchedAt": "2026-11-06T21:46:23.471Z"
 }

@@ -220,20 +220,20 @@
      "y": 16
     },
     {
-     "id": "away-705",
-     "providerId": 705,
-     "name": "Joelinton",
-     "num": 7,
+     "id": "away-706",
+     "providerId": 706,
+     "name": "Murphy",
+     "num": 23,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-706",
-     "providerId": 706,
-     "name": "Murphy",
-     "num": 23,
+     "id": "away-710",
+     "providerId": 710,
+     "name": "Elanga",
+     "num": 19,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-07T15:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-06T20:34:03.332Z"
+ "fetchedAt": "2026-11-06T21:46:22.571Z"
 }
