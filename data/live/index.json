@@ -628,7 +628,7 @@
    "status": "notstarted",
    "home": "EVE",
    "away": "COV",
-   "confirmed": false
+   "confirmed": true
   },
   "209629": {
    "kickoff": "2026-11-07T15:00:00+00:00",
@@ -660,5 +660,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-11-06T18:11:58.879Z"
+ "updatedAt": "2026-11-06T19:50:35.497Z"
 }
