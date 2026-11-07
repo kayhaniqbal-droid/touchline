@@ -1,10 +1,10 @@
 {
  "fixtureId": 209633,
- "minute": 23,
- "status": "1st_half",
+ "minute": 70,
+ "status": "2nd_half",
  "goals": {
   "home": 2,
-  "away": 0
+  "away": 1
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -68,10 +68,10 @@
      "y": 90
     },
     {
-     "id": "home-426",
-     "providerId": 426,
-     "name": "Muñoz",
-     "num": 27,
+     "id": "home-2871",
+     "providerId": 2871,
+     "name": "Netz",
+     "num": null,
      "pos": "RCM",
      "role": "MID",
      "x": 25,
@@ -108,10 +108,10 @@
      "y": 66
     },
     {
-     "id": "home-560",
-     "providerId": 560,
-     "name": "McAtee",
-     "num": 24,
+     "id": "home-551",
+     "providerId": 551,
+     "name": "Ndoye",
+     "num": null,
      "pos": "LAM",
      "role": "FWD",
      "x": 38,
@@ -160,10 +160,10 @@
      "y": 15
     },
     {
-     "id": "away-425",
-     "providerId": 425,
-     "name": "Guéhi",
-     "num": 6,
+     "id": "away-844",
+     "providerId": 844,
+     "name": "Nunes",
+     "num": null,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
@@ -180,10 +180,10 @@
      "y": 63
     },
     {
-     "id": "away-846",
-     "providerId": 846,
-     "name": "Gvardiol",
-     "num": 24,
+     "id": "away-847",
+     "providerId": 847,
+     "name": "O’Reilly",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-07T17:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-07T17:56:21.095Z"
+ "fetchedAt": "2026-11-07T19:01:56.576Z"
 }
