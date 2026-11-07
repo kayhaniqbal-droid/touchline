@@ -646,7 +646,7 @@
   },
   "209629": {
    "kickoff": "2026-11-07T15:00:00+00:00",
-   "status": "2nd_half",
+   "status": "FT",
    "home": "FUL",
    "away": "NEW",
    "confirmed": true
@@ -674,7 +674,7 @@
   },
   "209633": {
    "kickoff": "2026-11-07T17:30:00+00:00",
-   "status": "notstarted",
+   "status": "1st_half",
    "home": "NFO",
    "away": "MCI",
    "confirmed": true
@@ -695,5 +695,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-11-07T16:57:00.481Z"
+ "updatedAt": "2026-11-07T17:56:22.731Z"
 }

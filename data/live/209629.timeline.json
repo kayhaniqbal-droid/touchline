@@ -58,18 +58,18 @@
      "y": 85
     },
     {
-     "id": "away-703",
-     "name": "Miley",
-     "num": null,
+     "id": "away-5178",
+     "name": "Steur",
+     "num": 14,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-5178",
-     "name": "Steur",
-     "num": 14,
+     "id": "away-703",
+     "name": "Miley",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -85,18 +85,18 @@
      "y": 16
     },
     {
-     "id": "away-708",
-     "name": "Barnes",
-     "num": 11,
+     "id": "away-715",
+     "name": "Willock",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-715",
-     "name": "Willock",
-     "num": null,
+     "id": "away-708",
+     "name": "Barnes",
+     "num": 11,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -388,8 +388,8 @@
      "y": 85
     },
     {
-     "id": "away-703",
-     "name": "Miley",
+     "id": "away-1464",
+     "name": "Fernández-Pardo",
      "num": null,
      "pos": "RDM",
      "role": "MID",
@@ -397,8 +397,8 @@
      "y": 38
     },
     {
-     "id": "away-1464",
-     "name": "Fernández-Pardo",
+     "id": "away-703",
+     "name": "Miley",
      "num": null,
      "pos": "LDM",
      "role": "MID",
@@ -415,18 +415,18 @@
      "y": 16
     },
     {
-     "id": "away-708",
-     "name": "Barnes",
-     "num": 11,
+     "id": "away-715",
+     "name": "Willock",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-715",
-     "name": "Willock",
-     "num": null,
+     "id": "away-708",
+     "name": "Barnes",
+     "num": 11,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -718,8 +718,8 @@
      "y": 85
     },
     {
-     "id": "away-703",
-     "name": "Miley",
+     "id": "away-1464",
+     "name": "Fernández-Pardo",
      "num": null,
      "pos": "RDM",
      "role": "MID",
@@ -727,8 +727,8 @@
      "y": 38
     },
     {
-     "id": "away-1464",
-     "name": "Fernández-Pardo",
+     "id": "away-703",
+     "name": "Miley",
      "num": null,
      "pos": "LDM",
      "role": "MID",
@@ -745,18 +745,18 @@
      "y": 16
     },
     {
-     "id": "away-708",
-     "name": "Barnes",
-     "num": 11,
+     "id": "away-715",
+     "name": "Willock",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-715",
-     "name": "Willock",
-     "num": null,
+     "id": "away-708",
+     "name": "Barnes",
+     "num": 11,
      "pos": "LW",
      "role": "MID",
      "x": 65,

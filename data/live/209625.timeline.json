@@ -10,7 +10,7 @@
    "name": "60' Hull freshen it up",
    "note": "Gelhardt on for Cho on 60', same job.",
    "ruleId": "like-for-like",
-   "formation": "5-4-1",
+   "formation": "5-3-2",
    "players": [
     {
      "id": "away-3476",
@@ -27,7 +27,7 @@
      "num": 2,
      "pos": "RWB",
      "role": "DEF",
-     "x": 79,
+     "x": 78,
      "y": 12
     },
     {
@@ -36,7 +36,7 @@
      "num": 6,
      "pos": "RCB",
      "role": "DEF",
-     "x": 85,
+     "x": 84,
      "y": 30
     },
     {
@@ -45,7 +45,7 @@
      "num": 15,
      "pos": "CB",
      "role": "DEF",
-     "x": 87,
+     "x": 86,
      "y": 50
     },
     {
@@ -54,7 +54,7 @@
      "num": 32,
      "pos": "LCB",
      "role": "DEF",
-     "x": 85,
+     "x": 84,
      "y": 70
     },
     {
@@ -63,53 +63,53 @@
      "num": 21,
      "pos": "LWB",
      "role": "DEF",
-     "x": 79,
+     "x": 78,
      "y": 88
     },
     {
      "id": "away-808",
      "name": "Iroegbunam",
      "num": 42,
-     "pos": "RM",
-     "role": "MID",
-     "x": 71,
-     "y": 14
-    },
-    {
-     "id": "away-6188",
-     "name": "Slater",
-     "num": 27,
      "pos": "RCM",
      "role": "MID",
-     "x": 73,
-     "y": 40
+     "x": 70,
+     "y": 32
     },
     {
      "id": "away-4189",
      "name": "Gourna-Douath",
      "num": 29,
+     "pos": "CM",
+     "role": "MID",
+     "x": 72,
+     "y": 50
+    },
+    {
+     "id": "away-6188",
+     "name": "Slater",
+     "num": 27,
      "pos": "LCM",
      "role": "MID",
-     "x": 73,
-     "y": 60
+     "x": 70,
+     "y": 68
     },
     {
      "id": "away-6803",
      "name": "Gelhardt",
      "num": null,
-     "pos": "LM",
-     "role": "MID",
-     "x": 71,
-     "y": 86
+     "pos": "RS",
+     "role": "FWD",
+     "x": 58,
+     "y": 40
     },
     {
      "id": "away-6191",
      "name": "McBurnie",
      "num": 9,
-     "pos": "ST",
+     "pos": "LS",
      "role": "FWD",
-     "x": 59,
-     "y": 50
+     "x": 58,
+     "y": 60
     }
    ]
   },
@@ -120,7 +120,7 @@
    "name": "61' Hull freshen it up",
    "note": "Norton-Cuffy on for Coyle on 61', same job.",
    "ruleId": "like-for-like",
-   "formation": "5-4-1",
+   "formation": "5-3-2",
    "players": [
     {
      "id": "away-3476",
@@ -137,7 +137,7 @@
      "num": null,
      "pos": "RWB",
      "role": "DEF",
-     "x": 79,
+     "x": 78,
      "y": 12
     },
     {
@@ -146,7 +146,7 @@
      "num": 6,
      "pos": "RCB",
      "role": "DEF",
-     "x": 85,
+     "x": 84,
      "y": 30
     },
     {
@@ -155,7 +155,7 @@
      "num": 15,
      "pos": "CB",
      "role": "DEF",
-     "x": 87,
+     "x": 86,
      "y": 50
     },
     {
@@ -164,7 +164,7 @@
      "num": 32,
      "pos": "LCB",
      "role": "DEF",
-     "x": 85,
+     "x": 84,
      "y": 70
     },
     {
@@ -173,53 +173,53 @@
      "num": 21,
      "pos": "LWB",
      "role": "DEF",
-     "x": 79,
+     "x": 78,
      "y": 88
     },
     {
      "id": "away-808",
      "name": "Iroegbunam",
      "num": 42,
-     "pos": "RM",
-     "role": "MID",
-     "x": 71,
-     "y": 14
-    },
-    {
-     "id": "away-6188",
-     "name": "Slater",
-     "num": 27,
      "pos": "RCM",
      "role": "MID",
-     "x": 73,
-     "y": 40
+     "x": 70,
+     "y": 32
     },
     {
      "id": "away-4189",
      "name": "Gourna-Douath",
      "num": 29,
+     "pos": "CM",
+     "role": "MID",
+     "x": 72,
+     "y": 50
+    },
+    {
+     "id": "away-6188",
+     "name": "Slater",
+     "num": 27,
      "pos": "LCM",
      "role": "MID",
-     "x": 73,
-     "y": 60
+     "x": 70,
+     "y": 68
     },
     {
      "id": "away-6803",
      "name": "Gelhardt",
      "num": null,
-     "pos": "LM",
-     "role": "MID",
-     "x": 71,
-     "y": 86
+     "pos": "RS",
+     "role": "FWD",
+     "x": 58,
+     "y": 40
     },
     {
      "id": "away-6191",
      "name": "McBurnie",
      "num": 9,
-     "pos": "ST",
+     "pos": "LS",
      "role": "FWD",
-     "x": 59,
-     "y": 50
+     "x": 58,
+     "y": 60
     }
    ]
   },
@@ -278,45 +278,45 @@
      "y": 15
     },
     {
-     "id": "home-451",
-     "name": "Merino",
-     "num": null,
+     "id": "home-709",
+     "name": "Guimarães",
+     "num": 39,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-709",
-     "name": "Guimarães",
-     "num": 39,
+     "id": "home-451",
+     "name": "Merino",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-447",
-     "name": "Ødegaard",
-     "num": 8,
+     "id": "home-450",
+     "name": "Madueke",
+     "num": 20,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-3543",
-     "name": "Tzolis",
-     "num": 17,
+     "id": "home-447",
+     "name": "Ødegaard",
+     "num": 8,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-450",
-     "name": "Madueke",
-     "num": 20,
+     "id": "home-3543",
+     "name": "Tzolis",
+     "num": 17,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -388,45 +388,45 @@
      "y": 15
     },
     {
-     "id": "home-451",
-     "name": "Merino",
-     "num": null,
+     "id": "home-709",
+     "name": "Guimarães",
+     "num": 39,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-709",
-     "name": "Guimarães",
-     "num": 39,
+     "id": "home-451",
+     "name": "Merino",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-447",
-     "name": "Ødegaard",
-     "num": 8,
+     "id": "home-450",
+     "name": "Madueke",
+     "num": 20,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-454",
-     "name": "Eze",
-     "num": null,
+     "id": "home-447",
+     "name": "Ødegaard",
+     "num": 8,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-450",
-     "name": "Madueke",
-     "num": 20,
+     "id": "home-454",
+     "name": "Eze",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -450,7 +450,7 @@
    "name": "69' Hull freshen it up",
    "note": "Herrington on for Ajayi on 69', same job.",
    "ruleId": "like-for-like",
-   "formation": "5-4-1",
+   "formation": "5-3-2",
    "players": [
     {
      "id": "away-3476",
@@ -467,7 +467,7 @@
      "num": null,
      "pos": "RWB",
      "role": "DEF",
-     "x": 79,
+     "x": 78,
      "y": 12
     },
     {
@@ -476,7 +476,7 @@
      "num": null,
      "pos": "RCB",
      "role": "DEF",
-     "x": 85,
+     "x": 84,
      "y": 30
     },
     {
@@ -485,7 +485,7 @@
      "num": 15,
      "pos": "CB",
      "role": "DEF",
-     "x": 87,
+     "x": 86,
      "y": 50
     },
     {
@@ -494,7 +494,7 @@
      "num": 32,
      "pos": "LCB",
      "role": "DEF",
-     "x": 85,
+     "x": 84,
      "y": 70
     },
     {
@@ -503,53 +503,53 @@
      "num": 21,
      "pos": "LWB",
      "role": "DEF",
-     "x": 79,
+     "x": 78,
      "y": 88
     },
     {
      "id": "away-808",
      "name": "Iroegbunam",
      "num": 42,
-     "pos": "RM",
-     "role": "MID",
-     "x": 71,
-     "y": 14
-    },
-    {
-     "id": "away-6188",
-     "name": "Slater",
-     "num": 27,
      "pos": "RCM",
      "role": "MID",
-     "x": 73,
-     "y": 40
+     "x": 70,
+     "y": 32
     },
     {
      "id": "away-4189",
      "name": "Gourna-Douath",
      "num": 29,
+     "pos": "CM",
+     "role": "MID",
+     "x": 72,
+     "y": 50
+    },
+    {
+     "id": "away-6188",
+     "name": "Slater",
+     "num": 27,
      "pos": "LCM",
      "role": "MID",
-     "x": 73,
-     "y": 60
+     "x": 70,
+     "y": 68
     },
     {
      "id": "away-6803",
      "name": "Gelhardt",
      "num": null,
-     "pos": "LM",
-     "role": "MID",
-     "x": 71,
-     "y": 86
+     "pos": "RS",
+     "role": "FWD",
+     "x": 58,
+     "y": 40
     },
     {
      "id": "away-6191",
      "name": "McBurnie",
      "num": 9,
-     "pos": "ST",
+     "pos": "LS",
      "role": "FWD",
-     "x": 59,
-     "y": 50
+     "x": 58,
+     "y": 60
     }
    ]
   },
@@ -560,7 +560,7 @@
    "name": "75' Hull make a double change",
    "note": "Giles and Mouzakitis on together for Stroud and Iroegbunam on 75'.",
    "ruleId": "double-change",
-   "formation": "5-4-1",
+   "formation": "5-3-2",
    "players": [
     {
      "id": "away-3476",
@@ -577,7 +577,7 @@
      "num": null,
      "pos": "RWB",
      "role": "DEF",
-     "x": 79,
+     "x": 78,
      "y": 12
     },
     {
@@ -586,7 +586,7 @@
      "num": null,
      "pos": "RCB",
      "role": "DEF",
-     "x": 85,
+     "x": 84,
      "y": 30
     },
     {
@@ -595,7 +595,7 @@
      "num": 15,
      "pos": "CB",
      "role": "DEF",
-     "x": 87,
+     "x": 86,
      "y": 50
     },
     {
@@ -604,7 +604,7 @@
      "num": 32,
      "pos": "LCB",
      "role": "DEF",
-     "x": 85,
+     "x": 84,
      "y": 70
     },
     {
@@ -613,53 +613,53 @@
      "num": null,
      "pos": "LWB",
      "role": "DEF",
-     "x": 79,
+     "x": 78,
      "y": 88
     },
     {
      "id": "away-3482",
      "name": "Mouzakitis",
      "num": null,
-     "pos": "RM",
-     "role": "MID",
-     "x": 71,
-     "y": 14
-    },
-    {
-     "id": "away-6188",
-     "name": "Slater",
-     "num": 27,
      "pos": "RCM",
      "role": "MID",
-     "x": 73,
-     "y": 40
+     "x": 70,
+     "y": 32
     },
     {
      "id": "away-4189",
      "name": "Gourna-Douath",
      "num": 29,
+     "pos": "CM",
+     "role": "MID",
+     "x": 72,
+     "y": 50
+    },
+    {
+     "id": "away-6188",
+     "name": "Slater",
+     "num": 27,
      "pos": "LCM",
      "role": "MID",
-     "x": 73,
-     "y": 60
+     "x": 70,
+     "y": 68
     },
     {
      "id": "away-6803",
      "name": "Gelhardt",
      "num": null,
-     "pos": "LM",
-     "role": "MID",
-     "x": 71,
-     "y": 86
+     "pos": "RS",
+     "role": "FWD",
+     "x": 58,
+     "y": 40
     },
     {
      "id": "away-6191",
      "name": "McBurnie",
      "num": 9,
-     "pos": "ST",
+     "pos": "LS",
      "role": "FWD",
-     "x": 59,
-     "y": 50
+     "x": 58,
+     "y": 60
     }
    ]
   },
@@ -718,8 +718,8 @@
      "y": 15
     },
     {
-     "id": "home-451",
-     "name": "Merino",
+     "id": "home-448",
+     "name": "Zubimendi",
      "num": null,
      "pos": "RDM",
      "role": "MID",
@@ -727,8 +727,8 @@
      "y": 62
     },
     {
-     "id": "home-448",
-     "name": "Zubimendi",
+     "id": "home-451",
+     "name": "Merino",
      "num": null,
      "pos": "LDM",
      "role": "MID",
@@ -736,27 +736,27 @@
      "y": 38
     },
     {
-     "id": "home-447",
-     "name": "Ødegaard",
-     "num": 8,
+     "id": "home-450",
+     "name": "Madueke",
+     "num": 20,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-454",
-     "name": "Eze",
-     "num": null,
+     "id": "home-447",
+     "name": "Ødegaard",
+     "num": 8,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-450",
-     "name": "Madueke",
-     "num": 20,
+     "id": "home-454",
+     "name": "Eze",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,

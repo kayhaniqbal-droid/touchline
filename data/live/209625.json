@@ -68,9 +68,9 @@
      "y": 15
     },
     {
-     "id": "home-451",
-     "providerId": 451,
-     "name": "Merino",
+     "id": "home-448",
+     "providerId": 448,
+     "name": "Zubimendi",
      "num": null,
      "pos": "RDM",
      "role": "MID",
@@ -78,9 +78,9 @@
      "y": 62
     },
     {
-     "id": "home-448",
-     "providerId": 448,
-     "name": "Zubimendi",
+     "id": "home-451",
+     "providerId": 451,
+     "name": "Merino",
      "num": null,
      "pos": "LDM",
      "role": "MID",
@@ -88,30 +88,30 @@
      "y": 38
     },
     {
-     "id": "home-447",
-     "providerId": 447,
-     "name": "Ødegaard",
-     "num": 8,
+     "id": "home-450",
+     "providerId": 450,
+     "name": "Madueke",
+     "num": 20,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-454",
-     "providerId": 454,
-     "name": "Eze",
-     "num": null,
+     "id": "home-447",
+     "providerId": 447,
+     "name": "Ødegaard",
+     "num": 8,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-450",
-     "providerId": 450,
-     "name": "Madueke",
-     "num": 20,
+     "id": "home-454",
+     "providerId": 454,
+     "name": "Eze",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -136,7 +136,7 @@
    "nick": "Hull",
    "providerId": 204,
    "coach": null,
-   "formation": "5-4-1",
+   "formation": "5-3-2",
    "derivedShape": true,
    "players": [
     {
@@ -156,7 +156,7 @@
      "num": null,
      "pos": "RWB",
      "role": "DEF",
-     "x": 79,
+     "x": 78,
      "y": 12
     },
     {
@@ -166,7 +166,7 @@
      "num": null,
      "pos": "RCB",
      "role": "DEF",
-     "x": 85,
+     "x": 84,
      "y": 30
     },
     {
@@ -176,7 +176,7 @@
      "num": 15,
      "pos": "CB",
      "role": "DEF",
-     "x": 87,
+     "x": 86,
      "y": 50
     },
     {
@@ -186,7 +186,7 @@
      "num": 32,
      "pos": "LCB",
      "role": "DEF",
-     "x": 85,
+     "x": 84,
      "y": 70
     },
     {
@@ -196,7 +196,7 @@
      "num": null,
      "pos": "LWB",
      "role": "DEF",
-     "x": 79,
+     "x": 78,
      "y": 88
     },
     {
@@ -204,50 +204,50 @@
      "providerId": 3482,
      "name": "Mouzakitis",
      "num": null,
-     "pos": "RM",
-     "role": "MID",
-     "x": 71,
-     "y": 14
-    },
-    {
-     "id": "away-6188",
-     "providerId": 6188,
-     "name": "Slater",
-     "num": 27,
      "pos": "RCM",
      "role": "MID",
-     "x": 73,
-     "y": 40
+     "x": 70,
+     "y": 32
     },
     {
      "id": "away-4189",
      "providerId": 4189,
      "name": "Gourna-Douath",
      "num": 29,
+     "pos": "CM",
+     "role": "MID",
+     "x": 72,
+     "y": 50
+    },
+    {
+     "id": "away-6188",
+     "providerId": 6188,
+     "name": "Slater",
+     "num": 27,
      "pos": "LCM",
      "role": "MID",
-     "x": 73,
-     "y": 60
+     "x": 70,
+     "y": 68
     },
     {
      "id": "away-6803",
      "providerId": 6803,
      "name": "Gelhardt",
      "num": null,
-     "pos": "LM",
-     "role": "MID",
-     "x": 71,
-     "y": 86
+     "pos": "RS",
+     "role": "FWD",
+     "x": 58,
+     "y": 40
     },
     {
      "id": "away-6191",
      "providerId": 6191,
      "name": "McBurnie",
      "num": 9,
-     "pos": "ST",
+     "pos": "LS",
      "role": "FWD",
-     "x": 59,
-     "y": 50
+     "x": 58,
+     "y": 60
     }
    ],
    "bench": []
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-07T15:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-07T16:56:59.663Z"
+ "fetchedAt": "2026-11-07T17:56:21.888Z"
 }

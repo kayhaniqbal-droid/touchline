@@ -1,7 +1,7 @@
 {
  "fixtureId": 209629,
- "minute": 97,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
   "home": 1,
   "away": 1
@@ -190,9 +190,9 @@
      "y": 85
     },
     {
-     "id": "away-703",
-     "providerId": 703,
-     "name": "Miley",
+     "id": "away-1464",
+     "providerId": 1464,
+     "name": "Fernández-Pardo",
      "num": null,
      "pos": "RDM",
      "role": "MID",
@@ -200,9 +200,9 @@
      "y": 38
     },
     {
-     "id": "away-1464",
-     "providerId": 1464,
-     "name": "Fernández-Pardo",
+     "id": "away-703",
+     "providerId": 703,
+     "name": "Miley",
      "num": null,
      "pos": "LDM",
      "role": "MID",
@@ -220,20 +220,20 @@
      "y": 16
     },
     {
-     "id": "away-708",
-     "providerId": 708,
-     "name": "Barnes",
-     "num": 11,
+     "id": "away-715",
+     "providerId": 715,
+     "name": "Willock",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-715",
-     "providerId": 715,
-     "name": "Willock",
-     "num": null,
+     "id": "away-708",
+     "providerId": 708,
+     "name": "Barnes",
+     "num": 11,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-07T15:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-07T16:56:59.337Z"
+ "fetchedAt": "2026-11-07T17:56:21.483Z"
 }
