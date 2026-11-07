@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209634,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "SUN",
+   "name": "Sunderland",
+   "nick": "Sunderland",
+   "providerId": 7,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-342",
+     "providerId": 342,
+     "name": "Roefs",
+     "num": 22,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-346",
+     "providerId": 346,
+     "name": "Mandava",
+     "num": 17,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-721",
+     "providerId": 721,
+     "name": "Danso",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-345",
+     "providerId": 345,
+     "name": "Alderete",
+     "num": 15,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-347",
+     "providerId": 347,
+     "name": "Hume",
+     "num": 32,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-348",
+     "providerId": 348,
+     "name": "Xhaka",
+     "num": 34,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-349",
+     "providerId": 349,
+     "name": "Sadiki",
+     "num": 27,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-7347",
+     "providerId": 7347,
+     "name": "Angulo",
+     "num": 10,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-351",
+     "providerId": 351,
+     "name": "Le Fée",
+     "num": 28,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-12176",
+     "providerId": 12176,
+     "name": "Bi",
+     "num": 37,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-352",
+     "providerId": 352,
+     "name": "Brobbey",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "CHE",
+   "name": "Chelsea",
+   "nick": "Chelsea",
+   "providerId": 13,
+   "coach": null,
+   "formation": "3-4-2-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-1629",
+     "providerId": 1629,
+     "name": "Martínez",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-907",
+     "providerId": 907,
+     "name": "Chavarría",
+     "num": 29,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-22880",
+     "providerId": 22880,
+     "name": "Colwill",
+     "num": 6,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-1344",
+     "providerId": 1344,
+     "name": "Fofana",
+     "num": 3,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-399",
+     "providerId": 399,
+     "name": "Acheampong",
+     "num": 34,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-1345",
+     "providerId": 1345,
+     "name": "Caicedo",
+     "num": 25,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-474",
+     "providerId": 474,
+     "name": "Henderson",
+     "num": 14,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-4237",
+     "providerId": 4237,
+     "name": "Lavia",
+     "num": 45,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-511",
+     "providerId": 511,
+     "name": "Rogers",
+     "num": 17,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-395",
+     "providerId": 395,
+     "name": "Palmer",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-394",
+     "providerId": 394,
+     "name": "Neto",
+     "num": 7,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-11-08T14:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-11-07T16:07:17.567Z"
+}
