@@ -1,6 +1,6 @@
 {
  "fixtureId": 209633,
- "title": "Nottingham Forest 2–1 Manchester City",
+ "title": "Nottingham Forest 3–1 Manchester City",
  "lineupStatus": "confirmed",
  "phases": [
   {
@@ -31,18 +31,18 @@
      "y": 15
     },
     {
-     "id": "away-844",
-     "name": "Nunes",
-     "num": null,
+     "id": "away-845",
+     "name": "Dias",
+     "num": 3,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
      "y": 37
     },
     {
-     "id": "away-845",
-     "name": "Dias",
-     "num": 3,
+     "id": "away-844",
+     "name": "Nunes",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
@@ -58,18 +58,18 @@
      "y": 85
     },
     {
-     "id": "away-548",
-     "name": "Anderson",
-     "num": 5,
+     "id": "away-387",
+     "name": "Fernández",
+     "num": 17,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-387",
-     "name": "Fernández",
-     "num": 17,
+     "id": "away-548",
+     "name": "Anderson",
+     "num": 5,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
@@ -159,18 +159,18 @@
      "y": 28
     },
     {
-     "id": "home-546",
-     "name": "Williams",
-     "num": 3,
+     "id": "home-2871",
+     "name": "Netz",
+     "num": null,
      "pos": "RWB",
      "role": "MID",
      "x": 28,
      "y": 90
     },
     {
-     "id": "home-2871",
-     "name": "Netz",
-     "num": null,
+     "id": "home-2892",
+     "name": "Schlager",
+     "num": 21,
      "pos": "RCM",
      "role": "MID",
      "x": 25,
@@ -186,27 +186,27 @@
      "y": 40
     },
     {
-     "id": "home-2892",
-     "name": "Schlager",
-     "num": 21,
+     "id": "home-546",
+     "name": "Williams",
+     "num": 3,
      "pos": "LWB",
      "role": "MID",
      "x": 28,
      "y": 10
     },
     {
-     "id": "home-550",
-     "name": "Gibbs-White",
-     "num": 10,
+     "id": "home-551",
+     "name": "Ndoye",
+     "num": null,
      "pos": "RAM",
      "role": "FWD",
      "x": 38,
      "y": 66
     },
     {
-     "id": "home-551",
-     "name": "Ndoye",
-     "num": null,
+     "id": "home-550",
+     "name": "Gibbs-White",
+     "num": 10,
      "pos": "LAM",
      "role": "FWD",
      "x": 38,
@@ -216,6 +216,336 @@
      "id": "home-392",
      "name": "Delap",
      "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-78-like-for-like",
+   "minute": 78,
+   "side": "away",
+   "name": "78' Man City freshen it up",
+   "note": "Foden on for Fernández on 78', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-843",
+     "name": "Donnarumma",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-860",
+     "name": "Khusanov",
+     "num": 45,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-845",
+     "name": "Dias",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-844",
+     "name": "Nunes",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-847",
+     "name": "O’Reilly",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-851",
+     "name": "Foden",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-548",
+     "name": "Anderson",
+     "num": 5,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-810",
+     "name": "Ndiaye",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-856",
+     "name": "Cherki",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-853",
+     "name": "Doku",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-852",
+     "name": "Haaland",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-79-like-for-like",
+   "minute": 79,
+   "side": "home",
+   "name": "79' Forest freshen it up",
+   "note": "Sangaré on for Yates on 79', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "home-542",
+     "name": "Sels",
+     "num": 26,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-557",
+     "name": "Jair",
+     "num": 23,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-544",
+     "name": "Milenković",
+     "num": 31,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-2913",
+     "name": "Murillo",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-2871",
+     "name": "Netz",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 28,
+     "y": 90
+    },
+    {
+     "id": "home-2892",
+     "name": "Schlager",
+     "num": 21,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-547",
+     "name": "Sangaré",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-546",
+     "name": "Williams",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 28,
+     "y": 10
+    },
+    {
+     "id": "home-551",
+     "name": "Ndoye",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 66
+    },
+    {
+     "id": "home-550",
+     "name": "Gibbs-White",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 34
+    },
+    {
+     "id": "home-392",
+     "name": "Delap",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-87-like-for-like",
+   "minute": 87,
+   "side": "home",
+   "name": "87' Forest freshen it up",
+   "note": "Jesus on for Delap on 87', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "home-542",
+     "name": "Sels",
+     "num": 26,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-557",
+     "name": "Jair",
+     "num": 23,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 72
+    },
+    {
+     "id": "home-544",
+     "name": "Milenković",
+     "num": 31,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 12,
+     "y": 50
+    },
+    {
+     "id": "home-2913",
+     "name": "Murillo",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 14,
+     "y": 28
+    },
+    {
+     "id": "home-2871",
+     "name": "Netz",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 28,
+     "y": 90
+    },
+    {
+     "id": "home-2892",
+     "name": "Schlager",
+     "num": 21,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 25,
+     "y": 60
+    },
+    {
+     "id": "home-547",
+     "name": "Sangaré",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 25,
+     "y": 40
+    },
+    {
+     "id": "home-546",
+     "name": "Williams",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 28,
+     "y": 10
+    },
+    {
+     "id": "home-551",
+     "name": "Ndoye",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 66
+    },
+    {
+     "id": "home-550",
+     "name": "Gibbs-White",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 38,
+     "y": 34
+    },
+    {
+     "id": "home-552",
+     "name": "Jesus",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
