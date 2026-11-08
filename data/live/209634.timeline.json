@@ -1,7 +1,778 @@
 {
  "fixtureId": 209634,
- "title": "Sunderland 0–0 Chelsea",
- "lineupStatus": "predicted",
- "phases": [],
+ "title": "Sunderland 1–0 Chelsea",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-home-4-like-for-like",
+   "minute": 4,
+   "side": "home",
+   "name": "4' Sunderland freshen it up",
+   "note": "Ahoka on for Xhaka on 4', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-342",
+     "name": "Roefs",
+     "num": 22,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-1446",
+     "name": "Meunier",
+     "num": 12,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-343",
+     "name": "Mukiele",
+     "num": 20,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-355",
+     "name": "O'Nien",
+     "num": 13,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-346",
+     "name": "Mandava",
+     "num": 17,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-37161",
+     "name": "Ahoka",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-349",
+     "name": "Sadiki",
+     "num": 27,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-347",
+     "name": "Hume",
+     "num": 32,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-351",
+     "name": "Le Fée",
+     "num": 28,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-350",
+     "name": "Talbi",
+     "num": 7,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-352",
+     "name": "Brobbey",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-46-like-for-like",
+   "minute": 46,
+   "side": "away",
+   "name": "46' Chelsea freshen it up",
+   "note": "Estêvão on for Colwill on 46', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-3-2-1",
+   "players": [
+    {
+     "id": "away-1701",
+     "name": "Penders",
+     "num": 39,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-2202",
+     "name": "Palestra",
+     "num": 2,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-1344",
+     "name": "Fofana",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-389",
+     "name": "Estêvão",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-907",
+     "name": "Chavarría",
+     "num": 29,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-1345",
+     "name": "Caicedo",
+     "num": 25,
+     "pos": "DM",
+     "role": "MID",
+     "x": 76,
+     "y": 50
+    },
+    {
+     "id": "away-4237",
+     "name": "Lavia",
+     "num": 45,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 69,
+     "y": 30
+    },
+    {
+     "id": "away-474",
+     "name": "Henderson",
+     "num": 14,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 69,
+     "y": 70
+    },
+    {
+     "id": "away-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 61,
+     "y": 38
+    },
+    {
+     "id": "away-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 61,
+     "y": 62
+    },
+    {
+     "id": "away-394",
+     "name": "Neto",
+     "num": 7,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 54,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-62-double-change",
+   "minute": 62,
+   "side": "away",
+   "name": "62' Chelsea make a double change",
+   "note": "Gusto and Welbeck on together for Palestra and Neto on 62'.",
+   "ruleId": "double-change",
+   "formation": "4-3-2-1",
+   "players": [
+    {
+     "id": "away-1701",
+     "name": "Penders",
+     "num": 39,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-393",
+     "name": "Gusto",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-1344",
+     "name": "Fofana",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-389",
+     "name": "Estêvão",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-907",
+     "name": "Chavarría",
+     "num": 29,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-1345",
+     "name": "Caicedo",
+     "num": 25,
+     "pos": "DM",
+     "role": "MID",
+     "x": 76,
+     "y": 50
+    },
+    {
+     "id": "away-4237",
+     "name": "Lavia",
+     "num": 45,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 69,
+     "y": 30
+    },
+    {
+     "id": "away-474",
+     "name": "Henderson",
+     "num": 14,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 69,
+     "y": 70
+    },
+    {
+     "id": "away-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 61,
+     "y": 38
+    },
+    {
+     "id": "away-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 61,
+     "y": 62
+    },
+    {
+     "id": "away-494",
+     "name": "Welbeck",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 54,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-67-like-for-like",
+   "minute": 67,
+   "side": "home",
+   "name": "67' Sunderland freshen it up",
+   "note": "Isidor on for Brobbey on 67', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-342",
+     "name": "Roefs",
+     "num": 22,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-1446",
+     "name": "Meunier",
+     "num": 12,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-343",
+     "name": "Mukiele",
+     "num": 20,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-355",
+     "name": "O'Nien",
+     "num": 13,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-346",
+     "name": "Mandava",
+     "num": 17,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-37161",
+     "name": "Ahoka",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-349",
+     "name": "Sadiki",
+     "num": 27,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-347",
+     "name": "Hume",
+     "num": 32,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-351",
+     "name": "Le Fée",
+     "num": 28,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-350",
+     "name": "Talbi",
+     "num": 7,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-353",
+     "name": "Isidor",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-79-like-for-like",
+   "minute": 79,
+   "side": "away",
+   "name": "79' Chelsea freshen it up",
+   "note": "Quenda on for Chavarría on 79', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-3-2-1",
+   "players": [
+    {
+     "id": "away-1701",
+     "name": "Penders",
+     "num": 39,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-393",
+     "name": "Gusto",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-1344",
+     "name": "Fofana",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-389",
+     "name": "Estêvão",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-1220",
+     "name": "Quenda",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-1345",
+     "name": "Caicedo",
+     "num": 25,
+     "pos": "DM",
+     "role": "MID",
+     "x": 76,
+     "y": 50
+    },
+    {
+     "id": "away-4237",
+     "name": "Lavia",
+     "num": 45,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 69,
+     "y": 30
+    },
+    {
+     "id": "away-474",
+     "name": "Henderson",
+     "num": 14,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 69,
+     "y": 70
+    },
+    {
+     "id": "away-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 61,
+     "y": 38
+    },
+    {
+     "id": "away-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 61,
+     "y": 62
+    },
+    {
+     "id": "away-494",
+     "name": "Welbeck",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 54,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-87-like-for-like",
+   "minute": 87,
+   "side": "away",
+   "name": "87' Chelsea freshen it up",
+   "note": "Emegha on for Henderson on 87', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-3-2-1",
+   "players": [
+    {
+     "id": "away-1701",
+     "name": "Penders",
+     "num": 39,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-393",
+     "name": "Gusto",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-1344",
+     "name": "Fofana",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-389",
+     "name": "Estêvão",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-1220",
+     "name": "Quenda",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-1345",
+     "name": "Caicedo",
+     "num": 25,
+     "pos": "DM",
+     "role": "MID",
+     "x": 76,
+     "y": 50
+    },
+    {
+     "id": "away-4237",
+     "name": "Lavia",
+     "num": 45,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 69,
+     "y": 30
+    },
+    {
+     "id": "away-1714",
+     "name": "Emegha",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 69,
+     "y": 70
+    },
+    {
+     "id": "away-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 61,
+     "y": 38
+    },
+    {
+     "id": "away-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 61,
+     "y": 62
+    },
+    {
+     "id": "away-494",
+     "name": "Welbeck",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 54,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-88-double-change",
+   "minute": 88,
+   "side": "home",
+   "name": "88' Sunderland make a double change",
+   "note": "Rigg and Angulo on together for Le Fée and Talbi on 88'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-342",
+     "name": "Roefs",
+     "num": 22,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-1446",
+     "name": "Meunier",
+     "num": 12,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-343",
+     "name": "Mukiele",
+     "num": 20,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-355",
+     "name": "O'Nien",
+     "num": 13,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-346",
+     "name": "Mandava",
+     "num": 17,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-37161",
+     "name": "Ahoka",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-349",
+     "name": "Sadiki",
+     "num": 27,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-347",
+     "name": "Hume",
+     "num": 32,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-2369",
+     "name": "Rigg",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-7347",
+     "name": "Angulo",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-353",
+     "name": "Isidor",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  }
+ ],
  "shifts": []
 }

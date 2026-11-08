@@ -1,7 +1,856 @@
 {
  "fixtureId": 209626,
- "title": "Brighton & Hove Albion 0–0 Brentford",
- "lineupStatus": "predicted",
- "phases": [],
+ "title": "Brighton & Hove Albion 2–0 Brentford",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-away-23-red-card-reshape",
+   "minute": 23,
+   "side": "away",
+   "name": "23' Brentford down to ten",
+   "note": "Thiago sent off on 23'. The shape re-forms as 4-4-2.",
+   "ruleId": "red-card-reshape",
+   "formation": "4-4-2",
+   "players": [
+    {
+     "id": "away-462",
+     "name": "Kelleher",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-463",
+     "name": "Kayode",
+     "num": 33,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-464",
+     "name": "Ajer",
+     "num": 20,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-466",
+     "name": "van den Berg",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-2373",
+     "name": "Hickey",
+     "num": 2,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-471",
+     "name": "Ouattara",
+     "num": 11,
+     "pos": "RM",
+     "role": "MID",
+     "x": 68,
+     "y": 14
+    },
+    {
+     "id": "away-1411",
+     "name": "Sangare",
+     "num": 18,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 72,
+     "y": 40
+    },
+    {
+     "id": "away-469",
+     "name": "Janelt",
+     "num": 27,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 72,
+     "y": 60
+    },
+    {
+     "id": "away-477",
+     "name": "Lewis-Potter",
+     "num": 23,
+     "pos": "LM",
+     "role": "MID",
+     "x": 68,
+     "y": 86
+    },
+    null,
+    {
+     "id": "away-472",
+     "name": "Schade",
+     "num": 7,
+     "pos": "LS",
+     "role": "FWD",
+     "x": 57,
+     "y": 60
+    }
+   ]
+  },
+  {
+   "id": "shift-away-46-halftime-double",
+   "minute": 46,
+   "side": "away",
+   "name": "46' Brentford change it at the break",
+   "note": "Hickey and Ouattara off, Collins and Yarmoliuk on at the break. That is a reset, not a tweak.",
+   "ruleId": "halftime-double",
+   "formation": "4-4-2",
+   "players": [
+    {
+     "id": "away-462",
+     "name": "Kelleher",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-463",
+     "name": "Kayode",
+     "num": 33,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-464",
+     "name": "Ajer",
+     "num": 20,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-466",
+     "name": "van den Berg",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-476",
+     "name": "Collins",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-468",
+     "name": "Yarmoliuk",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 68,
+     "y": 14
+    },
+    {
+     "id": "away-1411",
+     "name": "Sangare",
+     "num": 18,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 72,
+     "y": 40
+    },
+    {
+     "id": "away-469",
+     "name": "Janelt",
+     "num": 27,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 72,
+     "y": 60
+    },
+    {
+     "id": "away-477",
+     "name": "Lewis-Potter",
+     "num": 23,
+     "pos": "LM",
+     "role": "MID",
+     "x": 68,
+     "y": 86
+    },
+    null,
+    {
+     "id": "away-472",
+     "name": "Schade",
+     "num": 7,
+     "pos": "LS",
+     "role": "FWD",
+     "x": 57,
+     "y": 60
+    }
+   ]
+  },
+  {
+   "id": "shift-home-46-like-for-like",
+   "minute": 46,
+   "side": "home",
+   "name": "46' Brighton freshen it up",
+   "note": "Wieffer on for Andrés on 46', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-482",
+     "name": "Verbruggen",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-3490",
+     "name": "Costinha",
+     "num": 20,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-1591",
+     "name": "Vušković",
+     "num": 44,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-485",
+     "name": "Dunk",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-498",
+     "name": "Boscagli",
+     "num": 21,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-2173",
+     "name": "Groß",
+     "num": 13,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-483",
+     "name": "Wieffer",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-488",
+     "name": "Gómez",
+     "num": 25,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-1632",
+     "name": "Ayari",
+     "num": 26,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-491",
+     "name": "De Cuyper",
+     "num": 29,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-495",
+     "name": "Kostoulas",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-59-double-change",
+   "minute": 59,
+   "side": "away",
+   "name": "59' Brentford make a double change",
+   "note": "Jensen and Diouf on together for Sangare and Lewis-Potter on 59'.",
+   "ruleId": "double-change",
+   "formation": "4-4-2",
+   "players": [
+    {
+     "id": "away-462",
+     "name": "Kelleher",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-463",
+     "name": "Kayode",
+     "num": 33,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-464",
+     "name": "Ajer",
+     "num": 20,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-466",
+     "name": "van den Berg",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-476",
+     "name": "Collins",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-468",
+     "name": "Yarmoliuk",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 68,
+     "y": 14
+    },
+    {
+     "id": "away-470",
+     "name": "Jensen",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 72,
+     "y": 40
+    },
+    {
+     "id": "away-469",
+     "name": "Janelt",
+     "num": 27,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 72,
+     "y": 60
+    },
+    {
+     "id": "away-1638",
+     "name": "Diouf",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 68,
+     "y": 86
+    },
+    null,
+    {
+     "id": "away-472",
+     "name": "Schade",
+     "num": 7,
+     "pos": "LS",
+     "role": "FWD",
+     "x": 57,
+     "y": 60
+    }
+   ]
+  },
+  {
+   "id": "shift-away-70-like-for-like",
+   "minute": 70,
+   "side": "away",
+   "name": "70' Brentford freshen it up",
+   "note": "Wilson on for van den Berg on 70', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-4-2",
+   "players": [
+    {
+     "id": "away-462",
+     "name": "Kelleher",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-463",
+     "name": "Kayode",
+     "num": 33,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-464",
+     "name": "Ajer",
+     "num": 20,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-1644",
+     "name": "Wilson",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-476",
+     "name": "Collins",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-468",
+     "name": "Yarmoliuk",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 68,
+     "y": 14
+    },
+    {
+     "id": "away-470",
+     "name": "Jensen",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 72,
+     "y": 40
+    },
+    {
+     "id": "away-469",
+     "name": "Janelt",
+     "num": 27,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 72,
+     "y": 60
+    },
+    {
+     "id": "away-1638",
+     "name": "Diouf",
+     "num": null,
+     "pos": "LM",
+     "role": "MID",
+     "x": 68,
+     "y": 86
+    },
+    null,
+    {
+     "id": "away-472",
+     "name": "Schade",
+     "num": 7,
+     "pos": "LS",
+     "role": "FWD",
+     "x": 57,
+     "y": 60
+    }
+   ]
+  },
+  {
+   "id": "shift-home-78-like-for-like",
+   "minute": 78,
+   "side": "home",
+   "name": "78' Brighton freshen it up",
+   "note": "Hinshelwood on for Ayari on 78', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-482",
+     "name": "Verbruggen",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-3490",
+     "name": "Costinha",
+     "num": 20,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-1591",
+     "name": "Vušković",
+     "num": 44,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-485",
+     "name": "Dunk",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-498",
+     "name": "Boscagli",
+     "num": 21,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-2173",
+     "name": "Groß",
+     "num": 13,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-483",
+     "name": "Wieffer",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-488",
+     "name": "Gómez",
+     "num": 25,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-493",
+     "name": "Hinshelwood",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-491",
+     "name": "De Cuyper",
+     "num": 29,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-495",
+     "name": "Kostoulas",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-82-double-change",
+   "minute": 82,
+   "side": "home",
+   "name": "82' Brighton make a double change",
+   "note": "Minteh and Rutter on together for De Cuyper and Kostoulas on 82'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-482",
+     "name": "Verbruggen",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-3490",
+     "name": "Costinha",
+     "num": 20,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-1591",
+     "name": "Vušković",
+     "num": 44,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-485",
+     "name": "Dunk",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-498",
+     "name": "Boscagli",
+     "num": 21,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-2173",
+     "name": "Groß",
+     "num": 13,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-483",
+     "name": "Wieffer",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-488",
+     "name": "Gómez",
+     "num": 25,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-493",
+     "name": "Hinshelwood",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-489",
+     "name": "Minteh",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-1633",
+     "name": "Rutter",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-93-like-for-like",
+   "minute": 93,
+   "side": "home",
+   "name": "93' Brighton freshen it up",
+   "note": "Yalcouyé on for Gómez on 93', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-482",
+     "name": "Verbruggen",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-3490",
+     "name": "Costinha",
+     "num": 20,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-1591",
+     "name": "Vušković",
+     "num": 44,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-485",
+     "name": "Dunk",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-498",
+     "name": "Boscagli",
+     "num": 21,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-2173",
+     "name": "Groß",
+     "num": 13,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-483",
+     "name": "Wieffer",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6535",
+     "name": "Yalcouyé",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-493",
+     "name": "Hinshelwood",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-489",
+     "name": "Minteh",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-1633",
+     "name": "Rutter",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  }
+ ],
  "shifts": []
 }

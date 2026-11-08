@@ -1,12 +1,12 @@
 {
  "fixtureId": 209626,
- "minute": 0,
- "status": "notstarted",
+ "minute": 90,
+ "status": "FT",
  "goals": {
-  "home": 0,
+  "home": 2,
   "away": 0
  },
- "lineupsConfirmed": false,
+ "lineupsConfirmed": true,
  "teams": {
   "home": {
    "code": "BHA",
@@ -28,40 +28,40 @@
      "y": 50
     },
     {
-     "id": "home-491",
-     "providerId": 491,
-     "name": "De Cuyper",
-     "num": 29,
+     "id": "home-3490",
+     "providerId": 3490,
+     "name": "Costinha",
+     "num": 20,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
      "y": 85
     },
     {
-     "id": "home-498",
-     "providerId": 498,
-     "name": "Boscagli",
-     "num": 21,
+     "id": "home-1591",
+     "providerId": 1591,
+     "name": "Vušković",
+     "num": 44,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-1591",
-     "providerId": 1591,
-     "name": "Vušković",
-     "num": 44,
+     "id": "home-485",
+     "providerId": 485,
+     "name": "Dunk",
+     "num": 5,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
      "y": 37
     },
     {
-     "id": "home-3490",
-     "providerId": 3490,
-     "name": "Costinha",
-     "num": 20,
+     "id": "home-498",
+     "providerId": 498,
+     "name": "Boscagli",
+     "num": 21,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
@@ -78,50 +78,50 @@
      "y": 62
     },
     {
-     "id": "home-1632",
-     "providerId": 1632,
-     "name": "Ayari",
-     "num": 26,
+     "id": "home-483",
+     "providerId": 483,
+     "name": "Wieffer",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-2102",
-     "providerId": 2102,
-     "name": "Osman",
-     "num": 15,
+     "id": "home-6535",
+     "providerId": 6535,
+     "name": "Yalcouyé",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-488",
-     "providerId": 488,
-     "name": "Gómez",
-     "num": 25,
+     "id": "home-493",
+     "providerId": 493,
+     "name": "Hinshelwood",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 34,
      "y": 50
     },
     {
-     "id": "home-1633",
-     "providerId": 1633,
-     "name": "Rutter",
-     "num": 10,
+     "id": "home-489",
+     "providerId": 489,
+     "name": "Minteh",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 35,
      "y": 16
     },
     {
-     "id": "home-495",
-     "providerId": 495,
-     "name": "Kostoulas",
-     "num": 19,
+     "id": "home-1633",
+     "providerId": 1633,
+     "name": "Rutter",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -136,7 +136,7 @@
    "nick": "Brentford",
    "providerId": 16,
    "coach": null,
-   "formation": "4-2-3-1",
+   "formation": "4-4-2",
    "derivedShape": true,
    "players": [
     {
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-477",
-     "providerId": 477,
-     "name": "Lewis-Potter",
-     "num": 23,
+     "id": "away-463",
+     "providerId": 463,
+     "name": "Kayode",
+     "num": 33,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -170,84 +170,74 @@
      "y": 37
     },
     {
-     "id": "away-3051",
-     "providerId": 3051,
-     "name": "Schuster",
-     "num": 44,
+     "id": "away-1644",
+     "providerId": 1644,
+     "name": "Wilson",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
      "y": 63
     },
     {
-     "id": "away-463",
-     "providerId": 463,
-     "name": "Kayode",
-     "num": 33,
+     "id": "away-476",
+     "providerId": 476,
+     "name": "Collins",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
      "y": 85
     },
     {
+     "id": "away-468",
+     "providerId": 468,
+     "name": "Yarmoliuk",
+     "num": null,
+     "pos": "RM",
+     "role": "MID",
+     "x": 68,
+     "y": 14
+    },
+    {
+     "id": "away-470",
+     "providerId": 470,
+     "name": "Jensen",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 72,
+     "y": 40
+    },
+    {
      "id": "away-469",
      "providerId": 469,
      "name": "Janelt",
      "num": 27,
-     "pos": "RDM",
+     "pos": "LCM",
      "role": "MID",
-     "x": 75,
-     "y": 38
+     "x": 72,
+     "y": 60
     },
     {
-     "id": "away-1411",
-     "providerId": 1411,
-     "name": "Sangare",
-     "num": 18,
-     "pos": "LDM",
+     "id": "away-1638",
+     "providerId": 1638,
+     "name": "Diouf",
+     "num": null,
+     "pos": "LM",
      "role": "MID",
-     "x": 75,
-     "y": 62
+     "x": 68,
+     "y": 86
     },
     {
-     "id": "away-410",
-     "providerId": 410,
-     "name": "Anthony",
-     "num": 19,
-     "pos": "RW",
-     "role": "MID",
-     "x": 65,
-     "y": 16
-    },
-    {
-     "id": "away-475",
-     "providerId": 475,
-     "name": "Damsgaard",
-     "num": 24,
-     "pos": "AM",
-     "role": "MID",
-     "x": 66,
-     "y": 50
-    },
-    {
-     "id": "away-471",
-     "providerId": 471,
-     "name": "Ouattara",
-     "num": 11,
-     "pos": "LW",
-     "role": "MID",
-     "x": 65,
-     "y": 84
-    },
-    {
-     "id": "away-473",
-     "providerId": 473,
-     "name": "Thiago",
-     "num": 9,
-     "pos": "ST",
+     "id": "away-472",
+     "providerId": 472,
+     "name": "Schade",
+     "num": 7,
+     "pos": "LS",
      "role": "FWD",
-     "x": 55,
-     "y": 50
+     "x": 57,
+     "y": 60
     }
    ],
    "bench": []
@@ -255,5 +245,5 @@
  },
  "kickoff": "2026-11-08T14:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-07T22:29:43.557Z"
+ "fetchedAt": "2026-11-08T16:30:50.200Z"
 }

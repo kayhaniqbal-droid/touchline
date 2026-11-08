@@ -6,7 +6,7 @@
   "home": 0,
   "away": 0
  },
- "lineupsConfirmed": false,
+ "lineupsConfirmed": true,
  "teams": {
   "home": {
    "code": "MUN",
@@ -28,10 +28,10 @@
      "y": 50
     },
     {
-     "id": "home-1800",
-     "providerId": 1800,
-     "name": "Martínez",
-     "num": 6,
+     "id": "home-1799",
+     "providerId": 1799,
+     "name": "Mazraoui",
+     "num": 3,
      "pos": "RB",
      "role": "DEF",
      "x": 18,
@@ -68,40 +68,40 @@
      "y": 15
     },
     {
-     "id": "home-514",
-     "providerId": 514,
-     "name": "Tielemans",
-     "num": 18,
+     "id": "home-1802",
+     "providerId": 1802,
+     "name": "Mainoo",
+     "num": 37,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-388",
-     "providerId": 388,
-     "name": "Santos",
-     "num": 17,
+     "id": "home-514",
+     "providerId": 514,
+     "name": "Tielemans",
+     "num": 18,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-1794",
-     "providerId": 1794,
-     "name": "Fernandes",
-     "num": 8,
+     "id": "home-1792",
+     "providerId": 1792,
+     "name": "Diallo",
+     "num": 16,
      "pos": "RW",
      "role": "MID",
      "x": 35,
      "y": 84
     },
     {
-     "id": "home-750",
-     "providerId": 750,
-     "name": "Rashford",
-     "num": 9,
+     "id": "home-1794",
+     "providerId": 1794,
+     "name": "Fernandes",
+     "num": 8,
      "pos": "AM",
      "role": "MID",
      "x": 34,
@@ -118,10 +118,10 @@
      "y": 16
     },
     {
-     "id": "home-1798",
-     "providerId": 1798,
-     "name": "Zirkzee",
-     "num": 11,
+     "id": "home-4119",
+     "providerId": 4119,
+     "name": "Cunha",
+     "num": 10,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-506",
-     "providerId": 506,
-     "name": "Maatsen",
-     "num": 22,
+     "id": "away-6402",
+     "providerId": 6402,
+     "name": "Harwood-Bellis",
+     "num": 4,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
@@ -180,50 +180,50 @@
      "y": 63
     },
     {
-     "id": "away-503",
-     "providerId": 503,
-     "name": "Cash",
-     "num": 2,
+     "id": "away-506",
+     "providerId": 506,
+     "name": "Maatsen",
+     "num": 22,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
      "y": 85
     },
     {
-     "id": "away-1178",
-     "providerId": 1178,
-     "name": "Manzambi",
-     "num": 44,
+     "id": "away-507",
+     "providerId": 507,
+     "name": "Kamara",
+     "num": 8,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
      "y": 38
     },
     {
-     "id": "away-507",
-     "providerId": 507,
-     "name": "Kamara",
-     "num": 8,
+     "id": "away-2470",
+     "providerId": 2470,
+     "name": "Goretzka",
+     "num": 27,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-517",
-     "providerId": 517,
-     "name": "Buendía",
-     "num": 10,
+     "id": "away-614",
+     "providerId": 614,
+     "name": "Alysson",
+     "num": 47,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-528",
-     "providerId": 528,
-     "name": "Gomes",
-     "num": 35,
+     "id": "away-1178",
+     "providerId": 1178,
+     "name": "Manzambi",
+     "num": 44,
      "pos": "AM",
      "role": "MID",
      "x": 66,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-08T16:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-07T22:29:41.667Z"
+ "fetchedAt": "2026-11-08T16:30:48.117Z"
 }
