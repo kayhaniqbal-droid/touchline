@@ -1,10 +1,10 @@
 {
  "fixtureId": 209632,
- "minute": 37,
- "status": "1st_half",
+ "minute": 81,
+ "status": "2nd_half",
  "goals": {
-  "home": 1,
-  "away": 2
+  "home": 2,
+  "away": 4
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -38,10 +38,10 @@
      "y": 85
     },
     {
-     "id": "home-4118",
-     "providerId": 4118,
-     "name": "Maguire",
-     "num": 5,
+     "id": "home-1804",
+     "providerId": 1804,
+     "name": "Heaven",
+     "num": null,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
@@ -58,10 +58,10 @@
      "y": 37
     },
     {
-     "id": "home-1795",
-     "providerId": 1795,
-     "name": "Dalot",
-     "num": 2,
+     "id": "home-1801",
+     "providerId": 1801,
+     "name": "Dorgu",
+     "num": null,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
@@ -78,20 +78,20 @@
      "y": 62
     },
     {
-     "id": "home-514",
-     "providerId": 514,
-     "name": "Tielemans",
-     "num": 18,
+     "id": "home-1797",
+     "providerId": 1797,
+     "name": "Mount",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
      "y": 38
     },
     {
-     "id": "home-1792",
-     "providerId": 1792,
-     "name": "Diallo",
-     "num": 16,
+     "id": "home-1807",
+     "providerId": 1807,
+     "name": "Lacey",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -200,40 +200,40 @@
      "y": 38
     },
     {
-     "id": "away-2470",
-     "providerId": 2470,
-     "name": "Goretzka",
-     "num": 27,
+     "id": "away-2255",
+     "providerId": 2255,
+     "name": "Mbaye",
+     "num": null,
      "pos": "LDM",
      "role": "MID",
      "x": 75,
      "y": 62
     },
     {
-     "id": "away-614",
-     "providerId": 614,
-     "name": "Alysson",
-     "num": 47,
+     "id": "away-1630",
+     "providerId": 1630,
+     "name": "Barkley",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
      "y": 16
     },
     {
-     "id": "away-1178",
-     "providerId": 1178,
-     "name": "Manzambi",
-     "num": 44,
+     "id": "away-528",
+     "providerId": 528,
+     "name": "Gomes",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-510",
-     "providerId": 510,
-     "name": "McGinn",
-     "num": 7,
+     "id": "away-3860",
+     "providerId": 3860,
+     "name": "Hemmings",
+     "num": null,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-08T16:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-08T17:10:26.042Z"
+ "fetchedAt": "2026-11-08T18:13:12.436Z"
 }
