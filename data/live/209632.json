@@ -1,9 +1,9 @@
 {
  "fixtureId": 209632,
- "minute": 81,
- "status": "2nd_half",
+ "minute": 90,
+ "status": "FT",
  "goals": {
-  "home": 2,
+  "home": 4,
   "away": 4
  },
  "lineupsConfirmed": true,
@@ -38,20 +38,20 @@
      "y": 85
     },
     {
-     "id": "home-1804",
-     "providerId": 1804,
-     "name": "Heaven",
-     "num": null,
+     "id": "home-1789",
+     "providerId": 1789,
+     "name": "Yoro",
+     "num": 15,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-1789",
-     "providerId": 1789,
-     "name": "Yoro",
-     "num": 15,
+     "id": "home-1804",
+     "providerId": 1804,
+     "name": "Heaven",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -68,20 +68,20 @@
      "y": 15
     },
     {
-     "id": "home-1802",
-     "providerId": 1802,
-     "name": "Mainoo",
-     "num": 37,
+     "id": "home-1797",
+     "providerId": 1797,
+     "name": "Mount",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-1797",
-     "providerId": 1797,
-     "name": "Mount",
-     "num": null,
+     "id": "home-1802",
+     "providerId": 1802,
+     "name": "Mainoo",
+     "num": 37,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
@@ -108,20 +108,20 @@
      "y": 50
     },
     {
-     "id": "home-1796",
-     "providerId": 1796,
-     "name": "Mbeumo",
-     "num": 19,
+     "id": "home-4119",
+     "providerId": 4119,
+     "name": "Cunha",
+     "num": 10,
      "pos": "LW",
      "role": "MID",
      "x": 35,
      "y": 16
     },
     {
-     "id": "home-4119",
-     "providerId": 4119,
-     "name": "Cunha",
-     "num": 10,
+     "id": "home-1798",
+     "providerId": 1798,
+     "name": "Zirkzee",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -220,9 +220,9 @@
      "y": 16
     },
     {
-     "id": "away-528",
-     "providerId": 528,
-     "name": "Gomes",
+     "id": "away-3860",
+     "providerId": 3860,
+     "name": "Hemmings",
      "num": null,
      "pos": "AM",
      "role": "MID",
@@ -230,9 +230,9 @@
      "y": 50
     },
     {
-     "id": "away-3860",
-     "providerId": 3860,
-     "name": "Hemmings",
+     "id": "away-528",
+     "providerId": 528,
+     "name": "Gomes",
      "num": null,
      "pos": "LW",
      "role": "MID",
@@ -240,10 +240,10 @@
      "y": 84
     },
     {
-     "id": "away-2471",
-     "providerId": 2471,
-     "name": "Jackson",
-     "num": 11,
+     "id": "away-4539",
+     "providerId": 4539,
+     "name": "Madjo",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-08T16:30:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-08T18:13:12.436Z"
+ "fetchedAt": "2026-11-08T19:07:43.975Z"
 }

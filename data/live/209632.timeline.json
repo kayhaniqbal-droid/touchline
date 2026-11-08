@@ -1,6 +1,6 @@
 {
  "fixtureId": 209632,
- "title": "Manchester United 2–4 Aston Villa",
+ "title": "Manchester United 4–4 Aston Villa",
  "lineupStatus": "confirmed",
  "phases": [
   {
@@ -31,18 +31,18 @@
      "y": 85
     },
     {
-     "id": "home-1804",
-     "name": "Heaven",
-     "num": null,
+     "id": "home-1789",
+     "name": "Yoro",
+     "num": 15,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-1789",
-     "name": "Yoro",
-     "num": 15,
+     "id": "home-1804",
+     "name": "Heaven",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -58,18 +58,18 @@
      "y": 15
     },
     {
-     "id": "home-1802",
-     "name": "Mainoo",
-     "num": 37,
+     "id": "home-514",
+     "name": "Tielemans",
+     "num": 18,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-514",
-     "name": "Tielemans",
-     "num": 18,
+     "id": "home-1802",
+     "name": "Mainoo",
+     "num": 37,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
@@ -94,18 +94,18 @@
      "y": 50
     },
     {
-     "id": "home-1796",
-     "name": "Mbeumo",
-     "num": 19,
+     "id": "home-4119",
+     "name": "Cunha",
+     "num": 10,
      "pos": "LW",
      "role": "MID",
      "x": 35,
      "y": 16
     },
     {
-     "id": "home-4119",
-     "name": "Cunha",
-     "num": 10,
+     "id": "home-1796",
+     "name": "Mbeumo",
+     "num": 19,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -141,18 +141,18 @@
      "y": 85
     },
     {
-     "id": "home-1804",
-     "name": "Heaven",
-     "num": null,
+     "id": "home-1789",
+     "name": "Yoro",
+     "num": 15,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-1789",
-     "name": "Yoro",
-     "num": 15,
+     "id": "home-1804",
+     "name": "Heaven",
+     "num": null,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -168,18 +168,18 @@
      "y": 15
     },
     {
-     "id": "home-1802",
-     "name": "Mainoo",
-     "num": 37,
+     "id": "home-1797",
+     "name": "Mount",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-1797",
-     "name": "Mount",
-     "num": null,
+     "id": "home-1802",
+     "name": "Mainoo",
+     "num": 37,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
@@ -204,18 +204,18 @@
      "y": 50
     },
     {
-     "id": "home-1796",
-     "name": "Mbeumo",
-     "num": 19,
+     "id": "home-4119",
+     "name": "Cunha",
+     "num": 10,
      "pos": "LW",
      "role": "MID",
      "x": 35,
      "y": 16
     },
     {
-     "id": "home-4119",
-     "name": "Cunha",
-     "num": 10,
+     "id": "home-1796",
+     "name": "Mbeumo",
+     "num": 19,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -305,18 +305,18 @@
      "y": 16
     },
     {
-     "id": "away-1178",
-     "name": "Manzambi",
-     "num": 44,
+     "id": "away-3860",
+     "name": "Hemmings",
+     "num": null,
      "pos": "AM",
      "role": "MID",
      "x": 66,
      "y": 50
     },
     {
-     "id": "away-3860",
-     "name": "Hemmings",
-     "num": null,
+     "id": "away-1178",
+     "name": "Manzambi",
+     "num": 44,
      "pos": "LW",
      "role": "MID",
      "x": 65,
@@ -415,8 +415,8 @@
      "y": 16
     },
     {
-     "id": "away-528",
-     "name": "Gomes",
+     "id": "away-3860",
+     "name": "Hemmings",
      "num": null,
      "pos": "AM",
      "role": "MID",
@@ -424,8 +424,8 @@
      "y": 50
     },
     {
-     "id": "away-3860",
-     "name": "Hemmings",
+     "id": "away-528",
+     "name": "Gomes",
      "num": null,
      "pos": "LW",
      "role": "MID",
@@ -436,6 +436,226 @@
      "id": "away-2471",
      "name": "Jackson",
      "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-83-like-for-like",
+   "minute": 83,
+   "side": "home",
+   "name": "83' Man Utd freshen it up",
+   "note": "Zirkzee on for Mbeumo on 83', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-1788",
+     "name": "Lammens",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-1799",
+     "name": "Mazraoui",
+     "num": 3,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-1789",
+     "name": "Yoro",
+     "num": 15,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-1804",
+     "name": "Heaven",
+     "num": null,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-1801",
+     "name": "Dorgu",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-1797",
+     "name": "Mount",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-1802",
+     "name": "Mainoo",
+     "num": 37,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-1807",
+     "name": "Lacey",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-1794",
+     "name": "Fernandes",
+     "num": 8,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-4119",
+     "name": "Cunha",
+     "num": 10,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-1798",
+     "name": "Zirkzee",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-86-like-for-like",
+   "minute": 86,
+   "side": "away",
+   "name": "86' Villa freshen it up",
+   "note": "Madjo on for Jackson on 86', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-4055",
+     "name": "Suzuki",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6402",
+     "name": "Harwood-Bellis",
+     "num": 4,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-519",
+     "name": "Lindelöf",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-505",
+     "name": "Torres",
+     "num": 14,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-506",
+     "name": "Maatsen",
+     "num": 22,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-507",
+     "name": "Kamara",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-2255",
+     "name": "Mbaye",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-1630",
+     "name": "Barkley",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-3860",
+     "name": "Hemmings",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-528",
+     "name": "Gomes",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-4539",
+     "name": "Madjo",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
