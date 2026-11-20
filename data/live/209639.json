@@ -88,10 +88,10 @@
      "y": 38
     },
     {
-     "id": "home-6429",
-     "providerId": 6429,
-     "name": "Ephron",
-     "num": 10,
+     "id": "home-6075",
+     "providerId": 6075,
+     "name": "Hamer",
+     "num": 38,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-21T15:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-20T01:03:28.681Z"
+ "fetchedAt": "2026-11-20T18:21:45.109Z"
 }

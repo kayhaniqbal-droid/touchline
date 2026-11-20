@@ -58,10 +58,10 @@
      "y": 37
     },
     {
-     "id": "home-503",
-     "providerId": 503,
-     "name": "Cash",
-     "num": 2,
+     "id": "home-614",
+     "providerId": 614,
+     "name": "Alysson",
+     "num": 47,
      "pos": "LB",
      "role": "DEF",
      "x": 18,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-21T15:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-20T01:03:30.323Z"
+ "fetchedAt": "2026-11-20T18:21:46.121Z"
 }
