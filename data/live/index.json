@@ -737,7 +737,7 @@
   },
   "209643": {
    "kickoff": "2026-11-21T17:30:00+00:00",
-   "status": "1st_half",
+   "status": "FT",
    "home": "NEW",
    "away": "ARS",
    "confirmed": true
@@ -758,5 +758,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-11-21T18:07:42.152Z"
+ "updatedAt": "2026-11-21T19:55:33.435Z"
 }
