@@ -1,12 +1,12 @@
 {
  "fixtureId": 209638,
- "minute": 0,
- "status": "notstarted",
+ "minute": 90,
+ "status": "FT",
  "goals": {
-  "home": 0,
-  "away": 0
+  "home": 1,
+  "away": 4
  },
- "lineupsConfirmed": false,
+ "lineupsConfirmed": true,
  "teams": {
   "home": {
    "code": "CHE",
@@ -14,114 +14,114 @@
    "nick": "Chelsea",
    "providerId": 13,
    "coach": null,
-   "formation": "3-4-2-1",
+   "formation": "4-2-3-1",
    "derivedShape": true,
    "players": [
     {
-     "id": "home-1701",
-     "providerId": 1701,
-     "name": "Penders",
-     "num": 39,
+     "id": "home-1629",
+     "providerId": 1629,
+     "name": "Martínez",
+     "num": 1,
      "pos": "GK",
      "role": "GK",
      "x": 4,
      "y": 50
     },
     {
-     "id": "home-907",
-     "providerId": 907,
-     "name": "Chavarría",
-     "num": 29,
-     "pos": "RCB",
+     "id": "home-393",
+     "providerId": 393,
+     "name": "Gusto",
+     "num": null,
+     "pos": "RB",
      "role": "DEF",
-     "x": 14,
-     "y": 72
-    },
-    {
-     "id": "home-22880",
-     "providerId": 22880,
-     "name": "Colwill",
-     "num": 6,
-     "pos": "CB",
-     "role": "DEF",
-     "x": 12,
-     "y": 50
+     "x": 18,
+     "y": 85
     },
     {
      "id": "home-1344",
      "providerId": 1344,
      "name": "Fofana",
      "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-22880",
+     "providerId": 22880,
+     "name": "Colwill",
+     "num": 6,
      "pos": "LCB",
      "role": "DEF",
-     "x": 14,
-     "y": 28
+     "x": 13,
+     "y": 37
     },
     {
-     "id": "home-399",
-     "providerId": 399,
-     "name": "Acheampong",
-     "num": 34,
-     "pos": "RWB",
-     "role": "MID",
-     "x": 28,
-     "y": 90
-    },
-    {
-     "id": "home-511",
-     "providerId": 511,
-     "name": "Rogers",
-     "num": 17,
-     "pos": "RCM",
-     "role": "MID",
-     "x": 25,
-     "y": 60
-    },
-    {
-     "id": "home-474",
-     "providerId": 474,
-     "name": "Henderson",
-     "num": 14,
-     "pos": "LCM",
-     "role": "MID",
-     "x": 25,
-     "y": 40
+     "id": "home-1220",
+     "providerId": 1220,
+     "name": "Quenda",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
     },
     {
      "id": "home-4237",
      "providerId": 4237,
      "name": "Lavia",
      "num": 45,
-     "pos": "LWB",
+     "pos": "RDM",
      "role": "MID",
-     "x": 28,
-     "y": 10
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-474",
+     "providerId": 474,
+     "name": "Henderson",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
     },
     {
      "id": "home-394",
      "providerId": 394,
      "name": "Neto",
-     "num": 7,
-     "pos": "RAM",
-     "role": "FWD",
-     "x": 38,
-     "y": 66
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
     },
     {
      "id": "home-395",
      "providerId": 395,
      "name": "Palmer",
      "num": 10,
-     "pos": "LAM",
-     "role": "FWD",
-     "x": 38,
-     "y": 34
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-511",
+     "providerId": 511,
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
     },
     {
      "id": "home-494",
      "providerId": 494,
      "name": "Welbeck",
-     "num": 18,
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -150,10 +150,10 @@
      "y": 50
     },
     {
-     "id": "away-2846",
-     "providerId": 2846,
-     "name": "Muharemović",
-     "num": 5,
+     "id": "away-376",
+     "providerId": 376,
+     "name": "Justin",
+     "num": 24,
      "pos": "RCB",
      "role": "DEF",
      "x": 86,
@@ -170,80 +170,80 @@
      "y": 50
     },
     {
-     "id": "away-364",
-     "providerId": 364,
-     "name": "Bijol",
-     "num": 15,
+     "id": "away-2846",
+     "providerId": 2846,
+     "name": "Muharemović",
+     "num": 5,
      "pos": "LCB",
      "role": "DEF",
      "x": 86,
      "y": 72
     },
     {
-     "id": "away-376",
-     "providerId": 376,
-     "name": "Justin",
-     "num": 24,
+     "id": "away-369",
+     "providerId": 369,
+     "name": "Stach",
+     "num": null,
      "pos": "RWB",
      "role": "MID",
      "x": 72,
      "y": 10
     },
     {
-     "id": "away-366",
-     "providerId": 366,
-     "name": "Bogle",
-     "num": 2,
+     "id": "away-368",
+     "providerId": 368,
+     "name": "Ampadu",
+     "num": 4,
      "pos": "RCM",
      "role": "MID",
      "x": 75,
      "y": 40
     },
     {
-     "id": "away-368",
-     "providerId": 368,
-     "name": "Ampadu",
-     "num": 4,
+     "id": "away-363",
+     "providerId": 363,
+     "name": "Rodon",
+     "num": null,
      "pos": "LCM",
      "role": "MID",
      "x": 75,
      "y": 60
     },
     {
-     "id": "away-369",
-     "providerId": 369,
-     "name": "Stach",
-     "num": 18,
+     "id": "away-1488",
+     "providerId": 1488,
+     "name": "Bard",
+     "num": null,
      "pos": "LWB",
      "role": "MID",
      "x": 72,
      "y": 90
     },
     {
-     "id": "away-374",
-     "providerId": 374,
-     "name": "Okafor",
-     "num": 19,
+     "id": "away-830",
+     "providerId": 830,
+     "name": "Wilson",
+     "num": null,
      "pos": "RAM",
      "role": "FWD",
      "x": 62,
      "y": 34
     },
     {
-     "id": "away-371",
-     "providerId": 371,
-     "name": "Calvert-Lewin",
-     "num": 9,
+     "id": "away-380",
+     "providerId": 380,
+     "name": "Aaronson",
+     "num": null,
      "pos": "LAM",
      "role": "FWD",
      "x": 62,
      "y": 66
     },
     {
-     "id": "away-380",
-     "providerId": 380,
-     "name": "Aaronson",
-     "num": 11,
+     "id": "away-371",
+     "providerId": 371,
+     "name": "Calvert-Lewin",
+     "num": 9,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-21T15:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-21T00:38:16.027Z"
+ "fetchedAt": "2026-11-21T17:08:44.803Z"
 }

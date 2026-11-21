@@ -1,7 +1,668 @@
 {
  "fixtureId": 209638,
- "title": "Chelsea 0–0 Leeds United",
- "lineupStatus": "predicted",
- "phases": [],
+ "title": "Chelsea 1–4 Leeds United",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-home-22-like-for-like",
+   "minute": 22,
+   "side": "home",
+   "name": "22' Chelsea freshen it up",
+   "note": "Henderson on for Caicedo on 22', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-1629",
+     "name": "Martínez",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-399",
+     "name": "Acheampong",
+     "num": 34,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-1344",
+     "name": "Fofana",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-22880",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-907",
+     "name": "Chavarría",
+     "num": 29,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-4237",
+     "name": "Lavia",
+     "num": 45,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-474",
+     "name": "Henderson",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-389",
+     "name": "Estêvão",
+     "num": 41,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-1714",
+     "name": "Emegha",
+     "num": 22,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-64-double-change",
+   "minute": 64,
+   "side": "home",
+   "name": "64' Chelsea make a double change",
+   "note": "Neto and Welbeck on together for Estêvão and Emegha on 64'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-1629",
+     "name": "Martínez",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-399",
+     "name": "Acheampong",
+     "num": 34,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-1344",
+     "name": "Fofana",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-22880",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-907",
+     "name": "Chavarría",
+     "num": 29,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-4237",
+     "name": "Lavia",
+     "num": 45,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-474",
+     "name": "Henderson",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-394",
+     "name": "Neto",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-494",
+     "name": "Welbeck",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-73-double-change",
+   "minute": 73,
+   "side": "home",
+   "name": "73' Chelsea make a double change",
+   "note": "Gusto and Quenda on together for Acheampong and Chavarría on 73'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-1629",
+     "name": "Martínez",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-393",
+     "name": "Gusto",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-1344",
+     "name": "Fofana",
+     "num": 3,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-22880",
+     "name": "Colwill",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-1220",
+     "name": "Quenda",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-4237",
+     "name": "Lavia",
+     "num": 45,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-474",
+     "name": "Henderson",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-394",
+     "name": "Neto",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-395",
+     "name": "Palmer",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-511",
+     "name": "Rogers",
+     "num": 17,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-494",
+     "name": "Welbeck",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-73-like-for-like",
+   "minute": 73,
+   "side": "away",
+   "name": "73' Leeds freshen it up",
+   "note": "Aaronson on for Okafor on 73', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-858",
+     "name": "Trafford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-376",
+     "name": "Justin",
+     "num": 24,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-2869",
+     "name": "Elvedi",
+     "num": 30,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-2846",
+     "name": "Muharemović",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-366",
+     "name": "Bogle",
+     "num": 2,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-368",
+     "name": "Ampadu",
+     "num": 4,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-367",
+     "name": "Tanaka",
+     "num": 22,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-370",
+     "name": "Gudmundsson",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-3859",
+     "name": "Longstaff",
+     "num": 8,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-380",
+     "name": "Aaronson",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-371",
+     "name": "Calvert-Lewin",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-86-double-change",
+   "minute": 86,
+   "side": "away",
+   "name": "86' Leeds make a double change",
+   "note": "Stach and Rodon on together for Bogle and Tanaka on 86'.",
+   "ruleId": "double-change",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-858",
+     "name": "Trafford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-376",
+     "name": "Justin",
+     "num": 24,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-2869",
+     "name": "Elvedi",
+     "num": 30,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-2846",
+     "name": "Muharemović",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-369",
+     "name": "Stach",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-368",
+     "name": "Ampadu",
+     "num": 4,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-363",
+     "name": "Rodon",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-370",
+     "name": "Gudmundsson",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-3859",
+     "name": "Longstaff",
+     "num": 8,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-380",
+     "name": "Aaronson",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-371",
+     "name": "Calvert-Lewin",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-91-double-change",
+   "minute": 91,
+   "side": "away",
+   "name": "91' Leeds make a double change",
+   "note": "Bard and Wilson on together for Gudmundsson and Longstaff on 91'.",
+   "ruleId": "double-change",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-858",
+     "name": "Trafford",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-376",
+     "name": "Justin",
+     "num": 24,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-2869",
+     "name": "Elvedi",
+     "num": 30,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-2846",
+     "name": "Muharemović",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-369",
+     "name": "Stach",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-368",
+     "name": "Ampadu",
+     "num": 4,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-363",
+     "name": "Rodon",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-1488",
+     "name": "Bard",
+     "num": null,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-830",
+     "name": "Wilson",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-380",
+     "name": "Aaronson",
+     "num": null,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-371",
+     "name": "Calvert-Lewin",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  }
+ ],
  "shifts": []
 }

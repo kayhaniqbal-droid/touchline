@@ -1,7 +1,668 @@
 {
  "fixtureId": 209639,
- "title": "Coventry City 0–0 Crystal Palace",
- "lineupStatus": "predicted",
- "phases": [],
+ "title": "Coventry City 3–2 Crystal Palace",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-home-46-like-for-like",
+   "minute": 46,
+   "side": "home",
+   "name": "46' Coventry freshen it up",
+   "note": "Cherif on for Awoniyi on 46', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-6420",
+     "name": "Rushworth",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6421",
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-6687",
+     "name": "Thomas",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-465",
+     "name": "Pinnock",
+     "num": 2,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-4708",
+     "name": "Mfuni",
+     "num": 12,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-6425",
+     "name": "Torp",
+     "num": 29,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-6426",
+     "name": "Grimes",
+     "num": 6,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6689",
+     "name": "Sakamoto",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6427",
+     "name": "Rudoni",
+     "num": 5,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-3844",
+     "name": "Gboho",
+     "num": 34,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-1396",
+     "name": "Cherif",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-70-like-for-like",
+   "minute": 70,
+   "side": "home",
+   "name": "70' Coventry freshen it up",
+   "note": "Thomas-Asante on for Gboho on 70', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-6420",
+     "name": "Rushworth",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6421",
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-6687",
+     "name": "Thomas",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-465",
+     "name": "Pinnock",
+     "num": 2,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-4708",
+     "name": "Mfuni",
+     "num": 12,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-6425",
+     "name": "Torp",
+     "num": 29,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-6426",
+     "name": "Grimes",
+     "num": 6,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6689",
+     "name": "Sakamoto",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6427",
+     "name": "Rudoni",
+     "num": 5,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-6887",
+     "name": "Thomas-Asante",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-1396",
+     "name": "Cherif",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-71-double-change",
+   "minute": 71,
+   "side": "home",
+   "name": "71' Coventry make a double change",
+   "note": "Hamer and Onyeka on together for Torp and Grimes on 71'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-6420",
+     "name": "Rushworth",
+     "num": 19,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-6421",
+     "name": "v. Ewijk",
+     "num": 27,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-6687",
+     "name": "Thomas",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-465",
+     "name": "Pinnock",
+     "num": 2,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-4708",
+     "name": "Mfuni",
+     "num": 12,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-6075",
+     "name": "Hamer",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-480",
+     "name": "Onyeka",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-6689",
+     "name": "Sakamoto",
+     "num": 7,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-6427",
+     "name": "Rudoni",
+     "num": 5,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-6887",
+     "name": "Thomas-Asante",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-1396",
+     "name": "Cherif",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-73-double-change",
+   "minute": 73,
+   "side": "away",
+   "name": "73' Palace make a double change",
+   "note": "Canvot and Lerma on together for Khalaili and Timber on 73'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-422",
+     "name": "Henderson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-436",
+     "name": "Canvot",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-8981",
+     "name": "Disasi",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-423",
+     "name": "Richards",
+     "num": 26,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-429",
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-428",
+     "name": "Lerma",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-427",
+     "name": "Wharton",
+     "num": 20,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-814",
+     "name": "McNeil",
+     "num": 11,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-430",
+     "name": "Kamada",
+     "num": 18,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-431",
+     "name": "Pino",
+     "num": 10,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-531",
+     "name": "Larsen",
+     "num": 22,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-79-double-change",
+   "minute": 79,
+   "side": "away",
+   "name": "79' Palace make a double change",
+   "note": "Guessand and Nketiah on together for Pino and Larsen on 79'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-422",
+     "name": "Henderson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-436",
+     "name": "Canvot",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-8981",
+     "name": "Disasi",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-423",
+     "name": "Richards",
+     "num": 26,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-429",
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-428",
+     "name": "Lerma",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-427",
+     "name": "Wharton",
+     "num": 20,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-814",
+     "name": "McNeil",
+     "num": 11,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-430",
+     "name": "Kamada",
+     "num": 18,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-509",
+     "name": "Guessand",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-434",
+     "name": "Nketiah",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-89-like-for-like",
+   "minute": 89,
+   "side": "away",
+   "name": "89' Palace freshen it up",
+   "note": "Osorio on for McNeil on 89', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-422",
+     "name": "Henderson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-436",
+     "name": "Canvot",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-8981",
+     "name": "Disasi",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-423",
+     "name": "Richards",
+     "num": 26,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-429",
+     "name": "Mitchell",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-428",
+     "name": "Lerma",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-427",
+     "name": "Wharton",
+     "num": 20,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-3252",
+     "name": "Osorio",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-430",
+     "name": "Kamada",
+     "num": 18,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-509",
+     "name": "Guessand",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-434",
+     "name": "Nketiah",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  }
+ ],
  "shifts": []
 }

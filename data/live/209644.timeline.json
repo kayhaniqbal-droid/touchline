@@ -1,7 +1,668 @@
 {
  "fixtureId": 209644,
- "title": "Tottenham Hotspur 0–0 Ipswich Town",
- "lineupStatus": "predicted",
- "phases": [],
+ "title": "Tottenham Hotspur 2–0 Ipswich Town",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-away-56-double-change",
+   "minute": 56,
+   "side": "away",
+   "name": "56' Ipswich make a double change",
+   "note": "Luís, Issahaku and Clarke on together for Palacios, Ouattara and Maeda on 56'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-6143",
+     "name": "Walton",
+     "num": 28,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6144",
+     "name": "Furlong",
+     "num": 2,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-4377",
+     "name": "Diop",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-6145",
+     "name": "O'Shea",
+     "num": 26,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-6147",
+     "name": "Davis",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-409",
+     "name": "Luís",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-828",
+     "name": "Lukić",
+     "num": 23,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-6131",
+     "name": "Issahaku",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1710",
+     "name": "Enciso",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-6155",
+     "name": "Clarke",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-411",
+     "name": "Flemming",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-64-double-change",
+   "minute": 64,
+   "side": "home",
+   "name": "64' Spurs make a double change",
+   "note": "Bergvall, Sávio and Marmoush on together for Maddison, Williams-Barnett and Solanke on 64'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-734",
+     "name": "Kinský",
+     "num": 31,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-719",
+     "name": "Porro",
+     "num": 23,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-484",
+     "name": "van Hecke",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-2370",
+     "name": "Senesi",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-722",
+     "name": "Udogie",
+     "num": 13,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-772",
+     "name": "Gallagher",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-1643",
+     "name": "Fernandes",
+     "num": 18,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-725",
+     "name": "Kudus",
+     "num": 20,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-726",
+     "name": "Bergvall",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-855",
+     "name": "Sávio",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-862",
+     "name": "Marmoush",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-74-like-for-like",
+   "minute": 74,
+   "side": "away",
+   "name": "74' Ipswich freshen it up",
+   "note": "Emersonn on for Flemming on 74', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-6143",
+     "name": "Walton",
+     "num": 28,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6144",
+     "name": "Furlong",
+     "num": 2,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-4377",
+     "name": "Diop",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-6145",
+     "name": "O'Shea",
+     "num": 26,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-6147",
+     "name": "Davis",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-409",
+     "name": "Luís",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-828",
+     "name": "Lukić",
+     "num": 23,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-6131",
+     "name": "Issahaku",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1710",
+     "name": "Enciso",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-6155",
+     "name": "Clarke",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-1952",
+     "name": "Emersonn",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-79-like-for-like",
+   "minute": 79,
+   "side": "home",
+   "name": "79' Spurs freshen it up",
+   "note": "Robertson on for Udogie on 79', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-734",
+     "name": "Kinský",
+     "num": 31,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-719",
+     "name": "Porro",
+     "num": 23,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-484",
+     "name": "van Hecke",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-2370",
+     "name": "Senesi",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-326",
+     "name": "Robertson",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-772",
+     "name": "Gallagher",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-1643",
+     "name": "Fernandes",
+     "num": 18,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-725",
+     "name": "Kudus",
+     "num": 20,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-726",
+     "name": "Bergvall",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-855",
+     "name": "Sávio",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-862",
+     "name": "Marmoush",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-83-like-for-like",
+   "minute": 83,
+   "side": "away",
+   "name": "83' Ipswich freshen it up",
+   "note": "Greaves on for Davis on 83', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-6143",
+     "name": "Walton",
+     "num": 28,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-6144",
+     "name": "Furlong",
+     "num": 2,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-4377",
+     "name": "Diop",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-6145",
+     "name": "O'Shea",
+     "num": 26,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-6160",
+     "name": "Greaves",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-409",
+     "name": "Luís",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-828",
+     "name": "Lukić",
+     "num": 23,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-6131",
+     "name": "Issahaku",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1710",
+     "name": "Enciso",
+     "num": 10,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-6155",
+     "name": "Clarke",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-1952",
+     "name": "Emersonn",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-90-like-for-like",
+   "minute": 90,
+   "side": "home",
+   "name": "90' Spurs freshen it up",
+   "note": "Gray on for Sávio on 90', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-734",
+     "name": "Kinský",
+     "num": 31,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-719",
+     "name": "Porro",
+     "num": 23,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-484",
+     "name": "van Hecke",
+     "num": 6,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-2370",
+     "name": "Senesi",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-326",
+     "name": "Robertson",
+     "num": null,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-772",
+     "name": "Gallagher",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-1643",
+     "name": "Fernandes",
+     "num": 18,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-725",
+     "name": "Kudus",
+     "num": 20,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-726",
+     "name": "Bergvall",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-732",
+     "name": "Gray",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-862",
+     "name": "Marmoush",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  }
+ ],
  "shifts": []
 }

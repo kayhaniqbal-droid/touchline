@@ -1,7 +1,668 @@
 {
  "fixtureId": 209636,
- "title": "Bournemouth 0–0 Nottingham Forest",
- "lineupStatus": "predicted",
- "phases": [],
+ "title": "Bournemouth 2–0 Nottingham Forest",
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-away-46-halftime-double",
+   "minute": 46,
+   "side": "away",
+   "name": "46' Forest change it at the break",
+   "note": "Yates and Ndoye off, Schlager and Jesus on at the break. That is a reset, not a tweak.",
+   "ruleId": "halftime-double",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-542",
+     "name": "Sels",
+     "num": 26,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-557",
+     "name": "Jair",
+     "num": 23,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-544",
+     "name": "Milenković",
+     "num": 31,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-2913",
+     "name": "Murillo",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-426",
+     "name": "Muñoz",
+     "num": 27,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-560",
+     "name": "McAtee",
+     "num": 24,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-2892",
+     "name": "Schlager",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-546",
+     "name": "Williams",
+     "num": 3,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-552",
+     "name": "Jesus",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-550",
+     "name": "Gibbs-White",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-392",
+     "name": "Delap",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-69-double-change",
+   "minute": 69,
+   "side": "home",
+   "name": "69' Bournemouth make a double change",
+   "note": "Cook, Scott and Kroupi on together for Adams, Christie and Kluivert on 69'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-783",
+     "name": "Đ. Petrović",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-801",
+     "name": "Smith",
+     "num": 15,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-799",
+     "name": "Hill",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-2053",
+     "name": "Silva",
+     "num": 14,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-787",
+     "name": "Truffert",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-2371",
+     "name": "Cook",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-789",
+     "name": "Scott",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-663",
+     "name": "Rayan",
+     "num": 37,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-793",
+     "name": "Kroupi",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-794",
+     "name": "Tavernier",
+     "num": 16,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-795",
+     "name": "Evanilson",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-72-double-change",
+   "minute": 72,
+   "side": "away",
+   "name": "72' Forest make a double change",
+   "note": "Wood and Netz on together for McAtee and Williams on 72'.",
+   "ruleId": "double-change",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-542",
+     "name": "Sels",
+     "num": 26,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-557",
+     "name": "Jair",
+     "num": 23,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-544",
+     "name": "Milenković",
+     "num": 31,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-2913",
+     "name": "Murillo",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-426",
+     "name": "Muñoz",
+     "num": 27,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-4472",
+     "name": "Wood",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-2892",
+     "name": "Schlager",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-2871",
+     "name": "Netz",
+     "num": null,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-552",
+     "name": "Jesus",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-550",
+     "name": "Gibbs-White",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-392",
+     "name": "Delap",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-82-like-for-like",
+   "minute": 82,
+   "side": "away",
+   "name": "82' Forest freshen it up",
+   "note": "Aina on for Muñoz on 82', same job.",
+   "ruleId": "like-for-like",
+   "formation": "3-4-2-1",
+   "players": [
+    {
+     "id": "away-542",
+     "name": "Sels",
+     "num": 26,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-557",
+     "name": "Jair",
+     "num": 23,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 28
+    },
+    {
+     "id": "away-544",
+     "name": "Milenković",
+     "num": 31,
+     "pos": "CB",
+     "role": "DEF",
+     "x": 88,
+     "y": 50
+    },
+    {
+     "id": "away-2913",
+     "name": "Murillo",
+     "num": 5,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 86,
+     "y": 72
+    },
+    {
+     "id": "away-4788",
+     "name": "Aina",
+     "num": null,
+     "pos": "RWB",
+     "role": "MID",
+     "x": 72,
+     "y": 10
+    },
+    {
+     "id": "away-4472",
+     "name": "Wood",
+     "num": null,
+     "pos": "RCM",
+     "role": "MID",
+     "x": 75,
+     "y": 40
+    },
+    {
+     "id": "away-2892",
+     "name": "Schlager",
+     "num": null,
+     "pos": "LCM",
+     "role": "MID",
+     "x": 75,
+     "y": 60
+    },
+    {
+     "id": "away-2871",
+     "name": "Netz",
+     "num": null,
+     "pos": "LWB",
+     "role": "MID",
+     "x": 72,
+     "y": 90
+    },
+    {
+     "id": "away-552",
+     "name": "Jesus",
+     "num": null,
+     "pos": "RAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 34
+    },
+    {
+     "id": "away-550",
+     "name": "Gibbs-White",
+     "num": 10,
+     "pos": "LAM",
+     "role": "FWD",
+     "x": 62,
+     "y": 66
+    },
+    {
+     "id": "away-392",
+     "name": "Delap",
+     "num": 19,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-87-like-for-like",
+   "minute": 87,
+   "side": "home",
+   "name": "87' Bournemouth freshen it up",
+   "note": "Diakité on for Smith on 87', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-783",
+     "name": "Đ. Petrović",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-786",
+     "name": "Diakité",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-799",
+     "name": "Hill",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-2053",
+     "name": "Silva",
+     "num": 14,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-787",
+     "name": "Truffert",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-2371",
+     "name": "Cook",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-789",
+     "name": "Scott",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-663",
+     "name": "Rayan",
+     "num": 37,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-793",
+     "name": "Kroupi",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-794",
+     "name": "Tavernier",
+     "num": 16,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-795",
+     "name": "Evanilson",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-90-like-for-like",
+   "minute": 90,
+   "side": "home",
+   "name": "90' Bournemouth freshen it up",
+   "note": "Doak on for Rayan on 90', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-783",
+     "name": "Đ. Petrović",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-786",
+     "name": "Diakité",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-799",
+     "name": "Hill",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-2053",
+     "name": "Silva",
+     "num": 14,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-787",
+     "name": "Truffert",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-2371",
+     "name": "Cook",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-789",
+     "name": "Scott",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-4027",
+     "name": "Doak",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-793",
+     "name": "Kroupi",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-794",
+     "name": "Tavernier",
+     "num": 16,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-795",
+     "name": "Evanilson",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  }
+ ],
  "shifts": []
 }

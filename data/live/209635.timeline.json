@@ -1,7 +1,338 @@
 {
  "fixtureId": 209635,
  "title": "Aston Villa 0–0 Sunderland",
- "lineupStatus": "predicted",
- "phases": [],
+ "lineupStatus": "confirmed",
+ "phases": [
+  {
+   "id": "shift-home-60-double-change",
+   "minute": 60,
+   "side": "home",
+   "name": "60' Villa make a double change",
+   "note": "Mbaye and McGinn on together for Buendía and Manzambi on 60'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-4055",
+     "name": "Suzuki",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-1635",
+     "name": "Wan-Bissaka",
+     "num": 29,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-6402",
+     "name": "Harwood-Bellis",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-505",
+     "name": "Torres",
+     "num": 14,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-506",
+     "name": "Maatsen",
+     "num": 22,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-2470",
+     "name": "Goretzka",
+     "num": 27,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-507",
+     "name": "Kamara",
+     "num": 8,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-614",
+     "name": "Alysson",
+     "num": 47,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-2255",
+     "name": "Mbaye",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-510",
+     "name": "McGinn",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-2471",
+     "name": "Jackson",
+     "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-73-double-change",
+   "minute": 73,
+   "side": "home",
+   "name": "73' Villa make a double change",
+   "note": "Barkley and Madjo on together for Goretzka and Jackson on 73'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-4055",
+     "name": "Suzuki",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-1635",
+     "name": "Wan-Bissaka",
+     "num": 29,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-6402",
+     "name": "Harwood-Bellis",
+     "num": 4,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-505",
+     "name": "Torres",
+     "num": 14,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-506",
+     "name": "Maatsen",
+     "num": 22,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-1630",
+     "name": "Barkley",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-507",
+     "name": "Kamara",
+     "num": 8,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-614",
+     "name": "Alysson",
+     "num": 47,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-2255",
+     "name": "Mbaye",
+     "num": null,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-510",
+     "name": "McGinn",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-4539",
+     "name": "Madjo",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-77-like-for-like",
+   "minute": 77,
+   "side": "away",
+   "name": "77' Sunderland freshen it up",
+   "note": "Angulo on for Isidor on 77', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-342",
+     "name": "Roefs",
+     "num": 22,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-1446",
+     "name": "Meunier",
+     "num": 12,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-343",
+     "name": "Mukiele",
+     "num": 20,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-355",
+     "name": "O'Nien",
+     "num": 13,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-346",
+     "name": "Mandava",
+     "num": 17,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-37161",
+     "name": "Ahoka",
+     "num": 29,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-349",
+     "name": "Sadiki",
+     "num": 27,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-347",
+     "name": "Hume",
+     "num": 32,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-351",
+     "name": "Le Fée",
+     "num": 28,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-350",
+     "name": "Talbi",
+     "num": 7,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-7347",
+     "name": "Angulo",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  }
+ ],
  "shifts": []
 }
