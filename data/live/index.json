@@ -714,6 +714,20 @@
    "away": "CRY",
    "confirmed": false
   },
+  "209640": {
+   "kickoff": "2026-11-22T14:00:00+00:00",
+   "status": "notstarted",
+   "home": "HUL",
+   "away": "BHA",
+   "confirmed": false
+  },
+  "209641": {
+   "kickoff": "2026-11-22T16:30:00+00:00",
+   "status": "notstarted",
+   "home": "LIV",
+   "away": "MUN",
+   "confirmed": false
+  },
   "209642": {
    "kickoff": "2026-11-21T12:30:00+00:00",
    "status": "notstarted",
@@ -744,5 +758,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-11-20T22:49:54.297Z"
+ "updatedAt": "2026-11-21T00:38:17.363Z"
 }
