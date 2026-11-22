@@ -1,6 +1,6 @@
 {
  "fixtureId": 209641,
- "title": "Liverpool FC 2–0 Manchester United",
+ "title": "Liverpool FC 4–0 Manchester United",
  "lineupStatus": "confirmed",
  "phases": [
   {
@@ -21,29 +21,29 @@
      "x": 96,
      "y": 50
     },
+    {
+     "id": "away-1795",
+     "name": "Dalot",
+     "num": 2,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
     null,
     {
      "id": "away-1790",
      "name": "de Ligt",
      "num": 4,
-     "pos": "RCB",
-     "role": "DEF",
-     "x": 87,
-     "y": 37
-    },
-    {
-     "id": "away-1800",
-     "name": "Martínez",
-     "num": 6,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
      "y": 63
     },
     {
-     "id": "away-1795",
-     "name": "Dalot",
-     "num": 2,
+     "id": "away-1800",
+     "name": "Martínez",
+     "num": 6,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
@@ -68,9 +68,9 @@
      "y": 62
     },
     {
-     "id": "away-1801",
-     "name": "Dorgu",
-     "num": 13,
+     "id": "away-1796",
+     "name": "Mbeumo",
+     "num": 19,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -86,18 +86,18 @@
      "y": 50
     },
     {
-     "id": "away-4119",
-     "name": "Cunha",
-     "num": 10,
+     "id": "away-1801",
+     "name": "Dorgu",
+     "num": 13,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-1796",
-     "name": "Mbeumo",
-     "num": 19,
+     "id": "away-4119",
+     "name": "Cunha",
+     "num": 10,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -123,29 +123,29 @@
      "x": 96,
      "y": 50
     },
+    {
+     "id": "away-1795",
+     "name": "Dalot",
+     "num": 2,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
     null,
     {
      "id": "away-1790",
      "name": "de Ligt",
      "num": 4,
-     "pos": "RCB",
-     "role": "DEF",
-     "x": 87,
-     "y": 37
-    },
-    {
-     "id": "away-1800",
-     "name": "Martínez",
-     "num": 6,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
      "y": 63
     },
     {
-     "id": "away-1795",
-     "name": "Dalot",
-     "num": 2,
+     "id": "away-1800",
+     "name": "Martínez",
+     "num": 6,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
@@ -170,9 +170,9 @@
      "y": 62
     },
     {
-     "id": "away-1801",
-     "name": "Dorgu",
-     "num": 13,
+     "id": "away-4118",
+     "name": "Maguire",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -188,18 +188,18 @@
      "y": 50
     },
     {
-     "id": "away-4119",
-     "name": "Cunha",
-     "num": 10,
+     "id": "away-1801",
+     "name": "Dorgu",
+     "num": 13,
      "pos": "LW",
      "role": "MID",
      "x": 65,
      "y": 84
     },
     {
-     "id": "away-4118",
-     "name": "Maguire",
-     "num": null,
+     "id": "away-4119",
+     "name": "Cunha",
+     "num": 10,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -225,29 +225,29 @@
      "x": 96,
      "y": 50
     },
+    {
+     "id": "away-1795",
+     "name": "Dalot",
+     "num": 2,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
     null,
     {
      "id": "away-1790",
      "name": "de Ligt",
      "num": 4,
-     "pos": "RCB",
-     "role": "DEF",
-     "x": 87,
-     "y": 37
-    },
-    {
-     "id": "away-1800",
-     "name": "Martínez",
-     "num": 6,
      "pos": "LCB",
      "role": "DEF",
      "x": 87,
      "y": 63
     },
     {
-     "id": "away-1795",
-     "name": "Dalot",
-     "num": 2,
+     "id": "away-1800",
+     "name": "Martínez",
+     "num": 6,
      "pos": "LB",
      "role": "DEF",
      "x": 82,
@@ -272,9 +272,9 @@
      "y": 62
     },
     {
-     "id": "away-1801",
-     "name": "Dorgu",
-     "num": 13,
+     "id": "away-4118",
+     "name": "Maguire",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 65,
@@ -290,8 +290,110 @@
      "y": 50
     },
     {
+     "id": "away-1801",
+     "name": "Dorgu",
+     "num": 13,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
      "id": "away-1798",
      "name": "Zirkzee",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-65-double-change",
+   "minute": 65,
+   "side": "away",
+   "name": "65' Man Utd make a double change",
+   "note": "Mount and Mazraoui on together for Tielemans and Dorgu on 65'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-1788",
+     "name": "Lammens",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-1795",
+     "name": "Dalot",
+     "num": 2,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    null,
+    {
+     "id": "away-1790",
+     "name": "de Ligt",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-1800",
+     "name": "Martínez",
+     "num": 6,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-1797",
+     "name": "Mount",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-1802",
+     "name": "Mainoo",
+     "num": 37,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-4118",
+     "name": "Maguire",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1794",
+     "name": "Fernandes",
+     "num": 8,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-1799",
+     "name": "Mazraoui",
      "num": null,
      "pos": "LW",
      "role": "MID",
@@ -299,8 +401,440 @@
      "y": 84
     },
     {
+     "id": "away-1798",
+     "name": "Zirkzee",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-72-double-change",
+   "minute": 72,
+   "side": "home",
+   "name": "72' Liverpool make a double change",
+   "note": "Nyoni and Muñoz on together for Mac Allister and Barcola on 72'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-322",
+     "name": "Alisson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-3661",
+     "name": "Araújo",
+     "num": 33,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-2803",
+     "name": "Jacquet",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-325",
+     "name": "van Dijk",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-336",
+     "name": "Kerkez",
+     "num": 6,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-329",
+     "name": "Szoboszlai",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-340",
+     "name": "Nyoni",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-2668",
+     "name": "Muñoz",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-330",
+     "name": "Wirtz",
+     "num": 7,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-341",
+     "name": "Ngumoha",
+     "num": 73,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-332",
+     "name": "Isak",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-78-like-for-like",
+   "minute": 78,
+   "side": "home",
+   "name": "78' Liverpool freshen it up",
+   "note": "Frimpong on for Ngumoha on 78', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-322",
+     "name": "Alisson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-3661",
+     "name": "Araújo",
+     "num": 33,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-2803",
+     "name": "Jacquet",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-325",
+     "name": "van Dijk",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-336",
+     "name": "Kerkez",
+     "num": 6,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-329",
+     "name": "Szoboszlai",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-340",
+     "name": "Nyoni",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-2668",
+     "name": "Muñoz",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-330",
+     "name": "Wirtz",
+     "num": 7,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-4429",
+     "name": "Frimpong",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-332",
+     "name": "Isak",
+     "num": 9,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-home-85-double-change",
+   "minute": 85,
+   "side": "home",
+   "name": "85' Liverpool make a double change",
+   "note": "Gomez and Koumas on together for Araújo and Isak on 85'.",
+   "ruleId": "double-change",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "home-322",
+     "name": "Alisson",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-323",
+     "name": "Gomez",
+     "num": null,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-2803",
+     "name": "Jacquet",
+     "num": 5,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-325",
+     "name": "van Dijk",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-336",
+     "name": "Kerkez",
+     "num": 6,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-329",
+     "name": "Szoboszlai",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-340",
+     "name": "Nyoni",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-2668",
+     "name": "Muñoz",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-330",
+     "name": "Wirtz",
+     "num": 7,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-4429",
+     "name": "Frimpong",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-6098",
+     "name": "Koumas",
+     "num": null,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ]
+  },
+  {
+   "id": "shift-away-87-like-for-like",
+   "minute": 87,
+   "side": "away",
+   "name": "87' Man Utd freshen it up",
+   "note": "Santos on for Mainoo on 87', same job.",
+   "ruleId": "like-for-like",
+   "formation": "4-2-3-1",
+   "players": [
+    {
+     "id": "away-1788",
+     "name": "Lammens",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-1795",
+     "name": "Dalot",
+     "num": 2,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    null,
+    {
+     "id": "away-1790",
+     "name": "de Ligt",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-1800",
+     "name": "Martínez",
+     "num": 6,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-1797",
+     "name": "Mount",
+     "num": null,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-388",
+     "name": "Santos",
+     "num": null,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
      "id": "away-4118",
      "name": "Maguire",
+     "num": null,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-1794",
+     "name": "Fernandes",
+     "num": 8,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-1799",
+     "name": "Mazraoui",
+     "num": null,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-1798",
+     "name": "Zirkzee",
      "num": null,
      "pos": "ST",
      "role": "FWD",
