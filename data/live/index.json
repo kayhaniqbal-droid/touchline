@@ -702,7 +702,7 @@
   },
   "209637": {
    "kickoff": "2026-11-23T20:00:00+00:00",
-   "status": "2nd_half",
+   "status": "FT",
    "home": "BRE",
    "away": "EVE",
    "confirmed": true
@@ -765,5 +765,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-11-23T21:54:32.609Z"
+ "updatedAt": "2026-11-23T22:48:23.328Z"
 }

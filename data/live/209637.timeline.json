@@ -1,6 +1,6 @@
 {
  "fixtureId": 209637,
- "title": "Brentford 3–0 Everton",
+ "title": "Brentford 4–0 Everton",
  "lineupStatus": "confirmed",
  "phases": [
   {
@@ -235,18 +235,18 @@
      "y": 85
     },
     {
-     "id": "home-466",
-     "name": "van den Berg",
-     "num": 4,
+     "id": "home-464",
+     "name": "Ajer",
+     "num": 20,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-464",
-     "name": "Ajer",
-     "num": 20,
+     "id": "home-466",
+     "name": "van den Berg",
+     "num": 4,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -280,9 +280,9 @@
      "y": 38
     },
     {
-     "id": "home-410",
-     "name": "Anthony",
-     "num": 19,
+     "id": "home-472",
+     "name": "Schade",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -298,9 +298,9 @@
      "y": 50
     },
     {
-     "id": "home-472",
-     "name": "Schade",
-     "num": null,
+     "id": "home-410",
+     "name": "Anthony",
+     "num": 19,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -447,18 +447,18 @@
      "y": 85
     },
     {
-     "id": "home-466",
-     "name": "van den Berg",
-     "num": 4,
+     "id": "home-464",
+     "name": "Ajer",
+     "num": 20,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-464",
-     "name": "Ajer",
-     "num": 20,
+     "id": "home-466",
+     "name": "van den Berg",
+     "num": 4,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -492,9 +492,9 @@
      "y": 38
     },
     {
-     "id": "home-410",
-     "name": "Anthony",
-     "num": 19,
+     "id": "home-472",
+     "name": "Schade",
+     "num": null,
      "pos": "RW",
      "role": "MID",
      "x": 35,
@@ -510,9 +510,9 @@
      "y": 50
     },
     {
-     "id": "home-472",
-     "name": "Schade",
-     "num": null,
+     "id": "home-410",
+     "name": "Anthony",
+     "num": 19,
      "pos": "LW",
      "role": "MID",
      "x": 35,
@@ -557,18 +557,18 @@
      "y": 85
     },
     {
-     "id": "home-466",
-     "name": "van den Berg",
-     "num": 4,
+     "id": "home-464",
+     "name": "Ajer",
+     "num": 20,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-464",
-     "name": "Ajer",
-     "num": 20,
+     "id": "home-466",
+     "name": "van den Berg",
+     "num": 4,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -602,8 +602,8 @@
      "y": 38
     },
     {
-     "id": "home-4022",
-     "name": "Carvalho",
+     "id": "home-472",
+     "name": "Schade",
      "num": null,
      "pos": "RW",
      "role": "MID",
@@ -620,8 +620,8 @@
      "y": 50
     },
     {
-     "id": "home-472",
-     "name": "Schade",
+     "id": "home-4022",
+     "name": "Carvalho",
      "num": null,
      "pos": "LW",
      "role": "MID",
@@ -667,18 +667,18 @@
      "y": 85
     },
     {
-     "id": "home-466",
-     "name": "van den Berg",
-     "num": 4,
+     "id": "home-464",
+     "name": "Ajer",
+     "num": 20,
      "pos": "RCB",
      "role": "DEF",
      "x": 13,
      "y": 63
     },
     {
-     "id": "home-464",
-     "name": "Ajer",
-     "num": 20,
+     "id": "home-466",
+     "name": "van den Berg",
+     "num": 4,
      "pos": "LCB",
      "role": "DEF",
      "x": 13,
@@ -712,8 +712,8 @@
      "y": 38
     },
     {
-     "id": "home-4022",
-     "name": "Carvalho",
+     "id": "home-472",
+     "name": "Schade",
      "num": null,
      "pos": "RW",
      "role": "MID",
@@ -730,8 +730,8 @@
      "y": 50
     },
     {
-     "id": "home-472",
-     "name": "Schade",
+     "id": "home-4022",
+     "name": "Carvalho",
      "num": null,
      "pos": "LW",
      "role": "MID",
