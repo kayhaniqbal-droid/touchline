@@ -1,10 +1,10 @@
 {
  "fixtureId": 209653,
- "minute": 7,
- "status": "1st_half",
+ "minute": 89,
+ "status": "2nd_half",
  "goals": {
-  "home": 1,
-  "away": 0
+  "home": 3,
+  "away": 1
  },
  "lineupsConfirmed": true,
  "teams": {
@@ -88,10 +88,10 @@
      "y": 40
     },
     {
-     "id": "home-2892",
-     "providerId": 2892,
-     "name": "Schlager",
-     "num": 21,
+     "id": "home-547",
+     "providerId": 547,
+     "name": "Sangaré",
+     "num": null,
      "pos": "LWB",
      "role": "MID",
      "x": 28,
@@ -108,20 +108,20 @@
      "y": 66
     },
     {
-     "id": "home-552",
-     "providerId": 552,
-     "name": "Jesus",
-     "num": 11,
+     "id": "home-551",
+     "providerId": 551,
+     "name": "Ndoye",
+     "num": null,
      "pos": "LAM",
      "role": "FWD",
      "x": 38,
      "y": 34
     },
     {
-     "id": "home-392",
-     "providerId": 392,
-     "name": "Delap",
-     "num": 19,
+     "id": "home-4472",
+     "providerId": 4472,
+     "name": "Wood",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 45,
@@ -150,20 +150,20 @@
      "y": 50
     },
     {
-     "id": "away-399",
-     "providerId": 399,
-     "name": "Acheampong",
-     "num": 34,
+     "id": "away-2202",
+     "providerId": 2202,
+     "name": "Palestra",
+     "num": null,
      "pos": "RB",
      "role": "DEF",
      "x": 82,
      "y": 15
     },
     {
-     "id": "away-1344",
-     "providerId": 1344,
-     "name": "Fofana",
-     "num": 3,
+     "id": "away-22880",
+     "providerId": 22880,
+     "name": "Colwill",
+     "num": null,
      "pos": "RCB",
      "role": "DEF",
      "x": 87,
@@ -190,10 +190,10 @@
      "y": 85
     },
     {
-     "id": "away-474",
-     "providerId": 474,
-     "name": "Henderson",
-     "num": 14,
+     "id": "away-1220",
+     "providerId": 1220,
+     "name": "Quenda",
+     "num": null,
      "pos": "RDM",
      "role": "MID",
      "x": 75,
@@ -240,10 +240,10 @@
      "y": 84
     },
     {
-     "id": "away-494",
-     "providerId": 494,
-     "name": "Welbeck",
-     "num": 18,
+     "id": "away-1714",
+     "providerId": 1714,
+     "name": "Emegha",
+     "num": null,
      "pos": "ST",
      "role": "FWD",
      "x": 55,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-27T20:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-27T20:08:08.957Z"
+ "fetchedAt": "2026-11-27T21:48:16.134Z"
 }

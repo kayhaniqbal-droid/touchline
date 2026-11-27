@@ -68,20 +68,20 @@
      "y": 15
     },
     {
-     "id": "home-1794",
-     "providerId": 1794,
-     "name": "Fernandes",
-     "num": 8,
+     "id": "home-514",
+     "providerId": 514,
+     "name": "Tielemans",
+     "num": 18,
      "pos": "RDM",
      "role": "MID",
      "x": 25,
      "y": 62
     },
     {
-     "id": "home-514",
-     "providerId": 514,
-     "name": "Tielemans",
-     "num": 18,
+     "id": "home-1802",
+     "providerId": 1802,
+     "name": "Mainoo",
+     "num": 37,
      "pos": "LDM",
      "role": "MID",
      "x": 25,
@@ -255,5 +255,5 @@
  },
  "kickoff": "2026-11-28T15:00:00+00:00",
  "venue": null,
- "fetchedAt": "2026-11-27T20:08:07.678Z"
+ "fetchedAt": "2026-11-27T21:48:15.486Z"
 }
