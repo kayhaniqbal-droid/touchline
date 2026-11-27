@@ -1,0 +1,259 @@
+{
+ "fixtureId": 209652,
+ "minute": 0,
+ "status": "notstarted",
+ "goals": {
+  "home": 0,
+  "away": 0
+ },
+ "lineupsConfirmed": false,
+ "teams": {
+  "home": {
+   "code": "MUN",
+   "name": "Manchester United",
+   "nick": "Man Utd",
+   "providerId": 17,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "home-1788",
+     "providerId": 1788,
+     "name": "Lammens",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 4,
+     "y": 50
+    },
+    {
+     "id": "home-4118",
+     "providerId": 4118,
+     "name": "Maguire",
+     "num": 5,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 18,
+     "y": 85
+    },
+    {
+     "id": "home-1795",
+     "providerId": 1795,
+     "name": "Dalot",
+     "num": 2,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 63
+    },
+    {
+     "id": "home-1800",
+     "providerId": 1800,
+     "name": "Martínez",
+     "num": 6,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 13,
+     "y": 37
+    },
+    {
+     "id": "home-1799",
+     "providerId": 1799,
+     "name": "Mazraoui",
+     "num": 3,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 18,
+     "y": 15
+    },
+    {
+     "id": "home-1794",
+     "providerId": 1794,
+     "name": "Fernandes",
+     "num": 8,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 25,
+     "y": 62
+    },
+    {
+     "id": "home-514",
+     "providerId": 514,
+     "name": "Tielemans",
+     "num": 18,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 25,
+     "y": 38
+    },
+    {
+     "id": "home-4121",
+     "providerId": 4121,
+     "name": "Fletcher",
+     "num": 38,
+     "pos": "RW",
+     "role": "MID",
+     "x": 35,
+     "y": 84
+    },
+    {
+     "id": "home-1796",
+     "providerId": 1796,
+     "name": "Mbeumo",
+     "num": 19,
+     "pos": "AM",
+     "role": "MID",
+     "x": 34,
+     "y": 50
+    },
+    {
+     "id": "home-4119",
+     "providerId": 4119,
+     "name": "Cunha",
+     "num": 10,
+     "pos": "LW",
+     "role": "MID",
+     "x": 35,
+     "y": 16
+    },
+    {
+     "id": "home-1798",
+     "providerId": 1798,
+     "name": "Zirkzee",
+     "num": 11,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 45,
+     "y": 50
+    }
+   ],
+   "bench": []
+  },
+  "away": {
+   "code": "BRE",
+   "name": "Brentford",
+   "nick": "Brentford",
+   "providerId": 16,
+   "coach": null,
+   "formation": "4-2-3-1",
+   "derivedShape": true,
+   "players": [
+    {
+     "id": "away-462",
+     "providerId": 462,
+     "name": "Kelleher",
+     "num": 1,
+     "pos": "GK",
+     "role": "GK",
+     "x": 96,
+     "y": 50
+    },
+    {
+     "id": "away-477",
+     "providerId": 477,
+     "name": "Lewis-Potter",
+     "num": 23,
+     "pos": "RB",
+     "role": "DEF",
+     "x": 82,
+     "y": 15
+    },
+    {
+     "id": "away-464",
+     "providerId": 464,
+     "name": "Ajer",
+     "num": 20,
+     "pos": "RCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 37
+    },
+    {
+     "id": "away-466",
+     "providerId": 466,
+     "name": "van den Berg",
+     "num": 4,
+     "pos": "LCB",
+     "role": "DEF",
+     "x": 87,
+     "y": 63
+    },
+    {
+     "id": "away-463",
+     "providerId": 463,
+     "name": "Kayode",
+     "num": 33,
+     "pos": "LB",
+     "role": "DEF",
+     "x": 82,
+     "y": 85
+    },
+    {
+     "id": "away-469",
+     "providerId": 469,
+     "name": "Janelt",
+     "num": 27,
+     "pos": "RDM",
+     "role": "MID",
+     "x": 75,
+     "y": 38
+    },
+    {
+     "id": "away-468",
+     "providerId": 468,
+     "name": "Yarmoliuk",
+     "num": 6,
+     "pos": "LDM",
+     "role": "MID",
+     "x": 75,
+     "y": 62
+    },
+    {
+     "id": "away-410",
+     "providerId": 410,
+     "name": "Anthony",
+     "num": 19,
+     "pos": "RW",
+     "role": "MID",
+     "x": 65,
+     "y": 16
+    },
+    {
+     "id": "away-475",
+     "providerId": 475,
+     "name": "Damsgaard",
+     "num": 24,
+     "pos": "AM",
+     "role": "MID",
+     "x": 66,
+     "y": 50
+    },
+    {
+     "id": "away-471",
+     "providerId": 471,
+     "name": "Ouattara",
+     "num": 11,
+     "pos": "LW",
+     "role": "MID",
+     "x": 65,
+     "y": 84
+    },
+    {
+     "id": "away-1644",
+     "providerId": 1644,
+     "name": "Wilson",
+     "num": 13,
+     "pos": "ST",
+     "role": "FWD",
+     "x": 55,
+     "y": 50
+    }
+   ],
+   "bench": []
+  }
+ },
+ "kickoff": "2026-11-28T15:00:00+00:00",
+ "venue": null,
+ "fetchedAt": "2026-11-27T00:49:58.242Z"
+}

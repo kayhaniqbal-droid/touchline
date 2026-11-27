@@ -756,6 +756,27 @@
    "away": "IPS",
    "confirmed": true
   },
+  "209650": {
+   "kickoff": "2026-11-28T17:30:00+00:00",
+   "status": "notstarted",
+   "home": "IPS",
+   "away": "AVL",
+   "confirmed": false
+  },
+  "209651": {
+   "kickoff": "2026-11-28T15:00:00+00:00",
+   "status": "notstarted",
+   "home": "LEE",
+   "away": "COV",
+   "confirmed": false
+  },
+  "209652": {
+   "kickoff": "2026-11-28T15:00:00+00:00",
+   "status": "notstarted",
+   "home": "MUN",
+   "away": "BRE",
+   "confirmed": false
+  },
   "209653": {
    "kickoff": "2026-11-27T20:00:00+00:00",
    "status": "notstarted",
@@ -772,5 +793,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-11-26T23:17:41.941Z"
+ "updatedAt": "2026-11-27T00:49:58.899Z"
 }
