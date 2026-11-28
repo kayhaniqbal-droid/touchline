@@ -756,6 +756,41 @@
    "away": "IPS",
    "confirmed": true
   },
+  "209645": {
+   "kickoff": "2026-11-29T16:30:00+00:00",
+   "status": "notstarted",
+   "home": "ARS",
+   "away": "MCI",
+   "confirmed": false
+  },
+  "209646": {
+   "kickoff": "2026-11-29T14:05:00+00:00",
+   "status": "notstarted",
+   "home": "BHA",
+   "away": "NEW",
+   "confirmed": false
+  },
+  "209647": {
+   "kickoff": "2026-11-29T14:05:00+00:00",
+   "status": "notstarted",
+   "home": "CRY",
+   "away": "HUL",
+   "confirmed": false
+  },
+  "209648": {
+   "kickoff": "2026-11-29T12:00:00+00:00",
+   "status": "notstarted",
+   "home": "EVE",
+   "away": "LIV",
+   "confirmed": false
+  },
+  "209649": {
+   "kickoff": "2026-11-29T14:05:00+00:00",
+   "status": "notstarted",
+   "home": "FUL",
+   "away": "BOU",
+   "confirmed": false
+  },
   "209650": {
    "kickoff": "2026-11-28T17:30:00+00:00",
    "status": "notstarted",
@@ -784,6 +819,13 @@
    "away": "CHE",
    "confirmed": true
   },
+  "209654": {
+   "kickoff": "2026-11-29T14:05:00+00:00",
+   "status": "notstarted",
+   "home": "SUN",
+   "away": "TOT",
+   "confirmed": false
+  },
   "209689": {
    "kickoff": "2026-10-21T20:00:00+00:00",
    "status": "cancelled",
@@ -793,5 +835,5 @@
   }
  },
  "note": "Written by scripts/fetch-lineups.mjs once an API key is configured.",
- "updatedAt": "2026-11-27T22:55:48.847Z"
+ "updatedAt": "2026-11-28T00:14:45.427Z"
 }
